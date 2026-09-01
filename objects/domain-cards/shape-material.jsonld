@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shape-material",
+  "@type": "DomainCard",
+  "name": "Shape Material",
+  "slug": "shape-material",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SHAPE MATERIAL",
+    "lineStart": 16124,
+    "lineEnd": 16132,
+    "pdfPageStart": 221,
+    "pdfPageEnd": 221
+  },
+  "level": 5,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Spend a Hope to shape a section of natural material you’re touching (such as stone, ice, or wood) to suit your purpose. The area of the material can be no larger than you. For example, you can form a rudimentary tool or create a door.\n\nYou can only affect the material within Close range of where you’re touching it.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/shape-material/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

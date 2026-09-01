@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/chains-of-affliction",
+  "@type": "DomainCard",
+  "name": "Chains of Affliction",
+  "slug": "chains-of-affliction",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "CHAINS OF AFFLICTION",
+    "lineStart": 15276,
+    "lineEnd": 15282,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Mark 2 Stress to temporarily Chain a target within Close range. When a Chained creature deals damage, the target of their attack marks one fewer Hit Point than they normally would. You can’t have more than one creature Chained at a time.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/chains-of-affliction/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

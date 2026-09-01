@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/onslaught",
+  "@type": "DomainCard",
+  "name": "Onslaught",
+  "slug": "onslaught",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "ONSLAUGHT",
+    "lineStart": 14808,
+    "lineEnd": 14816,
+    "pdfPageStart": 209,
+    "pdfPageEnd": 209
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 3,
+  "rulesText": "When you successfully make an attack with your weapon, you never deal damage beneath a target’s Major damage threshold (the target always marks a minimum of 2 Hit Points).\n\nAdditionally, when a creature within your weapon’s range deals damage to an ally with an attack that doesn’t include you, you can mark a Stress to force them to make a Reaction Roll (15). On a failure, the target must mark a Hit Point.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/onslaught/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/restoration",
+  "@type": "DomainCard",
+  "name": "Restoration",
+  "slug": "restoration",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "RESTORATION",
+    "lineStart": 16142,
+    "lineEnd": 16152,
+    "pdfPageStart": 221,
+    "pdfPageEnd": 221
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "After a long rest, place a number of tokens equal to your Spellcast trait on this card. Touch a creature and spend any number of tokens to clear 2 Hit Points or 2 Stress for each token spent.\n\nYou can also spend a token from this card when touching a creature to clear the Vulnerable condition or heal a physical or magical ailment (the GM might require additional tokens depending on the strength of the ailment).\n\nWhen you take a long rest, clear all unspent tokens.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/restoration/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/trollhide-cuirass",
+  "@type": "Armor",
+  "name": "Trollhide Cuirass",
+  "slug": "trollhide-cuirass",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 2 (LEVELS 2–4)",
+    "lineStart": 3962,
+    "lineEnd": 3962,
+    "pdfPageStart": 73,
+    "pdfPageEnd": 73
+  },
+  "variant": "core",
+  "baseThresholds": "11 / 23",
+  "baseScore": "5",
+  "tier": 2,
+  "feature": {
+    "name": "Self-Healing",
+    "rulesText": "When you take a rest, clear an Armor Slot."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/trollhide-cuirass/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

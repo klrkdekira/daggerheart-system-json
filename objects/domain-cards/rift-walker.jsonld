@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rift-walker",
+  "@type": "DomainCard",
+  "name": "Rift Walker",
+  "slug": "rift-walker",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "RIFT WALKER",
+    "lineStart": 14496,
+    "lineEnd": 14504,
+    "pdfPageStart": 207,
+    "pdfPageEnd": 207
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Make a Spellcast Roll (15). On a success, you place an arcane marking on the ground where you currently stand. The next time you successfully cast Rift Walker, a rift in space opens up, providing safe passage back to the exact spot where the marking was placed. This rift stays open until you choose to close it or you cast another spell.\n\nYou can drop the spell at any time to cast Rift Walker again and place the marking somewhere new.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/rift-walker/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

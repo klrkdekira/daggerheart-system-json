@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/storm-gods-greataxe",
+  "@type": "Weapon",
+  "name": "Storm God’s Greataxe",
+  "slug": "storm-gods-greataxe",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3710,
+    "lineEnd": 3710,
+    "pdfPageStart": 65,
+    "pdfPageEnd": 65
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Strength",
+  "range": "Very Close",
+  "burden": "Two-Handed",
+  "damage": "d10+9 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Bouncing",
+    "rulesText": "Mark any number of Stress to target that many additional creatures in range of the attack."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/storm-gods-greataxe/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

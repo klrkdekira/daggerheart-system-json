@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/human",
+  "@type": "Ancestry",
+  "name": "Human",
+  "slug": "human",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "HUMAN",
+    "lineStart": 2371,
+    "lineEnd": 2379,
+    "pdfPageStart": 36,
+    "pdfPageEnd": 36
+  },
+  "description": "Humans are most easily recognized by their dexterous hands, rounded ears, and bodies built for endurance. Their average height ranges from just under 5 feet to about 6 ½ feet. They have a wide variety of builds, with some being quite broad, others lithe, and many inhabiting the spectrum in between. Humans are physically adaptable and adjust to harsh climates with relative ease. In general, humans live to an age of about 100, with their bodies changing dramatically between their youngest and oldest years.",
+  "features": [
+    {
+      "name": "High Stamina",
+      "rulesText": "Gain an additional Stress slot at character creation."
+    },
+    {
+      "name": "Adaptability",
+      "rulesText": "When you fail a roll that utilized one of your Experiences, you can mark a Stress to reroll."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/ancestries/human/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

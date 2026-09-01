@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/massive-behemoth",
+  "@type": "Rule",
+  "name": "Massive Behemoth",
+  "slug": "massive-behemoth",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "MASSIVE BEHEMOTH",
+    "lineStart": 1111,
+    "lineEnd": 1125,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "rulesText": "*(Elephant, Mammoth, Rhinoceros, etc.)*\n\n*Strength +3 | Evasion +1*\n\n*Melee Strength d12+12 phy*\n\n**Gain advantage on:** locate, protect, scare, sprint\n\n**Carrier:** You can carry up to four willing allies with you when you move.\n\n**Demolish:** Spend a Hope to move up to Far range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take d8+10 physical damage using your Proficiency and are temporarily Vulnerable.\n\n**Undaunted:** You gain a +2 bonus to all your damage thresholds.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/massive-behemoth/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

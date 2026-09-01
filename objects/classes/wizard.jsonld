@@ -1,0 +1,65 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/wizard",
+  "@type": "CharacterClass",
+  "name": "Wizard",
+  "slug": "wizard",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WIZARD",
+    "lineStart": 2037,
+    "lineEnd": 2059,
+    "pdfPageStart": 30,
+    "pdfPageEnd": 30
+  },
+  "domains": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+    }
+  ],
+  "subclasses": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/school-of-knowledge"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/school-of-war"
+    }
+  ],
+  "startingEvasion": 11,
+  "startingHitPoints": 5,
+  "hopeFeature": {
+    "name": "Not This Time",
+    "rulesText": "Spend 3 Hope to force an adversary within Far range to reroll an attack or damage roll."
+  },
+  "features": [
+    {
+      "name": "Prestidigitation",
+      "rulesText": "You can perform harmless, subtle magical effects at will. For example, you can change an object’s color, create a smell, light a candle, cause a tiny object to float, illuminate a room, or repair a small object."
+    },
+    {
+      "name": "Strange Patterns",
+      "rulesText": "Choose a number between 1 and 12. When you roll that number on a Duality Die, gain a Hope or clear a Stress.\n\nYou can change this number when you take a long rest."
+    }
+  ],
+  "classItems": "A book you’re trying to translate or a tiny, harmless elemental pet",
+  "backgroundQuestions": [
+    "What responsibilities did your community once count on you for? How did you let them down?",
+    "You’ve spent your life searching for a book or object of great significance. What is it, and why is it so important to you?",
+    "You have a powerful rival. Who are they, and why are you so determined to defeat them?"
+  ],
+  "connections": [
+    "What favor have I asked of you that you’re not sure you can fulfill?",
+    "What weird hobby or strange fascination do we both share?",
+    "What secret about yourself have you entrusted only to me?"
+  ],
+  "description": "Whether through an institution or individual study, those known as wizards acquire and hone immense magical power over years of learning using a variety of tools, including books, stones, potions, and herbs. Some wizards dedicate their lives to mastering a particular school of magic, while others learn from a wide variety of disciplines. Many wizards become wise and powerful figures in their communities, advising rulers, providing medicines and healing, and even leading war councils. While these mages all work toward the common goal of collecting magical knowledge, wizards often have the most conflict within their own ranks, as the acquisition, keeping, and sharing of powerful secrets is a topic of intense debate that has resulted in innumerable deaths.\n\nDOMAINS – Codex & Splendor",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/classes/wizard/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

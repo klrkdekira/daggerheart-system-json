@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/bone-domain",
+  "@type": "Rule",
+  "name": "Bone Domain",
+  "slug": "bone-domain",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BONE DOMAIN",
+    "lineStart": 14756,
+    "lineEnd": 14756,
+    "pdfPageStart": 209,
+    "pdfPageEnd": 209
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/bone-domain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

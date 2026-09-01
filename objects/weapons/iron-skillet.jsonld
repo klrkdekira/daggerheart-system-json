@@ -1,0 +1,33 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/iron-skillet",
+  "@type": "Weapon",
+  "name": "Iron Skillet",
+  "slug": "iron-skillet",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Physical Weapons",
+    "lineStart": 13635,
+    "lineEnd": 13635,
+    "pdfPageStart": 191,
+    "pdfPageEnd": 191
+  },
+  "category": "primary",
+  "variant": "everyday-hero",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8+1 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/iron-skillet/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

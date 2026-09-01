@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fungispunj-sporophore",
+  "@type": "Adversary",
+  "name": "Fungispunj Sporophore",
+  "slug": "fungispunj-sporophore",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FUNGISPUNJ SPOROPHORE",
+    "lineStart": 7955,
+    "lineEnd": 7977,
+    "pdfPageStart": 120,
+    "pdfPageEnd": 120
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Awaken the fallen",
+    "defend the colony",
+    "spread spores"
+  ],
+  "difficulty": 16,
+  "thresholds": "12/24",
+  "hitPoints": 6,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Spongy Fist",
+    "range": "Very Close",
+    "damage": "2d8+4 phy"
+  },
+  "experience": "Commander +5, Guardian +4",
+  "description": "A giant mushroom creature that can command the dead.",
+  "features": [
+    {
+      "name": "Neurotoxic Spore Cloud",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Sporophore spray a cloud of spores on all targets within Close range. Each PC must succeed on a Agility Reaction Roll or become Poisoned until they spend a Hope to clear the condition. While Poisoned, a target must roll a d6 before they make an action roll. On a result of 4 or lower, they must mark a Stress."
+    },
+    {
+      "name": "Reanimator",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Sporophore spray a corpse within Very Close range with a cloud of psychic spores. The corpse clears all HP and Stress, then reanimates under the psychic control of the Sporophore. When the Sporophore is spotlighted, you can also spotlight all corpses it controls."
+    },
+    {
+      "name": "Colony",
+      "kind": "Action",
+      "rulesText": "Mark any number of Stress to have the Sporophore summon an equal number of Fungispunj Sporelings within Close range."
+    },
+    {
+      "name": "Mind Meld",
+      "kind": "Reaction",
+      "rulesText": "All Fungispunj can telepathically communicate with one another. When the Sporophore would be forced to mark Stress from an attack, it can cause Fungispunj allies in the scene to mark that Stress in its place, distributed among allies as it chooses."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/fungispunj-sporophore/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

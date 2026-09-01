@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-cat-beast",
+  "@type": "Adversary",
+  "name": "Entombed Cat Beast",
+  "slug": "entombed-cat-beast",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ENTOMBED CAT BEAST",
+    "lineStart": 7725,
+    "lineEnd": 7749,
+    "pdfPageStart": 118,
+    "pdfPageEnd": 118
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Rush attack",
+    "shred",
+    "terrify"
+  ],
+  "difficulty": 15,
+  "thresholds": "12/23",
+  "hitPoints": 7,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Razor Claws",
+    "range": "Very Close",
+    "damage": "2d12+2 phy"
+  },
+  "experience": "Feral +2",
+  "description": "A large undead humanoid skeleton with a panther’s skull for a head.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Cat Beast can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Bloody Strike",
+      "kind": "Passive",
+      "rulesText": "A PC who marks 3 or more HP from an attack made by the Cat Beast must mark an additional HP."
+    },
+    {
+      "name": "Screeching Caterwaul",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to force each PC within Far range of the Cat Beast to make a Presence Reaction Roll. Targets who fail become Rattled until they roll with Hope. When the Cat Beast makes a successful attack against a Rattled PC, roll damage twice and take the better result, then clear the Rattled condition from the target."
+    },
+    {
+      "name": "I Alone",
+      "kind": "Reaction",
+      "rulesText": "When the Cat Beast first appears, you can choose to have them absorb the essence of their allies. Immediately defeat any number of allies on the battlefield, and gain a Fear for each ally defeated this way."
+    },
+    {
+      "name": "Vicious Reprisal",
+      "kind": "Reaction",
+      "rulesText": "When the Cat Beast takes damage from an attack made by a PC within Very Close range, you can mark a Stress to make a standard attack against that PC."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/entombed-cat-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

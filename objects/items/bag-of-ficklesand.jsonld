@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/bag-of-ficklesand",
+  "@type": "Item",
+  "name": "Bag of Ficklesand",
+  "slug": "bag-of-ficklesand",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Items",
+    "lineStart": 4073,
+    "lineEnd": 4073,
+    "pdfPageStart": 76,
+    "pdfPageEnd": 76
+  },
+  "itemSet": "core-set",
+  "roll": 31,
+  "description": "You can convince this small bag of sand to be much heavier or lighter with a successful Presence Roll (10). Additionally, on a successful Finesse Roll (10), you can blow a bit of sand into a target’s face to make them temporarily Vulnerable.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/bag-of-ficklesand/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

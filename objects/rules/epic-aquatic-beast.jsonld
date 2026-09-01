@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/epic-aquatic-beast",
+  "@type": "Rule",
+  "name": "Epic Aquatic Beast",
+  "slug": "epic-aquatic-beast",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "EPIC AQUATIC BEAST",
+    "lineStart": 1155,
+    "lineEnd": 1167,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "rulesText": "*(Giant Squid, Whale, etc.)*\n\n*Agility +3 | Evasion +3*\n\n*Melee Agility d10+10 phy*\n\n**Gain advantage on:** locate, protect, scare, track\n\n**Ocean Master:** You can breathe and move naturally underwater. When you succeed on an attack against a target within Melee range, you can temporarily Restrain them.\n\n**Unyielding:** When you would mark an Armor Slot, roll a d6. On a result of 5 or higher, reduce the severity by one threshold without marking an Armor Slot.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/epic-aquatic-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/battle-monster",
+  "@type": "DomainCard",
+  "name": "Battle Monster",
+  "slug": "battle-monster",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BATTLE MONSTER",
+    "lineStart": 14800,
+    "lineEnd": 14806,
+    "pdfPageStart": 209,
+    "pdfPageEnd": 209
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "When you make a successful attack against an adversary, you can mark 4 Stress to force the target to mark a number of Hit Points equal to the number of Hit Points you currently have marked instead of rolling for damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/battle-monster/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/share-the-burden",
+  "@type": "DomainCard",
+  "name": "Share the Burden",
+  "slug": "share-the-burden",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SHARE THE BURDEN",
+    "lineStart": 15517,
+    "lineEnd": 15523,
+    "pdfPageStart": 216,
+    "pdfPageEnd": 216
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Spell",
+  "recallCost": 0,
+  "rulesText": "Once per rest, take on the Stress from a willing creature within Melee range. The target describes what intimate knowledge or emotions telepathically leak from their mind in this moment between you. Transfer any number of their marked Stress to you, then gain a Hope for each Stress transferred.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/share-the-burden/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

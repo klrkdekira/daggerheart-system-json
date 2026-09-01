@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/demiurges-draught",
+  "@type": "Consumable",
+  "name": "Demiurge’s Draught",
+  "slug": "demiurges-draught",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Consumables",
+    "lineStart": 4328,
+    "lineEnd": 4328,
+    "pdfPageStart": 83,
+    "pdfPageEnd": 83
+  },
+  "itemSet": "expansion",
+  "roll": 38,
+  "description": "You can drink this draught to gain a +1 bonus to your Proficiency for your next successful attack roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/demiurges-draught/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

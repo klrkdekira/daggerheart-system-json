@@ -1,0 +1,33 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-forge-lighter",
+  "@type": "Weapon",
+  "name": "Enchanted Forge Lighter",
+  "slug": "enchanted-forge-lighter",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Magic Weapons",
+    "lineStart": 13659,
+    "lineEnd": 13659,
+    "pdfPageStart": 191,
+    "pdfPageEnd": 191
+  },
+  "category": "primary",
+  "variant": "everyday-hero",
+  "trait": "Instinct",
+  "range": "Close",
+  "burden": "One-Handed",
+  "damage": "d8 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/enchanted-forge-lighter/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

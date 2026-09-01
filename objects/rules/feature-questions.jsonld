@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/feature-questions",
+  "@type": "Rule",
+  "name": "Feature Questions",
+  "slug": "feature-questions",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FEATURE QUESTIONS",
+    "lineStart": 11500,
+    "lineEnd": 11502,
+    "pdfPageStart": 158,
+    "pdfPageEnd": 158
+  },
+  "rulesText": "Prompts for plot hooks, narrative engines, and connections to other story elements.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/feature-questions/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

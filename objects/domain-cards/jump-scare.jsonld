@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/jump-scare",
+  "@type": "DomainCard",
+  "name": "Jump Scare",
+  "slug": "jump-scare",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "JUMP SCARE",
+    "lineStart": 15320,
+    "lineEnd": 15326,
+    "pdfPageStart": 214,
+    "pdfPageEnd": 214
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "When you deal magic damage to a target, you can mark a Stress to teleport into Melee range with them. When you do, they are Vulnerable until they mark 1 or more Hit Points.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/jump-scare/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-norai",
+  "@type": "DomainCard",
+  "name": "Book of Norai",
+  "slug": "book-of-norai",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BOOK OF NORAI",
+    "lineStart": 15052,
+    "lineEnd": 15060,
+    "pdfPageStart": 211,
+    "pdfPageEnd": 211
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+  },
+  "cardType": "Grimoire",
+  "recallCost": 2,
+  "rulesText": "Mystic Tether: Make a Spellcast Roll against a target within Far range. On a success, they’re temporarily Restrained and must mark a Stress. If you target a flying creature, this spell grounds and temporarily Restrains them.\n\nFireball: Make a Spellcast Roll against a target within Very Far range. On a success, hurl a sphere of fire toward them that explodes on impact. The target and all creatures within Very Close range of them must make a Reaction Roll (13). Targets who fail take d20+5 magic damage using your Proficiency. Targets who succeed take half damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/book-of-norai/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

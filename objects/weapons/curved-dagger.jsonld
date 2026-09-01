@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/curved-dagger",
+  "@type": "Weapon",
+  "name": "Curved Dagger",
+  "slug": "curved-dagger",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3662,
+    "lineEnd": 3662,
+    "pdfPageStart": 64,
+    "pdfPageEnd": 64
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Finesse",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8+9 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Serrated",
+    "rulesText": "When you roll a 1 on a damage die, it deals 8 damage instead."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/curved-dagger/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

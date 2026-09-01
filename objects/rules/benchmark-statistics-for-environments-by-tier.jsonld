@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/benchmark-statistics-for-environments-by-tier",
+  "@type": "Rule",
+  "name": "Benchmark Statistics for Environments by Tier",
+  "slug": "benchmark-statistics-for-environments-by-tier",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "BENCHMARK STATISTICS FOR ENVIRONMENTS BY TIER",
+    "lineStart": 11512,
+    "lineEnd": 11517,
+    "pdfPageStart": 159,
+    "pdfPageEnd": 159
+  },
+  "rulesText": "| Environment Statistic | Tier 1 | Tier 2 | Tier 3 | Tier 4 |\n| --- | --- | --- | --- | --- |\n| Damage Dice | 1d6+1 to 1d8+3 | 2d6+3 to 2d10+2 | 3d8+3 to 3d10+1 | 4d8+3 to 4d10+10 |\n| Difficulty | 11 | 14 | 17 | 20 |",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/benchmark-statistics-for-environments-by-tier/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

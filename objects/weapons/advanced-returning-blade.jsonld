@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-returning-blade",
+  "@type": "Weapon",
+  "name": "Advanced Returning Blade",
+  "slug": "advanced-returning-blade",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3606,
+    "lineEnd": 3606,
+    "pdfPageStart": 62,
+    "pdfPageEnd": 62
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Finesse",
+  "range": "Close",
+  "burden": "One-Handed",
+  "damage": "d8+6 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Returning",
+    "rulesText": "When this weapon is thrown within its range, it appears in your hand immediately after the attack."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/advanced-returning-blade/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

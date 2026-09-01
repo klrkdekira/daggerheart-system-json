@@ -1,0 +1,34 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-longsword",
+  "@type": "Weapon",
+  "name": "Advanced Longsword",
+  "slug": "advanced-longsword",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3548,
+    "lineEnd": 3548,
+    "pdfPageStart": 60,
+    "pdfPageEnd": 60
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Agility",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d10+9 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 3,
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/advanced-longsword/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

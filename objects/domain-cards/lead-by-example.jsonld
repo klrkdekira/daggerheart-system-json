@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/lead-by-example",
+  "@type": "DomainCard",
+  "name": "Lead by Example",
+  "slug": "lead-by-example",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "LEAD BY EXAMPLE",
+    "lineStart": 16409,
+    "lineEnd": 16415,
+    "pdfPageStart": 224,
+    "pdfPageEnd": 224
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 3,
+  "rulesText": "When you deal damage to an adversary, you can mark a Stress and describe how you encourage your allies. The next PC to make an attack against that adversary can clear a Stress or gain a Hope.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/lead-by-example/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

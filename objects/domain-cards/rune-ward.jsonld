@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rune-ward",
+  "@type": "DomainCard",
+  "name": "Rune Ward",
+  "slug": "rune-ward",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "RUNE WARD",
+    "lineStart": 14398,
+    "lineEnd": 14406,
+    "pdfPageStart": 206,
+    "pdfPageEnd": 206
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+  },
+  "cardType": "Spell",
+  "recallCost": 0,
+  "rulesText": "You have a deeply personal trinket that can be infused with protective magic and held as a ward by you or an ally. Describe what it is and why it’s important to you. The ward’s holder can spend a Hope to reduce incoming damage by 1d8.\n\nIf the Ward Die result is 8, the ward’s power ends after it reduces damage this turn. It can be recharged for free on your next rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/rune-ward/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

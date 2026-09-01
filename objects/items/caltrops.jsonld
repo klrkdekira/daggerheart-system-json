@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/caltrops",
+  "@type": "Item",
+  "name": "Caltrops",
+  "slug": "caltrops",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Items",
+    "lineStart": 4115,
+    "lineEnd": 4115,
+    "pdfPageStart": 77,
+    "pdfPageEnd": 77
+  },
+  "itemSet": "expansion",
+  "roll": 1,
+  "description": "You can spread these caltrops in a Very Close area around you. A creature hastening through that area must mark a Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/caltrops/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

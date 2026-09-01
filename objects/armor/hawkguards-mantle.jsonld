@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/hawkguards-mantle",
+  "@type": "Armor",
+  "name": "Hawkguard’s Mantle",
+  "slug": "hawkguards-mantle",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 2 (LEVELS 2–4)",
+    "lineStart": 3947,
+    "lineEnd": 3947,
+    "pdfPageStart": 72,
+    "pdfPageEnd": 72
+  },
+  "variant": "core",
+  "baseThresholds": "9 / 20",
+  "baseScore": "4",
+  "tier": 2,
+  "feature": {
+    "name": "Gliding",
+    "rulesText": "You can glide up to Far range and are immune to damage from falling."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/hawkguards-mantle/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

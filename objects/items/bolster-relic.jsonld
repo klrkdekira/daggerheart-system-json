@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/bolster-relic",
+  "@type": "Item",
+  "name": "Bolster Relic",
+  "slug": "bolster-relic",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Items",
+    "lineStart": 4084,
+    "lineEnd": 4084,
+    "pdfPageStart": 76,
+    "pdfPageEnd": 76
+  },
+  "itemSet": "core-set",
+  "roll": 42,
+  "description": "You gain a +1 bonus to your Strength. You can only carry one relic.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/bolster-relic/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/mesmers-tonic",
+  "@type": "Consumable",
+  "name": "Mesmer’s Tonic",
+  "slug": "mesmers-tonic",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Consumables",
+    "lineStart": 4339,
+    "lineEnd": 4339,
+    "pdfPageStart": 83,
+    "pdfPageEnd": 83
+  },
+  "itemSet": "expansion",
+  "roll": 46,
+  "description": "When you drink this tonic, the only thing you can hear until your next rest are the surface thoughts of creatures within Very Close range.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/mesmers-tonic/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

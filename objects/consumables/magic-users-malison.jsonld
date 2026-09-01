@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/magic-users-malison",
+  "@type": "Consumable",
+  "name": "Magic-User’s Malison",
+  "slug": "magic-users-malison",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Consumables",
+    "lineStart": 4350,
+    "lineEnd": 4350,
+    "pdfPageStart": 84,
+    "pdfPageEnd": 84
+  },
+  "itemSet": "expansion",
+  "roll": 52,
+  "description": "When you release this spellcaster’s trapped soul, you can cast one spell from a card in your vault as if it were in your loadout. This doesn’t work for permanently vaulted cards.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/magic-users-malison/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

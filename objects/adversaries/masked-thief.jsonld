@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/masked-thief",
+  "@type": "Adversary",
+  "name": "Masked Thief",
+  "slug": "masked-thief",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MASKED THIEF",
+    "lineStart": 8454,
+    "lineEnd": 8472,
+    "pdfPageStart": 126,
+    "pdfPageEnd": 126
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Evade",
+    "hide",
+    "pilfer",
+    "profit"
+  ],
+  "difficulty": 14,
+  "thresholds": "8/17",
+  "hitPoints": 4,
+  "stress": 5,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Backsword",
+    "range": "Melee",
+    "damage": "2d8+3 phy"
+  },
+  "experience": "Acrobatics +3",
+  "description": "A cunning thief with acrobatic skill and a flair for the dramatic.",
+  "features": [
+    {
+      "name": "Quick Hands",
+      "kind": "Action",
+      "rulesText": "Make an attack against a target within Melee range. On a success, deal 1d8+2 physical damage and the Thief steals one item or consumable from the target’s inventory."
+    },
+    {
+      "name": "Escape Plan",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to reveal a snare trap set anywhere on the battlefield by the Thief. All targets within Very Close range of the trap must succeed on an Agility Reaction Roll (13) or be pulled off their feet and suspended upside down. A target is Restrained and Vulnerable until they break free, ending both conditions, with a successful Finesse or Strength Roll (13)."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/masked-thief/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

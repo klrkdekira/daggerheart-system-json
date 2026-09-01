@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor",
+  "@type": "Domain",
+  "name": "Valor",
+  "slug": "valor",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "VALOR",
+    "lineStart": 283,
+    "lineEnd": 285,
+    "pdfPageStart": 7,
+    "pdfPageEnd": 7
+  },
+  "description": "Valor is the domain of protection. Whether through attack or defense, those who choose this discipline channel formidable strength to protect their allies in battle. Valor offers great power to those who raise their shields in defense of others. The Valor domain can be accessed by the Brawler, Guardian, and Seraph classes.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domains/valor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

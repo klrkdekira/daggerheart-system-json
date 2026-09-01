@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/redirect",
+  "@type": "DomainCard",
+  "name": "Redirect",
+  "slug": "redirect",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "REDIRECT",
+    "lineStart": 14860,
+    "lineEnd": 14866,
+    "pdfPageStart": 210,
+    "pdfPageEnd": 210
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When an attack made against you from beyond Melee range fails, roll a number of d6s equal to your Proficiency. If any roll a 6, you can mark a Stress to redirect the attack to damage an adversary within Very Close range instead.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/redirect/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

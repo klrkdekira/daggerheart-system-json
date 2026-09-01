@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-greatsword",
+  "@type": "Weapon",
+  "name": "Legendary Greatsword",
+  "slug": "legendary-greatsword",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3638,
+    "lineEnd": 3638,
+    "pdfPageStart": 63,
+    "pdfPageEnd": 63
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d10+12 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Massive",
+    "rulesText": "−1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/legendary-greatsword/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

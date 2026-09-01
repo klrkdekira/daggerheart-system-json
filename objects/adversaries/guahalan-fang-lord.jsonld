@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/guahalan-fang-lord",
+  "@type": "Adversary",
+  "name": "Guahalan Fang Lord",
+  "slug": "guahalan-fang-lord",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GUAHALAN FANG LORD",
+    "lineStart": 8200,
+    "lineEnd": 8222,
+    "pdfPageStart": 123,
+    "pdfPageEnd": 123
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Bolster allies",
+    "lead the pack",
+    "rally the troops"
+  ],
+  "difficulty": 16,
+  "thresholds": "12/24",
+  "hitPoints": 6,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Spear",
+    "range": "Very Close",
+    "damage": "2d8+4 phy"
+  },
+  "experience": "Ancient Knowledge +2, Hunter +2",
+  "description": "A shapeshifting warlord who leads a group of warriors into battle.",
+  "features": [
+    {
+      "name": "Pack Alpha",
+      "kind": "Passive",
+      "rulesText": "Pool. When the Fang Lord makes a successful attack, add a token to the Guahalan Pool. When a Guahalan ally within Close range makes an attack, you can spend a token from the Guahalan Pool to give them advantage on the roll."
+    },
+    {
+      "name": "Unleash the Beast",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Fang Lord adopt a bestial form. While in this form, they gain a bonus to attack and damage rolls equal to the number of Stress they have marked. Additionally, they can move up to Far range instead of Close range before taking an action."
+    },
+    {
+      "name": "Call of the Guahala",
+      "kind": "Action",
+      "rulesText": "Spend 2 Fear to spotlight all Guahalan Shifters within Close range. Each one makes a standard attack against a target within range. If any attacks succeed against the same target, combine their damage."
+    },
+    {
+      "name": "Feral Form (Phase Change)",
+      "kind": "Reaction",
+      "rulesText": "When the Fang Lord marks their last HP, replace them with the Guahalan Alebrujo and immediately spotlight them."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/guahalan-fang-lord/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

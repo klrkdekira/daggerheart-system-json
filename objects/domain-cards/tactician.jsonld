@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/tactician",
+  "@type": "DomainCard",
+  "name": "Tactician",
+  "slug": "tactician",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "TACTICIAN",
+    "lineStart": 14840,
+    "lineEnd": 14848,
+    "pdfPageStart": 209,
+    "pdfPageEnd": 209
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When you Help an Ally, they can spend a Hope to add one of your Experiences to their roll alongside your advantage die.\n\nWhen making a Tag Team Roll, you can roll a d20 as your Hope Die.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/tactician/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/cacophonous-concoction",
+  "@type": "Consumable",
+  "name": "Cacophonous Concoction",
+  "slug": "cacophonous-concoction",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Consumables",
+    "lineStart": 4334,
+    "lineEnd": 4334,
+    "pdfPageStart": 83,
+    "pdfPageEnd": 83
+  },
+  "itemSet": "expansion",
+  "roll": 41,
+  "description": "When you drink this potion, anything you say or do in the next hour becomes impossible for a witness to recount. Any attempts they make to communicate what they saw, heard, or otherwise sensed comes out garbled or nonsensical.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/cacophonous-concoction/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

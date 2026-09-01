@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-scale-mail-armor",
+  "@type": "Armor",
+  "name": "Advanced Scale Mail Armor",
+  "slug": "advanced-scale-mail-armor",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 3 (LEVELS 5–7)",
+    "lineStart": 3973,
+    "lineEnd": 3973,
+    "pdfPageStart": 73,
+    "pdfPageEnd": 73
+  },
+  "variant": "core",
+  "baseThresholds": "13 / 30",
+  "baseScore": "5",
+  "tier": 3,
+  "feature": {
+    "name": "Cumbersome",
+    "rulesText": "−1 to Finesse"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/advanced-scale-mail-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

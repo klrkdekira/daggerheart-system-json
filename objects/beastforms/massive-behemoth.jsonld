@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/massive-behemoth",
+  "@type": "Beastform",
+  "name": "Massive Behemoth",
+  "slug": "massive-behemoth",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "MASSIVE BEHEMOTH",
+    "lineStart": 1111,
+    "lineEnd": 1125,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "tier": 4,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Elephant, Mammoth, Rhinoceros, etc.",
+  "traitBonus": "Strength +3",
+  "evasionBonus": 1,
+  "attack": {
+    "range": "Melee",
+    "trait": "Strength",
+    "damage": "d12+12 phy"
+  },
+  "advantageOn": [
+    "locate",
+    "protect",
+    "scare",
+    "sprint"
+  ],
+  "features": [
+    {
+      "name": "Carrier",
+      "rulesText": "You can carry up to four willing allies with you when you move."
+    },
+    {
+      "name": "Demolish",
+      "rulesText": "Spend a Hope to move up to Far range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take d8+10 physical damage using your Proficiency and are temporarily Vulnerable."
+    },
+    {
+      "name": "Undaunted",
+      "rulesText": "You gain a +2 bonus to all your damage thresholds."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/massive-behemoth/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

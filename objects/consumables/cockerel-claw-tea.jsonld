@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/cockerel-claw-tea",
+  "@type": "Consumable",
+  "name": "Cockerel Claw Tea",
+  "slug": "cockerel-claw-tea",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Consumables",
+    "lineStart": 4332,
+    "lineEnd": 4332,
+    "pdfPageStart": 83,
+    "pdfPageEnd": 83
+  },
+  "itemSet": "expansion",
+  "roll": 39,
+  "description": "You can drink this tea to refresh your features as if you had taken a long rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/cockerel-claw-tea/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

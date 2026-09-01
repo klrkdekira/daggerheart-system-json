@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/great-winged-beast",
+  "@type": "Rule",
+  "name": "Great Winged Beast",
+  "slug": "great-winged-beast",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "GREAT WINGED BEAST",
+    "lineStart": 1059,
+    "lineEnd": 1071,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "rulesText": "*(Giant Eagle, Falcon, etc.)*\n\n*Finesse +2 | Evasion +3*\n\n*Melee Finesse d8+6 phy*\n\n**Gain advantage on:** deceive, distract, locate\n\n**Bird’s-Eye View:** You can fly at will. Once per rest while you are airborne, you can ask the GM a question about the scene below you without needing to roll. The first time a character makes a roll to act on this information, they gain advantage on the roll.\n\n**Carrier:** You can carry up to two willing allies with you when you move.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/great-winged-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/nimble-grazer",
+  "@type": "Beastform",
+  "name": "Nimble Grazer",
+  "slug": "nimble-grazer",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "NIMBLE GRAZER",
+    "lineStart": 885,
+    "lineEnd": 897,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "tier": 1,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Deer, Gazelle, Goat, etc.",
+  "traitBonus": "Agility +1",
+  "evasionBonus": 3,
+  "attack": {
+    "range": "Melee",
+    "trait": "Agility",
+    "damage": "d6 phy"
+  },
+  "advantageOn": [
+    "leap",
+    "sneak",
+    "sprint"
+  ],
+  "features": [
+    {
+      "name": "Elusive Prey",
+      "rulesText": "When an attack roll against you would succeed, you can mark a Stress and roll a d4. Add the result to your Evasion against this attack."
+    },
+    {
+      "name": "Fragile",
+      "rulesText": "When you take Major or greater damage, you drop out of Beastform."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/nimble-grazer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

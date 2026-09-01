@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/optional-gm-mechanics",
+  "@type": "Rule",
+  "name": "Optional Gm Mechanics",
+  "slug": "optional-gm-mechanics",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "OPTIONAL GM MECHANICS",
+    "lineStart": 4849,
+    "lineEnd": 4849,
+    "pdfPageStart": 92,
+    "pdfPageEnd": 92
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/optional-gm-mechanics/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

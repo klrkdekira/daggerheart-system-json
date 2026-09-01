@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/body-basher",
+  "@type": "DomainCard",
+  "name": "Body Basher",
+  "slug": "body-basher",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BODY BASHER",
+    "lineStart": 16274,
+    "lineEnd": 16280,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "You use the full force of your body in a fight. On a successful attack using a weapon with a Melee range, gain a bonus to your damage roll equal to your Strength.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/body-basher/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

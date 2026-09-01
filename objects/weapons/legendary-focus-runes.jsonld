@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-focus-runes",
+  "@type": "Weapon",
+  "name": "Legendary Focus Runes",
+  "slug": "legendary-focus-runes",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 4 (LEVELS 8–10)",
+    "lineStart": 3816,
+    "lineEnd": 3816,
+    "pdfPageStart": 69,
+    "pdfPageEnd": 69
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Instinct",
+  "range": "Very Close",
+  "burden": "One-Handed",
+  "damage": "d6+6 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Focused",
+    "rulesText": "+1 to primary weapon damage to targets within Very Close range"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/legendary-focus-runes/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

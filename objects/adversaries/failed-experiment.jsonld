@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/failed-experiment",
+  "@type": "Adversary",
+  "name": "Failed Experiment",
+  "slug": "failed-experiment",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FAILED EXPERIMENT",
+    "lineStart": 7869,
+    "lineEnd": 7889,
+    "pdfPageStart": 120,
+    "pdfPageEnd": 120
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Devour",
+    "hunt",
+    "track"
+  ],
+  "difficulty": 13,
+  "thresholds": "12/23",
+  "hitPoints": 3,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Bite and Claw",
+    "range": "Melee",
+    "damage": "2d6+5 phy"
+  },
+  "experience": "Copycat +3",
+  "description": "A magical necromantic experiment gone wrong, leaving them warped and ungainly.",
+  "features": [
+    {
+      "name": "Warped Fortitude",
+      "kind": "Passive",
+      "rulesText": "The Experiment is resistant to physical damage."
+    },
+    {
+      "name": "Overwhelm",
+      "kind": "Passive",
+      "rulesText": "When a target the Experiment attacks has other adversaries within Very Close range, the Experiment deals double damage."
+    },
+    {
+      "name": "Lurching Lunge",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to spotlight the Experiment as an additional GM move instead of spending Fear."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/failed-experiment/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

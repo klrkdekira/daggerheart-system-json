@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/powered-gauntlet",
+  "@type": "Weapon",
+  "name": "Powered Gauntlet",
+  "slug": "powered-gauntlet",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 3 (LEVELS 5–7)",
+    "lineStart": 3797,
+    "lineEnd": 3797,
+    "pdfPageStart": 68,
+    "pdfPageEnd": 68
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Knowledge",
+  "range": "Close",
+  "burden": "One-Handed",
+  "damage": "d6+4 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Charged",
+    "rulesText": "Mark a Stress to gain a +1 bonus to your Proficiency on a primary weapon attack."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/powered-gauntlet/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

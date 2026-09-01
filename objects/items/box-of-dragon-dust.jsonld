@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/box-of-dragon-dust",
+  "@type": "Item",
+  "name": "Box of Dragon Dust",
+  "slug": "box-of-dragon-dust",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Items",
+    "lineStart": 4118,
+    "lineEnd": 4118,
+    "pdfPageStart": 77,
+    "pdfPageEnd": 77
+  },
+  "itemSet": "expansion",
+  "roll": 4,
+  "description": "This snuffbox is filled with combustible powder.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/box-of-dragon-dust/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

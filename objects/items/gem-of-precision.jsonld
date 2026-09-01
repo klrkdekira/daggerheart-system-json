@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gem-of-precision",
+  "@type": "Item",
+  "name": "Gem of Precision",
+  "slug": "gem-of-precision",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Items",
+    "lineStart": 4102,
+    "lineEnd": 4102,
+    "pdfPageStart": 77,
+    "pdfPageEnd": 77
+  },
+  "itemSet": "core-set",
+  "roll": 55,
+  "description": "You can attach this gem to a weapon, allowing you to use your Finesse when making an attack with that weapon.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/gem-of-precision/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

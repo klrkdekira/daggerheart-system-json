@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/knuckle-blades",
+  "@type": "Weapon",
+  "name": "Knuckle Blades",
+  "slug": "knuckle-blades",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3478,
+    "lineEnd": 3478,
+    "pdfPageStart": 58,
+    "pdfPageEnd": 58
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d10+6 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Brutal",
+    "rulesText": "When you roll the maximum value on a damage die, roll an additional damage die."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/knuckle-blades/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

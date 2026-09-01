@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/phoenix",
+  "@type": "Adversary",
+  "name": "Phoenix",
+  "slug": "phoenix",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "PHOENIX",
+    "lineStart": 9748,
+    "lineEnd": 9768,
+    "pdfPageStart": 139,
+    "pdfPageEnd": 139
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Flee pursuers",
+    "live brilliantly",
+    "soar through the heavens",
+    "wield light and flame"
+  ],
+  "difficulty": 18,
+  "thresholds": "19/30",
+  "hitPoints": 6,
+  "stress": 6,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Fire Bolt",
+    "range": "Very Far",
+    "damage": "3d10+3 mag"
+  },
+  "experience": "Bright +4, Legendary +3",
+  "description": "A huge eagle that’s made of magical flame, impossible to kill, and hunted for its healing plumage.",
+  "features": [
+    {
+      "name": "Purifying Aura",
+      "kind": "Passive",
+      "rulesText": "Any PC who takes an action within the Phoenix’s Melee range can spend a Hope to purify themself in its healing warmth, clearing a HP or a Stress and all conditions."
+    },
+    {
+      "name": "Fireseed",
+      "kind": "Reaction",
+      "rulesText": "The Phoenix bleeds magic fire. When the Phoenix marks a HP, summon one Minor Fire Elemental within Very Close range."
+    },
+    {
+      "name": "Resurrection",
+      "kind": "Evolution",
+      "rulesText": "When the Phoenix is defeated, it becomes a cloud of ash that blows away to reveal a Smoldering Egg. The Egg is immune to all damage and has a heat aura that deals 3d4 direct magic damage to anyone who touches it. The Egg hatches into a new Phoenix, with all HP and Stress cleared, in 7 days."
+    }
+  ],
+  "role": "Ranged",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/phoenix/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

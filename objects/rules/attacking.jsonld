@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/attacking",
+  "@type": "Rule",
+  "name": "Attacking",
+  "slug": "attacking",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "ATTACKING",
+    "lineStart": 3075,
+    "lineEnd": 3121,
+    "pdfPageStart": 50,
+    "pdfPageEnd": 51
+  },
+  "rulesText": "#### ATTACK ROLLS\n\nAn attack roll is an action roll intended to inflict harm. The trait that applies to an attack roll is specified by the weapon or spell being used. Unarmed attack rolls use either Strength or Finesse (GM’s choice). An attack roll’s Difficulty, unless otherwise noted, is equal to the Difficulty score of its target.\n\n#### DAMAGE ROLLS\n\nOn a successful attack, roll damage. Damage is calculated from the damage roll listed in the attack’s description with the format “xdy+[modifier]” (e.g., for a spell that inflicts “1d8+2” damage, you roll an eight-sided and add 2 to the result; the damage dealt is equal to the total).\n\nAny time an effect says to deal damage using your Spellcast trait, you roll a number of dice equal to your Spellcast trait.\n\n> Note: If your Spellcast trait is +0 or lower, you don’t roll anything.\n\nFor weapons, the number of damage dice you roll is equal to your Proficiency. Note that your Proficiency multiplies the number of dice you roll, but doesn’t affect the modifier. For example, a PC with Proficiency 2 and wielding a weapon with a damage rating of “d8+2” deals damage equal to “2d8+2” on a successful attack.\n\nSuccessful unarmed attacks inflict [Proficiency]d4 damage.\n\n#### CRITICAL DAMAGE\n\nWhen you get a critical success (i.e., you roll matching values on your Duality Dice) on an attack roll, you deal extra damage. Make the damage roll as usual, but add the maximum possible result of the damage dice to the final total. For instance, if an attack would normally deal 2d8+1 damage, a critical success would deal 2d8+1+16.\n\n#### DAMAGE TYPES\n\nThere are two damage types: physical damage (phy) and magic damage (mag). Unless stated otherwise, mundane weapons and unarmed attacks deal physical damage, and spells deal magic damage.\n\n#### RESISTANCE, IMMUNITY, AND DIRECT DAMAGE\n\nIf a target has resistance to a damage type, then they reduce incoming damage of that type by half before comparing it to their Hit Point Thresholds. If the target has additional ways of reducing incoming damage, such as marking Armor Slots, they apply the resistance effect first. The effects of multiple resistances to the same damage type do not stack.\n\nIf a target has immunity to a damage type, they ignore incoming damage of that type.\n\nIf an attack deals both physical and magic damage, a character can only benefit from resistance or immunity if they are resistant or immune to both damage types.\n\nDirect damage is damage that can’t be reduced by marking Armor Slots.\n\n#### MULTI-TARGET ATTACK ROLLS\n\nIf a spell or ability allows you to target multiple adversaries, make one attack roll and one damage roll, then apply the results to each target individually.\n\n#### MULTIPLE DAMAGE SOURCES\n\nDamage dealt simultaneously from multiple sources is always totaled before it’s compared to its target’s damage thresholds.\n\nFor example, if a PC with orc ancestry makes a successful attack against a target in Melee range and decides to spend a Hope to use their “Tusks” feature (which gives them an extra 1d6 damage on a damage roll), they would roll their normal weapon damage and add a d6 to the result, then deal that total damage to the adversary.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/attacking/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

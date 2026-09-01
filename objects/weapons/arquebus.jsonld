@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/arquebus",
+  "@type": "Weapon",
+  "name": "Arquebus",
+  "slug": "arquebus",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3672,
+    "lineEnd": 3672,
+    "pdfPageStart": 64,
+    "pdfPageEnd": 64
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Knowledge",
+  "range": "Far",
+  "burden": "Two-Handed",
+  "damage": "d8+10 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Reloading",
+    "rulesText": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/arquebus/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

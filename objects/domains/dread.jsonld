@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread",
+  "@type": "Domain",
+  "name": "Dread",
+  "slug": "dread",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "DREAD",
+    "lineStart": 263,
+    "lineEnd": 265,
+    "pdfPageStart": 7,
+    "pdfPageEnd": 7
+  },
+  "description": "Dread is the domain of nightmares and fear. Those who choose this path can call forth monstrosities, enfeeble their foes, and channel terrifying magic to destroy their enemies. Dread grants its adherents power over forces most are too afraid to employ. The Dread domain can be accessed by the Warlock and Witch classes.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domains/dread/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

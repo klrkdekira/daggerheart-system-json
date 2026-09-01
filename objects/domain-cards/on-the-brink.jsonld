@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/on-the-brink",
+  "@type": "DomainCard",
+  "name": "On the Brink",
+  "slug": "on-the-brink",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "ON THE BRINK",
+    "lineStart": 14942,
+    "lineEnd": 14948,
+    "pdfPageStart": 210,
+    "pdfPageEnd": 210
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When you have 2 or fewer Hit Points unmarked, you don’t take Minor damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/on-the-brink/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

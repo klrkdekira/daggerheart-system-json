@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sprite",
+  "@type": "Adversary",
+  "name": "Sprite",
+  "slug": "sprite",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SPRITE",
+    "lineStart": 8758,
+    "lineEnd": 8778,
+    "pdfPageStart": 128,
+    "pdfPageEnd": 128
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Avoid detection",
+    "let the poison do its work",
+    "protect the wilderness"
+  ],
+  "difficulty": 13,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Needle-Sharp Arrows",
+    "range": "Close",
+    "damage": "5 phy"
+  },
+  "experience": "Stealth +2, Vengeance +2",
+  "description": "A tiny winged warrior that attacks trespassers with poison-tipped arrows.",
+  "features": [
+    {
+      "name": "Minion (5)",
+      "kind": "Passive",
+      "rulesText": "The Sprite is defeated when they take any damage. For every 5 damage a PC deals to the Sprite, the PC defeats an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Art of Invisibility",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make the Sprite Hidden until they attack."
+    },
+    {
+      "name": "Dream Petal Poison",
+      "kind": "Action",
+      "rulesText": "When the Sprite succeeds on a standard attack, you can spend a Fear to make the target Sleepy until the target takes damage. While Sleepy, the target must make a Presence Reaction Roll before they make an action roll. On a failure, they must mark 2 Stress or fall asleep until they take damage."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/sprite/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vault-guardian-sentinel",
+  "@type": "Adversary",
+  "name": "Vault Guardian Sentinel",
+  "slug": "vault-guardian-sentinel",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "VAULT GUARDIAN SENTINEL",
+    "lineStart": 10134,
+    "lineEnd": 10154,
+    "pdfPageStart": 143,
+    "pdfPageEnd": 143
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Destroy at any cost",
+    "expunge",
+    "protect"
+  ],
+  "difficulty": 17,
+  "thresholds": "21/40",
+  "hitPoints": 6,
+  "stress": 3,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Charged Mace",
+    "range": "Very Close",
+    "damage": "2d12+1 phy"
+  },
+  "description": "A dust-covered golden construct with boxy limbs and a huge mace for a hand.",
+  "features": [
+    {
+      "name": "Kinetic Slam",
+      "kind": "Passive",
+      "rulesText": "Targets who take damage from the Sentinel’s standard attack are knocked back to Very Close range."
+    },
+    {
+      "name": "Box In",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to choose a target within Very Close range to focus on. That target has disadvantage on attack rolls when they’re within Very Close range of the Sentinel. The Sentinel can only focus on one target at a time."
+    },
+    {
+      "name": "Mana Bolt",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to lob explosive magic at a point within Far range. All targets within Very Close range of that point must make an Agility Reaction Roll. Targets who fail take 2d8+20 magic damage and are knocked back to Close range. Targets who succeed take half damage and aren’t knocked back."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Sentinel makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/vault-guardian-sentinel/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

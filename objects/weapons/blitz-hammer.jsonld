@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/blitz-hammer",
+  "@type": "Weapon",
+  "name": "Blitz Hammer",
+  "slug": "blitz-hammer",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3573,
+    "lineEnd": 3573,
+    "pdfPageStart": 61,
+    "pdfPageEnd": 61
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d10+7 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Accelerator",
+    "rulesText": "Once per scene, mark a Stress to move to Far range then make an attack. Gain a +1 bonus to your Proficiency on this attack."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/blitz-hammer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

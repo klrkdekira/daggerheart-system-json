@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/aquatic-scout",
+  "@type": "Rule",
+  "name": "Aquatic Scout",
+  "slug": "aquatic-scout",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "AQUATIC SCOUT",
+    "lineStart": 913,
+    "lineEnd": 925,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "rulesText": "*(Eel, Fish, Octopus, etc.)*\n\n*Agility +1 | Evasion +2*\n\n*Melee Agility d4 phy*\n\n**Gain advantage on:** navigate, sneak, swim\n\n**Aquatic:** You can breathe and move naturally underwater.\n\n**Fragile:** When you take Major or greater damage, you drop out of Beastform.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/aquatic-scout/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

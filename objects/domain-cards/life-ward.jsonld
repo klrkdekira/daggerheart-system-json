@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/life-ward",
+  "@type": "DomainCard",
+  "name": "Life Ward",
+  "slug": "life-ward",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "LIFE WARD",
+    "lineStart": 16114,
+    "lineEnd": 16122,
+    "pdfPageStart": 221,
+    "pdfPageEnd": 221
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Spend 3 Hope and choose an ally within Close range. They are marked with a glowing sigil of protection. When this ally would make a death move, they clear a Hit Point instead.\n\nThis effect ends when it saves the target from a death move, you cast Life Ward on another target, or you take a long rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/life-ward/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

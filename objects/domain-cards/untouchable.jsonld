@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/untouchable",
+  "@type": "DomainCard",
+  "name": "Untouchable",
+  "slug": "untouchable",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "UNTOUCHABLE",
+    "lineStart": 14776,
+    "lineEnd": 14782,
+    "pdfPageStart": 209,
+    "pdfPageEnd": 209
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "Gain a bonus to your Evasion equal to half your Agility.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/untouchable/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

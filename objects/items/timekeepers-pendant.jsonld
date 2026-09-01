@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/timekeepers-pendant",
+  "@type": "Item",
+  "name": "Timekeeper’s Pendant",
+  "slug": "timekeepers-pendant",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Items",
+    "lineStart": 4171,
+    "lineEnd": 4171,
+    "pdfPageStart": 79,
+    "pdfPageEnd": 79
+  },
+  "itemSet": "expansion",
+  "roll": 47,
+  "description": "You can choose an additional downtime move each rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/timekeepers-pendant/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

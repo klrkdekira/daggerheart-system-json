@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/shard-of-memory",
+  "@type": "Item",
+  "name": "Shard of Memory",
+  "slug": "shard-of-memory",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Items",
+    "lineStart": 4099,
+    "lineEnd": 4099,
+    "pdfPageStart": 77,
+    "pdfPageEnd": 77
+  },
+  "itemSet": "core-set",
+  "roll": 52,
+  "description": "Once per long rest, you can spend 2 Hope to recall a domain card from your vault instead of paying its Recall Cost.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/shard-of-memory/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

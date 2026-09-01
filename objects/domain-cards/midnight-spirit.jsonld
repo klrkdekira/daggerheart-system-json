@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/midnight-spirit",
+  "@type": "DomainCard",
+  "name": "Midnight Spirit",
+  "slug": "midnight-spirit",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "MIDNIGHT SPIRIT",
+    "lineStart": 15628,
+    "lineEnd": 15636,
+    "pdfPageStart": 217,
+    "pdfPageEnd": 217
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Spend a Hope to summon a humanoid‑sized spirit that can move or carry things for you until your next rest.\n\nYou can also send it to attack an adversary. When you do, make a Spellcast Roll against a target within Very Far range. On a success, the spirit moves into Melee range with that target. Roll a number of d6s equal to your Spellcast trait and deal that much magic damage to the target. The spirit then dissipates. You can only have one spirit at a time.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/midnight-spirit/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

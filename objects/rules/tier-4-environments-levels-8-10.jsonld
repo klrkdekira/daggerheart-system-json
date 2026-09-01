@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-4-environments-levels-8-10",
+  "@type": "Rule",
+  "name": "Tier 4 Environments (levels 8-10)",
+  "slug": "tier-4-environments-levels-8-10",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TIER 4 ENVIRONMENTS (LEVELS 8-10)",
+    "lineStart": 12861,
+    "lineEnd": 12861,
+    "pdfPageStart": 178,
+    "pdfPageEnd": 178
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/tier-4-environments-levels-8-10/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

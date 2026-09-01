@@ -1,0 +1,33 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/rolling-pin",
+  "@type": "Weapon",
+  "name": "Rolling Pin",
+  "slug": "rolling-pin",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Physical Weapons",
+    "lineStart": 13640,
+    "lineEnd": 13640,
+    "pdfPageStart": 191,
+    "pdfPageEnd": 191
+  },
+  "category": "primary",
+  "variant": "everyday-hero",
+  "trait": "Presence",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8+1 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/rolling-pin/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

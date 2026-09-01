@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spy",
+  "@type": "Adversary",
+  "name": "Spy",
+  "slug": "spy",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SPY",
+    "lineStart": 8780,
+    "lineEnd": 8798,
+    "pdfPageStart": 128,
+    "pdfPageEnd": 128
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Cut and run",
+    "disguise appearance",
+    "eavesdrop"
+  ],
+  "difficulty": 15,
+  "thresholds": "8/17",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "−2",
+  "standardAttack": {
+    "name": "Dagger",
+    "range": "Melee",
+    "damage": "2d6+3 phy"
+  },
+  "experience": "Espionage +3",
+  "description": "A skilled espionage agent with a knack for being in the right place to overhear secrets.",
+  "features": [
+    {
+      "name": "Gathering Secrets",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to describe how the Spy knows a secret about a PC in the scene."
+    },
+    {
+      "name": "Fly on the Wall",
+      "kind": "Reaction",
+      "rulesText": "When a PC or group is discussing something sensitive, you can mark a Stress to reveal that the Spy is present in the scene, observing them. If the Spy escapes the scene to report their findings, you gain 1d4 Fear."
+    }
+  ],
+  "role": "Social",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/spy/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

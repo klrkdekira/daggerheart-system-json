@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/resonant-harness",
+  "@type": "Armor",
+  "name": "Resonant Harness",
+  "slug": "resonant-harness",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 4 (LEVELS 8–10)",
+    "lineStart": 4014,
+    "lineEnd": 4014,
+    "pdfPageStart": 74,
+    "pdfPageEnd": 74
+  },
+  "variant": "core",
+  "baseThresholds": "15 / 40",
+  "baseScore": "7",
+  "tier": 4,
+  "feature": {
+    "name": "Vitreous",
+    "rulesText": "When you would take Severe or greater damage, you can mark 2 Armor Slots to negate that damage. If you do, you gain a −5 penalty to your damage thresholds until you choose to repair your armor as a downtime move."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/resonant-harness/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

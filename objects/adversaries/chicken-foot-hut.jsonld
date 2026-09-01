@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/chicken-foot-hut",
+  "@type": "Adversary",
+  "name": "Chicken-Foot Hut",
+  "slug": "chicken-foot-hut",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CHICKEN-FOOT HUT",
+    "lineStart": 7459,
+    "lineEnd": 7479,
+    "pdfPageStart": 116,
+    "pdfPageEnd": 116
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Claw",
+    "protect master",
+    "run and jump",
+    "trample"
+  ],
+  "difficulty": 16,
+  "thresholds": "14/27",
+  "hitPoints": 8,
+  "stress": 2,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Clawed Feet",
+    "range": "Very Close",
+    "damage": "2d10+3 phy"
+  },
+  "experience": "Forests +2",
+  "description": "A tall wooden shack that moves around on giant chicken legs.",
+  "features": [
+    {
+      "name": "Fast",
+      "kind": "Passive",
+      "rulesText": "The Hut can move up to Far range when spotlighted."
+    },
+    {
+      "name": "Double Strike",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make two standard attacks. If both attacks succeed against the same target, combine the damage."
+    },
+    {
+      "name": "Pin",
+      "kind": "Reaction",
+      "rulesText": "When the Hut makes a successful standard attack, you can mark a Stress to temporarily Restrain the target. The Hut drags the Restrained target when it moves."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/chicken-foot-hut/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

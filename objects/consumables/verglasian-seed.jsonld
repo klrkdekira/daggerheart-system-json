@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/verglasian-seed",
+  "@type": "Consumable",
+  "name": "Verglasian Seed",
+  "slug": "verglasian-seed",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Consumables",
+    "lineStart": 4285,
+    "lineEnd": 4285,
+    "pdfPageStart": 82,
+    "pdfPageEnd": 82
+  },
+  "itemSet": "expansion",
+  "roll": 3,
+  "description": "You can use this ice shard to instantly freeze an area of water up to Close range.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/verglasian-seed/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

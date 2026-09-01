@@ -1,0 +1,37 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/paring-knife",
+  "@type": "Weapon",
+  "name": "Paring Knife",
+  "slug": "paring-knife",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Secondary Weapons",
+    "lineStart": 13674,
+    "lineEnd": 13674,
+    "pdfPageStart": 192,
+    "pdfPageEnd": 192
+  },
+  "category": "secondary",
+  "variant": "everyday-hero",
+  "trait": "Finesse",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Paired",
+    "rulesText": "+2 to primary weapon damage to targets within Melee range"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/paring-knife/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/ego-blade",
+  "@type": "Weapon",
+  "name": "Ego Blade",
+  "slug": "ego-blade",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3519,
+    "lineEnd": 3519,
+    "pdfPageStart": 59,
+    "pdfPageEnd": 59
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Agility",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d12+4 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Pompous",
+    "rulesText": "You must have a Presence of 0 or lower to use this weapon."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/ego-blade/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

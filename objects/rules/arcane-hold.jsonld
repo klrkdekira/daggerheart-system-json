@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/arcane-hold",
+  "@type": "Rule",
+  "name": "Arcane Hold",
+  "slug": "arcane-hold",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ARCANE HOLD",
+    "lineStart": 4809,
+    "lineEnd": 4815,
+    "pdfPageStart": 91,
+    "pdfPageEnd": 91
+  },
+  "rulesText": "**Choice:** When the battle begins, choose a favored PC.\n\n**Trigger:** The first time during a battle the favored PC is within Close range and hit with an attack.\n\n**Effect:** Make an attack roll with a +6 modifier against the adversary. On a success, the target is temporarily Restrained by tendrils of powerful magic.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/arcane-hold/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/wayfinder",
+  "@type": "Rule",
+  "name": "Wayfinder",
+  "slug": "wayfinder",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WAYFINDER",
+    "lineStart": 1336,
+    "lineEnd": 1372,
+    "pdfPageStart": 21,
+    "pdfPageEnd": 21
+  },
+  "rulesText": "Play the Wayfinder if you want to hunt your prey and strike with deadly force.\n\n##### SPELLCAST TRAIT\n\nAgility\n\n##### FOUNDATION FEATURES\n\n**Ruthless Predator:** When you make a damage roll, you can mark a Stress to gain a +1 bonus to your Proficiency. Additionally, when you deal Severe damage to an adversary, they must mark a Stress.\n\n**Path Forward:** When you’re traveling to a place you’ve previously visited or you carry an object that has been at the location before, you can identify the shortest, most direct path to your destination.\n\n##### SPECIALIZATION FEATURE\n\n**Elusive Predator:** When your Focus makes an attack against you, you gain a +2 bonus to your Evasion against the attack.\n\n##### MASTERY FEATURE\n\n**Apex Predator:** Before you make an attack roll against your Focus, you can spend a Hope. On a successful attack, you remove a Fear from the GM’s Fear pool.\n\n##### BACKGROUND QUESTIONS\n\nAnswer any of the following background questions. You can also create your own questions.\n\n- A terrible creature hurt your community, and you’ve vowed to hunt them down. What are they, and what unique trail or sign do they leave behind?\n- Your first kill almost killed you, too. What was it, and what part of you was never the same after that event?\n- You’ve traveled many dangerous lands, but what is the one place you refuse to go?\n\n##### CONNECTIONS\n\nAsk your fellow players one of the following questions for their character to answer, or create your own questions.\n\n- What friendly competition do we have?\n- Why do you act differently when we’re alone than when others are around?\n- What threat have you asked me to watch for, and why are you worried about it?",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/wayfinder/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sylvan-soldier",
+  "@type": "Adversary",
+  "name": "Sylvan Soldier",
+  "slug": "sylvan-soldier",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SYLVAN SOLDIER",
+    "lineStart": 6898,
+    "lineEnd": 6918,
+    "pdfPageStart": 110,
+    "pdfPageEnd": 110
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Ambush",
+    "hide",
+    "overwhelm",
+    "protect",
+    "trail"
+  ],
+  "difficulty": 11,
+  "thresholds": "6/11",
+  "hitPoints": 4,
+  "stress": 2,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Scythe",
+    "range": "Melee",
+    "damage": "1d8+1 phy"
+  },
+  "experience": "Tracker +2",
+  "description": "A faerie warrior adorned in armor made of leaves and bark.",
+  "features": [
+    {
+      "name": "Pack Tactics",
+      "kind": "Passive",
+      "rulesText": "If the Soldier makes a standard attack and another Sylvan Soldier is within Melee range of the target, deal 1d8+5 physical damage instead of their standard damage."
+    },
+    {
+      "name": "Forest Control",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to pull down a tree within Close range. A creature hit by the tree must succeed on an Agility Reaction Roll (15) or take 1d10 physical damage."
+    },
+    {
+      "name": "Blend In",
+      "kind": "Reaction",
+      "rulesText": "When the Soldier makes a successful attack, you can mark a Stress to become Hidden until the Soldier’s next attack or a PC succeeds on an Instinct Roll (14) to find them."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/sylvan-soldier/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

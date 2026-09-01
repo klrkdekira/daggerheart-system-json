@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/yufo",
+  "@type": "Adversary",
+  "name": "Yufo",
+  "slug": "yufo",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "YUFO",
+    "lineStart": 7078,
+    "lineEnd": 7100,
+    "pdfPageStart": 112,
+    "pdfPageEnd": 112
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Exchange information about possible timelines",
+    "feed on heightened emotions",
+    "watch from the shadows"
+  ],
+  "difficulty": 14,
+  "thresholds": "6/10",
+  "hitPoints": 3,
+  "stress": 5,
+  "attackModifier": "−3",
+  "standardAttack": {
+    "name": "Tentacle Lash",
+    "range": "Very Close",
+    "damage": "1d6+3 phy"
+  },
+  "experience": "Secrets +3, Floating Oddity +3",
+  "description": "A large, interdimensional jellyfishlike creature that floats in and out of the timestream.",
+  "features": [
+    {
+      "name": "Telepathic",
+      "kind": "Passive",
+      "rulesText": "The Yufo can mentally communicate with creatures within Very Far range."
+    },
+    {
+      "name": "Psychic Strongbox",
+      "kind": "Passive",
+      "rulesText": "The Yufo is immune to abilities and features that would affect or alter its thoughts or emotions."
+    },
+    {
+      "name": "Glitch Wave",
+      "kind": "Action",
+      "rulesText": "Spend a Fear and choose up to three targets within Close range. Each target must succeed on a Instinct Reaction Roll or become desynced from reality and have disadvantage on Instinct Rolls until they use a downtime move to ground their psyches in the now."
+    },
+    {
+      "name": "Temporal Corrosion",
+      "kind": "Reaction",
+      "rulesText": "When the Yufo succeeds on a standard attack, you can mark a Stress to have the Yufo excrete an entropic acid through its skin, giving the target a −2 penalty to their damage thresholds until they use a downtime move to repair their armor."
+    }
+  ],
+  "role": "Social",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/yufo/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

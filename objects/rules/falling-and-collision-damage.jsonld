@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/falling-and-collision-damage",
+  "@type": "Rule",
+  "name": "Falling and Collision Damage",
+  "slug": "falling-and-collision-damage",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FALLING AND COLLISION DAMAGE",
+    "lineStart": 4865,
+    "lineEnd": 4873,
+    "pdfPageStart": 92,
+    "pdfPageEnd": 92
+  },
+  "rulesText": "If a character falls to the ground, you can use the following as a guide to determine the damage they take:\n\n- A fall from Very Close range deals 1d10+3 physical damage.\n- A fall from Close range deals 1d20+5 physical damage.\n- A fall from Far or Very Far range deals 1d100+15 physical damage, or death at the GM’s discretion.\n\nIf a character collides with an object or another character at a dangerous speed, they take 1d20+5 direct physical damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/falling-and-collision-damage/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

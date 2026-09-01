@@ -1,0 +1,68 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cephilith-abomination",
+  "@type": "Adversary",
+  "name": "Cephilith Abomination",
+  "slug": "cephilith-abomination",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CEPHILITH ABOMINATION",
+    "lineStart": 10334,
+    "lineEnd": 10358,
+    "pdfPageStart": 145,
+    "pdfPageEnd": 145
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Do the heavy lifting",
+    "leap menacingly",
+    "move surprisingly fast",
+    "smash and grab"
+  ],
+  "difficulty": 19,
+  "thresholds": "35/70",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Meaty Fists",
+    "range": "Melee",
+    "damage": "4d10+10 phy"
+  },
+  "experience": "Brute +3",
+  "description": "A lumbering, bog-grown frog beast that has tadpolelike leeches visibly wriggling underneath their translucent skin.",
+  "features": [
+    {
+      "name": "Toxic Skin",
+      "kind": "Passive",
+      "rulesText": "A PC who comes into physical contact with the Abomination must roll a d6. On a result of 3 or lower, the PC must mark an Armor Slot or 2 HP."
+    },
+    {
+      "name": "Bear Hug",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack against a target within Melee range. On a success, the target takes standard damage and is Grappled until they escape with a successful Strength Roll. While Grappled, the target is Vulnerable and Restrained."
+    },
+    {
+      "name": "Crunch!",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to deal 4d12 direct physical damage to a creature Grappled by the Abomination."
+    },
+    {
+      "name": "Tongue Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Abomination pull a target within Far range into Melee range, then immediately spotlight the Abomination again."
+    },
+    {
+      "name": "Burrowing Leechpoles",
+      "kind": "Reaction",
+      "rulesText": "When the Abomination takes Major or greater damage, their skin erupts in an explosion of subcutaneous wrigglers. Each PC within Close range must make an Agility Reaction Roll. Targets who fail are covered in 2d4 leechpoles, which burrow under their skin. Until the leechpoles are dug out with a successful Finesse Roll (21), any damage the target takes gains a +1 bonus for each leechpole under their skin."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/cephilith-abomination/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

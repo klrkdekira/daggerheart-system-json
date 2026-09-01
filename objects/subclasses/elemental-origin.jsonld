@@ -1,0 +1,43 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/elemental-origin",
+  "@type": "Subclass",
+  "name": "Elemental Origin",
+  "slug": "elemental-origin",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "ELEMENTAL ORIGIN",
+    "lineStart": 1660,
+    "lineEnd": 1685,
+    "pdfPageStart": 25,
+    "pdfPageEnd": 25
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/sorcerer"
+  },
+  "features": [
+    {
+      "name": "Elementalist",
+      "stage": "foundation",
+      "rulesText": "Choose one of the following elements at character creation: air, earth, fire, lightning, water.\n\nYou can shape this element into harmless effects. Additionally, spend a Hope and describe how your control over this element helps an action roll you’re about to make, then either gain a +2 bonus to the roll or a +3 bonus to the roll’s damage."
+    },
+    {
+      "name": "Natural Evasion",
+      "stage": "specialization",
+      "rulesText": "You can call forth your element to protect you from harm. When an attack roll against you succeeds, you can mark a Stress and describe how you use your element to defend you. When you do, roll a d6 and add its result to your Evasion against the attack."
+    },
+    {
+      "name": "Transcendence",
+      "stage": "mastery",
+      "rulesText": "Once per long rest, you can transform into a physical manifestation of your element. When you do, describe your transformation and choose two of the following benefits to gain until your next rest:\n\n  - +4 bonus to your Severe threshold\n  - +1 bonus to a character trait of your choice\n  - +1 bonus to your Proficiency\n  - +2 bonus to your Evasion"
+    }
+  ],
+  "description": "Play the Elemental Origin if you want to channel raw magic to take the shape of a particular element.",
+  "spellcastTrait": "Instinct",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/subclasses/elemental-origin/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

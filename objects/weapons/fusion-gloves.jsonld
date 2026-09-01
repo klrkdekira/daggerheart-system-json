@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/fusion-gloves",
+  "@type": "Weapon",
+  "name": "Fusion Gloves",
+  "slug": "fusion-gloves",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3723,
+    "lineEnd": 3723,
+    "pdfPageStart": 66,
+    "pdfPageEnd": 66
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Knowledge",
+  "range": "Very Far",
+  "burden": "Two-Handed",
+  "damage": "d6+9 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Bonded",
+    "rulesText": "Gain a bonus to your damage rolls equal to your level."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/fusion-gloves/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

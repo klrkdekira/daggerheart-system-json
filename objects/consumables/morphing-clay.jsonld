@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/morphing-clay",
+  "@type": "Consumable",
+  "name": "Morphing Clay",
+  "slug": "morphing-clay",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Consumables",
+    "lineStart": 4217,
+    "lineEnd": 4217,
+    "pdfPageStart": 80,
+    "pdfPageEnd": 80
+  },
+  "itemSet": "core-set",
+  "roll": 15,
+  "description": "You can spend a Hope to use this clay, altering your face enough to make you unrecognizable until your next rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/morphing-clay/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

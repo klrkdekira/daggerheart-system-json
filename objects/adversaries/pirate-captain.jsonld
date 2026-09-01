@@ -1,0 +1,63 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/pirate-captain",
+  "@type": "Adversary",
+  "name": "Pirate Captain",
+  "slug": "pirate-captain",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "PIRATE CAPTAIN",
+    "lineStart": 6458,
+    "lineEnd": 6480,
+    "pdfPageStart": 107,
+    "pdfPageEnd": 107
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Command",
+    "make ’em walk the plank",
+    "plunder",
+    "raid"
+  ],
+  "difficulty": 14,
+  "thresholds": "7/14",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Cutlass",
+    "range": "Melee",
+    "damage": "1d12+2 phy"
+  },
+  "experience": "Commander +2, Sailor +3",
+  "description": "A charismatic sea dog with an impressive hat, eager to raid and plunder.",
+  "features": [
+    {
+      "name": "Swashbuckler",
+      "kind": "Passive",
+      "rulesText": "When the Captain marks 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress."
+    },
+    {
+      "name": "Reinforcements",
+      "kind": "Action",
+      "rulesText": "Once per scene, mark a Stress to summon a Pirate Raiders Horde, which appears at Far range."
+    },
+    {
+      "name": "No Quarter",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target who has three or more Pirates within Melee range of them. The Captain leads the Pirates in hurling threats and promises of a watery grave. The target must make a Presence Reaction Roll. On a failure, the target marks 1d4+1 Stress. On a success, they must mark a Stress."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Captain makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/pirate-captain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

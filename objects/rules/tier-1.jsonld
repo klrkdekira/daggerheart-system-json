@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-1",
+  "@type": "Rule",
+  "name": "Tier 1",
+  "slug": "tier-1",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "TIER 1",
+    "lineStart": 695,
+    "lineEnd": 703,
+    "pdfPageStart": 13,
+    "pdfPageEnd": 13
+  },
+  "rulesText": "**Favored:** Gain a bonus to damage rolls equal to a trait of your choice.\n\n**Invigorating:** On a successful attack, roll a d4. On a result of 4, gain a Focus.\n\n**Quick:** When you make an attack, you can spend a Focus or mark a Stress to target another creature within range with that attack.\n\n**Reliable:** Gain a +1 bonus to your attack rolls.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/tier-1/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

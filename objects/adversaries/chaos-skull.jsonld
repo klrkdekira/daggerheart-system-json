@@ -1,0 +1,61 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/chaos-skull",
+  "@type": "Adversary",
+  "name": "Chaos Skull",
+  "slug": "chaos-skull",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CHAOS SKULL",
+    "lineStart": 7437,
+    "lineEnd": 7457,
+    "pdfPageStart": 116,
+    "pdfPageEnd": 116
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Cackle",
+    "consume magic",
+    "serve creator"
+  ],
+  "difficulty": 15,
+  "thresholds": "8/16",
+  "hitPoints": 5,
+  "stress": 4,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Energy Blast",
+    "range": "Close",
+    "damage": "2d8+3 mag"
+  },
+  "description": "A floating humanoid skull animated by scintillating magic.",
+  "features": [
+    {
+      "name": "Levitation",
+      "kind": "Passive",
+      "rulesText": "The Skull levitates several feet off the ground and can’t be Restrained."
+    },
+    {
+      "name": "Wards",
+      "kind": "Passive",
+      "rulesText": "The Skull is resistant to magic damage."
+    },
+    {
+      "name": "Magic Burst",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against all targets within Close range. Targets the Skull succeeds against take 2d6+4 magic damage."
+    },
+    {
+      "name": "Siphon Magic",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make an attack against a PC with a Spellcast trait within Very Close range. On a success, the target marks 1d4 Stress and the Skull clears that many Stress. Additionally, on a success, the Skull can immediately be spotlighted again."
+    }
+  ],
+  "role": "Ranged",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/chaos-skull/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

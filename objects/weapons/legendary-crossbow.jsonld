@@ -1,0 +1,34 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-crossbow",
+  "@type": "Weapon",
+  "name": "Legendary Crossbow",
+  "slug": "legendary-crossbow",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3652,
+    "lineEnd": 3652,
+    "pdfPageStart": 63,
+    "pdfPageEnd": 63
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Finesse",
+  "range": "Far",
+  "burden": "One-Handed",
+  "damage": "d6+10 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 4,
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/legendary-crossbow/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

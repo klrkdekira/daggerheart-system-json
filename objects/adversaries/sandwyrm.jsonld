@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sandwyrm",
+  "@type": "Adversary",
+  "name": "Sandwyrm",
+  "slug": "sandwyrm",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SANDWYRM",
+    "lineStart": 9818,
+    "lineEnd": 9838,
+    "pdfPageStart": 139,
+    "pdfPageEnd": 139
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Ambush from below",
+    "eat and leave",
+    "tunnel and erupt",
+    "use both ends"
+  ],
+  "difficulty": 17,
+  "thresholds": "21/40",
+  "hitPoints": 6,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Bite",
+    "range": "Very Close",
+    "damage": "3d8+4 phy"
+  },
+  "experience": "Tremor Sense +4",
+  "description": "A gargantuan burrowing worm that has armor plating and gnashing jaws. This intelligent and opportunistic hunter can swim through sand as quickly as a cheetah runs on land.",
+  "features": [
+    {
+      "name": "Venomous Tail Stinger",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to attack a target within Close range. On a success, the target takes 3d10+2 physical damage and must succeed on a Strength Reaction Roll or become Restrained and Vulnerable until they roll with Hope."
+    },
+    {
+      "name": "Devour",
+      "kind": "Action",
+      "rulesText": "Make an attack against a target within Melee range. On a success, the Sandwyrm Swallows the target. While Swallowed, the target is Restrained and marks a HP when the Sandwyrm is spotlighted. The Sandwyrm disgorges all Swallowed creatures when it takes Major or greater damage."
+    },
+    {
+      "name": "Hungry, Not Stupid",
+      "kind": "Reaction",
+      "rulesText": "When the Sandwyrm marks half its HP or Swallows a creature, roll a d6. On a result of 3 or lower, the Sandwyrm retreats to safety."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/sandwyrm/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

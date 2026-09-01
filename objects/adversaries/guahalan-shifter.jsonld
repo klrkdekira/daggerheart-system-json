@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/guahalan-shifter",
+  "@type": "Adversary",
+  "name": "Guahalan Shifter",
+  "slug": "guahalan-shifter",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GUAHALAN SHIFTER",
+    "lineStart": 8224,
+    "lineEnd": 8242,
+    "pdfPageStart": 123,
+    "pdfPageEnd": 123
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Escape",
+    "profit",
+    "throw smoke"
+  ],
+  "difficulty": 15,
+  "thresholds": "9/18",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Warclub",
+    "range": "Melee",
+    "damage": "2d8+4 phy"
+  },
+  "experience": "Hunter +2, Trapper +2",
+  "description": "A shapeshifting masked warrior who has animalistic features.",
+  "features": [
+    {
+      "name": "Unleash the Beast",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Shifter adopt a more bestial form. While in this form, they gain a bonus to attack and damage rolls equal to the number of Stress they have marked. Additionally, they can move up to Far range instead of Close range before taking an action."
+    },
+    {
+      "name": "Pack Attack",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack. On a success, the attack gains a bonus to damage equal to the number of other Shifters within Very Close range of the target."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/guahalan-shifter/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

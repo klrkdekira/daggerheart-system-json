@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/shifting-into-stances",
+  "@type": "Rule",
+  "name": "Shifting Into Stances",
+  "slug": "shifting-into-stances",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "SHIFTING INTO STANCES",
+    "lineStart": 681,
+    "lineEnd": 685,
+    "pdfPageStart": 13,
+    "pdfPageEnd": 13
+  },
+  "rulesText": "You can spend a Focus to shift into a martial stance and gain its effects. You can shift only into stances you’ve marked as known. When you shift into a stance, it’s considered your active stance until you drop out of it.\n\nYou can’t shift into or have more than one active stance at a time. Until you shift into a stance, you are not considered to be in a stance or to have an active stance.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/shifting-into-stances/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

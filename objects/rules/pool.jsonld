@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/pool",
+  "@type": "Rule",
+  "name": "Pool",
+  "slug": "pool",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "POOL",
+    "lineStart": 5014,
+    "lineEnd": 5016,
+    "pdfPageStart": 94,
+    "pdfPageEnd": 94
+  },
+  "rulesText": "A pool is a collection of tokens shared by multiple adversaries. Each pool has a unique name, which is typically the name shared by the adversaries it affects. Unlike standard adversary tokens, pool tokens are not placed on a stat block; instead, the GM collects them in a separate location. Pools are empty when the scene begins and cleared when the scene ends.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/pool/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

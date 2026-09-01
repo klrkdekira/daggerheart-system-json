@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/nimble-grazer",
+  "@type": "Rule",
+  "name": "Nimble Grazer",
+  "slug": "nimble-grazer",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "NIMBLE GRAZER",
+    "lineStart": 885,
+    "lineEnd": 897,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "rulesText": "*(Deer, Gazelle, Goat, etc.)*\n\n*Agility +1 | Evasion +3*\n\n*Melee Agility d6 phy*\n\n**Gain advantage on:** leap, sneak, sprint\n\n**Elusive Prey:** When an attack roll against you would succeed, you can mark a Stress and roll a d4. Add the result to your Evasion against this attack.\n\n**Fragile:** When you take Major or greater damage, you drop out of Beastform.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/nimble-grazer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/voice-of-reason",
+  "@type": "DomainCard",
+  "name": "Voice of Reason",
+  "slug": "voice-of-reason",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "VOICE OF REASON",
+    "lineStart": 16096,
+    "lineEnd": 16104,
+    "pdfPageStart": 221,
+    "pdfPageEnd": 221
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "You speak with an unmatched power and authority. You have advantage on action rolls to de‑escalate violent situations or convince someone to follow your lead.\n\nAdditionally, you’re emboldened in moments of duress. When all of your Stress slots are marked, you gain a +1 bonus to your Proficiency for damage rolls.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/voice-of-reason/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

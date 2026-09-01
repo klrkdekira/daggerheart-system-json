@@ -1,0 +1,45 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/tiny-green-ooze",
+  "@type": "Adversary",
+  "name": "Tiny Green Ooze",
+  "slug": "tiny-green-ooze",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TINY GREEN OOZE",
+    "lineStart": 6336,
+    "lineEnd": 6350,
+    "pdfPageStart": 105,
+    "pdfPageEnd": 105
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Camouflage",
+    "creep up"
+  ],
+  "difficulty": 14,
+  "thresholds": "4/None",
+  "hitPoints": 2,
+  "stress": 1,
+  "attackModifier": "−1",
+  "standardAttack": {
+    "name": "Ooze Appendage",
+    "range": "Melee",
+    "damage": "1d4+1 mag"
+  },
+  "description": "A small moving mound of translucent green slime.",
+  "features": [
+    {
+      "name": "Acidic Form",
+      "kind": "Passive",
+      "rulesText": "When the Ooze makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/tiny-green-ooze/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/mighty-lizard",
+  "@type": "Rule",
+  "name": "Mighty Lizard",
+  "slug": "mighty-lizard",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "MIGHTY LIZARD",
+    "lineStart": 1045,
+    "lineEnd": 1057,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "rulesText": "*(Alligator, Crocodile, Gila Monster, etc.)*\n\n*Instinct +2 | Evasion +1*\n\n*Melee Instinct d10+7 phy*\n\n**Gain advantage on:** attack, sneak, track\n\n**Physical Defense:** You gain a +3 bonus to your damage thresholds.\n\n**Snapping Strike:** When you succeed on an attack against a target within Melee range, you can spend a Hope to clamp that opponent in your jaws, making them temporarily Restrained and Vulnerable.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/mighty-lizard/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

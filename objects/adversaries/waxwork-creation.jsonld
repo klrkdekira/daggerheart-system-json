@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/waxwork-creation",
+  "@type": "Adversary",
+  "name": "Waxwork Creation",
+  "slug": "waxwork-creation",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "WAXWORK CREATION",
+    "lineStart": 6986,
+    "lineEnd": 7010,
+    "pdfPageStart": 111,
+    "pdfPageEnd": 111
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Lumber menacingly",
+    "moan with the pain of unlife",
+    "smother"
+  ],
+  "difficulty": 13,
+  "thresholds": "8/15",
+  "hitPoints": 10,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Fists",
+    "range": "Very Close",
+    "damage": "1d20 phy"
+  },
+  "experience": "Giant-Sized +2",
+  "description": "A ten-foot-tall, semisolid (and semisentient) candle wax construct.",
+  "features": [
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Creation can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight it."
+    },
+    {
+      "name": "No Vital Organs",
+      "kind": "Passive",
+      "rulesText": "The Creation doesn’t take extra damage from attacks that critically succeed against it."
+    },
+    {
+      "name": "Wax Ball",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Creation throw a ball of wax at a target within Far range. Make an attack against the target. On a success, the target takes 1d12+2 physical damage and becomes Restrained until they succeed on a Strength Roll (15)."
+    },
+    {
+      "name": "Splutch!",
+      "kind": "Reaction",
+      "rulesText": "When a PC within Melee range of the Creation makes a weapon attack against it, roll a d6. On a 5 or higher, the attacker’s weapon gets stuck in the Creation and can be removed only with a successful Strength Roll (15)."
+    },
+    {
+      "name": "Smothering Grapple",
+      "kind": "Reaction",
+      "rulesText": "When the Creation makes a successful standard attack against a target within Melee range, you can spend a Fear to Trap the target inside the Creation’s wax body. While Trapped, the target is Restrained and must mark a Stress and move with the Creation each time it’s spotlighted. A Trapped creature is freed when the Creation takes Major or greater damage."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/waxwork-creation/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

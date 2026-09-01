@@ -1,0 +1,63 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/archmages-tower",
+  "@type": "Environment",
+  "name": "Archmage’s Tower",
+  "slug": "archmages-tower",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ARCHMAGE’S TOWER",
+    "lineStart": 12506,
+    "lineEnd": 12530,
+    "pdfPageStart": 173,
+    "pdfPageEnd": 173
+  },
+  "tier": 3,
+  "impulses": [
+    "Collect magical energy",
+    "exhaust intruders",
+    "reveal the unknown",
+    "unleash bursts of magical power"
+  ],
+  "difficulty": 16,
+  "potentialAdversariesText": "Alchemical Creations (Chimera, Lamia, Manticore), Archmage",
+  "description": "An impossibly tall spire that pierces the heavens and resonates with immense power.",
+  "features": [
+    {
+      "name": "Mystical Defenses",
+      "kind": "Passive",
+      "rulesText": "Countdown (12). To climb the tower, the PCs must complete the countdown. On a failure or a roll with Fear, they trigger one of the archmage’s many arcane traps and hazards, taking 3d10 magic damage. On a failure with Fear, the damage dealt gains a bonus equal to the PC’s level.\n\nWhat do the designs of the archmage’s defenses tell you about their specific area of expertise? What signature style or flourish do the traps and hazards all share?"
+    },
+    {
+      "name": "Archmage’s Aerie",
+      "kind": "Passive",
+      "rulesText": "The top floor of the tower is a many-chambered laboratory, library, and workshop containing everything needed to study magic in its highest forms. A PC with a Spellcast Trait can make a Knowledge Roll to partake in the archmage’s research. On a success, they gain a +1 bonus to their Spellcast Rolls until their next long rest. On a failure, their investigation goes wrong, and they take 3d8+4 magic damage.\n\nWhat part of the aerie calls to you? What do the archmage’s notes reveal to you?"
+    },
+    {
+      "name": "Amalgamated Adversaries",
+      "kind": "Reaction",
+      "rulesText": "Spend a Fear to summon two adversaries within Close range of a PC. Each adversary can use the other’s features as if they were their own.\n\nWhich creatures has the archmage chosen to combine? What do they hope to learn in doing so?"
+    }
+  ],
+  "category": "Exploration",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/chimera"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/lamia"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/manticore"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/archmage"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/archmages-tower/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

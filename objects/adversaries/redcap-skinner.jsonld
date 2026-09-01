@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/redcap-skinner",
+  "@type": "Adversary",
+  "name": "Redcap Skinner",
+  "slug": "redcap-skinner",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "REDCAP SKINNER",
+    "lineStart": 6648,
+    "lineEnd": 6668,
+    "pdfPageStart": 108,
+    "pdfPageEnd": 108
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Flense",
+    "giggle",
+    "scrape",
+    "slice"
+  ],
+  "difficulty": 9,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "−1",
+  "standardAttack": {
+    "name": "Razor",
+    "range": "Melee",
+    "damage": "2 phy"
+  },
+  "experience": "Leatherwork +3",
+  "description": "A cat-sized fey creature wielding a straight razor and wearing a conical red cap sealed on their head with candle wax.",
+  "features": [
+    {
+      "name": "Minion (4)",
+      "kind": "Passive",
+      "rulesText": "The Skinner is defeated when they take any damage. For every 4 damage a PC deals to the Skinner, the PC defeats an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Shallow Cuts",
+      "kind": "Passive",
+      "rulesText": "When a PC fails a roll, they take 1 physical damage for each Skinner within Melee range of them. Combine this damage."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Redcap Skinners within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 2 physical damage each. Combine this damage."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/redcap-skinner/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

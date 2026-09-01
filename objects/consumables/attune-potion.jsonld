@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/attune-potion",
+  "@type": "Consumable",
+  "name": "Attune Potion",
+  "slug": "attune-potion",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Consumables",
+    "lineStart": 4206,
+    "lineEnd": 4206,
+    "pdfPageStart": 80,
+    "pdfPageEnd": 80
+  },
+  "itemSet": "core-set",
+  "roll": 4,
+  "description": "You gain a +1 bonus to your next Instinct Roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/attune-potion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

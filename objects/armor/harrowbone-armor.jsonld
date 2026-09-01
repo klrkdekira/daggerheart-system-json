@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/harrowbone-armor",
+  "@type": "Armor",
+  "name": "Harrowbone Armor",
+  "slug": "harrowbone-armor",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 2 (LEVELS 2–4)",
+    "lineStart": 3956,
+    "lineEnd": 3956,
+    "pdfPageStart": 73,
+    "pdfPageEnd": 73
+  },
+  "variant": "core",
+  "baseThresholds": "9 / 21",
+  "baseScore": "4",
+  "tier": 2,
+  "feature": {
+    "name": "Resilient",
+    "rulesText": "Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/harrowbone-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

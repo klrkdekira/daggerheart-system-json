@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/endless-charisma",
+  "@type": "DomainCard",
+  "name": "Endless Charisma",
+  "slug": "endless-charisma",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "ENDLESS CHARISMA",
+    "lineStart": 15525,
+    "lineEnd": 15531,
+    "pdfPageStart": 216,
+    "pdfPageEnd": 216
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "After you make an action roll to persuade, lie, or garner favor, you can spend a Hope to reroll the Hope or Fear Die.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/endless-charisma/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

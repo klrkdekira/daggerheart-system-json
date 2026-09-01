@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/landshark",
+  "@type": "Adversary",
+  "name": "Landshark",
+  "slug": "landshark",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "LANDSHARK",
+    "lineStart": 8406,
+    "lineEnd": 8426,
+    "pdfPageStart": 125,
+    "pdfPageEnd": 125
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Burrow",
+    "burst out of the ground",
+    "circle prey"
+  ],
+  "difficulty": 14,
+  "thresholds": "14/25",
+  "hitPoints": 7,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Toothy Maw",
+    "range": "Very Close",
+    "damage": "2d10+2 phy"
+  },
+  "experience": "Subterranean +3, Bloodthirsty +2",
+  "description": "A quadrupedal shark that swims through the ground.",
+  "features": [
+    {
+      "name": "Burrowing",
+      "kind": "Passive",
+      "rulesText": "The Landshark can move through the ground as easily as over it. When the Landshark moves, it can choose to burrow or surface. While underground, the Landshark has resistance to all damage but can’t attack."
+    },
+    {
+      "name": "Thick-Skinned",
+      "kind": "Passive",
+      "rulesText": "When the Landshark would be forced to mark any number of HP, you can mark an equal number of Stress instead."
+    },
+    {
+      "name": "Rending Chomp",
+      "kind": "Reaction",
+      "rulesText": "When the Landshark makes a successful attack against a PC within Melee range, you can spend a Fear to force the target to mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage)."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/landshark/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

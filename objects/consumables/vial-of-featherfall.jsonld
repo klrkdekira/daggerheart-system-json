@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/vial-of-featherfall",
+  "@type": "Consumable",
+  "name": "Vial of Featherfall",
+  "slug": "vial-of-featherfall",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Consumables",
+    "lineStart": 4289,
+    "lineEnd": 4289,
+    "pdfPageStart": 82,
+    "pdfPageEnd": 82
+  },
+  "itemSet": "expansion",
+  "roll": 7,
+  "description": "You can drink this potion to ignore damage from falling for the next 10 minutes.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/vial-of-featherfall/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

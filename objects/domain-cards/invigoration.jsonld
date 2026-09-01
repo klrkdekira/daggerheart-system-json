@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/invigoration",
+  "@type": "DomainCard",
+  "name": "Invigoration",
+  "slug": "invigoration",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "INVIGORATION",
+    "lineStart": 16236,
+    "lineEnd": 16242,
+    "pdfPageStart": 222,
+    "pdfPageEnd": 222
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Spell",
+  "recallCost": 3,
+  "rulesText": "When you or an ally within Close range has used a feature that has an exhaustion limit (such as once per rest or once per session), you can spend any number of Hope and roll that many d6s. If any roll a 6, the feature can be used again.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/invigoration/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

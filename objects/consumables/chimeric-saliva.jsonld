@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/chimeric-saliva",
+  "@type": "Consumable",
+  "name": "Chimeric Saliva",
+  "slug": "chimeric-saliva",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Consumables",
+    "lineStart": 4290,
+    "lineEnd": 4290,
+    "pdfPageStart": 82,
+    "pdfPageEnd": 82
+  },
+  "itemSet": "expansion",
+  "roll": 8,
+  "description": "You can apply this saliva to a weapon that deals physical damage to change its damage type to magic until your next rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/chimeric-saliva/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

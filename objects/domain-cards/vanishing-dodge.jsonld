@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/vanishing-dodge",
+  "@type": "DomainCard",
+  "name": "Vanishing Dodge",
+  "slug": "vanishing-dodge",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "VANISHING DODGE",
+    "lineStart": 15737,
+    "lineEnd": 15743,
+    "pdfPageStart": 218,
+    "pdfPageEnd": 218
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "When an attack made against you that would deal physical damage fails, you can spend a Hope to envelop yourself in shadow, becoming Hidden and teleporting to a point within Close range of the attacker. You remain Hidden until the next time you make an action roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/vanishing-dodge/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

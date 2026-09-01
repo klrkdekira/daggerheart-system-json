@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/attacking-with-your-companion",
+  "@type": "Rule",
+  "name": "Attacking with Your Companion",
+  "slug": "attacking-with-your-companion",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "ATTACKING WITH YOUR COMPANION",
+    "lineStart": 1410,
+    "lineEnd": 1412,
+    "pdfPageStart": 22,
+    "pdfPageEnd": 22
+  },
+  "rulesText": "When you command your companion to attack, they gain any benefits that would normally only apply to you (such as the effects of “Ranger’s Focus”). On a success, their damage roll uses your Proficiency and their damage die.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/attacking-with-your-companion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

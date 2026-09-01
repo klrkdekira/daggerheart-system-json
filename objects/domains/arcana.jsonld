@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana",
+  "@type": "Domain",
+  "name": "Arcana",
+  "slug": "arcana",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "ARCANA",
+    "lineStart": 247,
+    "lineEnd": 249,
+    "pdfPageStart": 7,
+    "pdfPageEnd": 7
+  },
+  "description": "Arcana is the domain of innate and instinctual magic. Those who choose this path tap into the raw, enigmatic forces of the realms to manipulate both their own energy and the elements. Arcana offers wielders a volatile power, but it is incredibly potent when correctly channeled. The Arcana domain can be accessed by the Druid and Sorcerer classes.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domains/arcana/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

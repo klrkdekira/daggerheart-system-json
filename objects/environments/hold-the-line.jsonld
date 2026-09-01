@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/hold-the-line",
+  "@type": "Environment",
+  "name": "Hold the Line",
+  "slug": "hold-the-line",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HOLD THE LINE",
+    "lineStart": 11890,
+    "lineEnd": 11918,
+    "pdfPageStart": 164,
+    "pdfPageEnd": 164
+  },
+  "tier": 1,
+  "impulses": [
+    "Crash waves of enemies upon the party’s shores",
+    "never let them breathe",
+    "target their charge"
+  ],
+  "difficulty": 11,
+  "potentialAdversariesText": "Guards, Jagged Knives, Pirates, Skeletons, Zombies",
+  "description": "The party must fend off multiple waves of enemies long enough for an ally to complete an important objective.",
+  "features": [
+    {
+      "name": "Bodyguards",
+      "kind": "Passive",
+      "rulesText": "The PCs must protect an NPC (their “Charge”) long enough for the Charge to complete a task, such as finishing a magical ritual or repairing a mechanical device. At the start of the scene, activate a Task Countdown with a value equal to the number of PCs in the scene. It ticks down when the PCs defeat a wave of adversaries. When it triggers, the Charge completes their task.\n\nWho are the PCs protecting, and what is the Charge trying to do? Who wants to stop them? What will happen if the Charge isn’t able to complete their task?"
+    },
+    {
+      "name": "“I Must Not Fail!”",
+      "kind": "Passive",
+      "rulesText": "When the first wave of adversaries appears, place a Resolve Countdown next to the Charge with a value equal to the number of PCs in the scene. When an adversary makes an attack against the Charge, the attack automatically succeeds and ticks down the Resolve Countdown. When it triggers, the Charge either flees, dies, or becomes incapacitated.\n\nWhy is this task so important to the Charge? What has the power to break their resolve?"
+    },
+    {
+      "name": "Swarming Multitudes",
+      "kind": "Passive",
+      "rulesText": "All adversaries gain the “Relentless (2)” feature: They can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.\n\nWhere does these foes’ newfound power come from? Is there any way to cut them off from it?"
+    },
+    {
+      "name": "Waves upon Waves",
+      "kind": "Reaction",
+      "rulesText": "When there are no adversaries in the scene, summon a wave of adversaries at Far range from the Charge. Each wave comprises two Tier 1 Minions for each PC in the scene.\n\nWhere do these adversaries come from? Who leads them from the shadows?"
+    }
+  ],
+  "category": "Event",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/hold-the-line/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

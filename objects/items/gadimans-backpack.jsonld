@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gadimans-backpack",
+  "@type": "Item",
+  "name": "Gadiman’s Backpack",
+  "slug": "gadimans-backpack",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Items",
+    "lineStart": 4152,
+    "lineEnd": 4152,
+    "pdfPageStart": 78,
+    "pdfPageEnd": 78
+  },
+  "itemSet": "expansion",
+  "roll": 33,
+  "description": "Once per rest, you can spend a Hope to conjure a mundane item up to a cubic foot in size inside this satchel.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/gadimans-backpack/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

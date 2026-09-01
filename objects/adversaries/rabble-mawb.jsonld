@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/rabble-mawb",
+  "@type": "Adversary",
+  "name": "Rabble Mawb",
+  "slug": "rabble-mawb",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "RABBLE MAWB",
+    "lineStart": 6544,
+    "lineEnd": 6562,
+    "pdfPageStart": 107,
+    "pdfPageEnd": 107
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Chitter and chew",
+    "clump together",
+    "roll around"
+  ],
+  "difficulty": 8,
+  "thresholds": "4/8",
+  "hitPoints": 4,
+  "stress": 2,
+  "attackModifier": "−2",
+  "standardAttack": {
+    "name": "Chomp",
+    "range": "Melee",
+    "damage": "1d6+3 phy"
+  },
+  "experience": "Underground +2",
+  "description": "These cat-sized balls of hair, limbs, and teeth travel in a “mawb” of a dozen.",
+  "features": [
+    {
+      "name": "Horde (1d4+1)",
+      "kind": "Passive",
+      "rulesText": "When the Rabble Mawb has marked half or more of its HP, its standard attack deals 1d4+1 physical damage instead."
+    },
+    {
+      "name": "Come Back Worse",
+      "kind": "Reaction",
+      "rulesText": "When the Rabble Mawb is defeated, you can spend a Fear to bring it back to life, clearing all HP and Stress. The Rabble Mawb gains a bonus to all rolls equal to the number of times this feature has been used by this Rabble Mawb."
+    }
+  ],
+  "role": "Horde (3/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/rabble-mawb/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/stamina-potion",
+  "@type": "Consumable",
+  "name": "Stamina Potion",
+  "slug": "stamina-potion",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Consumables",
+    "lineStart": 4225,
+    "lineEnd": 4225,
+    "pdfPageStart": 80,
+    "pdfPageEnd": 80
+  },
+  "itemSet": "core-set",
+  "roll": 20,
+  "description": "Clear 1d4+1 Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/stamina-potion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

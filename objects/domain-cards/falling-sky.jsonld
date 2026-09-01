@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/falling-sky",
+  "@type": "DomainCard",
+  "name": "Falling Sky",
+  "slug": "falling-sky",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "FALLING SKY",
+    "lineStart": 14575,
+    "lineEnd": 14581,
+    "pdfPageStart": 207,
+    "pdfPageEnd": 207
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Make a Spellcast Roll against all adversaries within Far range. Mark any number of Stress to make shards of arcana rain down from above. Targets you succeed against take 1d20+2 magic damage for each Stress marked.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/falling-sky/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

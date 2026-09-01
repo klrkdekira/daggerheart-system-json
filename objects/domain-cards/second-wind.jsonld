@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/second-wind",
+  "@type": "DomainCard",
+  "name": "Second Wind",
+  "slug": "second-wind",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SECOND WIND",
+    "lineStart": 16088,
+    "lineEnd": 16094,
+    "pdfPageStart": 221,
+    "pdfPageEnd": 221
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "Once per rest, when you succeed on an attack against an adversary, you can clear 3 Stress or a Hit Point. On a success with Hope, you also clear 3 Stress or a Hit Point on an ally within Close range of you.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/second-wind/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

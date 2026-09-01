@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/control-potion",
+  "@type": "Consumable",
+  "name": "Control Potion",
+  "slug": "control-potion",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Consumables",
+    "lineStart": 4205,
+    "lineEnd": 4205,
+    "pdfPageStart": 80,
+    "pdfPageEnd": 80
+  },
+  "itemSet": "core-set",
+  "roll": 3,
+  "description": "You gain a +1 bonus to your next Finesse Roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/control-potion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-greatstaff",
+  "@type": "Weapon",
+  "name": "Legendary Greatstaff",
+  "slug": "legendary-greatstaff",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3703,
+    "lineEnd": 3703,
+    "pdfPageStart": 65,
+    "pdfPageEnd": 65
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Knowledge",
+  "range": "Very Far",
+  "burden": "Two-Handed",
+  "damage": "d6+9 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Powerful",
+    "rulesText": "On a successful attack, roll an additional damage die and discard the lowest result."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/legendary-greatstaff/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

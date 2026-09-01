@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/guahalan-spirit-singer",
+  "@type": "Adversary",
+  "name": "Guahalan Spirit Singer",
+  "slug": "guahalan-spirit-singer",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GUAHALAN SPIRIT SINGER",
+    "lineStart": 8268,
+    "lineEnd": 8290,
+    "pdfPageStart": 124,
+    "pdfPageEnd": 124
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Abjure",
+    "bolster",
+    "summon"
+  ],
+  "difficulty": 14,
+  "thresholds": "9/18",
+  "hitPoints": 4,
+  "stress": 6,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Spirit Flame",
+    "range": "Close",
+    "damage": "2d6+4 mag"
+  },
+  "experience": "Ritual +3, Ancient History +2",
+  "description": "A shapeshifting summoner who has animalistic features.",
+  "features": [
+    {
+      "name": "Unleash the Beast",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Spirit Singer adopt a more bestial form. While in this form, they gain a bonus to attack and damage rolls equal to the number of Stress they have marked. Additionally, they can move up to Far range instead of Close range before taking an action."
+    },
+    {
+      "name": "Beast-Caller",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Spirit Singer summon 2d4 Guahalan Spirit Beasts within Very Close range and immediately spotlight one."
+    },
+    {
+      "name": "Rage of Spirits",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to spotlight any number of Guahalan Spirit Beasts within Very Close range and have each one move into Melee range with the nearest PC and make a standard attack. If any attacks succeed against the same target, combine their damage."
+    },
+    {
+      "name": "Spiritual Sacrifice",
+      "kind": "Reaction",
+      "rulesText": "When the Spirit Singer would take damage while within Very Close range of a Guahalan Spirit Beast, you can spend a Fear to sacrifice the Spirit Beast and negate the damage."
+    }
+  ],
+  "role": "Support",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/guahalan-spirit-singer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

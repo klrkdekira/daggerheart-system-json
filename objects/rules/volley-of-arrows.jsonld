@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/volley-of-arrows",
+  "@type": "Rule",
+  "name": "Volley of Arrows",
+  "slug": "volley-of-arrows",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "VOLLEY OF ARROWS",
+    "lineStart": 4821,
+    "lineEnd": 4825,
+    "pdfPageStart": 92,
+    "pdfPageEnd": 92
+  },
+  "rulesText": "**Trigger:** A battle begins and this NPC is involved.\n\n**Effect:** Activate a countdown (Loop 3). It ticks down when a PC misses an attack. When it triggers, this NPC releases a volley of arrows at a target of the PCs’ choice, dealing 2d8+3 physical damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/volley-of-arrows/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

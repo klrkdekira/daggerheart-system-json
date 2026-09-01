@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gem-of-insight",
+  "@type": "Item",
+  "name": "Gem of Insight",
+  "slug": "gem-of-insight",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Items",
+    "lineStart": 4103,
+    "lineEnd": 4103,
+    "pdfPageStart": 77,
+    "pdfPageEnd": 77
+  },
+  "itemSet": "core-set",
+  "roll": 56,
+  "description": "You can attach this gem to a weapon, allowing you to use your Instinct when making an attack with that weapon.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/gem-of-insight/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

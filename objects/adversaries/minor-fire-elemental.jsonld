@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/minor-fire-elemental",
+  "@type": "Adversary",
+  "name": "Minor Fire Elemental",
+  "slug": "minor-fire-elemental",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MINOR FIRE ELEMENTAL",
+    "lineStart": 6198,
+    "lineEnd": 6220,
+    "pdfPageStart": 104,
+    "pdfPageEnd": 104
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Encircle enemies",
+    "grow in size",
+    "intimidate",
+    "start fires"
+  ],
+  "difficulty": 13,
+  "thresholds": "7/15",
+  "hitPoints": 9,
+  "stress": 3,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Elemental Blast",
+    "range": "Far",
+    "damage": "1d10+4 mag"
+  },
+  "description": "A living flame the size of a large bonfire.",
+  "features": [
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Elemental can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Scorched Earth",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to choose a point within Far range. The ground within Very Close range of that point immediately bursts into flames. All creatures within this area must make an Agility Reaction Roll. Targets who fail take 2d8 magic damage from the flames. Targets who succeed take half damage."
+    },
+    {
+      "name": "Explosion",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to erupt in a fiery explosion. Make an attack against all targets within Close range. Targets the Elemental succeeds against take 1d8 magic damage and are knocked back to Far range."
+    },
+    {
+      "name": "Consume Kindling",
+      "kind": "Reaction",
+      "rulesText": "Three times per scene, when the Elemental moves onto objects that are highly flammable, consume them to clear a HP or a Stress."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Elemental makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/minor-fire-elemental/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

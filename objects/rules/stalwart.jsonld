@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/stalwart",
+  "@type": "Rule",
+  "name": "Stalwart",
+  "slug": "stalwart",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "STALWART",
+    "lineStart": 1222,
+    "lineEnd": 1242,
+    "pdfPageStart": 19,
+    "pdfPageEnd": 19
+  },
+  "rulesText": "Play the Stalwart if you want to take heavy blows and keep fighting.\n\n##### FOUNDATION FEATURES\n\n**Unwavering:** Gain a permanent +1 bonus to your damage thresholds.\n\n**Iron Will:** When you take physical damage, you can mark an additional Armor Slot to reduce the severity.\n\n##### SPECIALIZATION FEATURES\n\n**Unrelenting:** Gain a permanent +2 bonus to your damage thresholds.\n\n**Partners-in-Arms:** When an ally within Very Close range takes damage, you can mark an Armor Slot to reduce the severity by one threshold.\n\n##### MASTERY FEATURES\n\n**Undaunted:** Gain a permanent +3 bonus to your damage thresholds.\n\n**Loyal Protector:** When an ally within Close range has 2 or fewer Hit Points and would take damage, you can mark a Stress to sprint to their side and take the damage instead.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/stalwart/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

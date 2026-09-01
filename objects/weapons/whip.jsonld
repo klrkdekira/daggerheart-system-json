@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/whip",
+  "@type": "Weapon",
+  "name": "Whip",
+  "slug": "whip",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 1 (LEVEL 1)",
+    "lineStart": 3743,
+    "lineEnd": 3743,
+    "pdfPageStart": 66,
+    "pdfPageEnd": 66
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Presence",
+  "range": "Very Close",
+  "burden": "One-Handed",
+  "damage": "d6 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 1,
+  "feature": {
+    "name": "Startling",
+    "rulesText": "Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/whip/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

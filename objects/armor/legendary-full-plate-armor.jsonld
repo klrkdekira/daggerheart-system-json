@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/legendary-full-plate-armor",
+  "@type": "Armor",
+  "name": "Legendary Full Plate Armor",
+  "slug": "legendary-full-plate-armor",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 4 (LEVELS 8–10)",
+    "lineStart": 4003,
+    "lineEnd": 4003,
+    "pdfPageStart": 74,
+    "pdfPageEnd": 74
+  },
+  "variant": "core",
+  "baseThresholds": "17 / 44",
+  "baseScore": "7",
+  "tier": 4,
+  "feature": {
+    "name": "Very Heavy",
+    "rulesText": "−2 to Evasion; −1 to Agility"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/legendary-full-plate-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

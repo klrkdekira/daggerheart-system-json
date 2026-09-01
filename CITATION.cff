@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Daggerheart SRD System JSON"
+type: dataset
+authors:
+  - family-names: "Chow"
+    given-names: "Chee Leong"
+version: "0.1.0"
+date-released: "2026-09-01"
+license:
+  - MIT
+url: "https://cheeleong.dev/daggerheart-system-json/"
+repository-code: "https://github.com/klrkdekira/daggerheart-system-json"
+abstract: >-
+  A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft
+  2020-12 specifications for the Daggerheart System Reference Document 2.0
+  by Critical Role LLC (Darrington Press Community Gaming License). Includes
+  domains, classes, subclasses, heritages, transformations, beastforms,
+  equipment, loot, adversary and environment stat blocks, domain cards, and
+  rules prose with line-level source provenance.
+references:
+  - type: manual
+    title: "Daggerheart System Reference Document 2.0"
+    authors:
+      - name: "Critical Role LLC"
+    url: "https://www.daggerheart.com/srd/"
+    license-url: "https://www.darringtonpress.com/license"

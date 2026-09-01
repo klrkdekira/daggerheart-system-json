@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/boots-of-supple-mystique",
+  "@type": "Item",
+  "name": "Boots of Supple Mystique",
+  "slug": "boots-of-supple-mystique",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Items",
+    "lineStart": 4137,
+    "lineEnd": 4137,
+    "pdfPageStart": 78,
+    "pdfPageEnd": 78
+  },
+  "itemSet": "expansion",
+  "roll": 18,
+  "description": "While wearing these boots, you don’t leave tracks or footprints.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/boots-of-supple-mystique/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

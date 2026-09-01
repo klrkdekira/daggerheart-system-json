@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-illiat",
+  "@type": "DomainCard",
+  "name": "Book of Illiat",
+  "slug": "book-of-illiat",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BOOK OF ILLIAT",
+    "lineStart": 14992,
+    "lineEnd": 15002,
+    "pdfPageStart": 211,
+    "pdfPageEnd": 211
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+  },
+  "cardType": "Grimoire",
+  "recallCost": 2,
+  "rulesText": "Slumber: Make a Spellcast Roll against a target within Very Close range. On a success, they’re Asleep until they take damage or the GM spends a Fear on their turn to clear this condition.\n\nArcane Barrage: Once per rest, spend any number of Hope and shoot magical projectiles that strike a target of your choice within Close range. Roll a number of d6s equal to the Hope spent and deal that much magic damage to the target.\n\nTelepathy: Spend a Hope to open a line of mental communication with one target you can see. This connection lasts until your next rest or you cast Telepathy again.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/book-of-illiat/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

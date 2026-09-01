@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/aantari-bow",
+  "@type": "Weapon",
+  "name": "Aantari Bow",
+  "slug": "aantari-bow",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3670,
+    "lineEnd": 3670,
+    "pdfPageStart": 64,
+    "pdfPageEnd": 64
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Finesse",
+  "range": "Far",
+  "burden": "Two-Handed",
+  "damage": "d6+11 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Reliable",
+    "rulesText": "+1 to attack rolls"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/aantari-bow/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

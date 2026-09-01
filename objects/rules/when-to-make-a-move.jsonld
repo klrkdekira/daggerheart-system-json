@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/when-to-make-a-move",
+  "@type": "Rule",
+  "name": "When to Make a Move",
+  "slug": "when-to-make-a-move",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "WHEN TO MAKE A MOVE",
+    "lineStart": 4518,
+    "lineEnd": 4528,
+    "pdfPageStart": 86,
+    "pdfPageEnd": 86
+  },
+  "rulesText": "The GM can make a GM move whenever you want, but the frequency and severity depends on the type of story you’re telling, the actions your players take, and the tone of the session you’re running.\n\nMake a GM move when the players:\n\n- Roll with Fear\n- Fail an action roll\n- Do something that has unavoidable consequences\n- Give you a “golden opportunity” (an opening that demands an immediate response)\n- Look to you for what happens next",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/when-to-make-a-move/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

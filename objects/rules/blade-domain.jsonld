@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/blade-domain",
+  "@type": "Rule",
+  "name": "Blade Domain",
+  "slug": "blade-domain",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BLADE DOMAIN",
+    "lineStart": 14585,
+    "lineEnd": 14585,
+    "pdfPageStart": 208,
+    "pdfPageEnd": 208
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/blade-domain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/environment-stat-blocks-by-tier",
+  "@type": "Rule",
+  "name": "Environment Stat Blocks by Tier",
+  "slug": "environment-stat-blocks-by-tier",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ENVIRONMENT STAT BLOCKS BY TIER",
+    "lineStart": 11519,
+    "lineEnd": 11580,
+    "pdfPageStart": 159,
+    "pdfPageEnd": 159
+  },
+  "rulesText": "This section contains the following stat blocks.\n\n##### TIER 1 (LEVEL 1)\n\n- Abandoned Grove (Exploration)\n- Abandoned Mine (Traversal)\n- Alchemist’s Abandoned Workshop (Exploration)\n- Ambushed (Event)\n- Ambushers (Event)\n- Bustling Marketplace (Social)\n- Cliffside Ascent (Traversal)\n- Corrupted Swamp (Traversal)\n- Cursed Graveyard (Exploration)\n- Grand Feast (Social)\n- Hold the Line (Event)\n- Local Festival (Social)\n- Local Tavern (Social)\n- Outpost Town (Social)\n- Raging River (Traversal)\n- Raiding Party (Event)\n\n##### TIER 2 (LEVELS 2–4)\n\n- Beach Day (Social)\n- Cult Ritual (Event)\n- Deadly Dungeon (Exploration)\n- Duel (Event)\n- Hallowed Temple (Social)\n- Haunted City (Exploration)\n- Heist (Event)\n- Masquerade Ball (Social)\n- Mountain Pass (Traversal)\n- Ocean Voyage (Traversal)\n- Vast Desert (Traversal)\n- Witch’s Hut (Exploration)\n\n##### TIER 3 (LEVELS 5–7)\n\n- Archmage’s Tower (Exploration)\n- Astral Realm (Traversal)\n- Burning Heart of the Woods (Exploration)\n- Castle Siege (Event)\n- Crystal Wasteland (Traversal)\n- Dragon’s Lair (Exploration)\n- Megastorm (Event)\n- Pitched Battle (Event)\n- Sunken Citadel (Exploration)\n- Upscale Casino (Social)\n- Volcanic Eruption (Event)\n\n##### TIER 4 (LEVELS 8–10)\n\n- Chaos Realm (Traversal)\n- Convergence, City of Portals (Social)\n- Divine Usurpation (Event)\n- Imperial Court (Social)\n- Moon Kingdom (Exploration)\n- Necromancer’s Ossuary (Exploration)\n- Realm of the Dead (Traversal)\n- Time Court (Event)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/environment-stat-blocks-by-tier/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/whisk-wand",
+  "@type": "Weapon",
+  "name": "Whisk Wand",
+  "slug": "whisk-wand",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Magic Weapons",
+    "lineStart": 13662,
+    "lineEnd": 13662,
+    "pdfPageStart": 191,
+    "pdfPageEnd": 191
+  },
+  "category": "primary",
+  "variant": "everyday-hero",
+  "trait": "Knowledge",
+  "range": "Far",
+  "burden": "One-Handed",
+  "damage": "d6+1 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/whisk-wand/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

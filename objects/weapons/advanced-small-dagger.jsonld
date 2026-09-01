@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-small-dagger",
+  "@type": "Weapon",
+  "name": "Advanced Small Dagger",
+  "slug": "advanced-small-dagger",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 3 (LEVELS 5–7)",
+    "lineStart": 3785,
+    "lineEnd": 3785,
+    "pdfPageStart": 68,
+    "pdfPageEnd": 68
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Finesse",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8+4 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Paired",
+    "rulesText": "+4 to primary weapon damage to targets within Melee range"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/advanced-small-dagger/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

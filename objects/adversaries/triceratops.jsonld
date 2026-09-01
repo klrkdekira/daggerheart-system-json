@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/triceratops",
+  "@type": "Adversary",
+  "name": "Triceratops",
+  "slug": "triceratops",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TRICERATOPS",
+    "lineStart": 8850,
+    "lineEnd": 8870,
+    "pdfPageStart": 129,
+    "pdfPageEnd": 129
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Eat ferns",
+    "move in herds for protection",
+    "patrol the watering hole"
+  ],
+  "difficulty": 15,
+  "thresholds": "14/28",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Horns",
+    "range": "Very Close",
+    "damage": "2d10+4 phy"
+  },
+  "experience": "Defender +3",
+  "description": "A large dinosaur that has an armored frill and three horns.",
+  "features": [
+    {
+      "name": "Leathery Hide",
+      "kind": "Passive",
+      "rulesText": "When the Triceratops would be forced to mark HP, you can mark any number of Stress instead of an equal number of HP."
+    },
+    {
+      "name": "Tail Swipe",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to choose up to three targets within Very Close range. Each target must make an Agility Reaction Roll. Targets who fail take 5d6 physical damage. Targets who succeed take half damage."
+    },
+    {
+      "name": "Bull Rush",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to choose a target within Close range. The Triceratops moves into Melee range with the target and makes an attack. On a success, deal 3d10 direct physical damage."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/triceratops/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

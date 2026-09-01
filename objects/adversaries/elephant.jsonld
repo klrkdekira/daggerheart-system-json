@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elephant",
+  "@type": "Adversary",
+  "name": "Elephant",
+  "slug": "elephant",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ELEPHANT",
+    "lineStart": 7687,
+    "lineEnd": 7705,
+    "pdfPageStart": 118,
+    "pdfPageEnd": 118
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Eat vegetation",
+    "protect the herd",
+    "socialize"
+  ],
+  "difficulty": 15,
+  "thresholds": "14/28",
+  "hitPoints": 6,
+  "stress": 3,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Feet & Tusks",
+    "range": "Very Close",
+    "damage": "2d12 phy"
+  },
+  "experience": "Huge +2, Never Forgets +2",
+  "description": "A huge pachyderm that has large ears and a prehensile trunk.",
+  "features": [
+    {
+      "name": "Trample",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Elephant charge up to Far range in a straight line. Each target in its path must succeed on an Agility Reaction Roll or take 2d10+3 physical damage."
+    },
+    {
+      "name": "Toss",
+      "kind": "Reaction",
+      "rulesText": "When the Elephant makes a successful standard attack, you can spend a Fear to have it toss the target to another location within Close range and deal an extra 1d12 damage."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/elephant/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

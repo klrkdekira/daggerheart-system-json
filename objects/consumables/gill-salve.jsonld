@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/gill-salve",
+  "@type": "Consumable",
+  "name": "Gill Salve",
+  "slug": "gill-salve",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Consumables",
+    "lineStart": 4227,
+    "lineEnd": 4227,
+    "pdfPageStart": 80,
+    "pdfPageEnd": 80
+  },
+  "itemSet": "core-set",
+  "roll": 22,
+  "description": "You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/gill-salve/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

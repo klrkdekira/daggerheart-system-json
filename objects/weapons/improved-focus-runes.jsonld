@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-focus-runes",
+  "@type": "Weapon",
+  "name": "Improved Focus Runes",
+  "slug": "improved-focus-runes",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 2 (LEVELS 2–4)",
+    "lineStart": 3762,
+    "lineEnd": 3762,
+    "pdfPageStart": 67,
+    "pdfPageEnd": 67
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Instinct",
+  "range": "Very Close",
+  "burden": "One-Handed",
+  "damage": "d6+2 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Focused",
+    "rulesText": "+1 to primary weapon damage to targets within Very Close range"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/improved-focus-runes/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

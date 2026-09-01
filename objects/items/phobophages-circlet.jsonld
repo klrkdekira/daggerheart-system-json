@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/phobophages-circlet",
+  "@type": "Item",
+  "name": "Phobophage’s Circlet",
+  "slug": "phobophages-circlet",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Items",
+    "lineStart": 4179,
+    "lineEnd": 4179,
+    "pdfPageStart": 79,
+    "pdfPageEnd": 79
+  },
+  "itemSet": "expansion",
+  "roll": 55,
+  "description": "When the GM spends a Fear, roll a d4. Once per scene on a result of 4, you clear a Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/phobophages-circlet/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

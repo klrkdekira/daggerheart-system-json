@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/flock-of-feather-fiends",
+  "@type": "Adversary",
+  "name": "Flock of Feather Fiends",
+  "slug": "flock-of-feather-fiends",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FLOCK OF FEATHER FIENDS",
+    "lineStart": 7891,
+    "lineEnd": 7909,
+    "pdfPageStart": 120,
+    "pdfPageEnd": 120
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Caw incessantly",
+    "claw faces",
+    "flutter through the air",
+    "peck eyes"
+  ],
+  "difficulty": 14,
+  "thresholds": "10/20",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Peck and Claw",
+    "range": "Melee",
+    "damage": "2d6+2 mag"
+  },
+  "experience": "Fly +2, Swarm +2",
+  "description": "A flock of undead crow corpses, eyes aglow with necroplasmic light.",
+  "features": [
+    {
+      "name": "Horde (1d6+1)",
+      "kind": "Passive",
+      "rulesText": "When the Flock has marked half or more of its HP, its standard attack deals 1d6+1 magic damage instead."
+    },
+    {
+      "name": "Maddening Cacophony",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to force each PC within Very Close range to make an Instinct Reaction Roll. Targets who fail must spend a Hope or become Vulnerable until they deal damage to the Flock or the Flock is defeated."
+    }
+  ],
+  "role": "Horde (3/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/flock-of-feather-fiends/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

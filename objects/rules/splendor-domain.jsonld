@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/splendor-domain",
+  "@type": "Rule",
+  "name": "Splendor Domain",
+  "slug": "splendor-domain",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SPLENDOR DOMAIN",
+    "lineStart": 16044,
+    "lineEnd": 16044,
+    "pdfPageStart": 221,
+    "pdfPageEnd": 221
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/splendor-domain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-rat",
+  "@type": "Adversary",
+  "name": "Giant Rat",
+  "slug": "giant-rat",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GIANT RAT",
+    "lineStart": 5752,
+    "lineEnd": 5770,
+    "pdfPageStart": 100,
+    "pdfPageEnd": 100
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Burrow",
+    "hunger",
+    "scavenge",
+    "wear down"
+  ],
+  "difficulty": 10,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "−4",
+  "standardAttack": {
+    "name": "Claws",
+    "range": "Melee",
+    "damage": "1 phy"
+  },
+  "experience": "Keen Senses +3",
+  "description": "A cat-sized rodent skilled at scavenging and survival.",
+  "features": [
+    {
+      "name": "Minion (3)",
+      "kind": "Passive",
+      "rulesText": "The Rat is defeated when they take any damage. For every 3 damage a PC deals to the Rat, defeat an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Giant Rats within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 1 physical damage each. Combine this damage."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/giant-rat/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

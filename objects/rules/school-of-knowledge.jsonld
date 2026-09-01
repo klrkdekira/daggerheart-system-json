@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/school-of-knowledge",
+  "@type": "Rule",
+  "name": "School of Knowledge",
+  "slug": "school-of-knowledge",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "SCHOOL OF KNOWLEDGE",
+    "lineStart": 2067,
+    "lineEnd": 2091,
+    "pdfPageStart": 31,
+    "pdfPageEnd": 31
+  },
+  "rulesText": "Play the School of Knowledge if you want a keen understanding of the world around you.\n\n##### SPELLCAST TRAIT\n\nKnowledge\n\n##### FOUNDATION FEATURES\n\n**Prepared:** Take an additional domain card of your level or lower from a domain you have access to.\n\n**Adept:** When you Utilize an Experience, you can mark a Stress instead of spending a Hope. If you do, double your Experience modifier for that roll.\n\n##### SPECIALIZATION FEATURES\n\n**Accomplished:** Take an additional domain card of your level or lower from a domain you have access to.\n\n**Perfect Recall:** Once per rest, when you recall a domain card in your vault, you can reduce its Recall Cost by 1.\n\n##### MASTERY FEATURES\n\n**Brilliant:** Take an additional domain card of your level or lower from a domain you have access to.\n\n**Honed Expertise:** When you use an Experience, roll a d6. On a result of 5 or higher, you can use it without spending Hope.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/school-of-knowledge/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

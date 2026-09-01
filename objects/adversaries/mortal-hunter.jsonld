@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/mortal-hunter",
+  "@type": "Adversary",
+  "name": "Mortal Hunter",
+  "slug": "mortal-hunter",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MORTAL HUNTER",
+    "lineStart": 8516,
+    "lineEnd": 8538,
+    "pdfPageStart": 126,
+    "pdfPageEnd": 126
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Devour",
+    "hunt",
+    "track"
+  ],
+  "difficulty": 16,
+  "thresholds": "15/27",
+  "hitPoints": 6,
+  "stress": 4,
+  "attackModifier": "+5",
+  "standardAttack": {
+    "name": "Tear at Flesh",
+    "range": "Very Close",
+    "damage": "2d12+1 phy"
+  },
+  "experience": "Bloodhound +3",
+  "description": "An undead figure wearing a heavy leather coat, with searching eyes and a casually cruel demeanor.",
+  "features": [
+    {
+      "name": "Terrifying",
+      "kind": "Passive",
+      "rulesText": "When the Hunter makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear."
+    },
+    {
+      "name": "Deathlock",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to curse a target within Very Close range with a necrotic Deathlock until the end of the scene. Attacks made by the Hunter against a Deathlocked target deal direct damage. The Hunter can only maintain one Deathlock at a time."
+    },
+    {
+      "name": "Inevitable Death",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to spotlight 1d4 allies. Attacks they make while spotlighted in this way deal half damage."
+    },
+    {
+      "name": "Rampage",
+      "kind": "Reaction",
+      "rulesText": "Countdown (Loop 1d6). When the Hunter is in the spotlight for the first time, activate the countdown. When it triggers, move the Hunter in a straight line to a point within Far range and make an attack against all targets in their path. Targets the Hunter succeeds against take 2d8+2 physical damage."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/mortal-hunter/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

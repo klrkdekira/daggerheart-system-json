@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/knockback-bracelets",
+  "@type": "Item",
+  "name": "Knockback Bracelets",
+  "slug": "knockback-bracelets",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Items",
+    "lineStart": 4168,
+    "lineEnd": 4168,
+    "pdfPageStart": 79,
+    "pdfPageEnd": 79
+  },
+  "itemSet": "expansion",
+  "roll": 44,
+  "description": "On a successful weapon attack, you can knock your target back up to Close range from their location.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/knockback-bracelets/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

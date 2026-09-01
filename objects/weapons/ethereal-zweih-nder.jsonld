@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/ethereal-zweih-nder",
+  "@type": "Weapon",
+  "name": "Ethereal Zweihänder",
+  "slug": "ethereal-zweih-nder",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3711,
+    "lineEnd": 3711,
+    "pdfPageStart": 65,
+    "pdfPageEnd": 65
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Instinct",
+  "range": "Very Close",
+  "burden": "Two-Handed",
+  "damage": "d10+9 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Ethereal",
+    "rulesText": "You must mark a Stress to conjure this weapon. It lasts until the end of the scene."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/ethereal-zweih-nder/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/running-an-adventure",
+  "@type": "Rule",
+  "name": "Running an Adventure",
+  "slug": "running-an-adventure",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "RUNNING AN ADVENTURE",
+    "lineStart": 4373,
+    "lineEnd": 4373,
+    "pdfPageStart": 85,
+    "pdfPageEnd": 85
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/running-an-adventure/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

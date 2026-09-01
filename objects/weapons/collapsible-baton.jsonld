@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/collapsible-baton",
+  "@type": "Weapon",
+  "name": "Collapsible Baton",
+  "slug": "collapsible-baton",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 2 (LEVELS 2–4)",
+    "lineStart": 3766,
+    "lineEnd": 3766,
+    "pdfPageStart": 67,
+    "pdfPageEnd": 67
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Nonlethal",
+    "rulesText": "When a target would mark any number of Hit Points from an attack with this weapon, they mark an equal number of Stress instead."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/collapsible-baton/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

@@ -1,0 +1,4792 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/daggerheart-system-data",
+  "@type": "Manifest",
+  "name": "Daggerheart SRD System Data",
+  "corpusVersion": "0.1.0",
+  "srdVersion": "2.0",
+  "sourceFile": "SRD.md",
+  "contentDigest": "sha256:556524790fe4fad5bfaaab46a9c59ec9bca0de0b886cf951bb0a4d0cb62ad59d",
+  "license": "Darrington Press Community Gaming License",
+  "attributionStatement": "This document, including the Witherwild Campaign Frame, is considered Public Game Content per the Darrington Press Community Gaming License. © 2026 Critical Role LLC. All rights reserved. For more information, please visit www.darringtonpress.com/license.",
+  "recordCount": 1539,
+  "collections": [
+    {
+      "name": "sources",
+      "entityType": "Source",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/source.schema.json"
+      },
+      "count": 1,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+        }
+      ]
+    },
+    {
+      "name": "domains",
+      "entityType": "Domain",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/domain.schema.json"
+      },
+      "count": 10,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+        }
+      ]
+    },
+    {
+      "name": "classes",
+      "entityType": "CharacterClass",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/characterclass.schema.json"
+      },
+      "count": 13,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/assassin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/bard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/brawler"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/guardian"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/ranger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/rogue"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/seraph"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/sorcerer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/warlock"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/warrior"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/witch"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/wizard"
+        }
+      ]
+    },
+    {
+      "name": "subclasses",
+      "entityType": "Subclass",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/subclass.schema.json"
+      },
+      "count": 26,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/beastbound"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/call-of-the-brave"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/call-of-the-slayer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/divine-wielder"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/elemental-origin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/executioners-guild"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/hedge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/juggernaut"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/martial-artist"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/moon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/nightwalker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/pact-of-the-endless"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/pact-of-the-wrathful"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/poisoners-guild"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/primal-origin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/school-of-knowledge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/school-of-war"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/stalwart"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/syndicate"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/troubadour"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/vengeance"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/warden-of-renewal"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/warden-of-the-elements"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/wayfinder"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/winged-sentinel"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/wordsmith"
+        }
+      ]
+    },
+    {
+      "name": "ancestries",
+      "entityType": "Ancestry",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/ancestry.schema.json"
+      },
+      "count": 25,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/aetheris"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/clank"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/drakona"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/dwarf"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/earthkin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/elf"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/emberkin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/faerie"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/faun"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/firbolg"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/fungril"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/galapa"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/giant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/gnome"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/goblin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/halfling"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/human"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/infernis"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/katari"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/mixed-ancestry"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/orc"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/ribbet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/simiah"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/skykin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/tidekin"
+        }
+      ]
+    },
+    {
+      "name": "communities",
+      "entityType": "Community",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/community.schema.json"
+      },
+      "count": 15,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/duneborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/freeborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/frostborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/hearthborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/highborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/loreborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/orderborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/reborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/ridgeborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/seaborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/slyborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/underborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/wanderborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/warborne"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/wildborne"
+        }
+      ]
+    },
+    {
+      "name": "transformations",
+      "entityType": "Transformation",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/transformation.schema.json"
+      },
+      "count": 6,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/transformations/demigod"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/transformations/ghost"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/transformations/reanimated"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/transformations/shapeshifter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/transformations/vampire"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/transformations/werewolf"
+        }
+      ]
+    },
+    {
+      "name": "beastforms",
+      "entityType": "Beastform",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/beastform.schema.json"
+      },
+      "count": 24,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/agile-scout"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/aquatic-predator"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/aquatic-scout"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/armored-sentry"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/epic-aquatic-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/great-predator"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/great-winged-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/household-friend"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/legendary-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/legendary-hybrid"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/massive-behemoth"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/mighty-lizard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/mighty-strider"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/mythic-aerial-hunter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/mythic-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/mythic-hybrid"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/nimble-grazer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/pack-predator"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/pouncing-predator"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/powerful-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/stalking-arachnid"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/striking-serpent"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/terrible-lizard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/winged-beast"
+        }
+      ]
+    },
+    {
+      "name": "weapons",
+      "entityType": "Weapon",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/weapon.schema.json"
+      },
+      "count": 358,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/aantari-bow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/adders-fang"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-arcane-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-arcane-gauntlets"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-arcane-rifle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-battleaxe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-brass-knuckles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-brightsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-broadsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-casting-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-crossbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-cutlass"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-dualstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-enchanted-chakram"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-fighting-cloak"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-focus-runes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-glowing-rings"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-grappler"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-greatstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-greatsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-halberd"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-hallowed-axe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-hand-crossbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-hand-runes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-hatchet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-heavy-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-katana"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-light-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-longbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-longsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-mace"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-offhand-brass-knuckles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-quarterstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-rapier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-returning-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-rope-dart"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-round-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-rune-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-runelock-pistol"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-scepter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-scimitar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-shadowblade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-shortbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-shortstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-shortsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-small-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-spear"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-throwing-knives"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-tower-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-twisted-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-wand"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-warhammer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-whip"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-whipsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/arc-wand"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/arcane-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/arcane-gauntlets"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/arcane-rifle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/arquebus"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/barrel-lid-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/battleaxe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/bec-de-corbin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/black-powder-revolver"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/black-powder-serpentine"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/blackblood-tendril"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/bladed-fan"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/bladed-star"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/bladed-whip"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/blessed-brass-knuckles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/blitz-hammer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/bloodstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/blunderbuss"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/brass-knuckles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/braveshield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/bravesword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/brightsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/broadsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/buckler"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/butchers-axe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/cane-sword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/casting-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/casting-sword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/chain-whip"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/chained-scythe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/cleaver"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/clockwork-crossbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/collapsible-baton"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/cooking-knife"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/crop-scythe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/crossbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/crystal-spear"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/curved-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/cutlass"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/cyrurgiens-scalpel"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/demons-edge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/devouring-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/displacement-razor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/double-flail"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/dual-ended-sword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/dualstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/echo-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/ego-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/elder-bow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/eldritch-vambrace"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-boomerang"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-broomstick"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-chakram"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-forge-lighter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-hammer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-kite"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-lute"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-mop"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-scissors"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-shillelagh"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/ethereal-zweih-nder"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/exploding-potions"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/extended-polearm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/festival-whip"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/fighting-cloak"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/finehair-bow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/firework-launcher"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/fishing-rod"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/flare-launcher"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/flickerfly-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/floating-bladeshards"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/focus-runes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/forge-poker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/fury-gem"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/fusion-gloves"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/gilded-falchion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/glowing-rings"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/grappler"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/gravity-arbalest"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/greatbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/greatstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/greatsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/gunblade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/halberd"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/hallowed-axe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/hallowed-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/hammer-of-exota"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/hammer-of-wrath"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/hand-cannon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/hand-crossbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/hand-runes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/hand-sling"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/hatchet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/heavy-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/holy-shotgun"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/impact-gauntlet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-arcane-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-arcane-gauntlets"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-arcane-rifle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-battleaxe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-brass-knuckles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-brightsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-broadsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-casting-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-crossbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-cutlass"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-dualstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-enchanted-chakram"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-fighting-cloak"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-focus-runes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-glowing-rings"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-grappler"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-greatstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-greatsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-halberd"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-hallowed-axe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-hand-crossbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-hand-runes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-hatchet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-heavy-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-katana"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-light-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-longbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-longsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-mace"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-offhand-brass-knuckles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-quarterstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-rapier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-returning-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-rope-dart"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-round-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-rune-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-runelock-pistol"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-scepter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-scimitar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-shadowblade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-shortbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-shortstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-shortsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-small-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-spear"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-throwing-knives"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-tower-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-twisted-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-wand"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-warhammer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-whip"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-whipsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/infinite-staff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/iron-skillet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/javelins"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/katana"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/keepers-staff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/knuckle-blades"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/knuckle-claws"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/labrys-axe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/lance"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/large-fork"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/lasso"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-arcane-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-arcane-gauntlets"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-arcane-rifle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-battleaxe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-brass-knuckles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-brightsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-broadsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-casting-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-crossbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-cutlass"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-dualstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-enchanted-chakram"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-fighting-cloak"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-focus-runes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-glowing-rings"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-grappler"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-greatstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-greatsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-halberd"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-hallowed-axe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-hand-crossbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-hand-runes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-hatchet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-heavy-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-katana"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-light-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-longbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-longsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-mace"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-offhand-brass-knuckles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-quarterstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-rapier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-returning-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-rope-dart"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-round-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-rune-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-runelock-pistol"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-scepter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-scimitar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-shadowblade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-shortbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-shortstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-shortsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-small-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-spear"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-throwing-knives"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-tower-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-twisted-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-wand"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-warhammer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-whip"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-whipsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/light-frame-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/longbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/longsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/m-bius-orb"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/mace"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/magus-revolver"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/meridian-cutlass"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/midas-scythe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/offhand-brass-knuckles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/paring-knife"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/parrying-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/pitchfork"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/platinum-estoc"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/powered-gauntlet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/primer-shard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/quarterstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/rapier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/razor-wire"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/repeating-crossbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/retractable-saber"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/returning-axe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/returning-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/revolver"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/ricochet-axes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/rifle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/rime-scepter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/rocket-maul"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/rolling-pin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/rope-dart"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/round-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/rune-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/runelock-pistol"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/scepter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/scepter-of-elias"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/scimitar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/segmented-staff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/severed-dragon-claw"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/shadowblade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/sharpened-rake"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/shortbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/shortstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/shortsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/shotgun"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/sickle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/singing-sword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/siphoning-gauntlets"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/sledge-axe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/sledgehammer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/slingshot"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/small-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/small-revolver"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/soldiers-pike"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/soul-chain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/sparkling-staff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/spear"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/spellbound-bangles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/spiked-bow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/spiked-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/splintershaft-bow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/staff-of-augma"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/starmetal-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/steelforged-halberd"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/storm-gods-greataxe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/swinging-ropeblade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/sword-of-light-flame"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/table-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/talon-blades"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/thistlebow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/throwing-knives"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/tinkers-hammer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/tower-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/towline-hook"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/twisted-dagger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/urok-broadsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/void-needle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/vorpal-shard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/walking-staff"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/wand"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/wand-of-enthrallment"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/wand-of-essek"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/war-dart"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/war-pick"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/war-scythe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/warhammer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/whip"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/whipsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/whisk-wand"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/wooden-stake"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/yutari-bloodbow"
+        }
+      ]
+    },
+    {
+      "name": "armor",
+      "entityType": "Armor",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/armor.schema.json"
+      },
+      "count": 76,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-banded-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-brigandine-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-chainmail-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-full-plate-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-gambeson-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-leather-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-mage-robes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-scale-mail-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/astral-raiment"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/baking-tray-breastplate"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/banded-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/bellamoi-fine-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/bladefare-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/bloodstone-plate-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/brigandine-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/chainmail-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/channeling-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/circle-forged-dreadplate"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/cloverweave-cloak"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/coffinwood-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/darkweave-shroud"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/deep-forged-coral-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/dragonscale-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/dunamis-silkchain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/elundrian-chain-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/emberwoven-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/enchanters-robes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/full-fortified-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/full-plate-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/gambeson-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/gilded-sunplate"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/godbound-laminar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/granminsters-finery"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/hallowed-heroplate"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/harrowbone-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/hawkguards-mantle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/improved-banded-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/improved-brigandine-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/improved-chainmail-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/improved-full-plate-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/improved-gambeson-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/improved-leather-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/improved-mage-robes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/improved-scale-mail-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/irontree-breastplate-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/leather-apron"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/leather-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/leather-longcoat"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/legendary-banded-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/legendary-brigandine-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/legendary-chainmail-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/legendary-full-plate-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/legendary-gambeson-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/legendary-leather-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/legendary-mage-robes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/legendary-scale-mail-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/mage-robes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/monetts-cloak"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/quilted-clothing"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/resonant-harness"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/rosewild-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/rune-forged-exosuit"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/runes-of-fortification"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/runetan-floating-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/savior-chainmail"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/scale-mail-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/silverweave-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/skywardens-lamellar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/spidersilk-tunic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/spiked-plate-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/stormthread-habit"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/tree-bark-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/trollhide-cuirass"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/tyris-soft-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/veritas-opal-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/wyrdwood-splint-armor"
+        }
+      ]
+    },
+    {
+      "name": "items",
+      "entityType": "Item",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/item.schema.json"
+      },
+      "count": 120,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/airblade-charm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/alistairs-torch"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/arcane-cloak"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/arcane-prism"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/attune-relic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/augurs-relic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/bag-of-ficklesand"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/ball-bearings"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/belt-of-unity"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/blackwing-quill"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/bloodstone"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/bolster-relic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/boots-of-supple-mystique"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/box-of-dragon-dust"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/box-of-many-goods"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/calming-pendant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/caltrops"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/charging-quiver"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/charm-relic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/cheaters-coin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/clay-companion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/collapsible-pole"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/collar-of-ascendancy"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/communion-relic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/companion-case"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/control-relic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/corrector-sprite"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/crucible-frames"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/dagginaes-obsidian-slate"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/dual-flask"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/eclipse-coin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/elusive-amulet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/elven-spyglass"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/empty-chest"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/enchanters-loupe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/enlighten-relic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/eschers-mirrorball"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/fire-jar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/flickerfly-pendant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/force-disc"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/furball-bag"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gadimans-backpack"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gecko-gloves"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gem-of-alacrity"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gem-of-audacity"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gem-of-insight"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gem-of-might"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gem-of-precision"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gem-of-sagacity"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/ghoulskin-gloves"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/glamour-stone"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/glider"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gloves-of-alacrity"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gourmet-granules"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/grapnel"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gravewardens-bell"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/greatstone"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/heros-helm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/hollowbark-horn"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/homing-compasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/honing-relic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/hopekeeper-locket"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/infinite-bag"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/insomniacs-periapt"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/iron-dagger-pendant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/iron-veil"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/kingfishers-net"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/knockback-bracelets"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/lakestrider-boots"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/loaded-dice"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/lorekeeper"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/manacles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/mandragorian-torch"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/map-of-revelation"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/minor-health-potion-recipe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/minor-stamina-potion-recipe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/molepaw-mittens"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/mythic-dust-recipe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/namers-oracle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/nighthawkers-ring"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/paragons-chain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/phobophages-circlet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/phoenix-feather"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/piercing-arrows"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/piper-whistle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/portal-frames"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/portal-seed"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/premium-bedroll"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/quillshawl"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/reliquary-of-the-sightless-saint"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/returning-ring"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/ring-of-resistance"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/ring-of-silence"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/ring-of-unbreakable-resolve"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/rings-of-alliance"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/rings-of-camaraderie"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/rings-of-friendship"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/self-tying-rope"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/shard-of-memory"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/silees-folding-knife"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/skeleton-key"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/sorcerers-hat"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/soul-twin-circlets"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/speaking-orbs"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/stride-relic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/suspended-rod"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/temporal-sanctuary"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/thiefs-compass"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/timekeepers-pendant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/titans-girdle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/travelers-bell"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/two-faced-aegis-brooch"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/valorstone"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/vial-of-darksmoke-recipe"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/warp-pendant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/whisperstep-anklet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/wildriders-saddle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/windup-toy"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/woven-net"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/zephyrs-jar"
+        }
+      ]
+    },
+    {
+      "name": "consumables",
+      "entityType": "Consumable",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/consumable.schema.json"
+      },
+      "count": 120,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/acidpaste"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/arcticite-shard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/armor-stitcher"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/attune-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/berserkers-brew"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/blinding-orb"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/blood-of-the-yorgi"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/bolster-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/bonding-honey"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/bridge-seed"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/bundle-of-spiderlegs"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/cacophonous-concoction"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/channelstone"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/charm-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/chimeric-saliva"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/circle-of-the-void"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/ciscan-fog-bottle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/cockerel-claw-tea"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/control-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/cupbearers-bezoar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/death-tea"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/deathseers-powder"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/demiurges-draught"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/displacement-token"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/dragonbloom-tea"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/drakemantle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/dripfang-poison"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/emberite-shard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/enlighten-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/feast-of-xuria"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/featherbone"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/featherstep-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/formoid-serum"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/fulgurite-shard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/gamblers-fallacy"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/gill-salve"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/glowmoss-mushroom"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/godlings-pomelo"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/gossip-flower"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/gravity-bomb"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/green-ooze-oil"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/grindletooth-venom"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/growing-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/health-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/homets-secret-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/hopehold-flare"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/improved-arcane-shard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/improved-grindletooth-venom"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/instant-camp"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/invisibility-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/iridian-dust"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/jar-of-lost-voices"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/jumping-root"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/knowledge-stone"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/lionheart-tonic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/lyrebird-lozenge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/magic-users-malison"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/major-arcane-shard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/major-attune-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/major-bolster-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/major-charm-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/major-control-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/major-enlighten-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/major-health-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/major-stamina-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/major-stride-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/mask-of-the-echoed-self"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/mesmers-tonic"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/midas-flask"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/minor-health-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/minor-stamina-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/mirror-of-marigold"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/mnemonic-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/moonlight-orb"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/morphing-clay"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/mossmantle-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/mythic-dust"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/necroprancers-bell"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/night-hags-dust"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/nightmare-mead"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/ogre-musk"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/packet-of-space-dust"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/phial-of-deep-ink"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/pipeweed"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/potion-of-stability"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/potion-of-vigilance"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/psychopomps-shroud"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/quintessential-severant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/red-ooze-oil"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/redthorn-saliva"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/replication-parchment"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/salamander-salve"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/self-sewing-thread"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/shrinking-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/slayers-salt"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/sleeping-sap"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/snakeskin-spirit"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/snap-powder"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/snapthorn-seed"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/sprite-bottle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/staff-of-reversal"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/stake-of-abjuration"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/stamina-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/stardrop"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/steelskin-salve"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/stonemasons-fortune"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/stride-potion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/sun-tree-sap"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/sunlight-orb"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/sweet-moss"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/tears-of-the-undying-hero"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/unstable-arcane-shard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/varik-leaves"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/verglasian-seed"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/vial-of-darksmoke"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/vial-of-featherfall"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/vial-of-moondrip"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/warding-candle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/wingsprout"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/yakamel-milk"
+        }
+      ]
+    },
+    {
+      "name": "adversaries",
+      "entityType": "Adversary",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/adversary.schema.json"
+      },
+      "count": 264,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/acid-burrower"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/adult-flickerfly"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/ahuizotl"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/apprentice-assassin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/arch-necromancer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/archer-guard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/archer-squadron"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/archmage"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/assassin-poisoner"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/atototl"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/banshee"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/basilisk"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/battle-box"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/bear"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/berserker-alpha"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/berserker-initiate"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/bladed-guard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/brawny-zombie"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/bugboar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/catrin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cave-ogre"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/centaur-warden"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cephilith-abomination"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cephilith-hatchling"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cephilith-novitiate"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cephilith-priest"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cephilith-titan"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/chaos-skull"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/chicken-foot-hut"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/chimera"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cipactli"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cloud-titan"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/common-ruffian"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/conscript"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/construct"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/courtesan"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/courtier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/crimson-lepus"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cryptimoth"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cult-adept"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cult-fang"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cult-initiate"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cursed-merfolk"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/darkweave-crawler"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/darkweave-queen"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/darkweave-spinner"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/darkweave-swarmlings"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/deep-dweller"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/deeproot-defender"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-lord-berzug"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-of-avarice"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-of-despair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-of-hubris"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-of-jealousy"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-of-wrath"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demonic-hound-pack"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dire-bat"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dire-pangolati"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dire-wolf"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/doppelhound"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dragon-knight"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dragon-mother-mitera"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/drake"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dryad"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dullahan"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/electric-eels"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elemental-spark"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elephant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elite-soldier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elk"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-cat-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-elite-guard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-empress"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-necropriest"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-skin-beetles"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-stonemason"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/failed-experiment"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/falcon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fallen-shock-troop"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fallen-sorcerer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fallen-warlord-realm-breaker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fallen-warlord-undefeated-champion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fellmounted-shadow-king"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fire-titan"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fire-titan-warlord"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/flock-of-feather-fiends"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fowlbear"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/frost-titan"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fungispunj-sporeling"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fungispunj-sporophore"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/gargantuan-sea-turtle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/gargantuan-war-machine"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/gargoyle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/ghastly-legion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-beastmaster"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-brawler"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-eagle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-mosquitoes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-octopus"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-rat"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-recruit"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-scorpion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/glass-snake"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/gobstalker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/gorgon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/greater-earth-elemental"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/greater-water-elemental"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/green-ooze"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/griffin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/grimmling-warband"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/guahalan-alebrujo"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/guahalan-fang-lord"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/guahalan-shifter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/guahalan-spirit-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/guahalan-spirit-singer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hallowed-archer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hallowed-choir"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hallowed-soldier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/harbinger-of-death"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/harbinger-of-famine"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/harbinger-of-pestilence"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/harbinger-of-war"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/harpy"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/harrier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/head-guard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/head-vampire"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/high-seraph"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hill-titan"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hive-walker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/huge-green-ooze"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hydra"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jack-o-lantern"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-bandit"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-hexer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-kneebreaker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-lackey"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-lieutenant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-shadow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-sniper"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/juvenile-flickerfly"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/kelpie"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/knight-of-the-realm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/kraken"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/lamia"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/lamplight-beguiler"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/landshark"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/landshark-behemoth"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/manticore"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/masked-thief"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/masque-muerte"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/master-assassin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/mechanorb"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/merchant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/merchant-baron"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/minor-chaos-elemental"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/minor-demon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/minor-fire-elemental"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/minor-treant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/minotaur-wrecker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/monarch"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/mortal-hunter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/mountain-troll"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/night-children"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/oak-treant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/octopus"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/oracle-of-doom"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/outer-realms-abomination"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/outer-realms-corrupter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/outer-realms-thrall"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/owl-witch"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/pain-priest"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/panther"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/patchwork-zombie-hulk"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/perfected-zombie"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/petty-noble"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/phantom"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/phoenix"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/pirate-captain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/pirate-raiders"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/pirate-tough"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/plesiosaurus"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/poltergeist"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/rabble-mawb"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/ravenous-mockery"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/red-ooze"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/redcap-biters"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/redcap-breaker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/redcap-butcher"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/redcap-candlemaker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/redcap-skinner"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/roc"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/rotted-zombie"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/royal-advisor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/ruby-dragon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/rugaru"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/rust-eater"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sandwyrm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sawtoothed-gillbeast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/scarecrow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/secret-keeper"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sellsword"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/severed-shadow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/shambling-zombie"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/shapeshifting-fiend"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/shapeshifting-fiend-revealed"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/shark"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/siren"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/skeleton-archer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/skeleton-dredge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/skeleton-knight"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/skeleton-warrior"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/soul-shattered-mage"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spectral-archer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spectral-captain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spectral-guardian"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spellblade"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spellbound-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sprite"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spy"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/stag-knight"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/stone-titan"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/stonewraith"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/storm-titan"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/supreme-demiurge-adonix"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/swarm-of-rats"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sylvan-soldier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/tangle-bramble"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/tangle-bramble-swarm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/temporal-enforcer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/tiny-green-ooze"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/tiny-red-ooze"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/treant-sapling"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/triceratops"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/tyrannosaurus"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/unicorn"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/urco"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/valdenhax"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vampire"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vampire-bat-swarm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vampire-lord"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vault-guardian-gaoler"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vault-guardian-sentinel"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vault-guardian-turret"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/viper"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/viscera-sucker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/volcanic-dragon-ashen-tyrant"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/volcanic-dragon-molten-scourge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/volcanic-dragon-obsidian-predator"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/war-wizard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/water-mother"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/waxwork-creation"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/weaponmaster"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/whisper-wraith"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/will-o-the-wisps"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/wyrmfiend"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/wyrmlings"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/wyvern"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/xero-the-castle-killer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/young-dryad"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/young-fire-dragon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/young-ice-dragon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/yufo"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/zombie-legion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/zombie-pack"
+        }
+      ]
+    },
+    {
+      "name": "environments",
+      "entityType": "Environment",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/environment.schema.json"
+      },
+      "count": 47,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/abandoned-grove"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/abandoned-mine"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/alchemists-abandoned-workshop"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/ambushed"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/ambushers"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/archmages-tower"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/astral-realm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/beach-day"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/burning-heart-of-the-woods"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/bustling-marketplace"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/castle-siege"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/chaos-realm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/cliffside-ascent"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/convergence-the-city-of-portals"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/corrupted-swamp"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/crystal-wasteland"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/cult-ritual"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/cursed-graveyard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/deadly-dungeon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/divine-usurpation"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/dragons-lair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/duel"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/grand-feast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/hallowed-temple"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/haunted-city"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/heist"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/hold-the-line"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/imperial-court"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/local-festival"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/local-tavern"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/masquerade-ball"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/megastorm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/moon-kingdom"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/mountain-pass"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/necromancers-ossuary"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/ocean-voyage"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/outpost-town"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/pitched-battle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/raging-river"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/raiding-party"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/realm-of-the-dead"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/sunken-citadel"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/time-court"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/upscale-casino"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/vast-desert"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/volcanic-eruption"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/witchs-hut"
+        }
+      ]
+    },
+    {
+      "name": "domain-cards",
+      "entityType": "DomainCard",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/domaincard.schema.json"
+      },
+      "count": 210,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/a-soldiers-bond"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/adjust-reality"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/arcana-touched"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/arcane-reflection"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/armorer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/astral-projection"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/avatar-of-terror"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/banish"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/bare-bones"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/battle-cry"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/battle-hardened"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/battle-monster"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/blade-touched"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/blighting-strike"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/blink-out"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/body-basher"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/bold-presence"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/bolt-beacon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/bone-touched"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-ava"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-exota"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-grynn"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-homet"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-illiat"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-korvax"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-norai"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-ronin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-sitil"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-tyfar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-vagras"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-vyola"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-yarrow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/boost"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/brace"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/breaking-blow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/chain-lightning"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/chains-of-affliction"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/champions-edge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/chokehold"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/cinder-grasp"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/cloaking-blast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/codex-touched"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/confusing-aura"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/conjure-swarm"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/conjured-steeds"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/copycat"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/corrosive-projectile"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/counterspell"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/critical-inspiration"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/cruel-precision"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/damnation"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/dark-army"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/dark-whispers"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/darkfire"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/deadly-focus"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/death-grip"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/deathrun"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/deft-deceiver"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/deft-maneuvers"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/dire-strike"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/disintegration-wave"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/divination"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/dread-touched"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/earthquake"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/eclipse"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/eldritch-flesh"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/encore"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/endless-charisma"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/enrapture"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/falling-sky"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/fane-of-the-wilds"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/ferocity"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/final-words"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/flight"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/floating-eye"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/forager"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/force-of-nature"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/forceful-push"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/forest-sprites"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/fortified-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/frenzy"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/full-surge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/get-back-up"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/gifted-tracker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/glancing-blow"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/glyph-of-nightfall"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/goad-them-on"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/gore-and-glory"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/grace-touched"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/ground-pound"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/healing-field"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/healing-hands"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/healing-strike"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/hideous-retribution"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/hold-the-line"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/hush"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/hypnotic-shimmer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/i-am-your-shield"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/i-see-it-coming"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/inevitable"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/inspirational-words"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/invigoration"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/invisibility"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/invoke-torment"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/jump-scare"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/know-thy-enemy"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/lead-by-example"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/lean-on-me"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/life-ward"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/manifest-wall"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/mass-disguise"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/mass-enrapture"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/master-of-the-craft"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/mending-touch"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/midnight-spirit"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/midnight-touched"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/natural-familiar"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/natures-tongue"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/never-upstaged"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/night-terror"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/not-good-enough"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/notorious"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/on-the-brink"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/onslaught"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/overwhelming-aura"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/phantom-retreat"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/pick-and-pull"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/plant-dominion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/premonition"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/preservation-blast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rage-up"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rain-of-blades"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rapid-riposte"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/reapers-strike"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/reassurance"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/reckless"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/recovery"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/redirect"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rejuvenation-barrier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/restoration"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/resurrection"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rift-walker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rise-up"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rousing-strike"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rune-ward"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/safe-haven"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/sage-touched"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/salvation-beam"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/savor-the-anguish"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/scramble"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/second-wind"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/sensory-projection"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shadowbind"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shadowhunter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shape-material"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/share-the-burden"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shared-trauma"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shield-aura"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shrug-it-off"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/sigil-of-retribution"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/signature-move"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/siphon-essence"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/smite"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/soothing-speech"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/specter-of-the-dark"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/spectral-mist"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/spellcharge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/splendor-touched"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/splintering-strike"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/stealth-expertise"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/strategic-approach"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/stunning-sunlight"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/summon-horror"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/support-tank"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/swift-step"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/tactician"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/telekinesis"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/teleport"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/tell-no-lies"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/tempest"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/terrify"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/thorn-skin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/thought-delver"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/through-your-eyes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/towering-stalk"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/transcendent-union"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/troublemaker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/twilight-toll"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/umbral-veil"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/unbreakable"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/uncanny-disguise"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/unleash-chaos"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/untouchable"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/unyielding-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/valor-touched"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/vanishing-dodge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/veil-of-night"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/versatile-fighter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/vicious-entangle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/vitality"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/voice-of-dread"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/voice-of-reason"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/wall-of-hunger"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/wall-walk"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/whirlwind"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/wild-fortress"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/wild-surge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/words-of-discord"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/wrangle"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/zone-of-protection"
+        }
+      ]
+    },
+    {
+      "name": "rules",
+      "entityType": "Rule",
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/daggerheart-system-json/systems/rule.schema.json"
+      },
+      "count": 224,
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/actions"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/adapting-environments"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/additional-gm-guidance"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/additional-rules"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/advanced-countdown-features"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/adversaries-and-environments"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/adversaries-by-tier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/adversary-attack-rolls"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/adversary-stat-block-benchmarks"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/adversary-stat-blocks"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/agile-scout"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/ancestries"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/ancestry-feature"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/ancestry-features"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/appendix"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/aquatic-predator"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/aquatic-scout"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/arcana-domain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/arcane-hold"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armored-sentry"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/assassin-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/attacking"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/attacking-with-your-companion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/bard-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/beastbound"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/beastform-options"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/benchmark-statistics-for-environments-by-tier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/blade-domain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/bone-domain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/brawler-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/building-balanced-encounters"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/burden"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/call-of-the-brave"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/call-of-the-slayer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/category"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/character-creation"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/choosing-gm-moves"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/class-domains"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/classes"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/codex-domain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/colossal-adversaries"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/combat"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/combat-wheelchair"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/communities"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/conditions"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/conflict-between-pcs"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/contents"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/core-gameplay-loop"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/core-gm-mechanics"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/core-materials"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/core-mechanics"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/countdowns"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/daggerheart"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/damage"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/damage-thresholds-hit-points-and-stress"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/damage-type"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/death"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/defeated-adversaries"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/difficulty-benchmarks"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/divine-wielder"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/domain-card-reference"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/domains"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/downtime"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/dread-domain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/dropping-out-of-stances"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/druid-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/dynamic-countdown-advancement"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/elemental-kin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/elemental-origin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/environment-stat-block"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/environment-stat-blocks-by-tier"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/epic-aquatic-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/equipment"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/evolution"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/executioners-guild"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/faction-tracking"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/fairy-tale-campaigns"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/falling-and-collision-damage"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/fate-rolls"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/fear-features"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/feasts"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/feature"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/feature-questions"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/floating-magic-school-campaigns"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/flow-of-the-game"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/focus"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/giving-advantage-and-disadvantage"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/giving-out-gold-equipment-and-loot"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/gm-guidance"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/grace-domain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/granting-transformations"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/great-predator"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/great-winged-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/grimdark-campaigns"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/guardian-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/guidance-on-action-rolls"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/hedge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/hex-crawl-campaigns"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/household-friend"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/impulses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/into-the-night"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/introduction"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/introduction-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/juggernaut"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/legendary-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/legendary-hybrid"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/leveling-up"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/leveling-up-your-companion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/making-moves"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/making-moves-taking-action"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/maps-range-and-movement"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/martial-artist"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/martial-stances"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/massive-behemoth"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/mentor"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/midnight-domain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/mighty-lizard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/mighty-strider"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/monster-hunting-campaigns"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/moon"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/moving-and-fighting-underwater"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/multiclassing"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/mythic-aerial-hunter"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/mythic-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/mythic-hybrid"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/nightwalker"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/nimble-grazer"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/npc-feature-examples"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/optional-gm-mechanics"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/pack-predator"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/pact-of-the-endless"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/pact-of-the-wrathful"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/passives"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/poisoners-guild"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/pool"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/potential-adversaries"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/pouncing-predator"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/powerful-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primal-origin"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/quick-reference-resolving-action-rolls"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/range"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/ranger-companion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/ranger-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/reactions"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/regroup"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/rogue-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/rolling-dice"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/running-an-adventure"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/running-gm-npcs"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/sage-domain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/school-of-knowledge"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/school-of-war"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/seraph-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/shifting-into-stances"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/soft-and-hard-moves"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/sorcerer-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/sphere-of-influence-examples"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/splendor-domain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/stalking-arachnid"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/stalwart"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/stance-features"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/stances"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/step-1-name-your-companion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/step-2-write-their-evasion"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/step-3-choose-their-companion-experience"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/step-4-choose-their-attack-and-record-damage-die"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/stress"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/striking-serpent"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/supplemental-campaign-mechanics"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/syndicate"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/system-reference-document-2-0"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/taking-damage-as-stress"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tech-based-campaigns"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/terrible-lizard"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/the-spotlight"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/the-witherwild"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-1"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-1-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-1-adversaries-level-1"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-1-environments-level-1"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-2-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-2-adversaries-levels-2-4"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-2-environments-levels-2-4"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-3"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-3-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-3-adversaries-levels-5-7"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-3-environments-levels-5-7"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-4"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-4-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-4-adversaries-levels-8-10"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-4-environments-levels-8-10"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/trait"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/transformations"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/troubadour"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/turn-order-action-economy"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/using-adversaries"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/using-environments"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/using-fear"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/using-spellcast-rolls-hope-and-experiences"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/valor-domain"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/vengeance"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/volley-of-arrows"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/warden-of-renewal"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/warden-of-the-elements"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/warlock-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/warrior-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/wayfinder"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/weapons"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/western-campaigns"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/when-to-make-a-move"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/winged-beast"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/winged-sentinel"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/witch-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/wizard-subclasses"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/wordsmith"
+        },
+        {
+          "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/working-with-your-companion"
+        }
+      ]
+    }
+  ]
+}

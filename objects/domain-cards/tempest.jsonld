@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/tempest",
+  "@type": "DomainCard",
+  "name": "Tempest",
+  "slug": "tempest",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "TEMPEST",
+    "lineStart": 16029,
+    "lineEnd": 16040,
+    "pdfPageStart": 220,
+    "pdfPageEnd": 220
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Choose one of the following tempests and make a Spellcast Roll against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.\n\n  - Blizzard: Deal 2d20+8 magic damage and targets are temporararily Vulnerable.\n  - Hurricane: Deal 3d10+10 magic damage and choose a direction the wind is blowing. Targets can’t move against the wind.\n\n  - Sandstorm: Deal 5d6+9 magic damage. Attacks made from beyond Melee range have disadvantage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/tempest/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

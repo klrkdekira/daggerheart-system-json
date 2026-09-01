@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/blighting-strike",
+  "@type": "DomainCard",
+  "name": "Blighting Strike",
+  "slug": "blighting-strike",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BLIGHTING STRIKE",
+    "lineStart": 15193,
+    "lineEnd": 15204,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Make a Spellcast Roll against a target within Far range. On a success:\n\n  - On a roll with Hope, deal d6+1 magic damage using your Proficiency. On a roll with Fear, deal d10+1 magic damage using your Proficiency.\n  - The target’s next successful attack deals half damage.\n\nOn a failure, you must spend a Hope or mark a Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/blighting-strike/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

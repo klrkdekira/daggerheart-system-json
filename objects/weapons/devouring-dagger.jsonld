@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/devouring-dagger",
+  "@type": "Weapon",
+  "name": "Devouring Dagger",
+  "slug": "devouring-dagger",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3522,
+    "lineEnd": 3522,
+    "pdfPageStart": 59,
+    "pdfPageEnd": 59
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Finesse",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8+4 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Scary",
+    "rulesText": "On a successful attack, the target must mark a Stress."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/devouring-dagger/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

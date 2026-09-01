@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/school-of-knowledge",
+  "@type": "Subclass",
+  "name": "School of Knowledge",
+  "slug": "school-of-knowledge",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "SCHOOL OF KNOWLEDGE",
+    "lineStart": 2067,
+    "lineEnd": 2091,
+    "pdfPageStart": 31,
+    "pdfPageEnd": 31
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/wizard"
+  },
+  "features": [
+    {
+      "name": "Prepared",
+      "stage": "foundation",
+      "rulesText": "Take an additional domain card of your level or lower from a domain you have access to."
+    },
+    {
+      "name": "Adept",
+      "stage": "foundation",
+      "rulesText": "When you Utilize an Experience, you can mark a Stress instead of spending a Hope. If you do, double your Experience modifier for that roll."
+    },
+    {
+      "name": "Accomplished",
+      "stage": "specialization",
+      "rulesText": "Take an additional domain card of your level or lower from a domain you have access to."
+    },
+    {
+      "name": "Perfect Recall",
+      "stage": "specialization",
+      "rulesText": "Once per rest, when you recall a domain card in your vault, you can reduce its Recall Cost by 1."
+    },
+    {
+      "name": "Brilliant",
+      "stage": "mastery",
+      "rulesText": "Take an additional domain card of your level or lower from a domain you have access to."
+    },
+    {
+      "name": "Honed Expertise",
+      "stage": "mastery",
+      "rulesText": "When you use an Experience, roll a d6. On a result of 5 or higher, you can use it without spending Hope."
+    }
+  ],
+  "description": "Play the School of Knowledge if you want a keen understanding of the world around you.",
+  "spellcastTrait": "Knowledge",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/subclasses/school-of-knowledge/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

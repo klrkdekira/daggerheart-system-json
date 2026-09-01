@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/ghastly-legion",
+  "@type": "Adversary",
+  "name": "Ghastly Legion",
+  "slug": "ghastly-legion",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GHASTLY LEGION",
+    "lineStart": 10735,
+    "lineEnd": 10755,
+    "pdfPageStart": 150,
+    "pdfPageEnd": 150
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Overwhelm",
+    "serve",
+    "swarm"
+  ],
+  "difficulty": 17,
+  "thresholds": "25/45",
+  "hitPoints": 8,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Spectral Armaments",
+    "range": "Close",
+    "damage": "4d6+10 mag"
+  },
+  "experience": "Tactics +2",
+  "description": "A teeming army of ghosts roused from dreamless slumber to fulfill their ancient oath.",
+  "features": [
+    {
+      "name": "Horde (2d6+5)",
+      "kind": "Passive",
+      "rulesText": "When the Legion has marked half or more of its HP, its standard attack deals 2d6+5 magic damage instead."
+    },
+    {
+      "name": "Necroplasmic",
+      "kind": "Passive",
+      "rulesText": "The Legion is immune to physical damage and takes double magic damage."
+    },
+    {
+      "name": "Final Act",
+      "kind": "Reaction",
+      "rulesText": "When the Legion is defeated, it makes a standard attack against all targets within Close range before being dispelled."
+    }
+  ],
+  "role": "Horde (10/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/ghastly-legion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

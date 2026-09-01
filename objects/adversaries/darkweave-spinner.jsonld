@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/darkweave-spinner",
+  "@type": "Adversary",
+  "name": "Darkweave Spinner",
+  "slug": "darkweave-spinner",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DARKWEAVE SPINNER",
+    "lineStart": 5608,
+    "lineEnd": 5626,
+    "pdfPageStart": 99,
+    "pdfPageEnd": 99
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Bite",
+    "stick to the darkness"
+  ],
+  "difficulty": 12,
+  "thresholds": "6/9",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Fangs",
+    "range": "Melee",
+    "damage": "1d8+1 phy"
+  },
+  "experience": "Holes +2, Webs +2",
+  "description": "A boar-sized arachnid woven from primordial shadow-silk.",
+  "features": [
+    {
+      "name": "Wrap in Shadow-Silk",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against a target within Melee range. On a success, the target is Vulnerable and Restrained until they succeed on a Strength Roll (10)."
+    },
+    {
+      "name": "Shadow Fang",
+      "kind": "Reaction",
+      "rulesText": "When the Spinner makes a successful attack against a target within Melee range, you can spend a Fear to make the target Shaky until they succeed on an Instinct Roll (10). While Shaky, the target has disadvantage on attack rolls."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/darkweave-spinner/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

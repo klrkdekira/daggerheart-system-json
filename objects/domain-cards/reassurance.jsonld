@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/reassurance",
+  "@type": "DomainCard",
+  "name": "Reassurance",
+  "slug": "reassurance",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "REASSURANCE",
+    "lineStart": 16064,
+    "lineEnd": 16070,
+    "pdfPageStart": 221,
+    "pdfPageEnd": 221
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "Once per rest, after an ally attempts an action roll but before the consequences take place, you can offer assistance or words of support. When you do, your ally can reroll their dice.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/reassurance/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rapid-riposte",
+  "@type": "DomainCard",
+  "name": "Rapid Riposte",
+  "slug": "rapid-riposte",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "RAPID RIPOSTE",
+    "lineStart": 14891,
+    "lineEnd": 14897,
+    "pdfPageStart": 210,
+    "pdfPageEnd": 210
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "When an attack made against you from within Melee range fails, you can mark a Stress and seize the opportunity to deal the weapon damage of one of your active weapons to the attacker.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/rapid-riposte/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

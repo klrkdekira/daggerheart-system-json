@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/chokehold",
+  "@type": "DomainCard",
+  "name": "Chokehold",
+  "slug": "chokehold",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "CHOKEHOLD",
+    "lineStart": 15646,
+    "lineEnd": 15654,
+    "pdfPageStart": 217,
+    "pdfPageEnd": 217
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When you position yourself behind a creature who’s about your size, you can mark a Stress to pull them into a chokehold, making them temporarily Vulnerable.\n\nWhen a creature attacks a target who is Vulnerable in this way, they deal an extra 2d6 damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/chokehold/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

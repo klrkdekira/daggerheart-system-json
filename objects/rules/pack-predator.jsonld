@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/pack-predator",
+  "@type": "Rule",
+  "name": "Pack Predator",
+  "slug": "pack-predator",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "PACK PREDATOR",
+    "lineStart": 899,
+    "lineEnd": 911,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "rulesText": "*(Coyote, Hyena, Wolf, etc.)*\n\n*Strength +2 | Evasion +1*\n\n*Melee Strength d8+2 phy*\n\n**Gain advantage on:** attack, sprint, track\n\n**Hobbling Strike:** When you succeed on an attack against a target within Melee range, you can mark a Stress to make the target temporarily Vulnerable.\n\n**Pack Hunting:** When you succeed on an attack against the same target as an ally who acts immediately before you, add a d8 to your damage roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/pack-predator/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

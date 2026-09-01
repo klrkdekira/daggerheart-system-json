@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/bravesword",
+  "@type": "Weapon",
+  "name": "Bravesword",
+  "slug": "bravesword",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3574,
+    "lineEnd": 3574,
+    "pdfPageStart": 61,
+    "pdfPageEnd": 61
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d12+7 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Brave",
+    "rulesText": "−1 to Evasion; +3 to Severe damage threshold"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/bravesword/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

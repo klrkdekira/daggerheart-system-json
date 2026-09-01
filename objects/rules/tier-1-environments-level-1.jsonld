@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-1-environments-level-1",
+  "@type": "Rule",
+  "name": "Tier 1 Environments (level 1)",
+  "slug": "tier-1-environments-level-1",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TIER 1 ENVIRONMENTS (LEVEL 1)",
+    "lineStart": 11584,
+    "lineEnd": 11584,
+    "pdfPageStart": 160,
+    "pdfPageEnd": 160
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/tier-1-environments-level-1/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

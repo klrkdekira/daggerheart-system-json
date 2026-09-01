@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/feature",
+  "@type": "Rule",
+  "name": "Feature",
+  "slug": "feature",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "FEATURE",
+    "lineStart": 3375,
+    "lineEnd": 3379,
+    "pdfPageStart": 55,
+    "pdfPageEnd": 55
+  },
+  "rulesText": "A weapon’s feature is a special rule that stays in effect while the weapon is equipped.\n\nYou can throw an equipped weapon at a target within Very Close range, making the attack roll with Finesse. On a success, deal damage as usual for that weapon. Once thrown, the weapon is no longer considered equipped. Until you retrieve and re-equip it, you can’t attack with it or benefit from its features.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/feature/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

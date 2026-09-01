@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-korvax",
+  "@type": "DomainCard",
+  "name": "Book of Korvax",
+  "slug": "book-of-korvax",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BOOK OF KORVAX",
+    "lineStart": 15040,
+    "lineEnd": 15050,
+    "pdfPageStart": 211,
+    "pdfPageEnd": 211
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+  },
+  "cardType": "Grimoire",
+  "recallCost": 2,
+  "rulesText": "Levitation: Make a Spellcast Roll to temporarily lift a target you can see up into the air and move them within Close range of their original position.\n\nRecant: Spend a Hope to force a target within Melee range to make a Reaction Roll (15). On a failure, they forget the last minute of your conversation.\n\nRune Circle: Mark a Stress to create a temporary magical circle on the ground where you stand. All adversaries within Melee range, or who enter Melee range, take 2d12+4 magic damage and are knocked back to Very Close range.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/book-of-korvax/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

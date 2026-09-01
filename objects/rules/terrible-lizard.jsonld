@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/terrible-lizard",
+  "@type": "Rule",
+  "name": "Terrible Lizard",
+  "slug": "terrible-lizard",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "TERRIBLE LIZARD",
+    "lineStart": 1127,
+    "lineEnd": 1139,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "rulesText": "*(Brachiosaurus, Tyrannosaurus, etc.)*\n\n*Strength +3 | Evasion +2*\n\n*Melee Strength d12+10 phy*\n\n**Gain advantage on:** attack, deceive, scare, track\n\n**Devastating Strikes:** When you deal Severe damage to a target within Melee range, you can mark a Stress to force them to mark an additional Hit Point.\n\n**Massive Stride:** You can move up to Far range without rolling. You ignore rough terain (at the GM’s discretion) due to your size.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/terrible-lizard/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

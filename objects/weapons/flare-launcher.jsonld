@@ -1,0 +1,37 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/flare-launcher",
+  "@type": "Weapon",
+  "name": "Flare Launcher",
+  "slug": "flare-launcher",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Secondary Weapons",
+    "lineStart": 13677,
+    "lineEnd": 13677,
+    "pdfPageStart": 192,
+    "pdfPageEnd": 192
+  },
+  "category": "secondary",
+  "variant": "everyday-hero",
+  "trait": "Finesse",
+  "range": "Far",
+  "burden": "One-Handed",
+  "damage": "d6+1 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Bright",
+    "rulesText": "This weapon temporarily lights up the area the flare lands in."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/flare-launcher/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

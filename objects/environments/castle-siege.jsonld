@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/castle-siege",
+  "@type": "Environment",
+  "name": "Castle Siege",
+  "slug": "castle-siege",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CASTLE SIEGE",
+    "lineStart": 12602,
+    "lineEnd": 12633,
+    "pdfPageStart": 174,
+    "pdfPageEnd": 174
+  },
+  "tier": 3,
+  "impulses": [
+    "Bleed out the will to fight",
+    "breach the walls",
+    "build tension"
+  ],
+  "difficulty": 17,
+  "potentialAdversariesText": "Mercenaries (Harrier, Sellsword, Spellblade, Weaponmaster), Noble Forces (Archer Squadron, Conscript, Elite Soldier, Knight of the Realm)",
+  "description": "An active siege with an attacking force fighting to gain entry to a fortified castle.",
+  "features": [
+    {
+      "name": "Secret Entrance",
+      "kind": "Passive",
+      "rulesText": "A PC can find or recall a secret way into the castle with a successful Instinct or Knowledge Roll.\n\nHow do they get in without revealing the pathway to the attackers? Are any of the defenders monitoring this path?"
+    },
+    {
+      "name": "Siege Weapons (Environment Change)",
+      "kind": "Action",
+      "rulesText": "Consequence Countdown (6). The attacking force deploys siege weapons to try to raze the defenders’ fortifications. Activate the countdown when the siege begins (for a protracted siege, make this a long-term countdown instead). When it triggers, the defenders’ fortifications have been breached and the attackers flood inside. You gain 2 Fear, then shift to the Pitched Battle environment and spotlight it.\n\nWhat siege weapons are being deployed? Are they magical, mundane, or a mixture of both? What defenses must the characters overcome to storm the castle?"
+    },
+    {
+      "name": "Reinforcements!",
+      "kind": "Action",
+      "rulesText": "Summon a Knight of the Realm, a number of Tier 3 Minions equal to the number of PCs, and two adversaries of your choice within Far range of a chosen PC as reinforcements. The Knight of the Realm immediately takes the spotlight.\n\nWho are they targeting first? What formation do they take?"
+    },
+    {
+      "name": "Collateral Damage",
+      "kind": "Reaction",
+      "rulesText": "When an adversary is defeated, you can spend a Fear to have a stray attack from a siege weapon hit a point on the battlefield. All targets within Very Close range of that point must make an Agility Reaction Roll.\n\n- Targets who fail take 3d8+3 physical or magic damage and must mark a Stress.\n- Targets who succeed must mark a Stress.\n\nWhat debris is scattered by the attack? What is broken by the strike that can’t be easily mended?"
+    }
+  ],
+  "category": "Event",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/harrier"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sellsword"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spellblade"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/weaponmaster"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/archer-squadron"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/conscript"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elite-soldier"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/knight-of-the-realm"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/castle-siege/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

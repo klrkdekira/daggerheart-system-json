@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/rifle",
+  "@type": "Weapon",
+  "name": "Rifle",
+  "slug": "rifle",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Weapons",
+    "lineStart": 14018,
+    "lineEnd": 14018,
+    "pdfPageStart": 197,
+    "pdfPageEnd": 197
+  },
+  "category": "primary",
+  "variant": "western",
+  "trait": "Agility",
+  "range": "Very Far",
+  "burden": "Two-Handed",
+  "tieredDamage": [
+    "Tier 1: d8+2 phy",
+    "Tier 2: d8+5 phy",
+    "Tier 3: d8+8 phy",
+    "Tier 4: d8+11 phy"
+  ],
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Sightline",
+    "rulesText": "Spend 2 Hope to gain advantage on an attack roll."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/rifle/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/western-campaigns"
+  }
+}

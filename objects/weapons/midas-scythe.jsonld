@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/midas-scythe",
+  "@type": "Weapon",
+  "name": "Midas Scythe",
+  "slug": "midas-scythe",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3709,
+    "lineEnd": 3709,
+    "pdfPageStart": 65,
+    "pdfPageEnd": 65
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Knowledge",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d10+9 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Greedy",
+    "rulesText": "Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/midas-scythe/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/classes",
+  "@type": "Rule",
+  "name": "Classes",
+  "slug": "classes",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "CLASSES",
+    "lineStart": 349,
+    "lineEnd": 359,
+    "pdfPageStart": 8,
+    "pdfPageEnd": 8
+  },
+  "rulesText": "A class is a role-based archetype that determines a PC’s:\n\n- **Access to Domains:** Each class grants access to two domains; players choose cards from these domains during character creation and when leveling up.\n- Starting Evasion and Hit Points (HP)\n- Starting Items\n- Class Feature(s)\n- Class Hope Feature, a class feature that costs 3 Hope to activate.\n\nPlease note that the Daggerheart Core Set includes only the following nine classes: Bard, Druid, Guardian, Ranger, Rogue, Seraph, Sorcerer, Warrior, and Wizard.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/classes/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

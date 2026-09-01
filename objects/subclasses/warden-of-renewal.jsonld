@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/warden-of-renewal",
+  "@type": "Subclass",
+  "name": "Warden of Renewal",
+  "slug": "warden-of-renewal",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WARDEN OF RENEWAL",
+    "lineStart": 800,
+    "lineEnd": 838,
+    "pdfPageStart": 15,
+    "pdfPageEnd": 15
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "features": [
+    {
+      "name": "Clarity of Nature",
+      "stage": "foundation",
+      "rulesText": "Once per long rest, you can create a space of natural serenity within Close range. When you spend a few minutes resting within the space, clear Stress equal to your Instinct, distributed as you choose between you and your allies."
+    },
+    {
+      "name": "Regeneration",
+      "stage": "foundation",
+      "rulesText": "Touch a creature and spend 3 Hope. That creature clears 1d4 Hit Points."
+    },
+    {
+      "name": "Regenerative Reach",
+      "stage": "specialization",
+      "rulesText": "You can target creatures within Very Close range with your “Regeneration” feature."
+    },
+    {
+      "name": "Warden’s Protection",
+      "stage": "specialization",
+      "rulesText": "Once per long rest, spend 2 Hope to clear 2 Hit Points on 1d4 allies within Close range."
+    },
+    {
+      "name": "Defender",
+      "stage": "mastery",
+      "rulesText": "Your animal transformation embodies a healing guardian spirit. When you’re in Beastform and an ally within Close range marks 2 or more Hit Points, you can mark a Stress to reduce the number of Hit Points they mark by 1."
+    }
+  ],
+  "description": "Play the Warden of Renewal if you want to use powerful magic to heal your party.",
+  "spellcastTrait": "Instinct",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/subclasses/warden-of-renewal/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

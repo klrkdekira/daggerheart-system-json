@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elite-soldier",
+  "@type": "Adversary",
+  "name": "Elite Soldier",
+  "slug": "elite-soldier",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ELITE SOLDIER",
+    "lineStart": 7707,
+    "lineEnd": 7723,
+    "pdfPageStart": 118,
+    "pdfPageEnd": 118
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Gain glory",
+    "keep order",
+    "make alliances"
+  ],
+  "difficulty": 15,
+  "thresholds": "9/18",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Spear",
+    "range": "Very Close",
+    "damage": "2d8+4 phy"
+  },
+  "description": "An armored squire or experienced commoner looking to advance.",
+  "features": [
+    {
+      "name": "Reinforce",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to move into Melee range of an ally and make a standard attack against a target within Very Close range. On a success, deal 2d10+2 physical damage and the ally can clear a Stress."
+    },
+    {
+      "name": "Vassal’s Loyalty",
+      "kind": "Reaction",
+      "rulesText": "When the Soldier is within Very Close range of a knight or other noble who would take damage, you can mark a Stress to move into Melee range of them and take the damage instead."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/elite-soldier/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

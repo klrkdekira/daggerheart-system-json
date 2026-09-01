@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/encore",
+  "@type": "DomainCard",
+  "name": "Encore",
+  "slug": "encore",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "ENCORE",
+    "lineStart": 15600,
+    "lineEnd": 15606,
+    "pdfPageStart": 216,
+    "pdfPageEnd": 216
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "When an ally within Close range deals damage to an adversary, you can make a Spellcast Roll against that same target. On a success, you deal the same damage to the target that your ally dealt. If your Spellcast Roll succeeds with Fear, place this card in your vault.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/encore/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

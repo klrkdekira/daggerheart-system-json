@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/namers-oracle",
+  "@type": "Item",
+  "name": "Namer’s Oracle",
+  "slug": "namers-oracle",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Items",
+    "lineStart": 4165,
+    "lineEnd": 4165,
+    "pdfPageStart": 79,
+    "pdfPageEnd": 79
+  },
+  "itemSet": "expansion",
+  "roll": 41,
+  "description": "Once per session, you can roll this set of runic dice to reveal the full name of the last person you touched.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/namers-oracle/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

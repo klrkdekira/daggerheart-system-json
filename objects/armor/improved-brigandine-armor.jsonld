@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/improved-brigandine-armor",
+  "@type": "Armor",
+  "name": "Improved Brigandine Armor",
+  "slug": "improved-brigandine-armor",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 2 (LEVELS 2–4)",
+    "lineStart": 3940,
+    "lineEnd": 3940,
+    "pdfPageStart": 72,
+    "pdfPageEnd": 72
+  },
+  "variant": "core",
+  "baseThresholds": "9 / 19",
+  "baseScore": "4",
+  "tier": 2,
+  "feature": {
+    "name": "Lined",
+    "rulesText": "Mark a Stress to negate Minor damage."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/improved-brigandine-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

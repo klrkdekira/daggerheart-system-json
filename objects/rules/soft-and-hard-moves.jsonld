@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/soft-and-hard-moves",
+  "@type": "Rule",
+  "name": "Soft and Hard Moves",
+  "slug": "soft-and-hard-moves",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SOFT AND HARD MOVES",
+    "lineStart": 4580,
+    "lineEnd": 4603,
+    "pdfPageStart": 87,
+    "pdfPageEnd": 87
+  },
+  "rulesText": "Soft moves go easier on the players—they give the party new information about the scene and offer them an opportunity to react to it. Hard moves are harsher, more impactful, or more direct—the PCs don’t get an opening to interrupt, alter, or anticipate the outcome.\n\nUse softer moves on rolls with Hope and harder moves on rolls with Fear.\n\nExample GM Moves\n\n- Show how the world reacts\n- Ask a question and build on the answer\n- Make an NPC act in accordance with their motive\n- Drive a PC to take action by dangling their goals in front of them\n- Signal an imminent off-screen threat\n- Reveal an unwelcome truth or unexpected danger\n- Force the group to split up\n- Make a PC mark Stress\n- Make a move the characters don’t see\n- Show the collateral damage\n- Clear an adversary’s condition\n- Shift the environment\n- Spotlight an adversary\n- Capture someone or something important\n- Use a PC’s backstory against them\n- Take away an opportunity permanently.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/soft-and-hard-moves/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

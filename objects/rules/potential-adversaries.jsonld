@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/potential-adversaries",
+  "@type": "Rule",
+  "name": "Potential Adversaries",
+  "slug": "potential-adversaries",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "POTENTIAL ADVERSARIES",
+    "lineStart": 11492,
+    "lineEnd": 11498,
+    "pdfPageStart": 158,
+    "pdfPageEnd": 158
+  },
+  "rulesText": "Suggested adversaries that might appear in scenes within the environment.\n\n##### FEATURES\n\nFeatures provide inspiration for GM moves you can use that represent the dynamic landscape or situation.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/potential-adversaries/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

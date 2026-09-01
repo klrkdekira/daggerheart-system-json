@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elemental-spark",
+  "@type": "Adversary",
+  "name": "Elemental Spark",
+  "slug": "elemental-spark",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ELEMENTAL SPARK",
+    "lineStart": 9388,
+    "lineEnd": 9404,
+    "pdfPageStart": 135,
+    "pdfPageEnd": 135
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Blast",
+    "consume",
+    "gain mass"
+  ],
+  "difficulty": 15,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Bursts of Fire",
+    "range": "Close",
+    "damage": "5 mag"
+  },
+  "description": "A blazing mote of elemental fire.",
+  "features": [
+    {
+      "name": "Minion (9)",
+      "kind": "Passive",
+      "rulesText": "The Elemental is defeated when they take any damage. For every 9 damage a PC deals to the Elemental, defeat an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Elemental Sparks within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 physical damage each. Combine this damage."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/elemental-spark/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

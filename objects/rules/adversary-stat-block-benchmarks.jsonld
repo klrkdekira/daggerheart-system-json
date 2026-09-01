@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/adversary-stat-block-benchmarks",
+  "@type": "Rule",
+  "name": "Adversary Stat Block Benchmarks",
+  "slug": "adversary-stat-block-benchmarks",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ADVERSARY STAT BLOCK BENCHMARKS",
+    "lineStart": 5058,
+    "lineEnd": 5065,
+    "pdfPageStart": 95,
+    "pdfPageEnd": 95
+  },
+  "rulesText": "| Adversary Statistic | Tier 1 | Tier 2 | Tier 3 | Tier 4 |\n| --- | --- | --- | --- | --- |\n| Attack Modifier | +1 | +2 | +3 | +4 |\n| Damage Dice | 1d6+2 to 1d12+4 | 2d6+3 to 2d12+4 | 3d8+3 to 3d12+5 | 4d8+10 to 4d12+15 |\n| Difficulty | 11 | 14 | 17 | 20 |\n| Damage Thresholds | Major 7/Severe 12 | Major 10/Severe 20 | Major 20/Severe 32 | Major 25/Severe 45 |",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/adversary-stat-block-benchmarks/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

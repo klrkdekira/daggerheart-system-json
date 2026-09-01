@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/overwhelming-aura",
+  "@type": "DomainCard",
+  "name": "Overwhelming Aura",
+  "slug": "overwhelming-aura",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "OVERWHELMING AURA",
+    "lineStart": 16218,
+    "lineEnd": 16226,
+    "pdfPageStart": 222,
+    "pdfPageEnd": 222
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Make a Spellcast Roll (15) to magically empower your aura. On a success, spend 2 Hope to make your Presence equal to your Spellcast trait until your next long rest.\n\nWhile this spell is active, an adversary must mark a Stress when they target you with an attack.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/overwhelming-aura/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

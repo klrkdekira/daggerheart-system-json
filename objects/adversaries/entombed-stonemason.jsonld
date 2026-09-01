@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-stonemason",
+  "@type": "Adversary",
+  "name": "Entombed Stonemason",
+  "slug": "entombed-stonemason",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ENTOMBED STONEMASON",
+    "lineStart": 7845,
+    "lineEnd": 7865,
+    "pdfPageStart": 119,
+    "pdfPageEnd": 119
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Never stop working",
+    "sacrifice yourself for the empress"
+  ],
+  "difficulty": 12,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "−1",
+  "standardAttack": {
+    "name": "Hammer and Chisel",
+    "range": "Melee",
+    "damage": "5 phy"
+  },
+  "experience": "Builder +2",
+  "description": "An unfortunate undead laborer chosen by lottery to wall up their empress’s tomb from the inside.",
+  "features": [
+    {
+      "name": "Minion (5)",
+      "kind": "Passive",
+      "rulesText": "The Stonemason is defeated when they take any damage. For every 5 damage a PC deals to the Stonemason, the PC defeats an additional Minion within range their attack would succeed against."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Entombed Stonemasons within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 physical damage each. Combine this damage."
+    },
+    {
+      "name": "The Work Never Ends",
+      "kind": "Reaction",
+      "rulesText": "When the Stonemason is defeated by an attack that deals physical damage, you can spend a Fear to clear the Stonemason’s HP and Stress."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/entombed-stonemason/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

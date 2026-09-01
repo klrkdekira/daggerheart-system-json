@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/stag-knight",
+  "@type": "Adversary",
+  "name": "Stag Knight",
+  "slug": "stag-knight",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "STAG KNIGHT",
+    "lineStart": 9896,
+    "lineEnd": 9916,
+    "pdfPageStart": 140,
+    "pdfPageEnd": 140
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Isolate",
+    "maneuver",
+    "protect the forest",
+    "weed the unwelcome"
+  ],
+  "difficulty": 17,
+  "thresholds": "19/36",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Bramble Sword",
+    "range": "Melee",
+    "damage": "3d8+3 phy"
+  },
+  "experience": "Forest Knowledge +3",
+  "description": "A knight with huge, majestic antlers wearing armor made of dangerous thorns.",
+  "features": [
+    {
+      "name": "From Above",
+      "kind": "Passive",
+      "rulesText": "When the Knight succeeds on a standard attack from above a target, they deal 3d12+3 physical damage instead of their standard damage."
+    },
+    {
+      "name": "Blade of the Forest",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make an attack against all targets within Very Close range. Targets the Knight succeeds against take physical damage equal to 3d4 + the target’s Major threshold."
+    },
+    {
+      "name": "Thorny Armor",
+      "kind": "Reaction",
+      "rulesText": "When the Knight takes damage from an attack within Melee range, you can mark a Stress to deal 1d10+5 physical damage to the attacker."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/stag-knight/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

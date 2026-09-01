@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/call-of-the-slayer",
+  "@type": "Rule",
+  "name": "Call of the Slayer",
+  "slug": "call-of-the-slayer",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "CALL OF THE SLAYER",
+    "lineStart": 1893,
+    "lineEnd": 1926,
+    "pdfPageStart": 28,
+    "pdfPageEnd": 29
+  },
+  "rulesText": "Play the Call of the Slayer if you want to strike down adversaries with immense force.\n\n##### FOUNDATION FEATURE\n\n**Slayer:** You gain a pool of dice called Slayer Dice. On a roll with Hope, you can place a d6 on this card instead of gaining a Hope, adding the die to the pool. You can store a number of Slayer Dice equal to your Proficiency. When you make an attack roll or damage roll, you can spend any number of these Slayer Dice, rolling them and adding their result to the roll. At the end of each session, clear any unspent Slayer Dice on this card and gain a Hope per die cleared.\n\n##### SPECIALIZATION FEATURE\n\n**Weapon Specialist:** You can wield multiple weapons with dangerous ease. When you succeed on an attack, you can spend a Hope to add one of the damage dice from your secondary weapon to the damage roll. Additionally, once per long rest when you roll your Slayer Dice, reroll any 1s.\n\n##### MASTERY FEATURE\n\n**Martial Preparation:** You’re an inspirational warrior to all who travel with you. Your party gains access to the Martial Preparation downtime move. To use this move during a rest, describe how you instruct and train with your party. You and each ally who chooses this downtime move gain a d6 Slayer Die. A PC with a Slayer Die can spend it to roll the die and add the result to an attack or damage roll of their choice.\n\n##### BACKGROUND QUESTIONS\n\nAnswer any of the following background questions. You can also create your own questions.\n\n- Who taught you to fight, and why did they stay behind when you left home?\n- Somebody defeated you in battle years ago and left you to die. Who was it, and how did they betray you?\n\n- What legendary place have you always wanted to visit, and why is it so special?\n\n##### CONNECTIONS\n\nAsk your fellow players one of the following questions for their character to answer, or create your own questions.\n\n- We knew each other long before this party came together. How?\n- What mundane task do you usually help me with off the battlefield?\n- What fear am I helping you overcome?",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/call-of-the-slayer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

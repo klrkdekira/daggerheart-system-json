@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/veritas-opal-armor",
+  "@type": "Armor",
+  "name": "Veritas Opal Armor",
+  "slug": "veritas-opal-armor",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 4 (LEVELS 8–10)",
+    "lineStart": 4009,
+    "lineEnd": 4009,
+    "pdfPageStart": 74,
+    "pdfPageEnd": 74
+  },
+  "variant": "core",
+  "baseThresholds": "13 / 36",
+  "baseScore": "6",
+  "tier": 4,
+  "feature": {
+    "name": "Truthseeking",
+    "rulesText": "This armor glows when another creature within Close range tells a lie."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/veritas-opal-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/taking-damage-as-stress",
+  "@type": "Rule",
+  "name": "Taking Damage as Stress",
+  "slug": "taking-damage-as-stress",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "TAKING DAMAGE AS STRESS",
+    "lineStart": 1414,
+    "lineEnd": 1417,
+    "pdfPageStart": 22,
+    "pdfPageEnd": 22
+  },
+  "rulesText": "- When your companion would take any amount of damage, they mark a Stress. When they mark their last Stress, they drop out of the scene (by hiding, fleeing, or a similar action). They remain unavailable until the start of your next long rest, where they return with 1 Stress cleared.\n- When you choose a downtime move that clears Stress on yourself, your companion clears an equal number of Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/taking-damage-as-stress/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

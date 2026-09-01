@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/deft-deceiver",
+  "@type": "DomainCard",
+  "name": "Deft Deceiver",
+  "slug": "deft-deceiver",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "DEFT DECEIVER",
+    "lineStart": 15407,
+    "lineEnd": 15413,
+    "pdfPageStart": 215,
+    "pdfPageEnd": 215
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "Spend a Hope to gain advantage on a roll to deceive or trick someone into believing a lie you tell them.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/deft-deceiver/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

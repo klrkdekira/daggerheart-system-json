@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-gambeson-armor",
+  "@type": "Armor",
+  "name": "Advanced Gambeson Armor",
+  "slug": "advanced-gambeson-armor",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 3 (LEVELS 5–7)",
+    "lineStart": 3970,
+    "lineEnd": 3970,
+    "pdfPageStart": 73,
+    "pdfPageEnd": 73
+  },
+  "variant": "core",
+  "baseThresholds": "9 / 23",
+  "baseScore": "5",
+  "tier": 3,
+  "feature": {
+    "name": "Flexible",
+    "rulesText": "+1 to Evasion"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/advanced-gambeson-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/darkweave-queen",
+  "@type": "Adversary",
+  "name": "Darkweave Queen",
+  "slug": "darkweave-queen",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DARKWEAVE QUEEN",
+    "lineStart": 5582,
+    "lineEnd": 5606,
+    "pdfPageStart": 99,
+    "pdfPageEnd": 99
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Ambush prey",
+    "climb the walls and ceiling",
+    "misdirect",
+    "paralyze",
+    "stash bodies away for later",
+    "steal faces"
+  ],
+  "difficulty": 14,
+  "thresholds": "8/15",
+  "hitPoints": 9,
+  "stress": 4,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Spider Bite",
+    "range": "Very Close",
+    "damage": "1d12+4 phy"
+  },
+  "experience": "Giant-Sized +3, Hunter +3",
+  "description": "A wagon-sized spider woven from shadow-silk by a long-forgotten god. Each of her many eyes bears the face of a different victim.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Queen can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight her."
+    },
+    {
+      "name": "Terrifying",
+      "kind": "Passive",
+      "rulesText": "When a PC fails an attack roll against the Queen, you gain a Fear."
+    },
+    {
+      "name": "Den Mother",
+      "kind": "Action",
+      "rulesText": "Once per scene, spend 2 Fear to summon up to two Darkweave adversaries (other than Darkweave Queens), who appear within Close range and immediately take the spotlight."
+    },
+    {
+      "name": "Quicker Than She Looks",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to move up to Far range and make a standard attack with advantage."
+    },
+    {
+      "name": "Darkfang Envenomation",
+      "kind": "Reaction",
+      "rulesText": "When the Queen succeeds on a standard attack, you can spend a Fear to make the target Vulnerable and Restrained until they succeed on a Strength Roll (12) or take a rest."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/darkweave-queen/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

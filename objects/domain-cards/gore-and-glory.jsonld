@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/gore-and-glory",
+  "@type": "DomainCard",
+  "name": "Gore and Glory",
+  "slug": "gore-and-glory",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "GORE AND GLORY",
+    "lineStart": 14746,
+    "lineEnd": 14754,
+    "pdfPageStart": 209,
+    "pdfPageEnd": 209
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When you critically succeed on a weapon attack, gain an additional Hope or clear an additional Stress.\n\nAdditionally, when you deal enough damage to defeat an enemy, gain a Hope or clear a Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/gore-and-glory/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

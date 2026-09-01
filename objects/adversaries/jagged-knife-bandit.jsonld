@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-bandit",
+  "@type": "Adversary",
+  "name": "Jagged Knife Bandit",
+  "slug": "jagged-knife-bandit",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "JAGGED KNIFE BANDIT",
+    "lineStart": 5938,
+    "lineEnd": 5956,
+    "pdfPageStart": 102,
+    "pdfPageEnd": 102
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Escape",
+    "profit",
+    "steal",
+    "throw smoke"
+  ],
+  "difficulty": 12,
+  "thresholds": "8/14",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Daggers",
+    "range": "Melee",
+    "damage": "1d8+1 phy"
+  },
+  "experience": "Thief +2",
+  "description": "A cunning criminal in a cloak bearing one of the gang’s iconic knives.",
+  "features": [
+    {
+      "name": "Climber",
+      "kind": "Passive",
+      "rulesText": "The Bandit climbs just as easily as they run."
+    },
+    {
+      "name": "From Above",
+      "kind": "Passive",
+      "rulesText": "When the Bandit succeeds on a standard attack from above a target, they deal 1d10+1 physical damage instead of their standard damage."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/jagged-knife-bandit/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

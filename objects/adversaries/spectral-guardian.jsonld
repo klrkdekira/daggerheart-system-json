@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spectral-guardian",
+  "@type": "Adversary",
+  "name": "Spectral Guardian",
+  "slug": "spectral-guardian",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SPECTRAL GUARDIAN",
+    "lineStart": 8738,
+    "lineEnd": 8756,
+    "pdfPageStart": 128,
+    "pdfPageEnd": 128
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Move through solid objects",
+    "protect treasure",
+    "rehash old battles"
+  ],
+  "difficulty": 15,
+  "thresholds": "7/15",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Spear",
+    "range": "Very Close",
+    "damage": "2d8+1 phy"
+  },
+  "experience": "Ancient Knowledge +2",
+  "description": "A ghostly fighter with spears and swords, anchored by duty.",
+  "features": [
+    {
+      "name": "Ghost",
+      "kind": "Passive",
+      "rulesText": "The Guardian has resistance to physical damage. Mark a Stress to move up to Close range through solid objects."
+    },
+    {
+      "name": "Grave Blade",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make an attack against a target within Very Close range. On a success, deal 2d10+6 physical damage and the target must mark a Stress."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/spectral-guardian/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

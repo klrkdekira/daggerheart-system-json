@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/deep-dweller",
+  "@type": "Adversary",
+  "name": "Deep Dweller",
+  "slug": "deep-dweller",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DEEP DWELLER",
+    "lineStart": 9152,
+    "lineEnd": 9174,
+    "pdfPageStart": 133,
+    "pdfPageEnd": 133
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Abuse power",
+    "seek worship",
+    "stalk sunken ruins"
+  ],
+  "difficulty": 17,
+  "thresholds": "22/42",
+  "hitPoints": 6,
+  "stress": 6,
+  "attackModifier": "+5",
+  "standardAttack": {
+    "name": "Teeth & Tentacles",
+    "range": "Close",
+    "damage": "3d10+4 phy"
+  },
+  "experience": "Ancient Mysteries +2, Dark Water +2",
+  "description": "A huge psychic lamprey that has pitch-black eyes and toxic tentacles.",
+  "features": [
+    {
+      "name": "Psychic Blast",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose up to three targets within Close range and force them to make an Instinct or Knowledge Reaction Roll. Targets who succeed mark a Stress. Targets who fail take 3d10+4 direct magic damage and are Vulnerable until spotlighted."
+    },
+    {
+      "name": "Brain Drain",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to choose a Vulnerable PC within Very Close range. The target marks 1d4 Stress, and the Deep Dweller clears an equal number of HP."
+    },
+    {
+      "name": "Call of the Deep",
+      "kind": "Action",
+      "rulesText": "Spend 2 Fear to summon 1d4 Cursed Merfolk, who appear at Far range and immediately take the spotlight."
+    },
+    {
+      "name": "Mucosal Contamination",
+      "kind": "Action",
+      "rulesText": "Make an attack roll against a PC within Very Close range. On a success, the Deep Dweller uses its tentacles to immobilize the target, sliming them with toxic sludge. The target is Restrained until they break free or slip out with a successful Strength or Finesse Roll. Each time the Deep Dweller is spotlighted, all PCs Restrained in this way take 3d8 direct physical damage. The Deep Dweller releases all creatures Restrained by it when it’s defeated or takes Severe damage."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/deep-dweller/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

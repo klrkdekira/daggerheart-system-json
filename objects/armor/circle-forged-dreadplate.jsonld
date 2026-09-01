@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/circle-forged-dreadplate",
+  "@type": "Armor",
+  "name": "Circle-Forged Dreadplate",
+  "slug": "circle-forged-dreadplate",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 4 (LEVELS 8–10)",
+    "lineStart": 4010,
+    "lineEnd": 4010,
+    "pdfPageStart": 74,
+    "pdfPageEnd": 74
+  },
+  "variant": "core",
+  "baseThresholds": "14 / 38",
+  "baseScore": "6",
+  "tier": 4,
+  "feature": {
+    "name": "Accursed",
+    "rulesText": "When you mark any number of Hit Points from an attack, roll a d4. On a result of 4, the attacker must mark an equal number of Stress."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/circle-forged-dreadplate/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

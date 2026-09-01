@@ -1,0 +1,34 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-brightsword",
+  "@type": "Weapon",
+  "name": "Improved Brightsword",
+  "slug": "improved-brightsword",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3504,
+    "lineEnd": 3504,
+    "pdfPageStart": 59,
+    "pdfPageEnd": 59
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d10+6 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 2,
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/improved-brightsword/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/pact-of-the-wrathful",
+  "@type": "Subclass",
+  "name": "Pact of the Wrathful",
+  "slug": "pact-of-the-wrathful",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "PACT OF THE WRATHFUL",
+    "lineStart": 1801,
+    "lineEnd": 1841,
+    "pdfPageStart": 27,
+    "pdfPageEnd": 27
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/warlock"
+  },
+  "features": [
+    {
+      "name": "Patron’s Fury",
+      "stage": "foundation",
+      "rulesText": "Spend a Favor to imbue your attacks with your Patron’s power until you deal Severe damage or the scene ends. When you roll damage while this effect is active, you also roll a number of Patron Dice equal to your tier and add their total to the damage dealt."
+    },
+    {
+      "name": "Deadly Vengeance",
+      "stage": "foundation",
+      "rulesText": "When you mark any number of Hit Points from an attack, you can spend a Favor to roll an equal number of Patron Dice. For each result of 4 or higher, the attacker marks a Hit Point."
+    },
+    {
+      "name": "Menacing Reach",
+      "stage": "specialization",
+      "rulesText": "Spend a Favor to increase the range of your primary weapon by one step (such as Melee to Very Close or Very Close to Close) to a maximum of Very Far range. This effect ends when you make a successful attack with that weapon."
+    },
+    {
+      "name": "Diminish My Foes",
+      "stage": "specialization",
+      "rulesText": "When you succeed with Hope on an action roll against a target, you can spend any number of Favor to force the target to mark an equal number of Stress."
+    },
+    {
+      "name": "Fearsome Attack",
+      "stage": "mastery",
+      "rulesText": "Spend a Favor to reroll any number of your damage dice. You can continue spending Favor to use this feature on the same damage roll."
+    },
+    {
+      "name": "Otherworldly Ire",
+      "stage": "mastery",
+      "rulesText": "Once per rest when you take damage, you can spend any number of Favor to roll that many Patron Dice and target a number of creatures within Close range equal to the highest result. Each target must mark a Hit Point."
+    }
+  ],
+  "description": "Play the Pact of the Wrathful if you want to destroy those who act against you.",
+  "spellcastTrait": "Presence",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/subclasses/pact-of-the-wrathful/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

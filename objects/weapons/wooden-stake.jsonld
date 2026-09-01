@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/wooden-stake",
+  "@type": "Weapon",
+  "name": "Wooden Stake",
+  "slug": "wooden-stake",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Secondary Weapons",
+    "lineStart": 14195,
+    "lineEnd": 14195,
+    "pdfPageStart": 201,
+    "pdfPageEnd": 201
+  },
+  "category": "secondary",
+  "variant": "monster-hunting",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "tieredDamage": [
+    "Tier 1: d8 phy",
+    "Tier 2: d8+2 phy",
+    "Tier 3: d8+4 phy",
+    "Tier 4: d8+6 phy"
+  ],
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Paired",
+    "rulesText": "Gain a bonus equal to 1 + your tier to primary weapon damage to targets within Melee range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/wooden-stake/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/monster-hunting-campaigns"
+  }
+}

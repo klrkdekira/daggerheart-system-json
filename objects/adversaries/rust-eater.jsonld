@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/rust-eater",
+  "@type": "Adversary",
+  "name": "Rust Eater",
+  "slug": "rust-eater",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "RUST EATER",
+    "lineStart": 8586,
+    "lineEnd": 8604,
+    "pdfPageStart": 127,
+    "pdfPageEnd": 127
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Avoid detection",
+    "eat rust",
+    "sniff out metal"
+  ],
+  "difficulty": 12,
+  "thresholds": "10/18",
+  "hitPoints": 5,
+  "stress": 2,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Bite",
+    "range": "Melee",
+    "damage": "2d6+4 phy"
+  },
+  "experience": "Snuffle +3",
+  "description": "A pony-sized cockroach coated in a corrosive chitin that turns metal into rust.",
+  "features": [
+    {
+      "name": "Stifling Pheromones",
+      "kind": "Passive",
+      "rulesText": "A PC who makes an action roll within Very Close range of the Rust Eater must succeed on an Instinct Reaction Roll or mark a Stress."
+    },
+    {
+      "name": "Rust Touch",
+      "kind": "Passive",
+      "rulesText": "The Rust Eater’s carapace is coated in a corrosive acid that pits and rusts metal. When a PC within Melee range of the Rust Easter succeeds on an attack against it with a metal weapon, reduce the weapon’s damage die by one step (for example, d8 to d6 or d6 to d4). If a weapon’s damage die is reduced below a d4, the weapon crumbles into rust. The Rust Eater then devours the rust pile and clears a HP."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/rust-eater/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

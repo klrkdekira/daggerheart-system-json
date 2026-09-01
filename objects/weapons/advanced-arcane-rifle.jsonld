@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-arcane-rifle",
+  "@type": "Weapon",
+  "name": "Advanced Arcane Rifle",
+  "slug": "advanced-arcane-rifle",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3613,
+    "lineEnd": 3613,
+    "pdfPageStart": 62,
+    "pdfPageEnd": 62
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Agility",
+  "range": "Very Far",
+  "burden": "Two-Handed",
+  "damage": "d10+9 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Aimed",
+    "rulesText": "Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/advanced-arcane-rifle/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

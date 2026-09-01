@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/leather-armor",
+  "@type": "Armor",
+  "name": "Leather Armor",
+  "slug": "leather-armor",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 1 (LEVEL 1)",
+    "lineStart": 3928,
+    "lineEnd": 3928,
+    "pdfPageStart": 72,
+    "pdfPageEnd": 72
+  },
+  "variant": "core",
+  "baseThresholds": "6 / 13",
+  "baseScore": "3",
+  "tier": 1,
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/leather-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

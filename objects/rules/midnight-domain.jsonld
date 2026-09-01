@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/midnight-domain",
+  "@type": "Rule",
+  "name": "Midnight Domain",
+  "slug": "midnight-domain",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "MIDNIGHT DOMAIN",
+    "lineStart": 15556,
+    "lineEnd": 15556,
+    "pdfPageStart": 216,
+    "pdfPageEnd": 216
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/midnight-domain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

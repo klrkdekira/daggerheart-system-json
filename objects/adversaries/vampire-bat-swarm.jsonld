@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vampire-bat-swarm",
+  "@type": "Adversary",
+  "name": "Vampire Bat Swarm",
+  "slug": "vampire-bat-swarm",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "VAMPIRE BAT SWARM",
+    "lineStart": 10058,
+    "lineEnd": 10078,
+    "pdfPageStart": 142,
+    "pdfPageEnd": 142
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Blot out the moon",
+    "murmur",
+    "spread disease"
+  ],
+  "difficulty": 15,
+  "thresholds": "16/30",
+  "hitPoints": 8,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Fangs",
+    "range": "Melee",
+    "damage": "3d6+6 phy"
+  },
+  "experience": "Blood +3",
+  "description": "A cloud of blood-sucking bats.",
+  "features": [
+    {
+      "name": "Horde (2d6)",
+      "kind": "Passive",
+      "rulesText": "When the Swarm has marked half or more of its HP, its standard attack deals 2d6 physical damage instead."
+    },
+    {
+      "name": "Blinding Multitude",
+      "kind": "Passive",
+      "rulesText": "The Swarm is so thick it blocks the vision of anyone it interacts with. Creatures within Melee range have disadvantage on attacks made against adversaries other than the Swarm."
+    },
+    {
+      "name": "Bloodsuckers",
+      "kind": "Reaction",
+      "rulesText": "When the Swarm deals damage to a target, you can mark a Stress to have the Swarm feed. The target marks an additional HP, and the Swarm clears a HP."
+    }
+  ],
+  "role": "Horde (5/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/vampire-bat-swarm/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

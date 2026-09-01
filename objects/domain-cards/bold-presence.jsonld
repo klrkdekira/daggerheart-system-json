@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/bold-presence",
+  "@type": "DomainCard",
+  "name": "Bold Presence",
+  "slug": "bold-presence",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BOLD PRESENCE",
+    "lineStart": 16282,
+    "lineEnd": 16290,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "When you make a Presence Roll, you can spend a Hope to add your Strength to the roll.\n\nAdditionally, once per rest when you would gain a condition, you can describe how your bold presence aids you in the situation and avoid gaining the condition.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/bold-presence/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

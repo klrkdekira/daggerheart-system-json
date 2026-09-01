@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rejuvenation-barrier",
+  "@type": "DomainCard",
+  "name": "Rejuvenation Barrier",
+  "slug": "rejuvenation-barrier",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "REJUVENATION BARRIER",
+    "lineStart": 15979,
+    "lineEnd": 15987,
+    "pdfPageStart": 220,
+    "pdfPageEnd": 220
+  },
+  "level": 8,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Make a Spellcast Roll (15). Once per rest on a success, create a temporary barrier of protective energy around you at Very Close range. You and all allies within the barrier when this spell is cast clear 1d4 Hit Points. While the barrier is up, you and all allies within have resistance to physical damage from outside the barrier.\n\nWhen you move, the barrier follows you.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/rejuvenation-barrier/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

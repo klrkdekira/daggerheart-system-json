@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/harrier",
+  "@type": "Adversary",
+  "name": "Harrier",
+  "slug": "harrier",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HARRIER",
+    "lineStart": 5918,
+    "lineEnd": 5936,
+    "pdfPageStart": 102,
+    "pdfPageEnd": 102
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Flank",
+    "harry",
+    "kite",
+    "profit"
+  ],
+  "difficulty": 12,
+  "thresholds": "5/9",
+  "hitPoints": 3,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Javelin",
+    "range": "Close",
+    "damage": "1d6+2 phy"
+  },
+  "experience": "Camouflage +2",
+  "description": "A nimble fighter armed with javelins.",
+  "features": [
+    {
+      "name": "Maintain Distance",
+      "kind": "Passive",
+      "rulesText": "After making a standard attack, the Harrier can move anywhere within Far range."
+    },
+    {
+      "name": "Fall Back",
+      "kind": "Reaction",
+      "rulesText": "When a creature moves into Melee range to make an attack, you can mark a Stress before the attack roll to move anywhere within Close range and make an attack against that creature. On a success, deal 1d10+2 physical damage."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/harrier/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

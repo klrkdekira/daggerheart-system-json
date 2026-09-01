@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/sage-touched",
+  "@type": "DomainCard",
+  "name": "Sage‑touched",
+  "slug": "sage-touched",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SAGE‑TOUCHED",
+    "lineStart": 15943,
+    "lineEnd": 15953,
+    "pdfPageStart": 220,
+    "pdfPageEnd": 220
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When 4 or more of the domain cards in your loadout are from the Sage domain, gain the following benefits:\n\n  - While you’re in a natural environment, you gain a +2 bonus to your Spellcast Rolls.\n\n  - Once per rest, you can double your Agility or Instinct when making a roll that uses that trait. You must choose to do this before you roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/sage-touched/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

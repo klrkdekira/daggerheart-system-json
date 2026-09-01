@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/breaking-blow",
+  "@type": "DomainCard",
+  "name": "Breaking Blow",
+  "slug": "breaking-blow",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BREAKING BLOW",
+    "lineStart": 14926,
+    "lineEnd": 14932,
+    "pdfPageStart": 210,
+    "pdfPageEnd": 210
+  },
+  "level": 8,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 3,
+  "rulesText": "When you make a successful attack, you can mark a Stress to make the next successful attack against that same target deal an extra 2d12 damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/breaking-blow/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

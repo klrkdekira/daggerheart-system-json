@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/gravewardens-bell",
+  "@type": "Item",
+  "name": "Gravewarden’s Bell",
+  "slug": "gravewardens-bell",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Items",
+    "lineStart": 4148,
+    "lineEnd": 4148,
+    "pdfPageStart": 78,
+    "pdfPageEnd": 78
+  },
+  "itemSet": "expansion",
+  "roll": 29,
+  "description": "This bell rings when a ghost or undead creature moves within Far range of it.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/gravewardens-bell/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

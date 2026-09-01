@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/advanced-mage-robes",
+  "@type": "Armor",
+  "name": "Advanced Mage Robes",
+  "slug": "advanced-mage-robes",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 3 (LEVELS 5–7)",
+    "lineStart": 3969,
+    "lineEnd": 3969,
+    "pdfPageStart": 73,
+    "pdfPageEnd": 73
+  },
+  "variant": "core",
+  "baseThresholds": "8 / 22",
+  "baseScore": "4",
+  "tier": 3,
+  "feature": {
+    "name": "Enchanted",
+    "rulesText": "Gain a bonus to your damage thresholds equal to your Spellcast trait."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/advanced-mage-robes/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

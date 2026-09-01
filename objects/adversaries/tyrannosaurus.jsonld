@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/tyrannosaurus",
+  "@type": "Adversary",
+  "name": "Tyrannosaurus",
+  "slug": "tyrannosaurus",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TYRANNOSAURUS",
+    "lineStart": 8872,
+    "lineEnd": 8892,
+    "pdfPageStart": 129,
+    "pdfPageEnd": 129
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Break through the treeline",
+    "eat",
+    "stomp around"
+  ],
+  "difficulty": 15,
+  "thresholds": "14/28",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Mighty Jaws",
+    "range": "Very Close",
+    "damage": "2d10+4 phy"
+  },
+  "experience": "Predator +3",
+  "description": "A huge carnivorous dinosaur that walks on two legs.",
+  "features": [
+    {
+      "name": "Earth-Shaking Roar",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to force each PC within Close range to make a Presence Reaction Roll. On a failure, they must choose to lose a Hope or mark 1d4 Stress."
+    },
+    {
+      "name": "Stomp",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to attack a target within Melee range. On a success, the target takes 3d12 direct physical damage."
+    },
+    {
+      "name": "Crushing Bite",
+      "kind": "Reaction",
+      "rulesText": "When the Tyrannosaurus makes a successful standard attack, you can spend a Fear to force the target to mark an additional HP."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/tyrannosaurus/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/unicorn",
+  "@type": "Adversary",
+  "name": "Unicorn",
+  "slug": "unicorn",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "UNICORN",
+    "lineStart": 9986,
+    "lineEnd": 10008,
+    "pdfPageStart": 141,
+    "pdfPageEnd": 141
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Keep evil at bay",
+    "protect the sacred",
+    "sense emotions and intent"
+  ],
+  "difficulty": 17,
+  "thresholds": "19/36",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Hoof & Horn",
+    "range": "Melee",
+    "damage": "3d10+3 mag"
+  },
+  "experience": "Magic +3, Nature +3",
+  "description": "A celestial avatar of goodness in the form of a preternaturally beautiful horse with a long, spiraled horn emerging from its head.",
+  "features": [
+    {
+      "name": "Celestial Lance",
+      "kind": "Passive",
+      "rulesText": "The Unicorn’s standard attack deals double damage to a creature that has dealt damage to it."
+    },
+    {
+      "name": "Healing Touch",
+      "kind": "Action",
+      "rulesText": "The Unicorn touches its horn to an ally within Melee range and channels healing energy into them. Mark any number of Stress to clear an equal number of the ally’s HP."
+    },
+    {
+      "name": "Protective Aura",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Unicorn conjure a sparkling magical aura. While the aura is in effect, attack rolls made against the Unicorn or an ally within Very Close range are made with disadvantage. This effect lasts until the Unicorn takes damage."
+    },
+    {
+      "name": "Teleport",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Unicorn teleport up to Very Far range. The Unicorn can bring up to three allies within Very Close range with it."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/unicorn/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

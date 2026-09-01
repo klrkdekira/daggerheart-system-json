@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/eldritch-vambrace",
+  "@type": "Weapon",
+  "name": "Eldritch Vambrace",
+  "slug": "eldritch-vambrace",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 2 (LEVELS 2–4)",
+    "lineStart": 3769,
+    "lineEnd": 3769,
+    "pdfPageStart": 67,
+    "pdfPageEnd": 67
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Instinct",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Deflecting",
+    "rulesText": "When you are attacked, you can mark an Armor Slot to gain a bonus to your Evasion equal to your Armor Score against the attack."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/eldritch-vambrace/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

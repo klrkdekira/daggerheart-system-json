@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shadowhunter",
+  "@type": "DomainCard",
+  "name": "Shadowhunter",
+  "slug": "shadowhunter",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SHADOWHUNTER",
+    "lineStart": 15745,
+    "lineEnd": 15751,
+    "pdfPageStart": 218,
+    "pdfPageEnd": 218
+  },
+  "level": 8,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "Your prowess is enhanced under the cover of shadow. While you’re shrouded in low light or darkness, you gain a +1 bonus to your Evasion and make attack rolls with advantage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/shadowhunter/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

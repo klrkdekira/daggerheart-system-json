@@ -1,0 +1,37 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/festival-whip",
+  "@type": "Weapon",
+  "name": "Festival Whip",
+  "slug": "festival-whip",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Secondary Weapons",
+    "lineStart": 13675,
+    "lineEnd": 13675,
+    "pdfPageStart": 192,
+    "pdfPageEnd": 192
+  },
+  "category": "secondary",
+  "variant": "everyday-hero",
+  "trait": "Presence",
+  "range": "Very Close",
+  "burden": "One-Handed",
+  "damage": "d6 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Startling",
+    "rulesText": "Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/festival-whip/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

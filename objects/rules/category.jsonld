@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/category",
+  "@type": "Rule",
+  "name": "Category",
+  "slug": "category",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "CATEGORY",
+    "lineStart": 3351,
+    "lineEnd": 3353,
+    "pdfPageStart": 55,
+    "pdfPageEnd": 55
+  },
+  "rulesText": "A weapon’s category specifies whether it is a Primary or Secondary weapon. Your character can only equip up to one weapon of each category at a time.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/category/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/midnight-touched",
+  "@type": "DomainCard",
+  "name": "Midnight‑touched",
+  "slug": "midnight-touched",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "MIDNIGHT‑TOUCHED",
+    "lineStart": 15723,
+    "lineEnd": 15733,
+    "pdfPageStart": 217,
+    "pdfPageEnd": 217
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When 4 or more of the domain cards in your loadout are from the Midnight domain, gain the following benefits:\n\n  - Once per rest, when you have 0 Hope and the GM would gain a Fear, you can gain a Hope instead.\n\n  - When you make a successful attack, you can mark a Stress to add the result of your Fear Die to your damage roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/midnight-touched/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

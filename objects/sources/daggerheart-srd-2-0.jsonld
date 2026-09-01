@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0",
+  "@type": "Source",
+  "name": "Daggerheart System Reference Document 2.0",
+  "slug": "daggerheart-srd-2-0",
+  "srdVersion": "2.0",
+  "sourceFile": "SRD.md",
+  "contentDigest": "sha256:556524790fe4fad5bfaaab46a9c59ec9bca0de0b886cf951bb0a4d0cb62ad59d",
+  "pdfFile": "DH_SRD_2_2026_08_25.pdf",
+  "pdfDigest": "sha256:55d8b92b7e58aa1da99a4a59aa77352483ef4fbda71baddb9af9bfc1f333bd2a",
+  "license": "Darrington Press Community Gaming License",
+  "licenseUrl": {
+    "@id": "https://www.darringtonpress.com/license"
+  },
+  "attributionStatement": "This document, including the Witherwild Campaign Frame, is considered Public Game Content per the Darrington Press Community Gaming License. © 2026 Critical Role LLC. All rights reserved. For more information, please visit www.darringtonpress.com/license.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/sources/daggerheart-srd-2-0/"
+  }
+}

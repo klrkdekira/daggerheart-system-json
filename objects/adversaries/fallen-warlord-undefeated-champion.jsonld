@@ -1,0 +1,77 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fallen-warlord-undefeated-champion",
+  "@type": "Adversary",
+  "name": "Fallen Warlord: Undefeated Champion",
+  "slug": "fallen-warlord-undefeated-champion",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FALLEN WARLORD: UNDEFEATED CHAMPION",
+    "lineStart": 10651,
+    "lineEnd": 10679,
+    "pdfPageStart": 149,
+    "pdfPageEnd": 149
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Dispatch merciless death",
+    "punish the defiant",
+    "secure victory at any cost"
+  ],
+  "difficulty": 18,
+  "thresholds": "35/58",
+  "hitPoints": 11,
+  "stress": 5,
+  "attackModifier": "+8",
+  "standardAttack": {
+    "name": "Heart-Shattering Sword",
+    "range": "Very Close",
+    "damage": "4d12+13 phy"
+  },
+  "experience": "Conquest +3, History +2, Intimidation +3",
+  "description": "That which only the most feared have a chance to fear.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Undefeated Champion can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Faltering Armor",
+      "kind": "Passive",
+      "rulesText": "When the Undefeated Champion takes damage, reduce it by 1d10."
+    },
+    {
+      "name": "Shattering Strike",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack against all targets within Very Close range. PCs the Champion succeeds against lose a number of Hope equal to the HP they marked from this attack."
+    },
+    {
+      "name": "Endless Legions",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to summon a number of Fallen Shock Troops equal to twice the number of PCs. The Shock Troops appear at Far range."
+    },
+    {
+      "name": "Circle of Defilement",
+      "kind": "Reaction",
+      "rulesText": "Countdown (1d8). When the Undefeated Champion is in the spotlight for the first time, activate the countdown. When it triggers, activate a magical circle covering an area within Far range of the Champion. A target within that area is Vulnerable until they leave the circle. The circle can be removed by dealing Severe damage to the Undefeated Champion."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Undefeated Champion makes a successful attack against a PC, you gain a Fear."
+    },
+    {
+      "name": "Doombringer",
+      "kind": "Reaction",
+      "rulesText": "When a target marks HP from an attack by the Undefeated Champion, all PCs within Far range of the target lose a Hope."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/fallen-warlord-undefeated-champion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

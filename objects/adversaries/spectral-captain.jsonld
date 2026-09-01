@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spectral-captain",
+  "@type": "Adversary",
+  "name": "Spectral Captain",
+  "slug": "spectral-captain",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SPECTRAL CAPTAIN",
+    "lineStart": 8714,
+    "lineEnd": 8736,
+    "pdfPageStart": 128,
+    "pdfPageEnd": 128
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Move through solid objects",
+    "rally troops",
+    "rehash old battles"
+  ],
+  "difficulty": 16,
+  "thresholds": "13/26",
+  "hitPoints": 6,
+  "stress": 4,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Longbow",
+    "range": "Far",
+    "damage": "2d10+3 phy"
+  },
+  "experience": "Ancient Knowledge +3",
+  "description": "A ghostly commander leading their troops beyond death.",
+  "features": [
+    {
+      "name": "Ghost",
+      "kind": "Passive",
+      "rulesText": "The Captain has resistance to physical damage. Mark a Stress to move up to Close range through solid objects."
+    },
+    {
+      "name": "Unending Battle",
+      "kind": "Action",
+      "rulesText": "Spend 2 Fear to return up to 1d4+1 defeated Spectral allies to the battle at the points where they first appeared (with no marked HP or Stress)."
+    },
+    {
+      "name": "Hold Fast",
+      "kind": "Reaction",
+      "rulesText": "When the Captain’s Spectral allies are forced to make a reaction roll, you can mark a Stress to give those allies a +2 bonus to the roll."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Captain makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/spectral-captain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

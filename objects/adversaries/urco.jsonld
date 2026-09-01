@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/urco",
+  "@type": "Adversary",
+  "name": "Urco",
+  "slug": "urco",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "URCO",
+    "lineStart": 8896,
+    "lineEnd": 8918,
+    "pdfPageStart": 130,
+    "pdfPageEnd": 130
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Feed",
+    "frighten",
+    "hunt"
+  ],
+  "difficulty": 15,
+  "thresholds": "9/18",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Black Fang",
+    "range": "Melee",
+    "damage": "2d8+4 mag"
+  },
+  "experience": "Omens +3, Stealth +3",
+  "description": "A black-furred hound from beyond the veil of death that portends death and feeds on fear.",
+  "features": [
+    {
+      "name": "Fearmonger",
+      "kind": "Passive",
+      "rulesText": "When a PC within Very Close range fails with Hope, you gain a Fear."
+    },
+    {
+      "name": "Terror-Fueled",
+      "kind": "Passive",
+      "rulesText": "The Urco gains a bonus to attack and damage rolls equal to the number of Fear you have."
+    },
+    {
+      "name": "Fear Eater",
+      "kind": "Action",
+      "rulesText": "Spend any number of Fear to clear the same number of Stress. If the Urco has no marked Stress, you can spend any number of Fear to clear the same number of HP."
+    },
+    {
+      "name": "Baleful Gaze",
+      "kind": "Reaction",
+      "rulesText": "When the Urco takes damage from an attack, you can spend a Fear to cause the attacker’s damage thresholds to gain a −1 penalty until the end of the scene. This effect can stack."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/urco/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

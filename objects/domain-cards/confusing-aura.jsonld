@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/confusing-aura",
+  "@type": "DomainCard",
+  "name": "Confusing Aura",
+  "slug": "confusing-aura",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "CONFUSING AURA",
+    "lineStart": 14541,
+    "lineEnd": 14547,
+    "pdfPageStart": 207,
+    "pdfPageEnd": 207
+  },
+  "level": 8,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Make a Spellcast Roll (14). Once per long rest on a success, you create a layer of illusion over your body that makes it hard to tell exactly where you are. Mark any number of Stress to make that many additional layers. When an adversary makes an attack against you, roll a number of d6s equal to the number of layers currently active. If any roll a 5 or higher, one layer of the aura is destroyed and the attack fails. If all the results are 4 or lower, you take the damage and this spell ends",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/confusing-aura/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

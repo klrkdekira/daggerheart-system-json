@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/sigil-of-retribution",
+  "@type": "DomainCard",
+  "name": "Sigil of Retribution",
+  "slug": "sigil-of-retribution",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SIGIL OF RETRIBUTION",
+    "lineStart": 15119,
+    "lineEnd": 15125,
+    "pdfPageStart": 212,
+    "pdfPageEnd": 212
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Mark an adversary within Close range with a sigil of retribution. The GM gains a Fear. When the marked adversary deals damage to you or your allies, place a d8 on this card. You can hold a number of d8s equal to your level. When you successfully attack the marked adversary, roll the dice on this card and add the total to your damage roll, then clear the dice. This effect ends when the marked adversary is defeated or you cast Sigil of Retribution again.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/sigil-of-retribution/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

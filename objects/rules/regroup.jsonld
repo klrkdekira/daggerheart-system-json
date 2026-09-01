@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/regroup",
+  "@type": "Rule",
+  "name": "Regroup",
+  "slug": "regroup",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "REGROUP",
+    "lineStart": 4835,
+    "lineEnd": 4841,
+    "pdfPageStart": 92,
+    "pdfPageEnd": 92
+  },
+  "rulesText": "​​Choice: When a battle begins, choose a point within Far range.\n\n**Trigger:** All PCs have marked all of their Armor Slots.\n\n**Effect:** Teleport all PCs and this NPC to the chosen spot and clear an Armor Slot on each target.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/regroup/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

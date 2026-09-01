@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/specter-of-the-dark",
+  "@type": "DomainCard",
+  "name": "Specter of the Dark",
+  "slug": "specter-of-the-dark",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SPECTER OF THE DARK",
+    "lineStart": 15810,
+    "lineEnd": 15816,
+    "pdfPageStart": 218,
+    "pdfPageEnd": 218
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Mark a Stress to become Spectral until you make an action roll targeting another creature. While Spectral, you’re immune to physical damage and can float and pass through solid objects. Other creatures can still see you while you’re in this form.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/specter-of-the-dark/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

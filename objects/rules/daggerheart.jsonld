@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/daggerheart",
+  "@type": "Rule",
+  "name": "Daggerheart",
+  "slug": "daggerheart",
+  "sourceLocator": {
+    "chapter": "DAGGERHEART",
+    "heading": "DAGGERHEART",
+    "lineStart": 13,
+    "lineEnd": 13,
+    "pdfPageStart": 1,
+    "pdfPageEnd": 1
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/daggerheart/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

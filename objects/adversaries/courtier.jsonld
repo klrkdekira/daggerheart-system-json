@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/courtier",
+  "@type": "Adversary",
+  "name": "Courtier",
+  "slug": "courtier",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "COURTIER",
+    "lineStart": 5536,
+    "lineEnd": 5554,
+    "pdfPageStart": 98,
+    "pdfPageEnd": 98
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Discredit",
+    "gain favor",
+    "maneuver",
+    "scheme"
+  ],
+  "difficulty": 12,
+  "thresholds": "4/8",
+  "hitPoints": 3,
+  "stress": 4,
+  "attackModifier": "−4",
+  "standardAttack": {
+    "name": "Daggers",
+    "range": "Melee",
+    "damage": "1d4+2 phy"
+  },
+  "experience": "Socialite +3",
+  "description": "An ambitious and ostentatiously dressed socialite.",
+  "features": [
+    {
+      "name": "Mockery",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to say something mocking and force a target within Close range to make a Presence Reaction Roll (14) to see if they can save face. On a failure, the target must mark 2 Stress and is Vulnerable until the scene ends."
+    },
+    {
+      "name": "Scapegoat",
+      "kind": "Action",
+      "rulesText": "Spend a Fear and target a PC. The Courtier convinces a crowd or prominent individual that the target is the cause of their current conflict or misfortune."
+    }
+  ],
+  "role": "Social",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/courtier/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

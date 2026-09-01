@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/construct",
+  "@type": "Adversary",
+  "name": "Construct",
+  "slug": "construct",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CONSTRUCT",
+    "lineStart": 5512,
+    "lineEnd": 5534,
+    "pdfPageStart": 98,
+    "pdfPageEnd": 98
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Destroy environment",
+    "serve creator",
+    "smash target",
+    "trample groups"
+  ],
+  "difficulty": 13,
+  "thresholds": "7/15",
+  "hitPoints": 9,
+  "stress": 4,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Fist Slam",
+    "range": "Melee",
+    "damage": "1d20 phy"
+  },
+  "description": "A roughly humanoid being of stone and steel, assembled and animated by magic.",
+  "features": [
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Construct can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Weak Structure",
+      "kind": "Passive",
+      "rulesText": "When the Construct marks HP from physical damage, they must mark an additional HP."
+    },
+    {
+      "name": "Trample",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against all targets in the Construct’s path when they move. Targets the Construct succeeds against take 1d8 physical damage."
+    },
+    {
+      "name": "Overload",
+      "kind": "Reaction",
+      "rulesText": "Before rolling damage for the Construct’s attack, you can mark a Stress to gain a +10 bonus to the damage roll. The Construct can then take the spotlight again."
+    },
+    {
+      "name": "Death Quake",
+      "kind": "Reaction",
+      "rulesText": "When the Construct marks their last HP, the magic powering them ruptures in an explosion of force. Make an attack with advantage against all targets within Very Close range. Targets the Construct succeeds against take 1d12+2 magic damage."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/construct/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

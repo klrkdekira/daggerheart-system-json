@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/using-spellcast-rolls-hope-and-experiences",
+  "@type": "Rule",
+  "name": "Using Spellcast Rolls, Hope, and Experiences",
+  "slug": "using-spellcast-rolls-hope-and-experiences",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "USING SPELLCAST ROLLS, HOPE, AND EXPERIENCES",
+    "lineStart": 1404,
+    "lineEnd": 1406,
+    "pdfPageStart": 21,
+    "pdfPageEnd": 21
+  },
+  "rulesText": "Make a Spellcast Roll to connect with your companion and command them to take action. Spend a Hope to add an applicable Companion Experience to the roll. On a success with Hope, if your next action builds on their success, you gain advantage on the roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/using-spellcast-rolls-hope-and-experiences/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

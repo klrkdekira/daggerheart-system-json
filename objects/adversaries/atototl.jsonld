@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/atototl",
+  "@type": "Adversary",
+  "name": "Atototl",
+  "slug": "atototl",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ATOTOTL",
+    "lineStart": 5400,
+    "lineEnd": 5420,
+    "pdfPageStart": 97,
+    "pdfPageEnd": 97
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Avoid",
+    "escape",
+    "misdirect"
+  ],
+  "difficulty": 12,
+  "thresholds": "8/12",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Talons",
+    "range": "Melee",
+    "damage": "1d8+1 phy"
+  },
+  "experience": "Flight +3, Jungles +3",
+  "description": "A majestic green water bird that has a ten-foot wingspan and is hunted for the fortune-telling stone inside their stomach.",
+  "features": [
+    {
+      "name": "Wind Lord",
+      "kind": "Passive",
+      "rulesText": "While the Atototl is flying, attacks against it is made with disadvantage."
+    },
+    {
+      "name": "Stone of Omens",
+      "kind": "Passive",
+      "rulesText": "Inside the Atototl is a stone that foretells good or ill fortune, depending on its color. A PC who searches the Atototl’s remains finds the stone and makes a fate roll. On an even result, the PC gains Hope equal to half the result, which they can distribute among the PCs however they wish. On an odd result, you gain Fear equal to half the result."
+    },
+    {
+      "name": "Archer’s Bane",
+      "kind": "Reaction",
+      "rulesText": "When a creature beyond Very Close range would deal damage to the Atototl with a weapon attack, you can spend a Fear to make an attack roll against them. On a success, whirling winds reflect the attack and deal the attacker’s damage back to them."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/atototl/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

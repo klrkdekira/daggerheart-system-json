@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/banded-armor",
+  "@type": "Armor",
+  "name": "Banded Armor",
+  "slug": "banded-armor",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 1 (LEVEL 1)",
+    "lineStart": 3931,
+    "lineEnd": 3931,
+    "pdfPageStart": 72,
+    "pdfPageEnd": 72
+  },
+  "variant": "core",
+  "baseThresholds": "8 / 16",
+  "baseScore": "4",
+  "tier": 1,
+  "feature": {
+    "name": "Bulky",
+    "rulesText": "−1 to Evasion; when you take Severe damage, you must mark a Stress."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/banded-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

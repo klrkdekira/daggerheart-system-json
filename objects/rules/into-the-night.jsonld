@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/into-the-night",
+  "@type": "Rule",
+  "name": "Into the Night",
+  "slug": "into-the-night",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "INTO THE NIGHT",
+    "lineStart": 4843,
+    "lineEnd": 4847,
+    "pdfPageStart": 92,
+    "pdfPageEnd": 92
+  },
+  "rulesText": "**Trigger:** The PCs start a long rest with this NPC.\n\n**Effect:** Roll 1d4. On a 2 or less, this NPC steals 1 handful of gold from the party while they are sleeping, then disappears into the night.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/into-the-night/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

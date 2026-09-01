@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-warhammer",
+  "@type": "Weapon",
+  "name": "Legendary Warhammer",
+  "slug": "legendary-warhammer",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3640,
+    "lineEnd": 3640,
+    "pdfPageStart": 63,
+    "pdfPageEnd": 63
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d12+12 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Heavy",
+    "rulesText": "−1 to Evasion"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/legendary-warhammer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

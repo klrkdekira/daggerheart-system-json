@@ -1,0 +1,71 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/abandoned-mine",
+  "@type": "Environment",
+  "name": "Abandoned Mine",
+  "slug": "abandoned-mine",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ABANDONED MINE",
+    "lineStart": 11620,
+    "lineEnd": 11654,
+    "pdfPageStart": 160,
+    "pdfPageEnd": 160
+  },
+  "tier": 1,
+  "impulses": [
+    "Poison the party with deadly gasses",
+    "rumble and collapse",
+    "split the party",
+    "turn them around"
+  ],
+  "difficulty": 11,
+  "potentialAdversariesText": "Darkweave Spiders (Darkweave Crawler, Darkweave Spinner, Darkweave Swarmlings), Miner Ghosts (Poltergeist, Will-o’-the-Wisps)",
+  "description": "A twisting warren of disused tunnels carved out of the bedrock by a doomed mining outfit.",
+  "features": [
+    {
+      "name": "Pitch Black",
+      "kind": "Passive",
+      "rulesText": "There is no light, natural or otherwise, in these underground mining tunnels. Ask the PCs what they use for light or how they otherwise find their way in the dark. PCs without a reliable source of light make action and reaction rolls with disadvantage.\n\nWhat fuel does the party’s light source use, and how long will it last? What unwanted attention does the light attract?"
+    },
+    {
+      "name": "Labyrinth",
+      "kind": "Passive",
+      "rulesText": "The party must complete a Progress Countdown (4) to find their way through the mines. Each time a PC rolls with Hope while finding their way through, they discover one of the curiosities below.\n\n- An unmined vein of precious metals or gemstones\n- Various mining tools, including a broken (but mendable) mine cart made of adamantine\n- Psychic echoes of the miners’ tragic end\n- The desiccated corpses of miners who lost their way in the tunnels\n- Tattered remnants of darkweave spider silk\n\nWhat did miners previously extract here? Who in the party knows how to navigate below ground? What are the PCs most afraid might happen to them down here?"
+    },
+    {
+      "name": "Into the Spider’s Web",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to summon a Darkweave Queen inside her gossamer-strewn lair. She drops from the ceiling within Close range of a PC and immediately takes the spotlight.\n\nHow does the Darkweave Queen use her lair to her advantage? What remnants of her past meals can the party find here?"
+    },
+    {
+      "name": "Impending Collapse",
+      "kind": "Reaction",
+      "rulesText": "Countdown (2). The first time the PCs roll with Fear, describe how the ground subtly vibrates as rocks shift overhead and activate the countdown. It ticks down when a PC rolls with Fear. When it triggers, each PC must succeed on an Agility Reaction Roll or take 1d8+3 physical damage and become temporarily Restrained by the rubble.\n\nWhat other signs of instability does the mine offer the party? What new dangers does the tunnel system’s new configuration expose the party to?"
+    }
+  ],
+  "category": "Traversal",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/darkweave-crawler"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/darkweave-spinner"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/darkweave-swarmlings"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/poltergeist"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/will-o-the-wisps"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/abandoned-mine/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

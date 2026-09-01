@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-of-avarice",
+  "@type": "Adversary",
+  "name": "Demon of Avarice",
+  "slug": "demon-of-avarice",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DEMON OF AVARICE",
+    "lineStart": 9176,
+    "lineEnd": 9196,
+    "pdfPageStart": 133,
+    "pdfPageEnd": 133
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Consume",
+    "fuel greed",
+    "sow dissent"
+  ],
+  "difficulty": 17,
+  "thresholds": "15/29",
+  "hitPoints": 6,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Hungry Maw",
+    "range": "Melee",
+    "damage": "3d6+5 mag"
+  },
+  "experience": "Manipulation +3",
+  "description": "A regal cloaked monstrosity with circular horns adorned with treasure.",
+  "features": [
+    {
+      "name": "Money Talks",
+      "kind": "Passive",
+      "rulesText": "Attacks against the Demon are made with disadvantage unless the attacker spends a handful of gold. This Demon starts with a number of handfuls equal to the number of PCs. When a target marks HP from the Demon’s standard attack, they can spend a handful of gold instead of marking HP (1 handful per HP). Add a handful of gold to the Demon for each handful of gold spent by PCs on this feature."
+    },
+    {
+      "name": "Numbers Must Go Up",
+      "kind": "Passive",
+      "rulesText": "Add a bonus to the Demon’s attack rolls equal to the number of handfuls of gold they have."
+    },
+    {
+      "name": "Money Is Time",
+      "kind": "Action",
+      "rulesText": "Spend 3 handfuls of gold (or a Fear) to spotlight 1d4+1 allies."
+    }
+  ],
+  "role": "Support",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/demon-of-avarice/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

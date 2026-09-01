@@ -1,0 +1,75 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/young-fire-dragon",
+  "@type": "Adversary",
+  "name": "Young Fire Dragon",
+  "slug": "young-fire-dragon",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "YOUNG FIRE DRAGON",
+    "lineStart": 10246,
+    "lineEnd": 10272,
+    "pdfPageStart": 144,
+    "pdfPageEnd": 144
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Burn",
+    "defend lair",
+    "erupt",
+    "fly",
+    "shred",
+    "take"
+  ],
+  "difficulty": 18,
+  "thresholds": "21/34",
+  "hitPoints": 10,
+  "stress": 6,
+  "attackModifier": "+7",
+  "standardAttack": {
+    "name": "Bite & Claws",
+    "range": "Close",
+    "damage": "4d10 phy"
+  },
+  "experience": "Burning Rage +3",
+  "description": "A crimson dragon with four powerful limbs and smoldering wings.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Dragon can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it."
+    },
+    {
+      "name": "Intimidating",
+      "kind": "Passive",
+      "rulesText": "When you spend a Fear to spotlight the Dragon, all PCs within Close range must mark a Stress or lose a Hope."
+    },
+    {
+      "name": "Flame Breath",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Dragon unleash a blast of flame against all targets in front of it within Close range. Each target must make an Agility Reaction Roll. Targets who fail take 4d8+3 magic damage. Targets who succeed must mark a Stress or take half damage. A target who marks HP from this attack also becomes Vulnerable until they clear a HP."
+    },
+    {
+      "name": "Eruption",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Dragon crack the earth open with its tail, unleashing an explosion of lava. Choose a point within Far range. Each PC on the line between the Dragon and the chosen point must succeed on an Agility Reaction Roll or get burned, becoming Vulnerable until their next rest. You gain a Fear for each PC who fails."
+    },
+    {
+      "name": "Blazing Scales",
+      "kind": "Reaction",
+      "rulesText": "When a creature within Very Close range attacks the Dragon, the attacker must mark a Stress."
+    },
+    {
+      "name": "Slash and Burn",
+      "kind": "Reaction",
+      "rulesText": "When the Dragon makes a successful standard attack, you gain a Fear and can mark a Stress to have the attack deal an extra 10 magic damage."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/young-fire-dragon/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

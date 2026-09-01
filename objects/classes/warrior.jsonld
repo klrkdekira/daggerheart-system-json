@@ -1,0 +1,65 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/warrior",
+  "@type": "CharacterClass",
+  "name": "Warrior",
+  "slug": "warrior",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WARRIOR",
+    "lineStart": 1845,
+    "lineEnd": 1869,
+    "pdfPageStart": 28,
+    "pdfPageEnd": 28
+  },
+  "domains": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+    }
+  ],
+  "subclasses": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/call-of-the-brave"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/call-of-the-slayer"
+    }
+  ],
+  "startingEvasion": 11,
+  "startingHitPoints": 6,
+  "hopeFeature": {
+    "name": "No Mercy",
+    "rulesText": "Spend 3 Hope to gain a +1 bonus to your attack rolls until your next rest."
+  },
+  "features": [
+    {
+      "name": "Attack of Opportunity",
+      "rulesText": "If an adversary within Melee range attempts to leave that range, make a reaction roll using a trait of your choice against their Difficulty. Choose one effect on a success, or two if you critically succeed:\n\n  - They can’t move from where they are.\n  - You deal damage to them equal to your primary weapon’s damage.\n  - You move with them."
+    },
+    {
+      "name": "Combat Training",
+      "rulesText": "You ignore burden when equipping weapons. When you deal physical damage, you gain a bonus to your damage roll equal to your level."
+    }
+  ],
+  "classItems": "The drawing of a lover or a sharpening stone",
+  "backgroundQuestions": [
+    "Who taught you to fight, and why did they stay behind when you left home?",
+    "Somebody defeated you in battle years ago and left you to die. Who was it, and how did they betray you?",
+    "What legendary place have you always wanted to visit, and why is it so special?"
+  ],
+  "connections": [
+    "We knew each other long before this party came together. How?",
+    "What mundane task do you usually help me with off the battlefield?",
+    "What fear am I helping you overcome?"
+  ],
+  "description": "Becoming a warrior requires years, often a lifetime, of training and dedication to the mastery of weapons and violence. While many who seek to fight hone only their strength, warriors understand the importance of an agile body and mind, making them some of the most sought-after fighters across the realms. Frequently, warriors find employment within an army, a band of mercenaries, or even a royal guard, but their potential is wasted in any position where they cannot continue to improve and expand their skills. Warriors are known to have a favored weapon; to come between them and their blade would be a grievous mistake.\n\nDOMAINS – Blade & Bone",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/classes/warrior/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

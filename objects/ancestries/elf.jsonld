@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/elf",
+  "@type": "Ancestry",
+  "name": "Elf",
+  "slug": "elf",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "ELF",
+    "lineStart": 2261,
+    "lineEnd": 2271,
+    "pdfPageStart": 34,
+    "pdfPageEnd": 34
+  },
+  "description": "Elves are typically tall humanoids with pointed ears and acutely attuned senses. Their ears vary in size and pointed shape, and as they age, the tips begin to droop. While elves come in a wide range of body types, they are all fairly tall, with heights ranging from about 6 to 6 ½ feet. All elves have the ability to drop into a celestial trance, rather than sleep. This allows them to rest effectively in a short amount of time.\n\nSome elves possess what is known as a “mystic form,” which occurs when an elf has dedicated themself to the study or protection of the natural world so deeply that their physical form changes. These characteristics can include celestial freckles, the presence of leaves, vines, or flowers in their hair, eyes that flicker like fire, and more. Sometimes these traits are inherited from parents, but if an elf changes their environment or magical focus, their appearance changes over time. Because elves live for about 350 years, these traits can shift more than once throughout their lifespan.",
+  "features": [
+    {
+      "name": "Quick Reactions",
+      "rulesText": "Mark a Stress to gain advantage on a reaction roll."
+    },
+    {
+      "name": "Celestial Trance",
+      "rulesText": "During a rest, you can drop into a trance to choose an additional downtime move."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/ancestries/elf/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

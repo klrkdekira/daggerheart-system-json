@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/know-thy-enemy",
+  "@type": "DomainCard",
+  "name": "Know Thy Enemy",
+  "slug": "know-thy-enemy",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "KNOW THY ENEMY",
+    "lineStart": 14868,
+    "lineEnd": 14881,
+    "pdfPageStart": 210,
+    "pdfPageEnd": 210
+  },
+  "level": 5,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When observing a creature, you can make an Instinct Roll against them. On a success, spend a Hope and ask the GM for one set of information about the target from the following options:\n\n  - Their unmarked Hit Points and Stress.\n  - Their Difficulty and damage thresholds.\n  - Their tactics and standard attack damage dice.\n  - Their features and Experiences.\n\nAdditionally on a success, you can mark a Stress to remove a Fear from the GM’s Fear Pool.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/know-thy-enemy/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

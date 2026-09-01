@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/ghoulskin-gloves",
+  "@type": "Item",
+  "name": "Ghoulskin Gloves",
+  "slug": "ghoulskin-gloves",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Items",
+    "lineStart": 4155,
+    "lineEnd": 4155,
+    "pdfPageStart": 78,
+    "pdfPageEnd": 78
+  },
+  "itemSet": "expansion",
+  "roll": 36,
+  "description": "When you attack with a physical weapon while wearing these gloves, the damage is considered both physical and magic.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/ghoulskin-gloves/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

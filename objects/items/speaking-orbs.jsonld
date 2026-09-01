@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/items/speaking-orbs",
+  "@type": "Item",
+  "name": "Speaking Orbs",
+  "slug": "speaking-orbs",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Core Set Items",
+    "lineStart": 4042,
+    "lineEnd": 4042,
+    "pdfPageStart": 75,
+    "pdfPageEnd": 75
+  },
+  "itemSet": "core-set",
+  "roll": 5,
+  "description": "This pair of orbs allows any creatures holding them to communicate with each other across any distance.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/items/speaking-orbs/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/loot"
+  }
+}

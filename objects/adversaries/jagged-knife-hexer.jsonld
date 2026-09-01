@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-hexer",
+  "@type": "Adversary",
+  "name": "Jagged Knife Hexer",
+  "slug": "jagged-knife-hexer",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "JAGGED KNIFE HEXER",
+    "lineStart": 5958,
+    "lineEnd": 5976,
+    "pdfPageStart": 102,
+    "pdfPageEnd": 102
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Command",
+    "hex",
+    "profit"
+  ],
+  "difficulty": 13,
+  "thresholds": "5/9",
+  "hitPoints": 4,
+  "stress": 4,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Staff",
+    "range": "Far",
+    "damage": "1d6+2 mag"
+  },
+  "experience": "Magical Knowledge +2",
+  "description": "A staff-wielding bandit in a cloak adorned with magical paraphernalia, using curses to vex their foes.",
+  "features": [
+    {
+      "name": "Curse",
+      "kind": "Action",
+      "rulesText": "Choose a target within Far range and temporarily Curse them. While the target is Cursed, you can mark a Stress when that target rolls with Hope to make the roll be with Fear instead."
+    },
+    {
+      "name": "Chaotic Flux",
+      "kind": "Action",
+      "rulesText": "Make an attack against up to three targets within Very Close range. Mark a Stress to deal 2d6+3 magic damage to targets the Hexer succeeded against."
+    }
+  ],
+  "role": "Support",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/jagged-knife-hexer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

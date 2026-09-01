@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-of-jealousy",
+  "@type": "Adversary",
+  "name": "Demon of Jealousy",
+  "slug": "demon-of-jealousy",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DEMON OF JEALOUSY",
+    "lineStart": 9250,
+    "lineEnd": 9272,
+    "pdfPageStart": 134,
+    "pdfPageEnd": 134
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Join in on others’ success",
+    "take what belongs to others",
+    "hold grudges"
+  ],
+  "difficulty": 17,
+  "thresholds": "17/30",
+  "hitPoints": 6,
+  "stress": 6,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Psychic Assault",
+    "range": "Far",
+    "damage": "3d8+3 mag"
+  },
+  "experience": "Manipulation +3",
+  "description": "A fickle creature of spindly limbs and insatiable desires.",
+  "features": [
+    {
+      "name": "Unprotected Mind",
+      "kind": "Passive",
+      "rulesText": "The Demon’s standard attack deals direct damage."
+    },
+    {
+      "name": "My Turn",
+      "kind": "Reaction",
+      "rulesText": "When the Demon marks HP from an attack, spend a number of Fear equal to the HP marked by the Demon to cause the attacker to mark the same number of HP."
+    },
+    {
+      "name": "Rivalry",
+      "kind": "Reaction",
+      "rulesText": "When a creature within Close range takes damage from a different adversary, you can mark a Stress to add a d4 to the damage roll."
+    },
+    {
+      "name": "What’s Yours Is Mine",
+      "kind": "Reaction",
+      "rulesText": "When a PC takes Severe damage within Very Close range of the Demon, you can spend a Fear to cause the target to make a Finesse Reaction Roll. On a failure, the Demon seizes one item or consumable of their choice from the target’s inventory."
+    }
+  ],
+  "role": "Ranged",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/demon-of-jealousy/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

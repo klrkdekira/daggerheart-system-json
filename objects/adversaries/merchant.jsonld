@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/merchant",
+  "@type": "Adversary",
+  "name": "Merchant",
+  "slug": "merchant",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MERCHANT",
+    "lineStart": 6154,
+    "lineEnd": 6172,
+    "pdfPageStart": 104,
+    "pdfPageEnd": 104
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Buy low and sell high",
+    "create demand",
+    "inflate prices",
+    "seek profit"
+  ],
+  "difficulty": 12,
+  "thresholds": "4/8",
+  "hitPoints": 3,
+  "stress": 3,
+  "attackModifier": "−4",
+  "standardAttack": {
+    "name": "Club",
+    "range": "Melee",
+    "damage": "1d4+1 phy"
+  },
+  "experience": "Shrewd Negotiator +3",
+  "description": "A finely dressed trader with a keen eye for financial gain.",
+  "features": [
+    {
+      "name": "Preferential Treatment",
+      "kind": "Passive",
+      "rulesText": "A PC who succeeds on a Presence Roll against the Merchant gains a discount on purchases. A PC who fails on a Presence Roll against the Merchant must pay more and has disadvantage on future Presence Rolls against the Merchant."
+    },
+    {
+      "name": "The Runaround",
+      "kind": "Passive",
+      "rulesText": "When a PC rolls a 14 or lower on a Presence Roll made against the Merchant, they must mark a Stress."
+    }
+  ],
+  "role": "Social",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/merchant/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/floating-eye",
+  "@type": "DomainCard",
+  "name": "Floating Eye",
+  "slug": "floating-eye",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "FLOATING EYE",
+    "lineStart": 14438,
+    "lineEnd": 14444,
+    "pdfPageStart": 206,
+    "pdfPageEnd": 206
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+  },
+  "cardType": "Spell",
+  "recallCost": 0,
+  "rulesText": "Spend a Hope to create a single, small floating orb that you can move anywhere within Very Far range. While this spell is active, you can see through the orb as though you’re looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/floating-eye/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/splintering-strike",
+  "@type": "DomainCard",
+  "name": "Splintering Strike",
+  "slug": "splintering-strike",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SPLINTERING STRIKE",
+    "lineStart": 14950,
+    "lineEnd": 14956,
+    "pdfPageStart": 210,
+    "pdfPageEnd": 210
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 3,
+  "rulesText": "Spend a Hope and make an attack against all adversaries within your weapon’s range. Once per long rest, on a success against any targets, roll your weapon's damage and distribute that damage however you wish between the targets you succeeded against. Before you deal damage to each target, roll an additional damage die and add its result to the damage you deal to them.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/splintering-strike/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

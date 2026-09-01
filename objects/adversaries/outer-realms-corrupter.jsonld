@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/outer-realms-corrupter",
+  "@type": "Adversary",
+  "name": "Outer Realms Corrupter",
+  "slug": "outer-realms-corrupter",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "OUTER REALMS CORRUPTER",
+    "lineStart": 11053,
+    "lineEnd": 11069,
+    "pdfPageStart": 153,
+    "pdfPageEnd": 153
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Confuse",
+    "distract",
+    "overwhelm"
+  ],
+  "difficulty": 19,
+  "thresholds": "27/47",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+7",
+  "standardAttack": {
+    "name": "Corroding Pseudopod",
+    "range": "Very Close",
+    "damage": "4d8+5 mag"
+  },
+  "description": "A shifting, formless mass seemingly made of chromatic light.",
+  "features": [
+    {
+      "name": "Will-Shattering Touch",
+      "kind": "Passive",
+      "rulesText": "When a PC takes damage from the Corrupter, they lose a Hope."
+    },
+    {
+      "name": "Disgorge Reality Flotsam",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to spew partially digested portions of consumed realities at all targets within Close range. Targets must succeed on a Knowledge Reaction Roll or mark 2 Stress."
+    }
+  ],
+  "role": "Support",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/outer-realms-corrupter/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

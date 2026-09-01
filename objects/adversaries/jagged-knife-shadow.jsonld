@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-shadow",
+  "@type": "Adversary",
+  "name": "Jagged Knife Shadow",
+  "slug": "jagged-knife-shadow",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "JAGGED KNIFE SHADOW",
+    "lineStart": 6044,
+    "lineEnd": 6062,
+    "pdfPageStart": 103,
+    "pdfPageEnd": 103
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Ambush",
+    "conceal",
+    "divide",
+    "profit"
+  ],
+  "difficulty": 12,
+  "thresholds": "4/8",
+  "hitPoints": 3,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Daggers",
+    "range": "Melee",
+    "damage": "1d4+4 phy"
+  },
+  "experience": "Intrusion +3",
+  "description": "A nimble scoundrel bearing a wicked knife and utilizing shadow magic to isolate targets.",
+  "features": [
+    {
+      "name": "Backstab",
+      "kind": "Passive",
+      "rulesText": "When the Shadow succeeds on a standard attack that has advantage, they deal 1d6+6 physical damage instead of their standard damage."
+    },
+    {
+      "name": "Cloaked",
+      "kind": "Action",
+      "rulesText": "Become Hidden until after the Shadow’s next attack. Attacks made while Hidden from this feature have advantage."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/jagged-knife-shadow/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

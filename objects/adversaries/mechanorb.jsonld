@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/mechanorb",
+  "@type": "Adversary",
+  "name": "Mechanorb",
+  "slug": "mechanorb",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MECHANORB",
+    "lineStart": 6134,
+    "lineEnd": 6152,
+    "pdfPageStart": 104,
+    "pdfPageEnd": 104
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Coordinate",
+    "(dis)assemble",
+    "move orthogonally",
+    "speak in binary"
+  ],
+  "difficulty": 12,
+  "thresholds": "5/10",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Needle",
+    "range": "Melee",
+    "damage": "1d10+1 phy"
+  },
+  "experience": "Machines +2",
+  "description": "A floating clockwork sphere that has telescoping limbs and comes from a realm of machines and metal.",
+  "features": [
+    {
+      "name": "Hive Mind",
+      "kind": "Passive",
+      "rulesText": "The Mechanorb gains a +1 bonus to their Difficulty for each other Mechanorb within Close range."
+    },
+    {
+      "name": "Adaptive Tactics",
+      "kind": "Passive",
+      "rulesText": "Pool. When the Mechanorb fails an attack roll, add a token to the Mechanorb Pool. All Mechanorbs in the scene gain a bonus to attack rolls equal to the number of tokens in the Mechanorb Pool. Clear all tokens when any Mechanorb takes Severe damage or is defeated."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/mechanorb/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

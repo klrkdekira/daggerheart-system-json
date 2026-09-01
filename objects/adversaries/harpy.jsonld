@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/harpy",
+  "@type": "Adversary",
+  "name": "Harpy",
+  "slug": "harpy",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HARPY",
+    "lineStart": 5898,
+    "lineEnd": 5916,
+    "pdfPageStart": 102,
+    "pdfPageEnd": 102
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Defend nest",
+    "drop enemies from a great height",
+    "maraud from the air",
+    "screech incessantly"
+  ],
+  "difficulty": 12,
+  "thresholds": "3/7",
+  "hitPoints": 3,
+  "stress": 3,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Talons",
+    "range": "Melee",
+    "damage": "1d8+1 phy"
+  },
+  "experience": "Islands +3",
+  "description": "A fierce and foul-smelling bird with an eight-foot wingspan and the upper body and face of a human.",
+  "features": [
+    {
+      "name": "Toxic Aura",
+      "kind": "Passive",
+      "rulesText": "The Harpy emits a foul stench that renders all non-Harpies Vulnerable while within Very Close range."
+    },
+    {
+      "name": "Swooping Attack",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Harpy move in a straight line to a point within Far range and make an attack against a target in the Harpy’s path. On a success, the Harpy deals 3d6 physical damage."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/harpy/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

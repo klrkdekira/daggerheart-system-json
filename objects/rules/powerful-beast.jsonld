@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/powerful-beast",
+  "@type": "Rule",
+  "name": "Powerful Beast",
+  "slug": "powerful-beast",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "POWERFUL BEAST",
+    "lineStart": 957,
+    "lineEnd": 969,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "rulesText": "*(Bear, Bull, Moose, etc.)*\n\n*Strength +3 | Evasion +1*\n\n*Melee Strength d10+4 phy*\n\n**Gain advantage on:** navigate, protect, scare\n\n**Rampage:** When you roll a 1 on a damage die, you can roll a d10 and add the result to the damage roll. Additionally, before you make an attack roll, you can mark a Stress to gain a +1 bonus to your Proficiency for that attack.\n\n**Thick Hide:** You gain a +2 bonus to your damage thresholds.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/powerful-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

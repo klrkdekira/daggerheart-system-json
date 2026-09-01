@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-whip",
+  "@type": "Weapon",
+  "name": "Advanced Whip",
+  "slug": "advanced-whip",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 3 (LEVELS 5–7)",
+    "lineStart": 3790,
+    "lineEnd": 3790,
+    "pdfPageStart": 68,
+    "pdfPageEnd": 68
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Presence",
+  "range": "Very Close",
+  "burden": "One-Handed",
+  "damage": "d6+4 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Startling",
+    "rulesText": "Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/advanced-whip/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

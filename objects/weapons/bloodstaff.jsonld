@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/bloodstaff",
+  "@type": "Weapon",
+  "name": "Bloodstaff",
+  "slug": "bloodstaff",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3713,
+    "lineEnd": 3713,
+    "pdfPageStart": 65,
+    "pdfPageEnd": 65
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Instinct",
+  "range": "Far",
+  "burden": "Two-Handed",
+  "damage": "d20+7 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Painful",
+    "rulesText": "Each time you make a successful attack, you must mark a Stress."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/bloodstaff/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

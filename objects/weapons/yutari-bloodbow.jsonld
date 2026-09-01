@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/yutari-bloodbow",
+  "@type": "Weapon",
+  "name": "Yutari Bloodbow",
+  "slug": "yutari-bloodbow",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3534,
+    "lineEnd": 3534,
+    "pdfPageStart": 60,
+    "pdfPageEnd": 60
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Finesse",
+  "range": "Far",
+  "burden": "Two-Handed",
+  "damage": "d6+4 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Brutal",
+    "rulesText": "When you roll the maximum value on a damage die, roll an additional damage die."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/yutari-bloodbow/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

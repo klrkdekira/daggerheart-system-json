@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/rune-shield",
+  "@type": "Weapon",
+  "name": "Rune Shield",
+  "slug": "rune-shield",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 1 (LEVEL 1)",
+    "lineStart": 3741,
+    "lineEnd": 3741,
+    "pdfPageStart": 66,
+    "pdfPageEnd": 66
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Knowledge",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d4 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 1,
+  "feature": {
+    "name": "Protective",
+    "rulesText": "+1 to Armor Score"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/rune-shield/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

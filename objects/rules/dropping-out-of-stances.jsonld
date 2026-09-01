@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/dropping-out-of-stances",
+  "@type": "Rule",
+  "name": "Dropping Out of Stances",
+  "slug": "dropping-out-of-stances",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "DROPPING OUT OF STANCES",
+    "lineStart": 687,
+    "lineEnd": 689,
+    "pdfPageStart": 13,
+    "pdfPageEnd": 13
+  },
+  "rulesText": "If you are already in a stance when you shift into a different stance, you automatically drop out of the previously active stance. You also drop out of your active stance when you take Severe damage or mark your last Hit Point. Otherwise, you drop out of your active stance at the end of the scene. When you drop out of a stance, you lose any ongoing benefits it provides.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/dropping-out-of-stances/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

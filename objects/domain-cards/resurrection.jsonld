@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/resurrection",
+  "@type": "DomainCard",
+  "name": "Resurrection",
+  "slug": "resurrection",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "RESURRECTION",
+    "lineStart": 16244,
+    "lineEnd": 16252,
+    "pdfPageStart": 222,
+    "pdfPageEnd": 222
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Make a Spellcast Roll (20). On a success, restore one creature who has been dead no longer than 100 years to full strength. Then roll a d6. On a result of 5 or lower, place this card in your vault permanently.\n\nOn a failure, you can’t cast Resurrection again for a week.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/resurrection/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

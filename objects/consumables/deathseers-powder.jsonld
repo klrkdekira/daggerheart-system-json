@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/consumables/deathseers-powder",
+  "@type": "Consumable",
+  "name": "Deathseer’s Powder",
+  "slug": "deathseers-powder",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Additional Consumables",
+    "lineStart": 4293,
+    "lineEnd": 4293,
+    "pdfPageStart": 82,
+    "pdfPageEnd": 82
+  },
+  "itemSet": "expansion",
+  "roll": 11,
+  "description": "You can sprinkle this powder over a recently deceased corpse to conjure a spectral reprise of their final minute of life.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/consumables/deathseers-powder/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/consumables"
+  }
+}

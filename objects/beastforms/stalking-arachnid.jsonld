@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/stalking-arachnid",
+  "@type": "Beastform",
+  "name": "Stalking Arachnid",
+  "slug": "stalking-arachnid",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "STALKING ARACHNID",
+    "lineStart": 927,
+    "lineEnd": 939,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "tier": 1,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Tarantula, Wolf Spider, etc.",
+  "traitBonus": "Finesse +1",
+  "evasionBonus": 2,
+  "attack": {
+    "range": "Melee",
+    "trait": "Finesse",
+    "damage": "d6+1 phy"
+  },
+  "advantageOn": [
+    "attack",
+    "climb",
+    "sneak"
+  ],
+  "features": [
+    {
+      "name": "Venomous Bite",
+      "rulesText": "When you succeed on an attack against a target within Melee range, the target becomes temporarily Poisoned. A Poisoned creature takes 1d10 direct physical damage each time they act."
+    },
+    {
+      "name": "Webslinger",
+      "rulesText": "You can create a strong web material useful for both adventuring and battle. The web is resilient enough to support one creature. You can temporarily Restrain a target within Close range by succeeding on a Finesse Roll against them."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/stalking-arachnid/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hydra",
+  "@type": "Adversary",
+  "name": "Hydra",
+  "slug": "hydra",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HYDRA",
+    "lineStart": 9584,
+    "lineEnd": 9606,
+    "pdfPageStart": 137,
+    "pdfPageEnd": 137
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Devour",
+    "regenerate",
+    "terrify"
+  ],
+  "difficulty": 18,
+  "thresholds": "19/35",
+  "hitPoints": 10,
+  "stress": 5,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Bite",
+    "range": "Close",
+    "damage": "2d12+2 phy"
+  },
+  "description": "A quadrupedal scaled beast with multiple long-necked heads, each filled with menacing fangs.",
+  "features": [
+    {
+      "name": "Many-Headed Menace",
+      "kind": "Passive",
+      "rulesText": "The Hydra begins with three heads and can have up to five. When the Hydra takes Major or greater damage, they lose a head."
+    },
+    {
+      "name": "Relentless (X)",
+      "kind": "Passive",
+      "rulesText": "The Hydra can be spotlighted X times per GM turn, where X is the Hydra’s number of heads. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Regeneration",
+      "kind": "Action",
+      "rulesText": "If the Hydra has any marked HP, spend a Fear to clear a HP and grow two heads."
+    },
+    {
+      "name": "Terrifying Chorus",
+      "kind": "Action",
+      "rulesText": "All PCs within Far range lose 2 Hope."
+    },
+    {
+      "name": "Magical Weakness",
+      "kind": "Reaction",
+      "rulesText": "When the Hydra takes magic damage, they become Dazed until the next roll with Fear. While Dazed, they can’t use their Regeneration action but are immune to magic damage."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/hydra/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

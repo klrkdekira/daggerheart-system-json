@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/merchant-baron",
+  "@type": "Adversary",
+  "name": "Merchant Baron",
+  "slug": "merchant-baron",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MERCHANT BARON",
+    "lineStart": 8474,
+    "lineEnd": 8492,
+    "pdfPageStart": 126,
+    "pdfPageEnd": 126
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Abuse power",
+    "gather resources",
+    "mobilize minions"
+  ],
+  "difficulty": 15,
+  "thresholds": "9/19",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "−2",
+  "standardAttack": {
+    "name": "Rapier",
+    "range": "Melee",
+    "damage": "1d6+2 phy"
+  },
+  "experience": "Nobility +2, Trade +2",
+  "description": "An accomplished merchant with a large operation under their command.",
+  "features": [
+    {
+      "name": "Everyone Has a Price",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to offer a target a dangerous bargain for something they want or need. If used on a PC, they must make a Presence Reaction Roll (17). On a failure, they must mark 2 Stress or take the deal."
+    },
+    {
+      "name": "The Best Muscle Money Can Buy",
+      "kind": "Action",
+      "rulesText": "Once per scene, mark a Stress to summon 1d4+1 Tier 1 adversaries, who appear at Far range, to enforce the Baron’s will."
+    }
+  ],
+  "role": "Social",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/merchant-baron/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dryad",
+  "@type": "Adversary",
+  "name": "Dryad",
+  "slug": "dryad",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DRYAD",
+    "lineStart": 9340,
+    "lineEnd": 9360,
+    "pdfPageStart": 134,
+    "pdfPageEnd": 134
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Command",
+    "cultivate",
+    "drive out",
+    "preserve the forest"
+  ],
+  "difficulty": 16,
+  "thresholds": "24/38",
+  "hitPoints": 8,
+  "stress": 5,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Deadfall Shortbow",
+    "range": "Far",
+    "damage": "3d10+1 phy"
+  },
+  "experience": "Forest Knowledge +4",
+  "description": "A nature spirit in the form of a humanoid tree.",
+  "features": [
+    {
+      "name": "Bramble Patch",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to target a point within Far range. Create a patch of thorns that covers an area within Close range of that point. All targets within that area take 2d6+2 physical damage when they act. A target must succeed on a Finesse Roll or deal more than 20 damage to the Dryad with an attack to leave the area."
+    },
+    {
+      "name": "Grow Saplings",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to grow three Treant Sapling Minions, who appear at Close range and immediately take the spotlight."
+    },
+    {
+      "name": "We Are All One",
+      "kind": "Reaction",
+      "rulesText": "When an ally dies within Close range, you can spend a Fear to clear 2 HP and 2 Stress as the fallen ally’s life force is returned to the forest."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/dryad/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

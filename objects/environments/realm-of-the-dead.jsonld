@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/realm-of-the-dead",
+  "@type": "Environment",
+  "name": "Realm of the Dead",
+  "slug": "realm-of-the-dead",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "REALM OF THE DEAD",
+    "lineStart": 13082,
+    "lineEnd": 13114,
+    "pdfPageStart": 181,
+    "pdfPageEnd": 181
+  },
+  "tier": 4,
+  "impulses": [
+    "Drown in despair",
+    "leech life",
+    "tempt into endless slumber"
+  ],
+  "difficulty": 20,
+  "potentialAdversariesText": "Any (see “Death-Touched Denizens”)",
+  "description": "A seemingly infinite expanse of still water without color or laughter.",
+  "features": [
+    {
+      "name": "Sea of Gloom",
+      "kind": "Passive",
+      "rulesText": "This realm is a boundless silver ocean blanketed in a gray gloom with no visible stars or horizon. The subtle current pulls inexorably at the PCs’ legs, but it’s too gentle to disturb the flat, mirrored surface of the water. Action rolls to navigate this realm have disadvantage.\n\nWhat dangers lie below the surface? How does one find the edge of a world without end, and what lies beyond it?"
+    },
+    {
+      "name": "The Burden of Wakefulness",
+      "kind": "Passive",
+      "rulesText": "It’s impossible to sleep here. When the party rests, each PC can choose only one downtime move.\n\nWhat thoughts keep the PCs awake here? How can they support one another without succumbing to hopelessness themselves?"
+    },
+    {
+      "name": "Death-Touched Denizens",
+      "kind": "Passive",
+      "rulesText": "All mortal creatures eventually pass through this place on their journey to the other side, but those who linger or wander become warped and mutated by the gloom. Any adversaries the party encounters here are Faded. Describe how their time here has warped them into something worse than dead. When a PC takes damage from a Faded adversary’s attack, they must also mark a Stress. If a PC is defeated here, they become a Faded adversary controlled by the GM instead of making a death move.\n\nWhy do these creatures refuse to move on? Is there any pattern to the forms the gloom fades them into?"
+    },
+    {
+      "name": "The Chill of Death",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to force a PC to make a Presence Reaction Roll as the Sea of Gloom leeches the warmth from their blood and bones. On a failure, they take 4d10 direct magic damage. On a success, they must mark a Stress.\n\nWhat does it feel like to have the will to live forcibly drained from you? How do you focus through the despair?"
+    },
+    {
+      "name": "Abandon All Hope",
+      "kind": "Reaction",
+      "rulesText": "When a PC spends Hope in the Realm of the Dead, they must roll a d6. On an odd result, they must spend an additional Hope or lose the benefit of the Hope they already spent.\n\nWhat regrets gnaw at the edge of your consciousness while you’re here? What memories still tether you to the Mortal Realm?"
+    }
+  ],
+  "category": "Traversal",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/realm-of-the-dead/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

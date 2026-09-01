@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/terrify",
+  "@type": "DomainCard",
+  "name": "Terrify",
+  "slug": "terrify",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "TERRIFY",
+    "lineStart": 15268,
+    "lineEnd": 15274,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Make a Spellcast Roll against a target within Close range. On a success, the target marks 1d4 Stress, and you can make the target flee one range away from you (such as Very Close to Close or Close to Far). On a success with Fear, the target also becomes temporarily Vulnerable.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/terrify/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

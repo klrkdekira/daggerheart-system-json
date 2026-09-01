@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/valor-touched",
+  "@type": "DomainCard",
+  "name": "Valor‑touched",
+  "slug": "valor-touched",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "VALOR‑TOUCHED",
+    "lineStart": 16368,
+    "lineEnd": 16379,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When 4 or more of the domain cards in your loadout are from the Valor domain, gain the following benefits:\n\n  - +1 bonus to your Armor Score\n  - When you mark 1 or more Hit Points without marking an\n\nArmor Slot, clear an Armor Slot.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/valor-touched/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

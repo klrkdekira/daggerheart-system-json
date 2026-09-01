@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/ancestries",
+  "@type": "Rule",
+  "name": "Ancestries",
+  "slug": "ancestries",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "ANCESTRIES",
+    "lineStart": 2137,
+    "lineEnd": 2145,
+    "pdfPageStart": 32,
+    "pdfPageEnd": 32
+  },
+  "rulesText": "Ancestries represent your character’s lineage, which affects their physical appearance and access to certain special abilities. The following section describes each ancestry in Daggerheart and the characteristics generally shared by members of that ancestry, however, each player decides how much their character aligns with the “standard” or “average” expression of their ancestry.\n\nIn Daggerheart, the term “people” is used to refer to all ancestries, as individuals from all lineages possess unique characteristics and cultures, as well as personhood.\n\nSome ancestries are described using the term “humanoid.” This does not imply any genetic relation to “humans,” which is a distinct ancestry within Daggerheart. Instead, it refers to the set of physical characteristics humans will recognize from their own anatomy, such as bipedal movement, upright posture, facial layout, and more. These traits vary by ancestry and individual, though “humanoid” should still provide a useful frame of reference.\n\nThe Daggerheart Core Set includes only the following ancestries: Clank, Drakona, Dwarf, Elf, Faerie, Faun, Firbolg, Fungril, Galapa, Giant, Goblin, Halfling, Human, Infernis, Katari, Orc, Ribbet, Simiah, and Mixed Ancestry.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/ancestries/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

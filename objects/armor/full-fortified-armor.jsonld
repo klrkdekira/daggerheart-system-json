@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/full-fortified-armor",
+  "@type": "Armor",
+  "name": "Full Fortified Armor",
+  "slug": "full-fortified-armor",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 4 (LEVELS 8–10)",
+    "lineStart": 4004,
+    "lineEnd": 4004,
+    "pdfPageStart": 74,
+    "pdfPageEnd": 74
+  },
+  "variant": "core",
+  "baseThresholds": "15 / 40",
+  "baseScore": "4",
+  "tier": 4,
+  "feature": {
+    "name": "Fortified",
+    "rulesText": "When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/full-fortified-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

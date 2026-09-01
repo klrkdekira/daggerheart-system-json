@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/great-predator",
+  "@type": "Beastform",
+  "name": "Great Predator",
+  "slug": "great-predator",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "GREAT PREDATOR",
+    "lineStart": 1031,
+    "lineEnd": 1043,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "tier": 3,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Dire Wolf, Velociraptor, Sabertooth Tiger, etc.",
+  "traitBonus": "Strength +2",
+  "evasionBonus": 2,
+  "attack": {
+    "range": "Melee",
+    "trait": "Strength",
+    "damage": "d12+8 phy"
+  },
+  "advantageOn": [
+    "attack",
+    "sneak",
+    "sprint"
+  ],
+  "features": [
+    {
+      "name": "Carrier",
+      "rulesText": "You can carry up to two willing allies with you when you move."
+    },
+    {
+      "name": "Vicious Maul",
+      "rulesText": "When you succeed on an attack against a target, you can spend a Hope to make them temporarily Vulnerable and gain a +1 bonus to your Proficiency for this attack."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/great-predator/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

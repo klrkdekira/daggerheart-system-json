@@ -1,0 +1,59 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-necropriest",
+  "@type": "Adversary",
+  "name": "Entombed Necropriest",
+  "slug": "entombed-necropriest",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ENTOMBED NECROPRIEST",
+    "lineStart": 7801,
+    "lineEnd": 7821,
+    "pdfPageStart": 119,
+    "pdfPageEnd": 119
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Boost allies",
+    "conquer time",
+    "hold down enemies",
+    "serve the empress",
+    "wield death as a weapon"
+  ],
+  "difficulty": 13,
+  "thresholds": "8/16",
+  "hitPoints": 3,
+  "stress": 7,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Death Bolt",
+    "range": "Far",
+    "damage": "2d6+2 mag"
+  },
+  "experience": "Dark Magic +4, Protect +2",
+  "description": "A necromancer charged with preserving the empress’s life beyond death.",
+  "features": [
+    {
+      "name": "Invigorate",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to choose up to three allies within Far range. Each one gains advantage on their next attack roll."
+    },
+    {
+      "name": "Last Grasp",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a PC within Far range. Skeletal hands burst out of the ground at the PC’s feet and Restrain them until the PC breaks free with a successful Strength Roll. When a target Restrained in this way spends Hope, you gain a Fear."
+    },
+    {
+      "name": "Chill Touch",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack against a target within Melee range. On a success, the target takes standard damage and must mark 1d4 Stress. If the target marks their last Stress from this attack, you gain a Fear."
+    }
+  ],
+  "role": "Support",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/entombed-necropriest/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

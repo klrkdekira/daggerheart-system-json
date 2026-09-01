@@ -1,0 +1,68 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/masque-muerte",
+  "@type": "Adversary",
+  "name": "Masque Muerte",
+  "slug": "masque-muerte",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MASQUE MUERTE",
+    "lineStart": 6106,
+    "lineEnd": 6130,
+    "pdfPageStart": 103,
+    "pdfPageEnd": 103
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Call out",
+    "embarrass",
+    "energize the audience",
+    "pin opponents to the ground"
+  ],
+  "difficulty": 13,
+  "thresholds": "7/14",
+  "hitPoints": 8,
+  "stress": 4,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Open-Handed Strike",
+    "range": "Melee",
+    "damage": "1d12+2 mag"
+  },
+  "experience": "Grappler +3, Showboat +3",
+  "description": "The raging soul of a villainous masked wrestler.",
+  "features": [
+    {
+      "name": "Libre",
+      "kind": "Passive",
+      "rulesText": "The Masque Muerte can’t be Restrained."
+    },
+    {
+      "name": "Heel Turn",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against a PC within Close range. On a success, the target must mark a Stress and is temporarily Vulnerable as the Masque Muerte assaults them with a string of insulting taunts."
+    },
+    {
+      "name": "Spectral Suplex",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Masque Muerte suplex a Restrained PC, dealing 1d10+6 magic damage to them."
+    },
+    {
+      "name": "Unmasking Death",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Masque Muerte momentarily remove their mask, revealing their horrifying face underneath. Each PC within Close range must succeed on a Presence Reaction Roll or mark a Stress."
+    },
+    {
+      "name": "Tag Team",
+      "kind": "Reaction",
+      "rulesText": "When the Masque Muerte deals damage to a PC, you can spend a Fear to have a spectral wrestler appear and Pin the target until they escape with a successful Strength Roll. While Pinned, the target is Restrained and takes an extra 1d12 magic damage from the Masque Muerte’s attacks."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/masque-muerte/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

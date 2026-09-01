@@ -1,0 +1,33 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/mythic-hybrid",
+  "@type": "Beastform",
+  "name": "Mythic Hybrid",
+  "slug": "mythic-hybrid",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "MYTHIC HYBRID",
+    "lineStart": 1180,
+    "lineEnd": 1186,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "tier": 4,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Chimera, Cockatrice, Manticore, etc.",
+  "description": "Strength +3 | Evasion +2 Strength Melee d12+10 phy",
+  "features": [
+    {
+      "name": "Hybrid Features",
+      "rulesText": "To transform into this creature, mark 2 additional Stress. Choose any three Beastform options from Tiers 1-3. Choose a total of five advantages and three features from those options."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/mythic-hybrid/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/critical-inspiration",
+  "@type": "DomainCard",
+  "name": "Critical Inspiration",
+  "slug": "critical-inspiration",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "CRITICAL INSPIRATION",
+    "lineStart": 16292,
+    "lineEnd": 16298,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "Once per rest, when you critically succeed on an attack, all allies within Very Close range can clear a Stress or gain a Hope.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/critical-inspiration/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

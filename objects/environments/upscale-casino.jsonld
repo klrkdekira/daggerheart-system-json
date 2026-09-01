@@ -1,0 +1,72 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/upscale-casino",
+  "@type": "Environment",
+  "name": "Upscale Casino",
+  "slug": "upscale-casino",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "UPSCALE CASINO",
+    "lineStart": 12799,
+    "lineEnd": 12831,
+    "pdfPageStart": 177,
+    "pdfPageEnd": 177
+  },
+  "tier": 3,
+  "impulses": [
+    "Dangle the jackpot just out of reach",
+    "dazzle them with spectacle",
+    "prey on their vices"
+  ],
+  "difficulty": 16,
+  "potentialAdversariesText": "Automated Security (Vault Guardians), Gamblers (Courtesan, Merchant Baron, Petty Noble, Spy)",
+  "description": "A glittering gambling hall where well-heeled merchants and nobles come to fritter away their fortunes.",
+  "features": [
+    {
+      "name": "Glitz & Glamor",
+      "kind": "Passive",
+      "rulesText": "The overwhelming spectacle of this place can entrance even the most jaded patron. While here, all PCs have disadvantage on reaction rolls caused by a staff member or regular patron of the casino.\n\nWhat’s so wondrous about the casino’s trappings? Are they truly magical in nature or merely mundane wonders taken to an impossible extreme?"
+    },
+    {
+      "name": "Fortune Favors the Bold",
+      "kind": "Passive",
+      "rulesText": "Once per long rest, a PC can gamble any amount of gold by stating how much they want to wager and rolling their Hope Die. On a result of 7 or higher, the PC wins an equal amount, doubling their money. On a result of 6 or lower, they lose it all.\n\nWhat game does the PC choose to play? What house rules does this casino have? Is there anything besides gold the PCs are willing to risk?"
+    },
+    {
+      "name": "The House Always Wins",
+      "kind": "Reaction",
+      "rulesText": "When an adversary fails a roll, you can spend a Fear to make it a success instead.\n\nIs this place blessed with impossible fortune, or does something curse anyone who steps through its doors?"
+    },
+    {
+      "name": "Automated Security",
+      "kind": "Reaction",
+      "rulesText": "When a PC attempts to cheat at a game in the casino and fails, they must mark a Stress as they activate the casino’s mechanical security detail. Gain a Fear and summon one Vault Guardian Gaoler and Turret for each PC, plus a Vault Guardian Sentinel. All adversaries appear within Far range of the PCs, and the Vault Guardian Sentinel immediately takes the spotlight.\n\nWho built these machines? Why are they preferable to living beings?"
+    },
+    {
+      "name": "The Devil’s Playground",
+      "kind": "Reaction",
+      "rulesText": "If the PCs defeat the casino’s automated security or try to leave with stolen winnings, you can spend an amount of Fear equal to the number of PCs to summon the casino’s true owner, a Demon of Avarice, within Close range of a PC. The Demon is immediately spotlighted and bars the party’s exit at all costs.\n\nHow did the demon mask their influence until now? How does the casino itself change to reveal its true nature?"
+    }
+  ],
+  "category": "Social",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/courtesan"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/merchant-baron"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/petty-noble"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spy"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/upscale-casino/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

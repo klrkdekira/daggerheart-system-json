@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/umbral-veil",
+  "@type": "DomainCard",
+  "name": "Umbral Veil",
+  "slug": "umbral-veil",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "UMBRAL VEIL",
+    "lineStart": 15206,
+    "lineEnd": 15214,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Once per rest, you can mark a Stress to encase yourself in shadowy energy. When you do, place a number of tokens on this card equal to the number of Fear in the GM’s pool. After an attack roll is made against you, you can spend any number of tokens to give the result a −1 penalty per token spent.\n\nAt the end of the scene, clear all unspent tokens.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/umbral-veil/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

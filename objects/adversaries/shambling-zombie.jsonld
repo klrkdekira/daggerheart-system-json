@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/shambling-zombie",
+  "@type": "Adversary",
+  "name": "Shambling Zombie",
+  "slug": "shambling-zombie",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SHAMBLING ZOMBIE",
+    "lineStart": 7168,
+    "lineEnd": 7184,
+    "pdfPageStart": 113,
+    "pdfPageEnd": 113
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Devour",
+    "hungry",
+    "mob enemy",
+    "shred flesh"
+  ],
+  "difficulty": 10,
+  "thresholds": "4/6",
+  "hitPoints": 4,
+  "stress": 1,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Bite",
+    "range": "Melee",
+    "damage": "1d6+1 phy"
+  },
+  "description": "An animated corpse that moves shakily, driven only by hunger.",
+  "features": [
+    {
+      "name": "Too Many to Handle",
+      "kind": "Passive",
+      "rulesText": "When the Zombie is within Melee range of a creature and at least one other Zombie is within Close range, all attacks against that creature have advantage."
+    },
+    {
+      "name": "Horrifying",
+      "kind": "Passive",
+      "rulesText": "Targets who mark HP from the Zombie’s attacks must also mark a Stress."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/shambling-zombie/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

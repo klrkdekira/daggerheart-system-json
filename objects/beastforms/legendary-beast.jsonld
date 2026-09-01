@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/legendary-beast",
+  "@type": "Beastform",
+  "name": "Legendary Beast",
+  "slug": "legendary-beast",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "LEGENDARY BEAST",
+    "lineStart": 1089,
+    "lineEnd": 1097,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "tier": 3,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Upgraded Tier 1 Options",
+  "features": [
+    {
+      "name": "Evolved",
+      "rulesText": "Pick a Tier 1 Beastform option and become a larger, more powerful version of that creature. While you’re in this form, you retain all traits and features from the original form and gain the following bonuses:\n\n- A +6 bonus to damage rolls\n- A +1 bonus to the trait used by this form\n- A +2 bonus to Evasion"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/legendary-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

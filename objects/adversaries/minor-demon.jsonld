@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/minor-demon",
+  "@type": "Adversary",
+  "name": "Minor Demon",
+  "slug": "minor-demon",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MINOR DEMON",
+    "lineStart": 6222,
+    "lineEnd": 6244,
+    "pdfPageStart": 104,
+    "pdfPageEnd": 104
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Act erratically",
+    "corral targets",
+    "relish pain",
+    "torment"
+  ],
+  "difficulty": 14,
+  "thresholds": "8/15",
+  "hitPoints": 8,
+  "stress": 4,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Claws",
+    "range": "Melee",
+    "damage": "1d8+6 phy"
+  },
+  "description": "A crimson-hued creature from the Circles Below, consumed by rage against all mortals.",
+  "features": [
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Demon can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "All Must Fall",
+      "kind": "Passive",
+      "rulesText": "When a PC rolls a failure with Fear while within Close range of the Demon, they lose a Hope."
+    },
+    {
+      "name": "Hellfire",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to rain down hellfire within Far range. All targets within the area must make an Agility Reaction Roll. Targets who fail take 1d20+3 magic damage. Targets who succeed take half damage."
+    },
+    {
+      "name": "Reaper",
+      "kind": "Reaction",
+      "rulesText": "Before rolling damage for the Demon’s attack, you can mark a Stress to gain a bonus to the damage roll equal to the Demon’s current number of marked HP."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Demon makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/minor-demon/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/red-ooze",
+  "@type": "Adversary",
+  "name": "Red Ooze",
+  "slug": "red-ooze",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "RED OOZE",
+    "lineStart": 6354,
+    "lineEnd": 6374,
+    "pdfPageStart": 106,
+    "pdfPageEnd": 106
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Camouflage",
+    "consume and multiply",
+    "ignite",
+    "start fires"
+  ],
+  "difficulty": 10,
+  "thresholds": "6/11",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Ooze Appendage",
+    "range": "Melee",
+    "damage": "1d8+3 mag"
+  },
+  "experience": "Camouflage +3",
+  "description": "A moving mound of translucent flaming red slime.",
+  "features": [
+    {
+      "name": "Creeping Fire",
+      "kind": "Passive",
+      "rulesText": "The Ooze can only move within Very Close range as their normal movement. They light any flammable object they touch on fire."
+    },
+    {
+      "name": "Ignite",
+      "kind": "Action",
+      "rulesText": "Make an attack against a target within Very Close range. On a success, the target takes 1d8 magic damage and is Ignited until they’re extinguished with a successful Finesse Roll (14). While Ignited, the target takes 1d4 magic damage when they make an action roll."
+    },
+    {
+      "name": "Split",
+      "kind": "Reaction",
+      "rulesText": "When the Ooze has 3 or more HP marked, you can spend a Fear to split them into two Tiny Red Oozes (with no marked HP or Stress). Immediately spotlight both of them."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/red-ooze/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

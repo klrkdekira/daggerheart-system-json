@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/dynamic-countdown-advancement",
+  "@type": "Rule",
+  "name": "Dynamic Countdown Advancement",
+  "slug": "dynamic-countdown-advancement",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DYNAMIC COUNTDOWN ADVANCEMENT",
+    "lineStart": 4755,
+    "lineEnd": 4763,
+    "pdfPageStart": 91,
+    "pdfPageEnd": 91
+  },
+  "rulesText": "| Roll Result | Progress Advancement | Consequence Advancement |\n| --- | --- | --- |\n| Failure with Fear | No advancement | Tick down 3 |\n| Failure with Hope | No advancement | Tick down 2 |\n| Success with Fear | Tick down 1 | Tick down 1 |\n| Success with Hope | Tick down 2 | No advancement |\n| Critical Success | Tick down 3 | No advancement |",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/dynamic-countdown-advancement/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

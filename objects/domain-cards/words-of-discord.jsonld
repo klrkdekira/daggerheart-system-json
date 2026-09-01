@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/words-of-discord",
+  "@type": "DomainCard",
+  "name": "Words of Discord",
+  "slug": "words-of-discord",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "WORDS OF DISCORD",
+    "lineStart": 15497,
+    "lineEnd": 15505,
+    "pdfPageStart": 215,
+    "pdfPageEnd": 215
+  },
+  "level": 5,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Whisper words of discord to an adversary within Melee range and make a Spellcast Roll (13). On a success, the target must mark a Stress and make an attack against another adversary instead of against you or your allies.\n\nOnce this attack is over, the target realizes what happened. The next time you cast Words of Discord on them, gain a −5 penalty to the Spellcast Roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/words-of-discord/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

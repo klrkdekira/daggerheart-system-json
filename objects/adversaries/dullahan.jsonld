@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dullahan",
+  "@type": "Adversary",
+  "name": "Dullahan",
+  "slug": "dullahan",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DULLAHAN",
+    "lineStart": 9364,
+    "lineEnd": 9386,
+    "pdfPageStart": 135,
+    "pdfPageEnd": 135
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Doom with a glance",
+    "gallop across water",
+    "kick with heavy hooves"
+  ],
+  "difficulty": 17,
+  "thresholds": "22/40",
+  "hitPoints": 7,
+  "stress": 4,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Spine Whip",
+    "range": "Very Close",
+    "damage": "3d10+1 mag"
+  },
+  "experience": "Nocturnal +3",
+  "description": "A horse-mounted specter holding their own severed head in one hand and wielding a whip fashioned from a human spine in the other.",
+  "features": [
+    {
+      "name": "Specter",
+      "kind": "Passive",
+      "rulesText": "The Dullahan has resistance to physical damage. Mark a Stress to move up to Close range through solid objects."
+    },
+    {
+      "name": "Spectral Mount",
+      "kind": "Passive",
+      "rulesText": "While atop their steed, the Dullahan can move up to Far range instead of Close range before taking an action. If the Dullahan is unhorsed, their mount disappears until you mark a Stress to summon it again. The Dullahan is Vulnerable while not on their horse."
+    },
+    {
+      "name": "Bone Whip Strike",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against a target within Melee range. On a success, the target takes 4d4+10 direct physical damage and is Vulnerable until they clear a HP."
+    },
+    {
+      "name": "Death Glare",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a PC within Far range. The target must make an Presence Reaction Roll (19). On a success, they mark a Stress. On a failure, they mark a HP and activate a Doom Countdown (4). It ticks down when the Dullahan is spotlighted. When it triggers, the target makes a death move. If the Dullahan is defeated or the PCs take a rest, all Doom Countdowns end."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/dullahan/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

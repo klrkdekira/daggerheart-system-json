@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/mighty-strider",
+  "@type": "Rule",
+  "name": "Mighty Strider",
+  "slug": "mighty-strider",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "MIGHTY STRIDER",
+    "lineStart": 973,
+    "lineEnd": 985,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "rulesText": "*(Camel, Horse, Zebra, etc.)*\n\n*Agility +1 | Evasion +2*\n\n*Melee Agility d8+1 phy*\n\n**Gain advantage on:** leap, navigate, sprint\n\n**Carrier:** You can carry up to two willing allies with you when you move.\n\n**Trample:** Mark a Stress to move up to Close range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take d8+1 physical damage using your Proficiency and are temporarily Vulnerable.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/mighty-strider/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

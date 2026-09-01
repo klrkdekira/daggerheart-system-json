@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/towering-stalk",
+  "@type": "DomainCard",
+  "name": "Towering Stalk",
+  "slug": "towering-stalk",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "TOWERING STALK",
+    "lineStart": 15868,
+    "lineEnd": 15876,
+    "pdfPageStart": 219,
+    "pdfPageEnd": 219
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Once per rest, you can conjure a thick, twisting stalk within Close range that can be easily climbed. Its height can grow up to Far range.\n\nMark a Stress to use this spell as an attack. Make a Spellcast Roll against an adversary or group of adversaries within Close range. The erupting stalk lifts targets you succeed against into the air and drops them, dealing d8 physical damage using your Proficiency.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/towering-stalk/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

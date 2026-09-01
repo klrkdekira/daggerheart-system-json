@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-3-2",
+  "@type": "Rule",
+  "name": "Tier 3",
+  "slug": "tier-3-2",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "TIER 3",
+    "lineStart": 1029,
+    "lineEnd": 1029,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/tier-3-2/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

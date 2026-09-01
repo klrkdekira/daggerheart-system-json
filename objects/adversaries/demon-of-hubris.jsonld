@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-of-hubris",
+  "@type": "Adversary",
+  "name": "Demon of Hubris",
+  "slug": "demon-of-hubris",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DEMON OF HUBRIS",
+    "lineStart": 9222,
+    "lineEnd": 9246,
+    "pdfPageStart": 133,
+    "pdfPageEnd": 133
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Condescend",
+    "declare premature victory",
+    "prove superiority"
+  ],
+  "difficulty": 18,
+  "thresholds": "18/36",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Perfect Spear",
+    "range": "Very Close",
+    "damage": "3d10 phy"
+  },
+  "experience": "Manipulation +2",
+  "description": "A perfectly beautiful and infinitely cruel demon with a gleaming spear and elegant robes.",
+  "features": [
+    {
+      "name": "Terrifying",
+      "kind": "Passive",
+      "rulesText": "When the Demon makes a successful attack, all PCs within Far range must lose a Hope and you gain a Fear."
+    },
+    {
+      "name": "Double or Nothing",
+      "kind": "Passive",
+      "rulesText": "When a PC within Far range fails a roll, they can choose to reroll their Fear Die and take the new result. If they still fail, they mark 2 Stress and the Demon clears a Stress."
+    },
+    {
+      "name": "Unparalleled Skill",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to deal the Demon’s standard attack damage to a target within Close range."
+    },
+    {
+      "name": "The Root of Villainy",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to spotlight two other Demons within Far range."
+    },
+    {
+      "name": "You Pale in Comparison",
+      "kind": "Reaction",
+      "rulesText": "When a PC fails a roll within Close range of the Demon, they must mark a Stress."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/demon-of-hubris/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

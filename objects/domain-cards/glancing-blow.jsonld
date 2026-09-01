@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/glancing-blow",
+  "@type": "DomainCard",
+  "name": "Glancing Blow",
+  "slug": "glancing-blow",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "GLANCING BLOW",
+    "lineStart": 14718,
+    "lineEnd": 14724,
+    "pdfPageStart": 208,
+    "pdfPageEnd": 208
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When you fail an attack, you can mark a Stress to deal weapon damage using half your Proficiency.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/glancing-blow/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

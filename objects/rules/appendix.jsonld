@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/appendix",
+  "@type": "Rule",
+  "name": "Appendix",
+  "slug": "appendix",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "APPENDIX",
+    "lineStart": 14390,
+    "lineEnd": 14392,
+    "pdfPageStart": 206,
+    "pdfPageEnd": 206
+  },
+  "rulesText": "This section contains additional information and reference material. For additional reference sheets, visit daggerheart.com/downloads.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/appendix/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

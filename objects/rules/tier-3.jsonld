@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-3",
+  "@type": "Rule",
+  "name": "Tier 3",
+  "slug": "tier-3",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "TIER 3",
+    "lineStart": 715,
+    "lineEnd": 723,
+    "pdfPageStart": 13,
+    "pdfPageEnd": 13
+  },
+  "rulesText": "**Grappling:** On a successful attack within Melee range, you can spend a Focus or mark a Stress to temporarily Restrain the target or throw the target up to Close range.\n\n**Scary:** On a successful attack, the target must mark a Stress.\n\n**Stable:** You can spend a Focus instead of an Armor Slot to reduce damage.\n\n**Vigilant:** When you are targeted by an attack, you can mark a Stress to gain a d6 bonus to your Evasion against the attack.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/tier-3/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

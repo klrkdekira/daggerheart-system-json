@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/night-children",
+  "@type": "Adversary",
+  "name": "Night Children",
+  "slug": "night-children",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "NIGHT CHILDREN",
+    "lineStart": 9704,
+    "lineEnd": 9724,
+    "pdfPageStart": 138,
+    "pdfPageEnd": 138
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Carry victims back to master",
+    "overrun settlements",
+    "slither through shadow"
+  ],
+  "difficulty": 16,
+  "thresholds": "17/32",
+  "hitPoints": 7,
+  "stress": 4,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Fangs & Claws",
+    "range": "Melee",
+    "damage": "3d6+8 phy"
+  },
+  "experience": "Terrorize +3",
+  "description": "A teeming assortment of nocturnal fiends under the thrall of an ancient evil.",
+  "features": [
+    {
+      "name": "Horde (2d6+2)",
+      "kind": "Passive",
+      "rulesText": "When the Night Children have marked half or more of their HP, their standard attack deals 2d6+2 physical damage instead."
+    },
+    {
+      "name": "Swell Ranks",
+      "kind": "Action",
+      "rulesText": "Once per scene, mark any number of Stress to have the Night Children open a portal that spews forth reinforcements, refilling the Horde’s ranks. Clear a number of HP equal to the number of Stress marked."
+    },
+    {
+      "name": "Overwhelm",
+      "kind": "Reaction",
+      "rulesText": "When the Night Children mark HP from an attack within Melee range, you can mark a Stress to make a standard attack against the attacker."
+    }
+  ],
+  "role": "Horde (2/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/night-children/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/cliffside-ascent",
+  "@type": "Environment",
+  "name": "Cliffside Ascent",
+  "slug": "cliffside-ascent",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CLIFFSIDE ASCENT",
+    "lineStart": 11760,
+    "lineEnd": 11790,
+    "pdfPageStart": 162,
+    "pdfPageEnd": 162
+  },
+  "tier": 1,
+  "impulses": [
+    "Cast the unready down to a rocky doom",
+    "draw people in with promise of what lies at the top"
+  ],
+  "difficulty": 12,
+  "potentialAdversariesText": "Construct, Deeproot Defender, Giant Scorpion, Glass Snake",
+  "description": "A steep, rocky cliffside tall enough to make traversal dangerous.",
+  "features": [
+    {
+      "name": "The Climb",
+      "kind": "Passive",
+      "rulesText": "Climbing up the cliffside uses a Progress Countdown (12). It ticks down according to the following criteria when the PCs make an action roll to climb:\n\n- Critical Success: Tick down 3\n- Success with Hope: Tick down 2\n- Success with Fear: Tick down 1\n- Failure with Hope: No advancement\n- Failure with Fear: Tick up 1 When the countdown triggers, the party has made it to the top of the cliff.\n\nWhat strange formations are the stones arranged in? What ominous warnings did previous adventurers leave?"
+    },
+    {
+      "name": "Pitons Left Behind",
+      "kind": "Passive",
+      "rulesText": "Previous climbers left behind large metal rods that climbers can use to aid their ascent. If a PC using the pitons fails an action roll to climb, they can mark a Stress instead of ticking the countdown up.\n\nWhat do the shape and material of these pitons tell you about the previous climbers? How far apart are they from one another?"
+    },
+    {
+      "name": "Fall",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have a PC’s handhold fail, plummeting them toward the ground. If they aren’t saved on the next action, they hit the ground and tick up the countdown by 2. The PC takes 1d12 physical damage if the countdown is between 8 and 12, 2d12 between 4 and 7, and 3d12 at 3 or lower.\n\nHow can you tell many others have fallen here before? What lives in these walls that might try to scare adventurers into falling for an easy meal?"
+    }
+  ],
+  "category": "Traversal",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/construct"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/deeproot-defender"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-scorpion"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/glass-snake"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/cliffside-ascent/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

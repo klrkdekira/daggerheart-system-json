@@ -1,0 +1,61 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/bard",
+  "@type": "CharacterClass",
+  "name": "Bard",
+  "slug": "bard",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "BARD",
+    "lineStart": 483,
+    "lineEnd": 501,
+    "pdfPageStart": 10,
+    "pdfPageEnd": 10
+  },
+  "domains": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+    }
+  ],
+  "subclasses": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/troubadour"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/wordsmith"
+    }
+  ],
+  "startingEvasion": 10,
+  "startingHitPoints": 5,
+  "hopeFeature": {
+    "name": "Make a Scene",
+    "rulesText": "Spend 3 Hope to temporarily Distract a target within Close range, giving them a -2 penalty to their Difficulty."
+  },
+  "features": [
+    {
+      "name": "Rally",
+      "rulesText": "Once per session, describe how you rally the party and give yourself and each of your allies a Rally Die. At level 1, your Rally Die is a d6. A PC can spend their Rally Die to roll it, adding the result to their action roll, reaction roll, damage roll, or to clear a number of Stress equal to the result. At the end of each session, clear all unspent Rally Dice. At level 5, your Rally Die increases to a d8."
+    }
+  ],
+  "classItems": "A romance novel or a letter never opened",
+  "backgroundQuestions": [
+    "Who from your community taught you to have such confidence in yourself?",
+    "You were in love once. Who did you adore, and how did they hurt you?",
+    "You’ve always looked up to another bard. Who are they, and why do you idolize them?"
+  ],
+  "connections": [
+    "What made you realize we were going to be such good friends?",
+    "What do I do that annoys you?",
+    "Why do you grab my hand at night?"
+  ],
+  "description": "Bards are the most charismatic people in all the realms. Members of this class are masters of captivation and specialize in a variety of performance types, including singing, playing musical instruments, weaving tales, or telling jokes. Whether performing for an audience or speaking to an individual, bards thrive in social situations. Members of this profession bond and train at schools or guilds, but a current of egotism runs through those of the bardic persuasion. While they may be the most likely class to bring people together, a bard of ill temper can just as easily tear a party apart.\n\nDOMAINS – Grace & Codex",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/classes/bard/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

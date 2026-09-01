@@ -1,0 +1,69 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/mountain-troll",
+  "@type": "Adversary",
+  "name": "Mountain Troll",
+  "slug": "mountain-troll",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MOUNTAIN TROLL",
+    "lineStart": 6266,
+    "lineEnd": 6290,
+    "pdfPageStart": 105,
+    "pdfPageEnd": 105
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Ambush",
+    "bellow",
+    "hurl large boulders",
+    "smash",
+    "stomp"
+  ],
+  "difficulty": 14,
+  "thresholds": "8/15",
+  "hitPoints": 8,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Skull Flail",
+    "range": "Very Close",
+    "damage": "1d8+1 phy"
+  },
+  "experience": "Mountains +4",
+  "description": "A hideous giant born out of a massive rock. They wear purloined armor and a belt of severed heads or skulls.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Troll can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Stolen Armor",
+      "kind": "Passive",
+      "rulesText": "Countdown. When combat begins, activate a countdown with a value equal to the number of PCs. When the Troll takes damage, reduce the severity by one threshold, then tick down the countdown. When it triggers, the Troll evolves (see “Enraged Mountain Troll”)."
+    },
+    {
+      "name": "Flail Swipe",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against all targets in front of the Troll within Very Close range. Targets the Troll succeeds against take 2d8+2 physical damage."
+    },
+    {
+      "name": "Enraged Mountain Troll",
+      "kind": "Evolution",
+      "rulesText": "The Troll loses their “Stolen Armor” and “Flail Swipe” features, then gains a +1 bonus to their Difficulty. Additionally, they gain the “Double Swipe” feature and replace “Skull Flail” with the following standard attack: Claw Swipe: Very Close | 1d10+3 phy"
+    },
+    {
+      "name": "Double Swipe",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to move up to Close range and make two standard attacks against a target within Melee range. If both attacks succeed, combine the damage, and the target loses a Hope."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/mountain-troll/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

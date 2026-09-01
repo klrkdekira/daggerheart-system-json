@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/nightwalker",
+  "@type": "Rule",
+  "name": "Nightwalker",
+  "slug": "nightwalker",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "NIGHTWALKER",
+    "lineStart": 1465,
+    "lineEnd": 1487,
+    "pdfPageStart": 23,
+    "pdfPageEnd": 23
+  },
+  "rulesText": "Play the Nightwalker if you want to manipulate shadows to maneuver through the environment.\n\n##### SPELLCAST TRAIT\n\nFinesse\n\n##### FOUNDATION FEATURE\n\n**Shadow Stepper:** You can move from shadow to shadow. When you move into an area of darkness or a shadow cast by another creature or object, you can mark a Stress to disappear from where you are and reappear inside another shadow within Far range. When you reappear, you are Cloaked.\n\n##### SPECIALIZATION FEATURES\n\n**Dark Cloud:** Make a Spellcast Roll (15). On a success, create a temporary dark cloud that covers any area within Close range. Anyone in this cloud can’t see outside of it, and anyone outside of it can’t see in. You’re considered Cloaked from any adversary for whom the cloud blocks line of sight.\n\n**Adrenaline:** While you're Vulnerable, add your level to your damage rolls.\n\n##### MASTERY FEATURES\n\n**Fleeting Shadow:** Gain a permanent +1 bonus to your Evasion. You can use your “Shadow Stepper” feature to move within Very Far range.\n\n**Vanishing Act:** Mark a Stress to become Cloaked at any time. When Cloaked from this feature, you automatically clear the Restrained condition if you have it. You remain Cloaked in this way until you roll with Fear or until your next rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/nightwalker/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

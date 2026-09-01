@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/valor-domain",
+  "@type": "Rule",
+  "name": "Valor Domain",
+  "slug": "valor-domain",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "VALOR DOMAIN",
+    "lineStart": 16193,
+    "lineEnd": 16193,
+    "pdfPageStart": 222,
+    "pdfPageEnd": 222
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/valor-domain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

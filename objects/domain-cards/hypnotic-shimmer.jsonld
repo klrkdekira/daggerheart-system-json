@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/hypnotic-shimmer",
+  "@type": "DomainCard",
+  "name": "Hypnotic Shimmer",
+  "slug": "hypnotic-shimmer",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "HYPNOTIC SHIMMER",
+    "lineStart": 15453,
+    "lineEnd": 15459,
+    "pdfPageStart": 215,
+    "pdfPageEnd": 215
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Make a Spellcast Roll against all adversaries in front of you within Close range. Once per rest on a success, create an illusion of flashing colors and lights that temporarily Stuns targets you succeed against and forces them to mark a Stress. While Stunned, they can’t use reactions and can’t take any other actions until they clear this condition.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/hypnotic-shimmer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/divination",
+  "@type": "DomainCard",
+  "name": "Divination",
+  "slug": "divination",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "DIVINATION",
+    "lineStart": 16106,
+    "lineEnd": 16112,
+    "pdfPageStart": 221,
+    "pdfPageEnd": 221
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Once per long rest, spend 3 Hope to reach out to the forces beyond and ask one “yes or no” question about an event, person, place, or situation in the near future. For a moment, the present falls away and you see the answer before you.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/divination/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

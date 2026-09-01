@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/agile-scout",
+  "@type": "Beastform",
+  "name": "Agile Scout",
+  "slug": "agile-scout",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "AGILE SCOUT",
+    "lineStart": 855,
+    "lineEnd": 867,
+    "pdfPageStart": 15,
+    "pdfPageEnd": 15
+  },
+  "tier": 1,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Fox, Mouse, Weasel, etc.",
+  "traitBonus": "Agility +1",
+  "evasionBonus": 2,
+  "attack": {
+    "range": "Melee",
+    "trait": "Agility",
+    "damage": "d4 phy"
+  },
+  "advantageOn": [
+    "deceive",
+    "locate",
+    "sneak"
+  ],
+  "features": [
+    {
+      "name": "Agile",
+      "rulesText": "Your movement is silent, and you can spend a Hope to move up to Far range without rolling."
+    },
+    {
+      "name": "Fragile",
+      "rulesText": "When you take Major or greater damage, you drop out of Beastform."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/agile-scout/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

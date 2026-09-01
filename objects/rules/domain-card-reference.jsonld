@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/domain-card-reference",
+  "@type": "Rule",
+  "name": "Domain Card Reference",
+  "slug": "domain-card-reference",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "Domain Card reference",
+    "lineStart": 14394,
+    "lineEnd": 14394,
+    "pdfPageStart": 206,
+    "pdfPageEnd": 206
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/domain-card-reference/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

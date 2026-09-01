@@ -1,0 +1,69 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/harbinger-of-war",
+  "@type": "Adversary",
+  "name": "Harbinger of War",
+  "slug": "harbinger-of-war",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HARBINGER OF WAR",
+    "lineStart": 10923,
+    "lineEnd": 10947,
+    "pdfPageStart": 152,
+    "pdfPageEnd": 152
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Destroy utterly",
+    "fight honorably",
+    "relish combat",
+    "shield-bash",
+    "strike powerfully"
+  ],
+  "difficulty": 21,
+  "thresholds": "40/70",
+  "hitPoints": 9,
+  "stress": 4,
+  "attackModifier": "+5",
+  "standardAttack": {
+    "name": "Battle Axe",
+    "range": "Very Close",
+    "damage": "4d20 phy"
+  },
+  "experience": "Heavy Armor +3",
+  "description": "A warrior clad in black armor and a horned helmet and bearing a bloody banner.",
+  "features": [
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Harbinger can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Mount",
+      "kind": "Passive",
+      "rulesText": "While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty. When the Harbinger takes Severe damage, they’re knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again."
+    },
+    {
+      "name": "Iron Dice",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Harbinger attempt a risky all-out attack. Make a standard attack with advantage. On a success, the target marks an additional HP. On a failure, the Harbinger becomes Vulnerable until they take or deal damage."
+    },
+    {
+      "name": "Supreme Commander",
+      "kind": "Action",
+      "rulesText": "Once per scene, spend a Fear to summon 1d6 Hallowed Soldiers within Close range and immediately spotlight one of them."
+    },
+    {
+      "name": "Battering Ram",
+      "kind": "Reaction",
+      "rulesText": "When a PC fails an action roll within Close range, you can spend a Fear to move into Melee range with the PC and make a standard attack with advantage against them. On a success, the PC takes standard damage and is Vulnerable until they are spotlighted."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/harbinger-of-war/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

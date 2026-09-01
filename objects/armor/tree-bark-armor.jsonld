@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/tree-bark-armor",
+  "@type": "Armor",
+  "name": "Tree Bark Armor",
+  "slug": "tree-bark-armor",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Armor",
+    "lineStart": 13685,
+    "lineEnd": 13685,
+    "pdfPageStart": 192,
+    "pdfPageEnd": 192
+  },
+  "variant": "everyday-hero",
+  "baseThresholds": "7 / 15",
+  "baseScore": "4",
+  "feature": {
+    "name": "Heavy",
+    "rulesText": "−1 to Evasion"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/tree-bark-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/ground-pound",
+  "@type": "DomainCard",
+  "name": "Ground Pound",
+  "slug": "ground-pound",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "GROUND POUND",
+    "lineStart": 16389,
+    "lineEnd": 16395,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 8,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "Spend 2 Hope to strike the ground where you stand and make a Strength Roll against all targets within Very Close range. Targets you succeed against are thrown back to Far range and must make a Reaction Roll (17). Targets who fail take 4d10+8 damage. Targets who succeed take half damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/ground-pound/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/baking-tray-breastplate",
+  "@type": "Armor",
+  "name": "Baking Tray Breastplate",
+  "slug": "baking-tray-breastplate",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Armor",
+    "lineStart": 13686,
+    "lineEnd": 13686,
+    "pdfPageStart": 192,
+    "pdfPageEnd": 192
+  },
+  "variant": "everyday-hero",
+  "baseThresholds": "8 / 17",
+  "baseScore": "4",
+  "feature": {
+    "name": "Very Heavy",
+    "rulesText": "−2 to Evasion; −1 to Agility"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/baking-tray-breastplate/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

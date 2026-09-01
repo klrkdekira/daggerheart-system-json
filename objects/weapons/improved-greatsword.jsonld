@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-greatsword",
+  "@type": "Weapon",
+  "name": "Improved Greatsword",
+  "slug": "improved-greatsword",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3456,
+    "lineEnd": 3456,
+    "pdfPageStart": 57,
+    "pdfPageEnd": 57
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d10+6 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Massive",
+    "rulesText": "−1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/improved-greatsword/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

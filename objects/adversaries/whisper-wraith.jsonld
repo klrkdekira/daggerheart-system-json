@@ -1,0 +1,59 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/whisper-wraith",
+  "@type": "Adversary",
+  "name": "Whisper Wraith",
+  "slug": "whisper-wraith",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "WHISPER WRAITH",
+    "lineStart": 10200,
+    "lineEnd": 10220,
+    "pdfPageStart": 143,
+    "pdfPageEnd": 143
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Bind limbs",
+    "drop from a great height",
+    "lift off the ground",
+    "swirl through the air",
+    "wrap around heads"
+  ],
+  "difficulty": 16,
+  "thresholds": "20/32",
+  "hitPoints": 6,
+  "stress": 6,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Shadow Touch",
+    "range": "Melee",
+    "damage": "3d8+4 mag"
+  },
+  "experience": "Dreams +4",
+  "description": "The echoes of broken promises and dreams unfulfilled, manifesting as a floating, translucent shroud of tattered black velvet in a vaguely humanoid shape.",
+  "features": [
+    {
+      "name": "Greater Specter",
+      "kind": "Passive",
+      "rulesText": "The Wraith has resistance to physical damage and can move through solid objects."
+    },
+    {
+      "name": "Spooky",
+      "kind": "Passive",
+      "rulesText": "When the Wraith makes a successful attack, all PCs within Close range must mark a Stress, and you gain a Fear."
+    },
+    {
+      "name": "Nightmare Shroud",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Wraith wrap itself around a PC within Melee range, Shrouding the target until they succeed on a Strength Roll to dislodge the Wraith or the Wraith takes Major or greater damage. While Shrouded, the target has disadvantage on attack rolls and marks a Stress when they roll with Fear. Additionally, damage that would be dealt to the Wraith is split evenly between the Wraith and the Shrouded target."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/whisper-wraith/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

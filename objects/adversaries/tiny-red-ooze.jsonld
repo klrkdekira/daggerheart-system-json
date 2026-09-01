@@ -1,0 +1,45 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/tiny-red-ooze",
+  "@type": "Adversary",
+  "name": "Tiny Red Ooze",
+  "slug": "tiny-red-ooze",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TINY RED OOZE",
+    "lineStart": 6376,
+    "lineEnd": 6390,
+    "pdfPageStart": 106,
+    "pdfPageEnd": 106
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Blaze",
+    "camouflage"
+  ],
+  "difficulty": 11,
+  "thresholds": "5/None",
+  "hitPoints": 2,
+  "stress": 1,
+  "attackModifier": "−1",
+  "standardAttack": {
+    "name": "Ooze Appendage",
+    "range": "Melee",
+    "damage": "1d4+2 mag"
+  },
+  "description": "A small moving mound of translucent flaming red slime",
+  "features": [
+    {
+      "name": "Burning",
+      "kind": "Reaction",
+      "rulesText": "When a creature within Melee range deals damage to the Ooze, they take 1d6 direct magic damage."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/tiny-red-ooze/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

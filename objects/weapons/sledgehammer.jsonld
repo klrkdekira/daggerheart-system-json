@@ -1,0 +1,37 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/sledgehammer",
+  "@type": "Weapon",
+  "name": "Sledgehammer",
+  "slug": "sledgehammer",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Physical Weapons",
+    "lineStart": 13637,
+    "lineEnd": 13637,
+    "pdfPageStart": 191,
+    "pdfPageEnd": 191
+  },
+  "category": "primary",
+  "variant": "everyday-hero",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d10+3 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Massive",
+    "rulesText": "−1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/sledgehammer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

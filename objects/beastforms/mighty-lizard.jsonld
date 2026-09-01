@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/mighty-lizard",
+  "@type": "Beastform",
+  "name": "Mighty Lizard",
+  "slug": "mighty-lizard",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "MIGHTY LIZARD",
+    "lineStart": 1045,
+    "lineEnd": 1057,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "tier": 3,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Alligator, Crocodile, Gila Monster, etc.",
+  "traitBonus": "Instinct +2",
+  "evasionBonus": 1,
+  "attack": {
+    "range": "Melee",
+    "trait": "Instinct",
+    "damage": "d10+7 phy"
+  },
+  "advantageOn": [
+    "attack",
+    "sneak",
+    "track"
+  ],
+  "features": [
+    {
+      "name": "Physical Defense",
+      "rulesText": "You gain a +3 bonus to your damage thresholds."
+    },
+    {
+      "name": "Snapping Strike",
+      "rulesText": "When you succeed on an attack against a target within Melee range, you can spend a Hope to clamp that opponent in your jaws, making them temporarily Restrained and Vulnerable."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/mighty-lizard/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

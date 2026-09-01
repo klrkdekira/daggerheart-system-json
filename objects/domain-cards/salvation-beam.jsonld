@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/salvation-beam",
+  "@type": "DomainCard",
+  "name": "Salvation Beam",
+  "slug": "salvation-beam",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SALVATION BEAM",
+    "lineStart": 16228,
+    "lineEnd": 16234,
+    "pdfPageStart": 222,
+    "pdfPageEnd": 222
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Make a Spellcast Roll (16). On a success, mark any number of Stress to target a line of allies within Far range. You can clear Hit Points on the targets equal to the number of Stress marked, divided among them however you’d like.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/salvation-beam/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

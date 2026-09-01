@@ -1,0 +1,63 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/master-assassin",
+  "@type": "Adversary",
+  "name": "Master Assassin",
+  "slug": "master-assassin",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MASTER ASSASSIN",
+    "lineStart": 7270,
+    "lineEnd": 7292,
+    "pdfPageStart": 114,
+    "pdfPageEnd": 114
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Ambush",
+    "get out alive",
+    "kill",
+    "prepare for all scenarios"
+  ],
+  "difficulty": 15,
+  "thresholds": "12/25",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+5",
+  "standardAttack": {
+    "name": "Serrated Dagger",
+    "range": "Close",
+    "damage": "2d10+2 phy"
+  },
+  "experience": "Command +3, Intrusion +3",
+  "description": "A seasoned killer with a threatening voice and a deadly blade.",
+  "features": [
+    {
+      "name": "Won’t See It Coming",
+      "kind": "Passive",
+      "rulesText": "The Assassin deals direct damage while they’re Hidden."
+    },
+    {
+      "name": "Strike as One",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to spotlight a number of other Assassins equal to the Assassin’s unmarked Stress."
+    },
+    {
+      "name": "The Subtle Blade",
+      "kind": "Reaction",
+      "rulesText": "When the Assassin successfully makes a standard attack against a Vulnerable target, you can spend a Fear to deal Severe damage instead of their standard damage."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Assassin makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/master-assassin/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

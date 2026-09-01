@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/disintegration-wave",
+  "@type": "DomainCard",
+  "name": "Disintegration Wave",
+  "slug": "disintegration-wave",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "DISINTEGRATION WAVE",
+    "lineStart": 15183,
+    "lineEnd": 15189,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+  },
+  "cardType": "Spell",
+  "recallCost": 4,
+  "rulesText": "Make a Spellcast Roll (18). Once per long rest on a success, the GM tells you which adversaries within Far range have a Difficulty of 18 or lower. Mark a Stress for each one you wish to hit with this spell. They are killed and can’t come back to life by any means.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/disintegration-wave/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

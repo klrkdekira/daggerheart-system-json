@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/brawny-zombie",
+  "@type": "Adversary",
+  "name": "Brawny Zombie",
+  "slug": "brawny-zombie",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "BRAWNY ZOMBIE",
+    "lineStart": 7102,
+    "lineEnd": 7122,
+    "pdfPageStart": 112,
+    "pdfPageEnd": 112
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Crush",
+    "destroy",
+    "hail debris",
+    "slam"
+  ],
+  "difficulty": 10,
+  "thresholds": "8/15",
+  "hitPoints": 7,
+  "stress": 4,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Slam",
+    "range": "Very Close",
+    "damage": "1d12+3 phy"
+  },
+  "experience": "Collateral Damage +2, Throw +4",
+  "description": "A large corpse, decay-bloated and angry.",
+  "features": [
+    {
+      "name": "Slow",
+      "kind": "Passive",
+      "rulesText": "When you spotlight the Zombie and they don’t have a token on their stat block, they can’t act yet. Place a token on their stat block and describe what they’re preparing to do. When you spotlight the Zombie and they have a token on their stat block, clear the token and they can act."
+    },
+    {
+      "name": "Rend Asunder",
+      "kind": "Action",
+      "rulesText": "Make a standard attack with advantage against a target the Zombie has Restrained. On a success, the attack deals direct damage."
+    },
+    {
+      "name": "Rip and Tear",
+      "kind": "Reaction",
+      "rulesText": "When the Zombies makes a successful standard attack, you can mark a Stress to temporarily Restrain the target and force them to mark 2 Stress."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/brawny-zombie/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

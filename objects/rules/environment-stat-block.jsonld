@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/environment-stat-block",
+  "@type": "Rule",
+  "name": "Environment Stat Block",
+  "slug": "environment-stat-block",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ENVIRONMENT STAT BLOCK",
+    "lineStart": 11459,
+    "lineEnd": 11482,
+    "pdfPageStart": 158,
+    "pdfPageEnd": 158
+  },
+  "rulesText": "Each environment’s stat block presents their necessary mechanical statistics:\n\n##### NAME\n\nThe unique name of the environment stat block.\n\n##### TIER\n\nThe PC tier the environment is designed to challenge.\n\n##### TYPE\n\nThe type of scene it most easily supports:\n\n- Explorations — wondrous locations with mysteries and marvels to discover\n- Socials — locations that primarily present interpersonal challenges\n- Traversals — dangerous locations where movement through and around the space itself is a challenge\n- Events — special activities or occurrences (rather than physical spaces)\n\n##### DESCRIPTION\n\nAn evocative one-line summary of the environment.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/environment-stat-block/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/crystal-spear",
+  "@type": "Weapon",
+  "name": "Crystal Spear",
+  "slug": "crystal-spear",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3616,
+    "lineEnd": 3616,
+    "pdfPageStart": 62,
+    "pdfPageEnd": 62
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Finesse",
+  "range": "Very Close",
+  "burden": "One-Handed",
+  "damage": "d10+6 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Piercing",
+    "rulesText": "Damage dealt with this weapon treats the target’s Major threshold as having a −2 penalty."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/crystal-spear/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/berserker-initiate",
+  "@type": "Adversary",
+  "name": "Berserker Initiate",
+  "slug": "berserker-initiate",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "BERSERKER INITIATE",
+    "lineStart": 7391,
+    "lineEnd": 7409,
+    "pdfPageStart": 115,
+    "pdfPageEnd": 115
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Coordinate with packmates",
+    "dance around the fire",
+    "howl at the moon"
+  ],
+  "difficulty": 13,
+  "thresholds": "9/18",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Tooth & Claw",
+    "range": "Melee",
+    "damage": "2d10 phy"
+  },
+  "experience": "Hunt +3",
+  "description": "A raging warrior who imbibes ritualistic concoctions to enhance their form with aspects of a predatory beast.",
+  "features": [
+    {
+      "name": "Pack Fury",
+      "kind": "Passive",
+      "rulesText": "The Initiate gains a +1 bonus to their attack rolls for each ally within Very Close range of their attack’s target."
+    },
+    {
+      "name": "Berserker Rage",
+      "kind": "Reaction",
+      "rulesText": "The first time in a scene the Initiate marks their last Stress, they gain a +4 bonus to damage rolls."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/berserker-initiate/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/small-revolver",
+  "@type": "Weapon",
+  "name": "Small Revolver",
+  "slug": "small-revolver",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Secondary Weapons",
+    "lineStart": 14026,
+    "lineEnd": 14026,
+    "pdfPageStart": 197,
+    "pdfPageEnd": 197
+  },
+  "category": "secondary",
+  "variant": "western",
+  "trait": "Finesse",
+  "range": "Far",
+  "burden": "One-Handed",
+  "tieredDamage": [
+    "Tier 1: d6 phy",
+    "Tier 2: d6+3 phy",
+    "Tier 3: d6+6 phy",
+    "Tier 4: d6+9 phy"
+  ],
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Quick Shot",
+    "rulesText": "Spend 2 Hope to gain a +4 bonus to primary weapon damage."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/small-revolver/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/western-campaigns"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/codex-touched",
+  "@type": "DomainCard",
+  "name": "Codex‑touched",
+  "slug": "codex-touched",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "CODEX‑TOUCHED",
+    "lineStart": 15137,
+    "lineEnd": 15149,
+    "pdfPageStart": 212,
+    "pdfPageEnd": 212
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When 4 or more of the domain cards in your loadout are from the Codex domain, gain the following benefits:\n\n  - You can mark a Stress to add your Proficiency to a\n\nSpellcast Roll.\n\n  - Once per rest, replace this card with any card from your vault without paying its Recall Cost.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/codex-touched/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

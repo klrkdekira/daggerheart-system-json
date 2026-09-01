@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-katana",
+  "@type": "Weapon",
+  "name": "Advanced Katana",
+  "slug": "advanced-katana",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3547,
+    "lineEnd": 3547,
+    "pdfPageStart": 60,
+    "pdfPageEnd": 60
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Agility",
+  "range": "Melee",
+  "burden": "Two-Handed",
+  "damage": "d10+9 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Quick",
+    "rulesText": "When you make an attack, you can mark a Stress to target another creature within range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/advanced-katana/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

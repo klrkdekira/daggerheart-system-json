@@ -1,0 +1,61 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-eagle",
+  "@type": "Adversary",
+  "name": "Giant Eagle",
+  "slug": "giant-eagle",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GIANT EAGLE",
+    "lineStart": 8047,
+    "lineEnd": 8067,
+    "pdfPageStart": 121,
+    "pdfPageEnd": 121
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Hunt prey",
+    "stay mobile",
+    "strike decisively"
+  ],
+  "difficulty": 14,
+  "thresholds": "8/19",
+  "hitPoints": 4,
+  "stress": 4,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Claws and Beak",
+    "range": "Very Close",
+    "damage": "2d6+3 phy"
+  },
+  "description": "A giant bird of prey with blood-stained talons.",
+  "features": [
+    {
+      "name": "Flight",
+      "kind": "Passive",
+      "rulesText": "While flying, the Eagle gains a +3 bonus to their Difficulty."
+    },
+    {
+      "name": "Deadly Dive",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to attack a target within Far range. On a success, deal 2d10+2 physical damage and knock the target over, making them Vulnerable until they next act."
+    },
+    {
+      "name": "Take Off",
+      "kind": "Action",
+      "rulesText": "Make an attack against a target within Very Close range. On a success, deal 2d4+3 physical damage and the target must succeed on an Agility Reaction Roll or become temporarily Restrained within the Eagle’s massive talons. If the target is Restrained, the Eagle immediately lifts into the air to Very Far range above the battlefield while holding them."
+    },
+    {
+      "name": "Deadly Drop",
+      "kind": "Action",
+      "rulesText": "While flying, the Eagle can drop a Restrained target they are holding. When dropped, the target is no longer Restrained but starts falling. If their fall isn’t prevented during the PCs’ next action, the target takes 2d20 physical damage when they land."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/giant-eagle/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

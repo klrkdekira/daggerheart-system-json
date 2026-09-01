@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/revolver",
+  "@type": "Weapon",
+  "name": "Revolver",
+  "slug": "revolver",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Weapons",
+    "lineStart": 14017,
+    "lineEnd": 14017,
+    "pdfPageStart": 197,
+    "pdfPageEnd": 197
+  },
+  "category": "primary",
+  "variant": "western",
+  "trait": "Finesse",
+  "range": "Far",
+  "burden": "One-Handed",
+  "tieredDamage": [
+    "Tier 1: d8+1 phy",
+    "Tier 2: d8+4 phy",
+    "Tier 3: d8+7 phy",
+    "Tier 4: d8+10 phy"
+  ],
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Six Shot",
+    "rulesText": "Place 6 Ammo tokens on your character sheet. Spend 1 Ammo token to make an attack. You can mark a Stress to regain spent Ammo tokens."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/revolver/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/western-campaigns"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rise-up",
+  "@type": "DomainCard",
+  "name": "Rise Up",
+  "slug": "rise-up",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "RISE UP",
+    "lineStart": 16350,
+    "lineEnd": 16358,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "Gain a bonus to your Severe threshold equal to your Proficiency.\n\nWhen you mark 1 or more Hit Points from an attack, clear a Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/rise-up/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

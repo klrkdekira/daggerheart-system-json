@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/dunamis-silkchain",
+  "@type": "Armor",
+  "name": "Dunamis Silkchain",
+  "slug": "dunamis-silkchain",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 4 (LEVELS 8–10)",
+    "lineStart": 4012,
+    "lineEnd": 4012,
+    "pdfPageStart": 74,
+    "pdfPageEnd": 74
+  },
+  "variant": "core",
+  "baseThresholds": "13 / 36",
+  "baseScore": "7",
+  "tier": 4,
+  "feature": {
+    "name": "Timeslowing",
+    "rulesText": "Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/dunamis-silkchain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

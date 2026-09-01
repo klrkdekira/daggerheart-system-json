@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/brawler-subclasses",
+  "@type": "Rule",
+  "name": "Brawler Subclasses",
+  "slug": "brawler-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "BRAWLER SUBCLASSES",
+    "lineStart": 601,
+    "lineEnd": 603,
+    "pdfPageStart": 12,
+    "pdfPageEnd": 12
+  },
+  "rulesText": "Choose either the Juggernaut or Martial Artist subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/brawler-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

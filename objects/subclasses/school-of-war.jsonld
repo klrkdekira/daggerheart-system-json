@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/school-of-war",
+  "@type": "Subclass",
+  "name": "School of War",
+  "slug": "school-of-war",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "SCHOOL OF WAR",
+    "lineStart": 2093,
+    "lineEnd": 2133,
+    "pdfPageStart": 31,
+    "pdfPageEnd": 31
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/wizard"
+  },
+  "features": [
+    {
+      "name": "Battlemage",
+      "stage": "foundation",
+      "rulesText": "You’ve focused your studies on becoming an unconquerable force on the battlefield. Gain an additional Hit Point slot."
+    },
+    {
+      "name": "Face Your Fear",
+      "stage": "foundation",
+      "rulesText": "When you succeed with Fear on an attack roll, you deal an extra 1d10 magic damage."
+    },
+    {
+      "name": "Conjure Shield",
+      "stage": "specialization",
+      "rulesText": "You can maintain a protective barrier of magic. While you have at least 2 Hope, you add your Proficiency to your Evasion."
+    },
+    {
+      "name": "Fueled by Fear",
+      "stage": "specialization",
+      "rulesText": "The extra magic damage from your “Face Your Fear” feature increases to 2d10."
+    },
+    {
+      "name": "Thrive in Chaos",
+      "stage": "mastery",
+      "rulesText": "When you succeed on an attack, you can mark a Stress after rolling damage to force the target to mark an additional Hit Point."
+    },
+    {
+      "name": "Have No Fear",
+      "stage": "mastery",
+      "rulesText": "The extra magic damage from your “Face Your Fear” feature increases to 3d10."
+    }
+  ],
+  "description": "Play the School of War if you want to utilize trained magic for violence.",
+  "spellcastTrait": "Knowledge",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/subclasses/school-of-war/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

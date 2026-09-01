@@ -1,0 +1,49 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/epic-aquatic-beast",
+  "@type": "Beastform",
+  "name": "Epic Aquatic Beast",
+  "slug": "epic-aquatic-beast",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "EPIC AQUATIC BEAST",
+    "lineStart": 1155,
+    "lineEnd": 1167,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "tier": 4,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Giant Squid, Whale, etc.",
+  "traitBonus": "Agility +3",
+  "evasionBonus": 3,
+  "attack": {
+    "range": "Melee",
+    "trait": "Agility",
+    "damage": "d10+10 phy"
+  },
+  "advantageOn": [
+    "locate",
+    "protect",
+    "scare",
+    "track"
+  ],
+  "features": [
+    {
+      "name": "Ocean Master",
+      "rulesText": "You can breathe and move naturally underwater. When you succeed on an attack against a target within Melee range, you can temporarily Restrain them."
+    },
+    {
+      "name": "Unyielding",
+      "rulesText": "When you would mark an Armor Slot, roll a d6. On a result of 5 or higher, reduce the severity by one threshold without marking an Armor Slot."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/epic-aquatic-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

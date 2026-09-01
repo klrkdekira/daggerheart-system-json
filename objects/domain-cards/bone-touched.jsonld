@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/bone-touched",
+  "@type": "DomainCard",
+  "name": "Bone‑touched",
+  "slug": "bone-touched",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BONE‑TOUCHED",
+    "lineStart": 14907,
+    "lineEnd": 14916,
+    "pdfPageStart": 210,
+    "pdfPageEnd": 210
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When 4 or more of the domain cards in your loadout are from the Bone domain, gain the following benefits:\n\n  - +1 bonus to Agility\n  - Once per rest, you can spend 3 Hope to cause an attack that succeeded against you to fail instead.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/bone-touched/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

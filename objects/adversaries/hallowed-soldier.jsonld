@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hallowed-soldier",
+  "@type": "Adversary",
+  "name": "Hallowed Soldier",
+  "slug": "hallowed-soldier",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HALLOWED SOLDIER",
+    "lineStart": 10819,
+    "lineEnd": 10837,
+    "pdfPageStart": 151,
+    "pdfPageEnd": 151
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Obey",
+    "outmaneuver",
+    "punish",
+    "swarm"
+  ],
+  "difficulty": 18,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 2,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Sword and Shield",
+    "range": "Melee",
+    "damage": "10 phy"
+  },
+  "description": "Souls of the faithful, lifted up with divine weaponry.",
+  "features": [
+    {
+      "name": "Minion (13)",
+      "kind": "Passive",
+      "rulesText": "The Soldier is defeated when they take any damage. For every 13 damage a PC deals to the Soldier, defeat an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Divine Flight",
+      "kind": "Passive",
+      "rulesText": "While the Soldier is flying, spend a Fear to move up to Far range instead of Close range before taking an action."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Hallowed Soldiers within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 10 physical damage each. Combine this damage."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/hallowed-soldier/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

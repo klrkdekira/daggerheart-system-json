@@ -1,0 +1,34 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-cutlass",
+  "@type": "Weapon",
+  "name": "Advanced Cutlass",
+  "slug": "advanced-cutlass",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3556,
+    "lineEnd": 3556,
+    "pdfPageStart": 60,
+    "pdfPageEnd": 60
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Presence",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8+7 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 3,
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/advanced-cutlass/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/hedge",
+  "@type": "Subclass",
+  "name": "Hedge",
+  "slug": "hedge",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "HEDGE",
+    "lineStart": 1962,
+    "lineEnd": 1984,
+    "pdfPageStart": 29,
+    "pdfPageEnd": 29
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/witch"
+  },
+  "features": [
+    {
+      "name": "Herbal Remedies",
+      "stage": "foundation",
+      "rulesText": "When you or an ally in the scene clears 1 or more Hit Points or Stress as the result of using a consumable, increase the number cleared by 1."
+    },
+    {
+      "name": "Enchanted Talisman",
+      "stage": "foundation",
+      "rulesText": "Once per rest, you can imbue a small item with your protective essence. Spend any number of Hope to place an equal number of tokens on this card. When the person holding the talisman takes damage, spend a token to reduce the number of Hit Points they mark by one. Clear all tokens from this card when you take a rest."
+    },
+    {
+      "name": "Walk Between Worlds",
+      "stage": "specialization",
+      "rulesText": "During a moment of calm, make a Spellcast Roll (13). Once per rest on a success, you can mark a Stress to step beyond the veil of death and converse with any nearby spirits. Place a number of tokens equal to your Spellcast trait on this card and remove one each time a spirit answers a question. When the last token is removed or at the end of the scene, you return to the Mortal Realm in the same spot you left it."
+    },
+    {
+      "name": "Vexing Malison",
+      "stage": "specialization",
+      "rulesText": "You have advantage on attacks against Hexed creatures."
+    },
+    {
+      "name": "Circle of Power",
+      "stage": "mastery",
+      "rulesText": "Once per rest, mark a circle on the ground outlining a Very Close area around you, and place a number of tokens equal to your Spellcast trait on this card. While within this circle, you and your allies gain a +2 bonus to damage thresholds, attack rolls, and Evasion. Remove a token each time you or an ally within the circle makes an action roll or evades an attack. This spell lasts until the last token is removed or you exit the circle."
+    }
+  ],
+  "description": "Play the Hedge if you want to use your craft to empower yourself and your party.",
+  "spellcastTrait": "Knowledge",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/subclasses/hedge/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

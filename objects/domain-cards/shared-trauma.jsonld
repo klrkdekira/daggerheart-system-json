@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shared-trauma",
+  "@type": "DomainCard",
+  "name": "Shared Trauma",
+  "slug": "shared-trauma",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SHARED TRAUMA",
+    "lineStart": 15260,
+    "lineEnd": 15266,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "You can transfer suffering from one creature to another. Once per rest, mark any number of Hit Points on a willing creature within Melee range to clear an equal number of Hit Points on another willing creature within Melee range.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/shared-trauma/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

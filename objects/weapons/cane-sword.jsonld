@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/cane-sword",
+  "@type": "Weapon",
+  "name": "Cane Sword",
+  "slug": "cane-sword",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3480,
+    "lineEnd": 3480,
+    "pdfPageStart": 58,
+    "pdfPageEnd": 58
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Finesse",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8+4 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Retractable",
+    "rulesText": "The blade can be hidden in the cane to avoid detection."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/cane-sword/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

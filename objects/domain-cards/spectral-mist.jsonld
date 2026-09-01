@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/spectral-mist",
+  "@type": "DomainCard",
+  "name": "Spectral Mist",
+  "slug": "spectral-mist",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SPECTRAL MIST",
+    "lineStart": 15304,
+    "lineEnd": 15310,
+    "pdfPageStart": 214,
+    "pdfPageEnd": 214
+  },
+  "level": 5,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 0,
+  "rulesText": "Spend 2 Hope to conjure an eerie mist that turns you and allies of your choice within Close range momentarily incorporeal. While a creature is incorporeal, they can move through solid objects and are immune to physical damage. They become corporeal again after they pass through a solid object or make an action roll. Otherwise, this effect lasts until the end of the scene.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/spectral-mist/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

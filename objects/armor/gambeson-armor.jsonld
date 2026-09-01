@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/gambeson-armor",
+  "@type": "Armor",
+  "name": "Gambeson Armor",
+  "slug": "gambeson-armor",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 1 (LEVEL 1)",
+    "lineStart": 3926,
+    "lineEnd": 3926,
+    "pdfPageStart": 72,
+    "pdfPageEnd": 72
+  },
+  "variant": "core",
+  "baseThresholds": "5 / 11",
+  "baseScore": "3",
+  "tier": 1,
+  "feature": {
+    "name": "Flexible",
+    "rulesText": "+1 to Evasion"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/gambeson-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/armor"
+  }
+}

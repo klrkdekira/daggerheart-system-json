@@ -1,0 +1,87 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vampire-lord",
+  "@type": "Adversary",
+  "name": "Vampire Lord",
+  "slug": "vampire-lord",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "VAMPIRE LORD",
+    "lineStart": 10080,
+    "lineEnd": 10112,
+    "pdfPageStart": 142,
+    "pdfPageEnd": 142
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Corrupt",
+    "destroy",
+    "overwhelm with evil power"
+  ],
+  "difficulty": 18,
+  "thresholds": "24/45",
+  "hitPoints": 7,
+  "stress": 7,
+  "attackModifier": "+5",
+  "standardAttack": {
+    "name": "Claws",
+    "range": "Melee",
+    "damage": "3d10+2 phy"
+  },
+  "experience": "Evil +3, Noble +3",
+  "description": "A cruel vampire lord from a long-lost age, cursed with immortality.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Vampire Lord can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Midnight Heart",
+      "kind": "Passive",
+      "rulesText": "Long-Term Countdown (6). The Vampire Lord keeps their heart hidden in a safe place. If it’s destroyed, the Vampire Lord dies. Otherwise, when the Vampire Lord is defeated, activate the countdown. It ticks down each time the PCs finish a long rest. When it triggers, the Vampire Lord revives within Close range of the heart with all HP and Stress cleared."
+    },
+    {
+      "name": "Terrifying",
+      "kind": "Passive",
+      "rulesText": "When the Vampire Lord makes a successful attack roll, all PCs within Close range lose a Hope, and you gain a Fear."
+    },
+    {
+      "name": "Unleash Hellfire",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Vampire Lord momentarily conjure 1d4 bursts of hellfire within Far range. Each burst deals 3d6 magic damage to each target within Very Close range. If a target takes damage from multiple bursts, combine the damage."
+    },
+    {
+      "name": "Resurgence",
+      "kind": "Reaction",
+      "rulesText": "When a PC within Very Close range rolls with Hope, you can spend a Fear to clear a HP or a Stress."
+    },
+    {
+      "name": "Melt into Shadow",
+      "kind": "Reaction",
+      "rulesText": "When a PC would deal damage to the Vampire Lord, you can spend a Fear to roll a d6. On a result of 5 or higher, negate the damage, then teleport the Vampire Lord to a point within Far range."
+    },
+    {
+      "name": "Hellwing",
+      "kind": "Evolution",
+      "rulesText": "When the Vampire Lord marks half their HP, they transform into the Hellwing: a towering, demonic bat creature. They gain the “On Crimson Wings” and “Bloodbath” features and replace their standard attack with the following standard attack: Claws: Close | 3d12+6 phy"
+    },
+    {
+      "name": "On Crimson Wings",
+      "kind": "Passive",
+      "rulesText": "While flying, the Hellwing gains a +1 bonus to their Difficulty."
+    },
+    {
+      "name": "Bloodbath",
+      "kind": "Reaction",
+      "rulesText": "When the Hellwing takes Major or greater damage, the ground within Very Close range is covered with blood, dealing 3d10 magic damage to all other creatures in the area. When the Hellwing takes the spotlight on subsequent GM turns, all other creatures in that area take 3d6 magic damage."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/vampire-lord/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

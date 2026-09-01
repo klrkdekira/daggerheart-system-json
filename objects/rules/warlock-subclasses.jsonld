@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/warlock-subclasses",
+  "@type": "Rule",
+  "name": "Warlock Subclasses",
+  "slug": "warlock-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WARLOCK SUBCLASSES",
+    "lineStart": 1771,
+    "lineEnd": 1773,
+    "pdfPageStart": 27,
+    "pdfPageEnd": 27
+  },
+  "rulesText": "Choose either the Pact of the Endless or Pact of the Wrathful subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/warlock-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

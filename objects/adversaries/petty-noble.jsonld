@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/petty-noble",
+  "@type": "Adversary",
+  "name": "Petty Noble",
+  "slug": "petty-noble",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "PETTY NOBLE",
+    "lineStart": 6412,
+    "lineEnd": 6432,
+    "pdfPageStart": 106,
+    "pdfPageEnd": 106
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Abuse power",
+    "gather resources",
+    "mobilize minions"
+  ],
+  "difficulty": 14,
+  "thresholds": "6/10",
+  "hitPoints": 3,
+  "stress": 5,
+  "attackModifier": "−3",
+  "standardAttack": {
+    "name": "Rapier",
+    "range": "Melee",
+    "damage": "1d6+1 phy"
+  },
+  "experience": "Aristocrat +3",
+  "description": "A richly dressed and adorned aristocrat brimming with hubris.",
+  "features": [
+    {
+      "name": "My Land, My Rules",
+      "kind": "Passive",
+      "rulesText": "All social actions made against the Noble on their land have disadvantage."
+    },
+    {
+      "name": "Guards, Seize Them!",
+      "kind": "Action",
+      "rulesText": "Once per scene, mark a Stress to summon 1d4 Bladed Guards, who appear at Far range to enforce the Noble’s will."
+    },
+    {
+      "name": "Exile",
+      "kind": "Action",
+      "rulesText": "Spend a Fear and target a PC. The Noble proclaims that the target and their allies are exiled from the noble’s territory. While exiled, the target and their allies have disadvantage during social situations within the Noble’s domain."
+    }
+  ],
+  "role": "Social",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/petty-noble/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

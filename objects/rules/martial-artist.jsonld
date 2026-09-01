@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/martial-artist",
+  "@type": "Rule",
+  "name": "Martial Artist",
+  "slug": "martial-artist",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "MARTIAL ARTIST",
+    "lineStart": 627,
+    "lineEnd": 663,
+    "pdfPageStart": 12,
+    "pdfPageEnd": 12
+  },
+  "rulesText": "Play the Martial Artist if you want to use a variety of fighting styles to eliminate your foes.\n\n##### FOUNDATION FEATURE\n\n**Stance Fighter:** You can channel your inner resolve to shift into martial stances that grant you special benefits in combat.\n\nTake the Martial Stances sheet and choose two martial stances from Tier 1. Each time you level up your character, choose an additional stance from your tier or lower.\n\n##### SPECIALIZATION FEATURES\n\n**Keen Defenses:** When you’re targeted by an attack, you can spend a Focus to gain a bonus to your Evasion equal to your tier against the attack.\n\n**Focus Cannon:** Spend a Focus to make an Instinct Roll against an adversary within Far range. On a success, deal d20+3 magic damage using your Proficiency.\n\n##### MASTERY FEATURE\n\n**Limit Breaker:** Once per rest, you can perform an unbelievable feat of athletic prowess, such as running across water, leaping between distant rooftops, or scaling a building without needing to roll. When you do, gain a Hope and clear a Stress.\n\n**Flow State:** You can mark a Stress instead of spending a Focus to shift into a different stance. Additionally, you can spend a Focus instead of marking a Stress to start a combo strike.\n\n##### BACKGROUND QUESTIONS\n\nAnswer any of the following background questions. You can also create your own questions.\n\n- Where did you spend time during your formative years that taught you, directly or indirectly, how to fight in the style you use?\n- What organization has vowed to kill you on sight, and what did you do to invoke their ire?\n- Who did you recently lose a fight to that you’re desperate for a rematch against?\n\n##### CONNECTIONS\n\nAsk your fellow players one of the following questions for their character to answer, or create your own questions.\n\n- What is one thing we’re both afraid of?\n- What do I rely on you for during our travels? How do you feel about it?\n- I still haven’t forgiven you for something you said to me. What was it, and why did you say it?",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/martial-artist/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

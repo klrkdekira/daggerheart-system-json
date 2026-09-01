@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/dread-touched",
+  "@type": "DomainCard",
+  "name": "Dread-Touched",
+  "slug": "dread-touched",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "DREAD-TOUCHED",
+    "lineStart": 15328,
+    "lineEnd": 15337,
+    "pdfPageStart": 214,
+    "pdfPageEnd": 214
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When 4 or more of the domain cards in your loadout are from the Dread domain, gain the following benefits:\n\n  - When you succeed with Fear, you can mark 2 Stress to prevent the GM from gaining a Fear.\n  - Once per rest when making an action roll, you can gain a bonus to the roll equal to the number of Fear in the GM’s pool.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/dread-touched/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

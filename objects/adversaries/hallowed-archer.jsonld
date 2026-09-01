@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hallowed-archer",
+  "@type": "Adversary",
+  "name": "Hallowed Archer",
+  "slug": "hallowed-archer",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HALLOWED ARCHER",
+    "lineStart": 10777,
+    "lineEnd": 10793,
+    "pdfPageStart": 150,
+    "pdfPageEnd": 150
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Focus fire",
+    "obey",
+    "reposition",
+    "volley"
+  ],
+  "difficulty": 19,
+  "thresholds": "25/45",
+  "hitPoints": 3,
+  "stress": 2,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Sanctified Longbow",
+    "range": "Far",
+    "damage": "4d8+8 phy"
+  },
+  "description": "Spirit soldiers with sanctified bows.",
+  "features": [
+    {
+      "name": "Punish the Guilty",
+      "kind": "Passive",
+      "rulesText": "The Archer deals double damage to targets marked Guilty by a High Seraph."
+    },
+    {
+      "name": "Divine Volley",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack against up to three targets."
+    }
+  ],
+  "role": "Ranged",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/hallowed-archer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

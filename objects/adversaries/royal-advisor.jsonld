@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/royal-advisor",
+  "@type": "Adversary",
+  "name": "Royal Advisor",
+  "slug": "royal-advisor",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ROYAL ADVISOR",
+    "lineStart": 8564,
+    "lineEnd": 8584,
+    "pdfPageStart": 127,
+    "pdfPageEnd": 127
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Curry favor",
+    "manufacture evidence",
+    "scheme"
+  ],
+  "difficulty": 14,
+  "thresholds": "8/15",
+  "hitPoints": 3,
+  "stress": 3,
+  "attackModifier": "−3",
+  "standardAttack": {
+    "name": "Wand",
+    "range": "Far",
+    "damage": "1d4+3 phy"
+  },
+  "experience": "Administration +3, Courtier +3",
+  "description": "A high-ranking courtier with the ear of the local nobility.",
+  "features": [
+    {
+      "name": "Devastating Retort",
+      "kind": "Passive",
+      "rulesText": "A PC who rolls less than 17 on an action roll targeting the Advisor must mark a Stress."
+    },
+    {
+      "name": "Bend Ears",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to influence an NPC within Melee range with whispered words. That target’s opinion on one matter shifts toward the Advisor’s preference unless it is in direct opposition to the target’s motives."
+    },
+    {
+      "name": "Scapegoat",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to convince a crowd or notable individual that one person or group is responsible for some problem facing the target. The target becomes hostile to the scapegoat until convinced of their innocence with a successful Presence Roll (17)."
+    }
+  ],
+  "role": "Social",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/royal-advisor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

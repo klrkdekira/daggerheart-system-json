@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/segmented-staff",
+  "@type": "Weapon",
+  "name": "Segmented Staff",
+  "slug": "segmented-staff",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 2 (LEVELS 2–4)",
+    "lineStart": 3770,
+    "lineEnd": 3770,
+    "pdfPageStart": 67,
+    "pdfPageEnd": 67
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Agility",
+  "range": "Very Close",
+  "burden": "One-Handed",
+  "damage": "d6+4 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Double Duty",
+    "rulesText": "+1 to Armor Score; +1 to primary weapon damage within Melee range"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/segmented-staff/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

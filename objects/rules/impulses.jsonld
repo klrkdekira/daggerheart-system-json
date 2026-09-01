@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/impulses",
+  "@type": "Rule",
+  "name": "Impulses",
+  "slug": "impulses",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "IMPULSES",
+    "lineStart": 11484,
+    "lineEnd": 11490,
+    "pdfPageStart": 158,
+    "pdfPageEnd": 158
+  },
+  "rulesText": "The manner or mode with which the environment pushs and pulls the people within them.\n\n##### DIFFICULTY\n\nThe standard Difficulty for action rolls made to overcome, oppose, or resist the environment or its elements.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/impulses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

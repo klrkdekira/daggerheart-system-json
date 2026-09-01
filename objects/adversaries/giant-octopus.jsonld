@@ -1,0 +1,63 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-octopus",
+  "@type": "Adversary",
+  "name": "Giant Octopus",
+  "slug": "giant-octopus",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GIANT OCTOPUS",
+    "lineStart": 8071,
+    "lineEnd": 8093,
+    "pdfPageStart": 122,
+    "pdfPageEnd": 122
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Crush and bite",
+    "grapple",
+    "harry sailing vessels",
+    "hunt prey"
+  ],
+  "difficulty": 14,
+  "thresholds": "13/26",
+  "hitPoints": 10,
+  "stress": 5,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Arm Whip",
+    "range": "Close",
+    "damage": "2d10 phy"
+  },
+  "experience": "Intelligent +3",
+  "description": "A monstrous, aquatic mollusk that has eight sucker-bearing arms and a hard, beaklike jaw.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Octopus can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it."
+    },
+    {
+      "name": "Armed and Dangerous",
+      "kind": "Passive",
+      "rulesText": "When the Octopus first appears, place a d8 on this stat block with the 8 value facing up. When the Octopus makes a successful standard attack against a PC, you can add the die’s value to the damage dealt. After you add its value to a roll, decrease the die’s value by 1."
+    },
+    {
+      "name": "Grapple",
+      "kind": "Action",
+      "rulesText": "When the Octopus succeeds on a standard attack, you can spend a Fear to have the Octopus Grapple the target. While Grappled, the target is Restrained and Vulnerable until they break free with a successful Strength or Finesse Roll."
+    },
+    {
+      "name": "Crush",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to deal 3d8 direct physical damage to a target Grappled by the Octopus."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/giant-octopus/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/voice-of-dread",
+  "@type": "DomainCard",
+  "name": "Voice of Dread",
+  "slug": "voice-of-dread",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "VOICE OF DREAD",
+    "lineStart": 15216,
+    "lineEnd": 15222,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 0,
+  "rulesText": "You can magically speak to a creature you can see, tormenting them with your words. Make a Spellcast Roll against them. On a success, they must mark a Stress and are frozen with terror, making them temporarily Restrained.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/voice-of-dread/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

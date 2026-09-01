@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/choosing-gm-moves",
+  "@type": "Rule",
+  "name": "Choosing Gm Moves",
+  "slug": "choosing-gm-moves",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CHOOSING GM MOVES",
+    "lineStart": 4530,
+    "lineEnd": 4559,
+    "pdfPageStart": 86,
+    "pdfPageEnd": 87
+  },
+  "rulesText": "The result of a player’s action roll determines your response:\n\nOn a Critical Success, you let the player describe their success, then give them an additional opportunity or advantage.\n\nOn a Success with Hope, you let the player describe their success, then you show how the world reacts to it.\n\nOn a Success with Fear, you work with the player to describe their success, then take a Fear and make a GM move to introduce a minor consequence, complication, or cost:\n\n  - An adversary attacks\n  - The PC marks a Stress\n  - You introduce a new threat\n  - You raise the stakes of the conflict\n\nOn a Failure with Hope, you describe how the PC fails to get what they want, then make a GM move to introduce a minor consequence, complication, or cost:\n\n  - An adversary attacks\n  - The PC marks a Stress\n  - You introduce a new threat\n  - You raise the stakes of the conflict\n\nOn a Failure with Fear, you describe how things go wrong, then make a GM move to introduce a major consequence, complication, or cost:\n\n  - You put them in immediate danger\n  - They become the focus of multiple adversaries\n  - They are separated from their party\n  - They lose an important opportunity for good.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/choosing-gm-moves/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

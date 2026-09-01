@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/winged-sentinel",
+  "@type": "Subclass",
+  "name": "Winged Sentinel",
+  "slug": "winged-sentinel",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WINGED SENTINEL",
+    "lineStart": 1586,
+    "lineEnd": 1627,
+    "pdfPageStart": 24,
+    "pdfPageEnd": 25
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/seraph"
+  },
+  "features": [
+    {
+      "name": "Wings of Light",
+      "stage": "foundation",
+      "rulesText": "You can fly. While flying, you can do the following:\n\n- Mark a Stress to pick up and carry another willing creature approximately your size or smaller.\n- Spend a Hope to deal an extra 1d8 damage on a successful attack."
+    },
+    {
+      "name": "Ethereal Visage",
+      "stage": "specialization",
+      "rulesText": "Your supernatural visage strikes awe and fear. While flying, you have advantage on Presence Rolls. When you succeed with Hope on a Presence Roll, you can remove a Fear from the GM’s Fear pool instead of gaining Hope."
+    },
+    {
+      "name": "Ascendant",
+      "stage": "mastery",
+      "rulesText": "Gain a permanent +4 bonus to your Severe damage threshold."
+    },
+    {
+      "name": "Power of the Gods",
+      "stage": "mastery",
+      "rulesText": "While flying, you deal an extra 1d12 damage instead of 1d8 from your “Wings of Light” feature."
+    }
+  ],
+  "description": "Play the Winged Sentinel if you want to take flight and strike crushing blows from the sky.",
+  "spellcastTrait": "Strength",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/subclasses/winged-sentinel/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

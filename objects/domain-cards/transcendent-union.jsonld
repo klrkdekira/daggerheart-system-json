@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/transcendent-union",
+  "@type": "DomainCard",
+  "name": "Transcendent Union",
+  "slug": "transcendent-union",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "TRANSCENDENT UNION",
+    "lineStart": 15242,
+    "lineEnd": 15248,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Once per long rest, spend 5 Hope to cast this spell on two or more willing creatures. Until your next rest, when a creature connected by this union would mark Stress or Hit Points, the connected creatures can choose who marks it.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/transcendent-union/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

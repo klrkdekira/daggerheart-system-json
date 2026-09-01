@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/skeleton-warrior",
+  "@type": "Adversary",
+  "name": "Skeleton Warrior",
+  "slug": "skeleton-warrior",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SKELETON WARRIOR",
+    "lineStart": 6794,
+    "lineEnd": 6810,
+    "pdfPageStart": 109,
+    "pdfPageEnd": 109
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Feign death",
+    "gang up",
+    "steal skin"
+  ],
+  "difficulty": 10,
+  "thresholds": "4/8",
+  "hitPoints": 3,
+  "stress": 2,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Sword",
+    "range": "Melee",
+    "damage": "1d6+2 phy"
+  },
+  "description": "A dirt-covered skeleton armed with a rusted blade.",
+  "features": [
+    {
+      "name": "Only Bones",
+      "kind": "Passive",
+      "rulesText": "The Warrior is resistant to physical damage."
+    },
+    {
+      "name": "Won’t Stay Dead",
+      "kind": "Reaction",
+      "rulesText": "When the Warrior is defeated, you can spotlight them and roll a d6. On a result of 6, if there are other adversaries on the battlefield, the Warrior re-forms with no marked HP."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/skeleton-warrior/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

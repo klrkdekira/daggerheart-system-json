@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/system-reference-document-2-0",
+  "@type": "Rule",
+  "name": "System Reference Document 2.0",
+  "slug": "system-reference-document-2-0",
+  "sourceLocator": {
+    "chapter": "System reference Document 2.0",
+    "heading": "System reference Document 2.0",
+    "lineStart": 15,
+    "lineEnd": 22,
+    "pdfPageStart": 1,
+    "pdfPageEnd": 1
+  },
+  "rulesText": "- **SRD Writer:** Rob Hebert | Technical Editor: Shawn Banerjee\n- **Layout:** Matt Paquette & Co., Matt Cole | Producers: Dani Gage and Madigan Hunt\n\nThis document, including the Witherwild Campaign Frame, is considered Public Game Content per the Darrington Press Community Gaming License. Please read the Darrington Press Community Gaming License before using this material.\n\n© 2026 Critical Role LLC. All rights reserved. For more information, please visit www.darringtonpress.com/license.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/system-reference-document-2-0/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

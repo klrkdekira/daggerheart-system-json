@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-longbow",
+  "@type": "Weapon",
+  "name": "Legendary Longbow",
+  "slug": "legendary-longbow",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Physical Weapons",
+    "lineStart": 3653,
+    "lineEnd": 3653,
+    "pdfPageStart": 63,
+    "pdfPageEnd": 63
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Agility",
+  "range": "Very Far",
+  "burden": "Two-Handed",
+  "damage": "d8+12 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Cumbersome",
+    "rulesText": "−1 to Finesse"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/legendary-longbow/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

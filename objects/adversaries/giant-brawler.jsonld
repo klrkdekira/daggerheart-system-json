@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-brawler",
+  "@type": "Adversary",
+  "name": "Giant Brawler",
+  "slug": "giant-brawler",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GIANT BRAWLER",
+    "lineStart": 8025,
+    "lineEnd": 8045,
+    "pdfPageStart": 121,
+    "pdfPageEnd": 121
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Make a living",
+    "overwhelm",
+    "slam",
+    "topple"
+  ],
+  "difficulty": 15,
+  "thresholds": "14/28",
+  "hitPoints": 7,
+  "stress": 4,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Warhammer",
+    "range": "Very Close",
+    "damage": "2d12+3 phy"
+  },
+  "experience": "Intrusion +2",
+  "description": "An especially muscular giant wielding a warhammer larger than a human.",
+  "features": [
+    {
+      "name": "Battering Ram",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Brawler charge at an inanimate object within Close range they could feasibly smash (such as a wall, cart, or market stand) and destroy it. All targets within Very Close range of the object must succeed on an Agility Reaction Roll or take 2d4+3 physical damage from the shrapnel."
+    },
+    {
+      "name": "Bloody Reprisal",
+      "kind": "Reaction",
+      "rulesText": "When the Brawler marks 2 or more HP from an attack within Very Close range, you can make a standard attack against the attacker. On a success, the Brawler deals 2d6+15 physical damage instead of their standard damage."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Brawler makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/giant-brawler/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

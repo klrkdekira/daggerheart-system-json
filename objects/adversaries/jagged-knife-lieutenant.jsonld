@@ -1,0 +1,63 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-lieutenant",
+  "@type": "Adversary",
+  "name": "Jagged Knife Lieutenant",
+  "slug": "jagged-knife-lieutenant",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "JAGGED KNIFE LIEUTENANT",
+    "lineStart": 6020,
+    "lineEnd": 6042,
+    "pdfPageStart": 103,
+    "pdfPageEnd": 103
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Bully",
+    "command",
+    "profit",
+    "reinforce"
+  ],
+  "difficulty": 13,
+  "thresholds": "7/14",
+  "hitPoints": 6,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Javelin",
+    "range": "Close",
+    "damage": "1d8+3 phy"
+  },
+  "experience": "Local Knowledge +2",
+  "description": "A seasoned bandit in quality leathers with a strong voice and cunning eyes.",
+  "features": [
+    {
+      "name": "Tactician",
+      "kind": "Action",
+      "rulesText": "When you spotlight the Lieutenant, mark a Stress to also spotlight two allies within Close range."
+    },
+    {
+      "name": "More Where That Came From",
+      "kind": "Action",
+      "rulesText": "Summon three Jagged Knife Lackeys, who appear at Far range."
+    },
+    {
+      "name": "Coup de Grace",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make an attack against a Vulnerable target within Close range. On a success, deal 2d6+12 physical damage and the target must mark a Stress."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Lieutenant makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/jagged-knife-lieutenant/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

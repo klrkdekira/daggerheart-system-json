@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/wyrmlings",
+  "@type": "Adversary",
+  "name": "Wyrmlings",
+  "slug": "wyrmlings",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "WYRMLINGS",
+    "lineStart": 11359,
+    "lineEnd": 11379,
+    "pdfPageStart": 157,
+    "pdfPageEnd": 157
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Consume",
+    "shred",
+    "swarm"
+  ],
+  "difficulty": 17,
+  "thresholds": "25/45",
+  "hitPoints": 8,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Tiny Jaws & Claws",
+    "range": "Melee",
+    "damage": "4d6+10 phy"
+  },
+  "experience": "Dragon Bond +2",
+  "description": "A clutch of newly hatched dragons. As newborns, they’re furious, hungry, and stupid.",
+  "features": [
+    {
+      "name": "Horde (2d6+5)",
+      "kind": "Passive",
+      "rulesText": "When the Wyrmlings have marked half or more of their HP, their standard attack deals 2d6+5 physical damage instead."
+    },
+    {
+      "name": "Ravenous",
+      "kind": "Reaction",
+      "rulesText": "Once per GM turn when a PC marks a HP from an attack made by the Wyrmlings, you can spend a Fear to spotlight the Wyrmlings again."
+    },
+    {
+      "name": "Overwhelm",
+      "kind": "Reaction",
+      "rulesText": "When the Wyrmlings take Minor damage from an attack within Melee range, you can mark a Stress to make a standard attack with advantage against the attacker."
+    }
+  ],
+  "role": "Horde (3/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/wyrmlings/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

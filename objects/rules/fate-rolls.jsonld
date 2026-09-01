@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/fate-rolls",
+  "@type": "Rule",
+  "name": "Fate Rolls",
+  "slug": "fate-rolls",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FATE ROLLS",
+    "lineStart": 4851,
+    "lineEnd": 4863,
+    "pdfPageStart": 92,
+    "pdfPageEnd": 92
+  },
+  "rulesText": "When the GM wants to leave an outcome entirely up to chance, they call for a fate roll. The GM establishes what’s at stake and how the roll will be interpreted. Then a player rolls one of their Duality Dice and interprets the result.\n\nExamples:\n\n“Roll your Fear Die. On a 4 or lower, the fire spreads beyond this house.”\n\n“I think it’s really up to chance whether reinforcements will make it to you in time. Go ahead and roll your Fear Die— that’ll determine the starting size of the countdown. When that triggers, reinforcements will arrive in your Far range.”\n\n“Go ahead and roll your Hope Die to see how big the crowd at the inn is tonight. The higher the roll, the bigger the crowd.”\n\n“Make a roll using your Hope Die to determine the number of Stamina Potions the shop has in stock.”",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/fate-rolls/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/bard-subclasses",
+  "@type": "Rule",
+  "name": "Bard Subclasses",
+  "slug": "bard-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "BARD SUBCLASSES",
+    "lineStart": 505,
+    "lineEnd": 507,
+    "pdfPageStart": 11,
+    "pdfPageEnd": 11
+  },
+  "rulesText": "Choose either the Troubadour or Wordsmith subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/bard-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

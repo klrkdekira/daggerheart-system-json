@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/echo-blade",
+  "@type": "Weapon",
+  "name": "Echo Blade",
+  "slug": "echo-blade",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 4 (LEVELS 8–10)",
+    "lineStart": 3823,
+    "lineEnd": 3823,
+    "pdfPageStart": 69,
+    "pdfPageEnd": 69
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Presence",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d4+6 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Doubled Up",
+    "rulesText": "When you succeed on an attack with your primary weapon, you can deal damage to another target within Melee range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/echo-blade/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

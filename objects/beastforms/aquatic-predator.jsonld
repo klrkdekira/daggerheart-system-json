@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/aquatic-predator",
+  "@type": "Beastform",
+  "name": "Aquatic Predator",
+  "slug": "aquatic-predator",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "AQUATIC PREDATOR",
+    "lineStart": 1073,
+    "lineEnd": 1085,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "tier": 3,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Dolphin, Orca, Shark, etc.",
+  "traitBonus": "Agility +2",
+  "evasionBonus": 4,
+  "attack": {
+    "range": "Melee",
+    "trait": "Agility",
+    "damage": "d10+6 phy"
+  },
+  "advantageOn": [
+    "attack",
+    "swim",
+    "track"
+  ],
+  "features": [
+    {
+      "name": "Aquatic",
+      "rulesText": "You can breathe and move naturally underwater."
+    },
+    {
+      "name": "Vicious Maul",
+      "rulesText": "When you succeed on an attack against a target, you can spend a Hope to make them Vulnerable and gain a +1 bonus to your Proficiency for this attack."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/aquatic-predator/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

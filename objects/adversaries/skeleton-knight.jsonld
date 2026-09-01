@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/skeleton-knight",
+  "@type": "Adversary",
+  "name": "Skeleton Knight",
+  "slug": "skeleton-knight",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SKELETON KNIGHT",
+    "lineStart": 6774,
+    "lineEnd": 6792,
+    "pdfPageStart": 109,
+    "pdfPageEnd": 109
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Cut down the living",
+    "steal skin",
+    "wreak havoc"
+  ],
+  "difficulty": 13,
+  "thresholds": "7/13",
+  "hitPoints": 5,
+  "stress": 2,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Rusty Greatsword",
+    "range": "Melee",
+    "damage": "1d10+2 phy"
+  },
+  "description": "A large armored skeleton with a huge blade.",
+  "features": [
+    {
+      "name": "Terrifying",
+      "kind": "Passive",
+      "rulesText": "When the Knight makes a successful attack, all PCs within Close range lose a Hope and you gain a Fear."
+    },
+    {
+      "name": "Cut to the Bone",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against all targets within Very Close range. Targets the Knight succeeds against take 1d8+2 physical damage and must mark a Stress."
+    },
+    {
+      "name": "Dig Two Graves",
+      "kind": "Reaction",
+      "rulesText": "When the Knight is defeated, they make an attack against a target within Very Close range (prioritizing the creature who killed them). On a success, the target takes 1d4+8 physical damage and loses 1d4 Hope."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/skeleton-knight/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

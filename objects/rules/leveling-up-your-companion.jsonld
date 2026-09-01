@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/leveling-up-your-companion",
+  "@type": "Rule",
+  "name": "Leveling Up Your Companion",
+  "slug": "leveling-up-your-companion",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "LEVELING UP YOUR COMPANION",
+    "lineStart": 1419,
+    "lineEnd": 1430,
+    "pdfPageStart": 22,
+    "pdfPageEnd": 22
+  },
+  "rulesText": "When your character levels up, choose one available option for your companion from the following list and mark it on your sheet:\n\n- **Intelligent:** Your companion gains a permanent +1 bonus to a Companion Experience of your choice.\n- **Light in the Dark:** Use this as an additional Hope slot your character can mark.\n- **Creature Comfort:** Once per rest, when you take time during a quiet moment to give your companion love and attention, you can gain a Hope or you can both clear a Stress.\n- **Armored:** When your companion takes damage, you can mark one of your Armor Slots instead of marking one of their Stress.\n- **Vicious:** Increase your companion’s damage dice or range by one step (d6 to d8, Close to Far, etc.).\n- **Resilient:** Your companion gains an additional Stress slot.\n- **Bonded:** When you mark your last Hit Point, your companion rushes to your side to comfort you. Roll a number of d6s equal to the unmarked Stress slots they have and mark them. If any roll a 6, your companion helps you up. Clear your last Hit Point and return to the scene.\n- **Aware:** Your companion gains a permanent +2 bonus to their Evasion.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/leveling-up-your-companion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/fane-of-the-wilds",
+  "@type": "DomainCard",
+  "name": "Fane of the Wilds",
+  "slug": "fane-of-the-wilds",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "FANE OF THE WILDS",
+    "lineStart": 15989,
+    "lineEnd": 16001,
+    "pdfPageStart": 220,
+    "pdfPageEnd": 220
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "After a long rest, place a number of tokens equal to the number of Sage domain cards in your loadout and vault on this card.\n\nWhen you would make a Spellcast Roll, you can spend any number of tokens after the roll to gain a +1 bonus for each token spent.\n\nWhen you critically succeed on a Spellcast Roll for a Sage domain spell, gain a token.\n\nWhen you take a long rest, clear all unspent tokens.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/fane-of-the-wilds/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

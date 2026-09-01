@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/ancestry-features",
+  "@type": "Rule",
+  "name": "Ancestry Features",
+  "slug": "ancestry-features",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "ANCESTRY FEATURES",
+    "lineStart": 2147,
+    "lineEnd": 2151,
+    "pdfPageStart": 32,
+    "pdfPageEnd": 32
+  },
+  "rulesText": "Each ancestry grants two ancestry features. While some features (such as the ability to fly) are implicitly tied to an ancestry’s anatomy, players determine their characters’ physical form. Work with the GM to re-flavor any implied traits that don’t align with your character concept.\n\nIf you’d like to make a character who combines more than one ancestry, see “Mixed Ancestry.”",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/ancestry-features/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

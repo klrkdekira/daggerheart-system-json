@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/mythic-aerial-hunter",
+  "@type": "Rule",
+  "name": "Mythic Aerial Hunter",
+  "slug": "mythic-aerial-hunter",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "MYTHIC AERIAL HUNTER",
+    "lineStart": 1141,
+    "lineEnd": 1153,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "rulesText": "*(Dragon, Pterodactyl, Roc, Wyvern, etc.)*\n\n*Finesse +3 | Evasion +4*\n\n*Melee Finesse d10+11 phy*\n\n**Gain advantage on:** attack, deceive, locate, navigate\n\n**Carrier:** You can carry up to three willing allies with you when you move.\n\n**Deadly Raptor:** You can fly at will and move up to Far range as part of your action. When you move in a straight line into Melee range of a target from at least Close range and make an attack against that target in the same action, you can reroll all damage dice that rolled a result lower than your Proficiency.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/mythic-aerial-hunter/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

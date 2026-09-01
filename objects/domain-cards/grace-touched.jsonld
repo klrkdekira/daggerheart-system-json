@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/grace-touched",
+  "@type": "DomainCard",
+  "name": "Grace‑touched",
+  "slug": "grace-touched",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "GRACE‑TOUCHED",
+    "lineStart": 15533,
+    "lineEnd": 15544,
+    "pdfPageStart": 216,
+    "pdfPageEnd": 216
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When 4 or more of the domain cards in your loadout are from the Grace domain, gain the following benefits:\n\n  - You can mark an Armor Slot instead of marking a Stress.\n  - When you would force a target to mark a number of Hit\n\nPoints, you can choose instead to force them to mark that number of Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/grace-touched/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

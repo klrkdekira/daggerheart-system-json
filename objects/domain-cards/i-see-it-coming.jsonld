@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/i-see-it-coming",
+  "@type": "DomainCard",
+  "name": "I See It Coming",
+  "slug": "i-see-it-coming",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "I SEE IT COMING",
+    "lineStart": 14768,
+    "lineEnd": 14774,
+    "pdfPageStart": 209,
+    "pdfPageEnd": 209
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When you’re targeted by an attack made from beyond Melee range, you can mark a Stress to roll a d4 and gain a bonus to your Evasion equal to the result against the attack.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/i-see-it-coming/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

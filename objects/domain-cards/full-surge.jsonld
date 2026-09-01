@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/full-surge",
+  "@type": "DomainCard",
+  "name": "Full Surge",
+  "slug": "full-surge",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "FULL SURGE",
+    "lineStart": 16381,
+    "lineEnd": 16387,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 8,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "Once per long rest, mark 3 Stress to push your body to its limits. Gain a +2 bonus to all of your character traits until your next rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/full-surge/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

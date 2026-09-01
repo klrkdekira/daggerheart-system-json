@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone",
+  "@type": "Domain",
+  "name": "Bone",
+  "slug": "bone",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "BONE",
+    "lineStart": 255,
+    "lineEnd": 257,
+    "pdfPageStart": 7,
+    "pdfPageEnd": 7
+  },
+  "description": "Bone is the domain of tactics and the body. Practitioners of this domain have an uncanny control over their own physical abilities and an eye for predicting the behaviors of others in combat. Adherents to Bone gain an unparalleled understanding of bodies and their movements. The Bone domain can be accessed by the Brawler, Ranger, and Warrior classes.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domains/bone/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

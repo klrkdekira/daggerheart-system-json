@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/mentor",
+  "@type": "Rule",
+  "name": "Mentor",
+  "slug": "mentor",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MENTOR",
+    "lineStart": 4827,
+    "lineEnd": 4833,
+    "pdfPageStart": 92,
+    "pdfPageEnd": 92
+  },
+  "rulesText": "​​Choice: When the battle begins, choose a protégé PC.\n\n**Trigger:** Your protégé is within Close range and fails an attack roll.\n\n**Effect:** Move into Melee range with the PC and give them advice or guidance. The next attack roll they make has advantage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/mentor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

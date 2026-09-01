@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-recruit",
+  "@type": "Adversary",
+  "name": "Giant Recruit",
+  "slug": "giant-recruit",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GIANT RECRUIT",
+    "lineStart": 8095,
+    "lineEnd": 8111,
+    "pdfPageStart": 122,
+    "pdfPageEnd": 122
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Batter",
+    "make a living",
+    "overwhelm",
+    "terrify"
+  ],
+  "difficulty": 13,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 2,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Warhammer",
+    "range": "Very Close",
+    "damage": "5 phy"
+  },
+  "description": "A giant fighter wearing borrowed armor.",
+  "features": [
+    {
+      "name": "Minion (7)",
+      "kind": "Passive",
+      "rulesText": "The Recruit is defeated when they take any damage. For every 7 damage a PC deals to the Recruit, defeat an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Giant Recruits within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 physical damage each. Combine this damage."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/giant-recruit/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-lute",
+  "@type": "Weapon",
+  "name": "Enchanted Lute",
+  "slug": "enchanted-lute",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3532,
+    "lineEnd": 3532,
+    "pdfPageStart": 60,
+    "pdfPageEnd": 60
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Presence",
+  "range": "Close",
+  "burden": "Two-Handed",
+  "damage": "d8+3 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Invigorating",
+    "rulesText": "On a successful attack, roll a d4. On a result of 4, clear a Stress."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/enchanted-lute/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

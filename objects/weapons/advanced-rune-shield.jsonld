@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-rune-shield",
+  "@type": "Weapon",
+  "name": "Advanced Rune Shield",
+  "slug": "advanced-rune-shield",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 3 (LEVELS 5–7)",
+    "lineStart": 3788,
+    "lineEnd": 3788,
+    "pdfPageStart": 68,
+    "pdfPageEnd": 68
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Knowledge",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d4+4 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Protective",
+    "rulesText": "+3 to Armor Score"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/advanced-rune-shield/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

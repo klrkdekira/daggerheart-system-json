@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-4",
+  "@type": "Rule",
+  "name": "Tier 4",
+  "slug": "tier-4",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "TIER 4",
+    "lineStart": 725,
+    "lineEnd": 733,
+    "pdfPageStart": 13,
+    "pdfPageEnd": 13
+  },
+  "rulesText": "**Crushing:** When you deal Severe damage, you can spend a Hope to force the target to mark an additional Hit Point.\n\n**Exacting:** When you roll a 1 on a damage die, you can treat it as the highest value on the die instead.\n\n**Honed:** Spend a Focus before you make an attack roll to gain a +1 bonus to your Proficiency for that attack.\n\n**Isolating:** Gain advantage on attack rolls when there are no other creatures within Very Close range of you or your target.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/tier-4/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

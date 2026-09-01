@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/holy-shotgun",
+  "@type": "Weapon",
+  "name": "Holy Shotgun",
+  "slug": "holy-shotgun",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Weapons",
+    "lineStart": 14188,
+    "lineEnd": 14188,
+    "pdfPageStart": 201,
+    "pdfPageEnd": 201
+  },
+  "category": "primary",
+  "variant": "monster-hunting",
+  "trait": "Agility",
+  "range": "Very Close",
+  "burden": "Two-Handed",
+  "tieredDamage": [
+    "Tier 1: d6+2 mag",
+    "Tier 2: d6+5 mag",
+    "Tier 3: d6+8 mag",
+    "Tier 4: d6+11 mag"
+  ],
+  "damageTypes": [
+    "magic"
+  ],
+  "feature": {
+    "name": "Scattershot",
+    "rulesText": "When you make an attack, target all creatures in front of you within range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/holy-shotgun/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/monster-hunting-campaigns"
+  }
+}

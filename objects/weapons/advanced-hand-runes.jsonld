@@ -1,0 +1,34 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-hand-runes",
+  "@type": "Weapon",
+  "name": "Advanced Hand Runes",
+  "slug": "advanced-hand-runes",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3604,
+    "lineEnd": 3604,
+    "pdfPageStart": 62,
+    "pdfPageEnd": 62
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Instinct",
+  "range": "Very Close",
+  "burden": "One-Handed",
+  "damage": "d10+6 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 3,
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/advanced-hand-runes/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/armorer",
+  "@type": "DomainCard",
+  "name": "Armorer",
+  "slug": "armorer",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "ARMORER",
+    "lineStart": 16324,
+    "lineEnd": 16332,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 5,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "While you’re wearing armor, gain a +1 bonus to your Armor Score.\n\nDuring a rest, when you choose to repair your armor as a downtime move, your allies also clear an Armor Slot.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/armorer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

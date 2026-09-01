@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/necromancers-ossuary",
+  "@type": "Environment",
+  "name": "Necromancer’s Ossuary",
+  "slug": "necromancers-ossuary",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "NECROMANCER’S OSSUARY",
+    "lineStart": 13048,
+    "lineEnd": 13080,
+    "pdfPageStart": 181,
+    "pdfPageEnd": 181
+  },
+  "tier": 4,
+  "impulses": [
+    "Confound intruders",
+    "delve into secrets best left buried",
+    "manifest unlife",
+    "unleash a tide of undead"
+  ],
+  "difficulty": 19,
+  "potentialAdversariesText": "Arch-Necromancer’s Host (Perfected Zombie, Zombie Legion)",
+  "description": "A dusty crypt with a library, twisting corridors, and abundant sarcophagi, spattered with the blood of ill-fated invaders.",
+  "features": [
+    {
+      "name": "No Place for the Living",
+      "kind": "Passive",
+      "rulesText": "A feature or action that clears HP requires spending a Hope to use. If it already costs Hope, a PC must spend an additional Hope.\n\nWhat does it feel like to try to heal in a place so antithetical to life?"
+    },
+    {
+      "name": "Centuries of Knowledge",
+      "kind": "Passive",
+      "rulesText": "A PC can investigate the library and laboratory and make a Knowledge Roll to learn information related to arcana, local history, and the Necromancer’s plans.\n\nWhat are the names of the tomes? What project is the necromancer working on and what does it communicate about their plans?"
+    },
+    {
+      "name": "Skeletal Burst",
+      "kind": "Action",
+      "rulesText": "All targets within Close range of a point you choose in this environment must succeed on an Agility Reaction Roll or take 4d8+8 physical damage from skeletal shrapnel as part of the ossuary detonates around them.\n\nWhat ancient skeletal architecture is destroyed? What bones stick in your armor?"
+    },
+    {
+      "name": "Aura of Death",
+      "kind": "Action",
+      "rulesText": "Once per scene, roll a d4. Each undead within Far range of the Necromancer can clear HP and Stress equal to the result rolled. The undead can choose how that number is divided between HP and Stress.\n\nHow does their renewed vigor manifest? Do they look more lifelike or, paradoxically, are they more decayed but vigorous?"
+    },
+    {
+      "name": "They Just Keep Coming!",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to summon 1d6 Rotted Zombies, two Perfected Zombies, or a Zombie Legion, who appear at Close range of a chosen PC.\n\nWho were these people before they became the necromancer’s pawns? What vestiges of those lives remain for the heroes to see?"
+    }
+  ],
+  "category": "Exploration",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/perfected-zombie"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/zombie-legion"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/necromancers-ossuary/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

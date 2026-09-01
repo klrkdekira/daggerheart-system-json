@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rage-up",
+  "@type": "DomainCard",
+  "name": "Rage Up",
+  "slug": "rage-up",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "RAGE UP",
+    "lineStart": 14697,
+    "lineEnd": 14705,
+    "pdfPageStart": 208,
+    "pdfPageEnd": 208
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "Before you make an attack, you can mark a Stress to gain a bonus to your damage roll equal to twice your Strength.\n\nYou can Rage Up twice per attack.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/rage-up/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

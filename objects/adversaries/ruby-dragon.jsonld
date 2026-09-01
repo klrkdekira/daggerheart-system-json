@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/ruby-dragon",
+  "@type": "Adversary",
+  "name": "Ruby Dragon",
+  "slug": "ruby-dragon",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "RUBY DRAGON",
+    "lineStart": 11117,
+    "lineEnd": 11141,
+    "pdfPageStart": 154,
+    "pdfPageEnd": 154
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Crack the earth",
+    "melt",
+    "protect treasure"
+  ],
+  "difficulty": 19,
+  "thresholds": "30/50",
+  "hitPoints": 6,
+  "stress": 4,
+  "attackModifier": "+6",
+  "standardAttack": {
+    "name": "Tooth & Claw",
+    "range": "Close",
+    "damage": "4d10+8 phy"
+  },
+  "experience": "Mountains +4",
+  "description": "A huge winged dragon that has visible flames beneath its glittering, gem-encrusted scales. Its body heat melts stone.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Dragon can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it."
+    },
+    {
+      "name": "Fearsome",
+      "kind": "Passive",
+      "rulesText": "When the Dragon succeeds on an attack against a PC or a PC within Far range fails an action roll, you gain a Fear."
+    },
+    {
+      "name": "Melting Breath",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Dragon unleash a blast of fire on all PCs in front of it within Close range. Each target must succeed on an Agility Reaction Roll or take 4d12+10 magic damage and mark an Armor Slot without gaining its benefits (they can still use armor to reduce the damage)."
+    },
+    {
+      "name": "Volcanic Fissure",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Dragon snap its tail against the ground, opening a lava rift that flows over the area within Close range. Each PC within that area must make an Agility Reaction Roll. Targets who succeed immediately move out of the area. Targets who fail take 4d8+5 magic damage. Until the Dragon is defeated, a creature who enters the area takes 4d8+5 magic damage."
+    },
+    {
+      "name": "Hot-Blooded",
+      "kind": "Reaction",
+      "rulesText": "When a creature makes a successful attack against the Dragon within Very Close range, the Dragon’s blood erupts from the wound and burns the attacker, forcing them to mark an Armor Slot. If they can’t mark an Armor Slot, they mark 1d4 HP."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/ruby-dragon/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

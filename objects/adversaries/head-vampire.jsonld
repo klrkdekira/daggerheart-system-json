@@ -1,0 +1,69 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/head-vampire",
+  "@type": "Adversary",
+  "name": "Head Vampire",
+  "slug": "head-vampire",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HEAD VAMPIRE",
+    "lineStart": 10010,
+    "lineEnd": 10034,
+    "pdfPageStart": 141,
+    "pdfPageEnd": 141
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Create thralls",
+    "charm",
+    "command",
+    "fly",
+    "intimidate"
+  ],
+  "difficulty": 17,
+  "thresholds": "22/42",
+  "hitPoints": 6,
+  "stress": 6,
+  "attackModifier": "+5",
+  "standardAttack": {
+    "name": "Rapier",
+    "range": "Melee",
+    "damage": "2d20+4 phy"
+  },
+  "experience": "Aristocrat +3",
+  "description": "A captivating undead dressed in aristocratic finery.",
+  "features": [
+    {
+      "name": "Terrifying",
+      "kind": "Passive",
+      "rulesText": "When the Vampire makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear."
+    },
+    {
+      "name": "Look into My Eyes",
+      "kind": "Passive",
+      "rulesText": "A creature who moves into Melee range of the Vampire must make an Instinct Reaction Roll. On a failure, you gain 1d4 Fear."
+    },
+    {
+      "name": "Feed on Followers",
+      "kind": "Action",
+      "rulesText": "When the Vampire is within Melee range of an ally, they can cause the ally to mark a HP. The Vampire then clears a HP."
+    },
+    {
+      "name": "The Hunt Is On",
+      "kind": "Action",
+      "rulesText": "Spend 2 Fear to summon 1d4 Vampires, who appear at Far range and immediately take the spotlight."
+    },
+    {
+      "name": "Lifesuck",
+      "kind": "Reaction",
+      "rulesText": "When the Vampire is spotlighted, roll a d8. On a result of 6 or higher, all targets within Very Close range must mark a HP."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/head-vampire/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

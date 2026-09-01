@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/kelpie",
+  "@type": "Adversary",
+  "name": "Kelpie",
+  "slug": "kelpie",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "KELPIE",
+    "lineStart": 6082,
+    "lineEnd": 6104,
+    "pdfPageStart": 103,
+    "pdfPageEnd": 103
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Adopt an attractive or useful shape",
+    "drown and devour",
+    "entice unwary travelers"
+  ],
+  "difficulty": 12,
+  "thresholds": "4/8",
+  "hitPoints": 3,
+  "stress": 5,
+  "attackModifier": "−2",
+  "standardAttack": {
+    "name": "Hooves",
+    "range": "Very Close",
+    "damage": "1d8+2 phy"
+  },
+  "experience": "Entanglement +3, Mind Reader +3",
+  "description": "A river-dwelling shapeshifter who prefers an enchanting equine form in and out of the water.",
+  "features": [
+    {
+      "name": "Captivating",
+      "kind": "Passive",
+      "rulesText": "A PC must mark a Stress to move out of the Kelpie’s Melee range."
+    },
+    {
+      "name": "Heart’s Desire",
+      "kind": "Passive",
+      "rulesText": "After the Kelpie interacts with or watches a creature for at least a hundred heartbeats, the Kelpie knows the physical form that creature would find most pleasing or alluring."
+    },
+    {
+      "name": "Shapeshifter",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to change the Kelpie’s physical form into any creature or object smaller than a wagon. A creature has disadvantage on rolls against the Kelpie while the Kelpie is in a form the creature finds pleasing or alluring."
+    },
+    {
+      "name": "Enchant",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Kelpie beguile a PC within Close range. The PC must succeed on an Instinct Reaction Roll or become Enchanted until they take damage. While Enchanted, the PC perceives the Kelpie as a trusted friend or ally and will do what the Kelpie says unless it contradicts the PC’s most deeply held morals."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/kelpie/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

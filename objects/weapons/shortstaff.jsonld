@@ -1,0 +1,34 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/shortstaff",
+  "@type": "Weapon",
+  "name": "Shortstaff",
+  "slug": "shortstaff",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3437,
+    "lineEnd": 3437,
+    "pdfPageStart": 57,
+    "pdfPageEnd": 57
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Instinct",
+  "range": "Close",
+  "burden": "One-Handed",
+  "damage": "d8+1 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 1,
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/shortstaff/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

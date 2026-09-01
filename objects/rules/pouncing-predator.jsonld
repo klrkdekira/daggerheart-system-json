@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/pouncing-predator",
+  "@type": "Rule",
+  "name": "Pouncing Predator",
+  "slug": "pouncing-predator",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "POUNCING PREDATOR",
+    "lineStart": 1001,
+    "lineEnd": 1013,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "rulesText": "*(Cheetah, Lion, Panther, etc.)*\n\n*Instinct +1 | Evasion +3*\n\n*Melee Instinct d8+6 phy*\n\n**Gain advantage on:** attack, climb, sneak\n\n**Fleet:** Spend a Hope to move up to Far range without rolling.\n\n**Takedown:** Mark a Stress to move into Melee range of a target and make an attack roll against them. On a success, you gain a +2 bonus to your Proficiency for this attack and the target must mark a Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/pouncing-predator/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

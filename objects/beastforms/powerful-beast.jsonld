@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/powerful-beast",
+  "@type": "Beastform",
+  "name": "Powerful Beast",
+  "slug": "powerful-beast",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "POWERFUL BEAST",
+    "lineStart": 957,
+    "lineEnd": 969,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "tier": 2,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Bear, Bull, Moose, etc.",
+  "traitBonus": "Strength +3",
+  "evasionBonus": 1,
+  "attack": {
+    "range": "Melee",
+    "trait": "Strength",
+    "damage": "d10+4 phy"
+  },
+  "advantageOn": [
+    "navigate",
+    "protect",
+    "scare"
+  ],
+  "features": [
+    {
+      "name": "Rampage",
+      "rulesText": "When you roll a 1 on a damage die, you can roll a d10 and add the result to the damage roll. Additionally, before you make an attack roll, you can mark a Stress to gain a +1 bonus to your Proficiency for that attack."
+    },
+    {
+      "name": "Thick Hide",
+      "rulesText": "You gain a +2 bonus to your damage thresholds."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/powerful-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

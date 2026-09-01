@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/uncanny-disguise",
+  "@type": "DomainCard",
+  "name": "Uncanny Disguise",
+  "slug": "uncanny-disguise",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "UNCANNY DISGUISE",
+    "lineStart": 15616,
+    "lineEnd": 15624,
+    "pdfPageStart": 216,
+    "pdfPageEnd": 216
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Spell",
+  "recallCost": 0,
+  "rulesText": "When you have a few minutes to prepare, you can mark a Stress to don the facade of any humanoid you can picture clearly in your mind. While disguised, you have advantage on Presence Rolls to avoid scrutiny.\n\nPlace a number of tokens equal to your Spellcast trait on this card. When you take an action while disguised, spend a token from this card. After the action that spends the last token is resolved, the disguise drops.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/uncanny-disguise/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

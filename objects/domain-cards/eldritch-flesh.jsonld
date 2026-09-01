@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/eldritch-flesh",
+  "@type": "DomainCard",
+  "name": "Eldritch Flesh",
+  "slug": "eldritch-flesh",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "ELDRITCH FLESH",
+    "lineStart": 15357,
+    "lineEnd": 15365,
+    "pdfPageStart": 214,
+    "pdfPageEnd": 214
+  },
+  "level": 8,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Gain a +1 bonus to your damage thresholds for each Stress you have marked.\n\nAdditionally, when you roll with Fear, you can spend 2 Hope to clear an Armor Slot.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/eldritch-flesh/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

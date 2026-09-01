@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/recovery",
+  "@type": "DomainCard",
+  "name": "Recovery",
+  "slug": "recovery",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "RECOVERY",
+    "lineStart": 14899,
+    "lineEnd": 14905,
+    "pdfPageStart": 210,
+    "pdfPageEnd": 210
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "During a short rest, you can choose a long rest downtime move instead. You can spend a Hope to let an ally do the same.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/recovery/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

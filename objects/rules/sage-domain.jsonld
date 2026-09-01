@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/sage-domain",
+  "@type": "Rule",
+  "name": "Sage Domain",
+  "slug": "sage-domain",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SAGE DOMAIN",
+    "lineStart": 15771,
+    "lineEnd": 15771,
+    "pdfPageStart": 218,
+    "pdfPageEnd": 218
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/sage-domain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elk",
+  "@type": "Adversary",
+  "name": "Elk",
+  "slug": "elk",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ELK",
+    "lineStart": 5690,
+    "lineEnd": 5708,
+    "pdfPageStart": 100,
+    "pdfPageEnd": 100
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Bound away",
+    "graze",
+    "rut",
+    "sense danger"
+  ],
+  "difficulty": 13,
+  "thresholds": "4/8",
+  "hitPoints": 3,
+  "stress": 2,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Antlers",
+    "range": "Melee",
+    "damage": "1d8+1 phy"
+  },
+  "experience": "Keen Senses +3, Run +3",
+  "description": "A large deer.",
+  "features": [
+    {
+      "name": "Headbutt",
+      "kind": "Passive",
+      "rulesText": "When the Elk moves from Close range or farther before making a standard attack, it deals 1d12+2 physical damage instead of its standard damage."
+    },
+    {
+      "name": "Bolt",
+      "kind": "Reaction",
+      "rulesText": "When the Elk marks a HP or Stress, it must succeed on a Reaction Roll (10) or flee the scene."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/elk/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

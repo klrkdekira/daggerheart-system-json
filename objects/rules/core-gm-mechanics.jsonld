@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/core-gm-mechanics",
+  "@type": "Rule",
+  "name": "Core Gm Mechanics",
+  "slug": "core-gm-mechanics",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CORE GM MECHANICS",
+    "lineStart": 4489,
+    "lineEnd": 4489,
+    "pdfPageStart": 86,
+    "pdfPageEnd": 86
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/core-gm-mechanics/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

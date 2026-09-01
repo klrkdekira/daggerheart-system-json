@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/burden",
+  "@type": "Rule",
+  "name": "Burden",
+  "slug": "burden",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "BURDEN",
+    "lineStart": 3371,
+    "lineEnd": 3373,
+    "pdfPageStart": 55,
+    "pdfPageEnd": 55
+  },
+  "rulesText": "A weapon’s burden indicates how many hands it occupies when equipped. Your character’s maximum burden is 2 hands.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/burden/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

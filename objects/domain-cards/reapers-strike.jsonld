@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/reapers-strike",
+  "@type": "DomainCard",
+  "name": "Reaper’s Strike",
+  "slug": "reapers-strike",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "REAPER’S STRIKE",
+    "lineStart": 14792,
+    "lineEnd": 14798,
+    "pdfPageStart": 209,
+    "pdfPageEnd": 209
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 3,
+  "rulesText": "Once per long rest, spend a Hope to make an attack roll. The GM tells you which targets within range it would succeed against. Choose one of these targets and force them to mark 5 Hit Points.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/reapers-strike/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

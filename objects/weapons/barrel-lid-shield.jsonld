@@ -1,0 +1,37 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/barrel-lid-shield",
+  "@type": "Weapon",
+  "name": "Barrel Lid Shield",
+  "slug": "barrel-lid-shield",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Secondary Weapons",
+    "lineStart": 13672,
+    "lineEnd": 13672,
+    "pdfPageStart": 192,
+    "pdfPageEnd": 192
+  },
+  "category": "secondary",
+  "variant": "everyday-hero",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d4 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Protective",
+    "rulesText": "+1 to Armor Score"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/barrel-lid-shield/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

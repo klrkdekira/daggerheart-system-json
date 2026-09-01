@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-3-environments-levels-5-7",
+  "@type": "Rule",
+  "name": "Tier 3 Environments (levels 5-7)",
+  "slug": "tier-3-environments-levels-5-7",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TIER 3 ENVIRONMENTS (LEVELS 5-7)",
+    "lineStart": 12504,
+    "lineEnd": 12504,
+    "pdfPageStart": 173,
+    "pdfPageEnd": 173
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/tier-3-environments-levels-5-7/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

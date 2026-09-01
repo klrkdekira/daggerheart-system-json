@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/guardian-subclasses",
+  "@type": "Rule",
+  "name": "Guardian Subclasses",
+  "slug": "guardian-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "GUARDIAN SUBCLASSES",
+    "lineStart": 1218,
+    "lineEnd": 1220,
+    "pdfPageStart": 19,
+    "pdfPageEnd": 19
+  },
+  "rulesText": "Choose either the Stalwart or Vengeance subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/guardian-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

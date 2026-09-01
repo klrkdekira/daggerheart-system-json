@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dire-pangolati",
+  "@type": "Adversary",
+  "name": "Dire Pangolati",
+  "slug": "dire-pangolati",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DIRE PANGOLATI",
+    "lineStart": 7601,
+    "lineEnd": 7623,
+    "pdfPageStart": 117,
+    "pdfPageEnd": 117
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Escape with a meal",
+    "slice and dice",
+    "wade into danger"
+  ],
+  "difficulty": 14,
+  "thresholds": "14/28",
+  "hitPoints": 7,
+  "stress": 4,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Tail Slash",
+    "range": "Very Close",
+    "damage": "2d12+3 phy"
+  },
+  "experience": "Climbing +3, Scent Tracking +3",
+  "description": "A carriage-sized pangolin-coati hybrid covered in armor plating. It has a bladed tail it uses to fling razor-sharp scales.",
+  "features": [
+    {
+      "name": "Armor Eater",
+      "kind": "Passive",
+      "rulesText": "When the Pangolati makes a successful attack against a PC, that PC must mark an additional Armor Slot to reduce the severity of the damage."
+    },
+    {
+      "name": "Blade Spin",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Pangolati quickly spin in a circle. Each target within Very Close range must succeed on an Agility Reaction Roll or take 2d8 physical damage."
+    },
+    {
+      "name": "Blade Fling",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Pangolati flick its tail and fling a razor-edged armor plate. Make an attack against a target within Far range. On a success, the attack deals 2d6+10 physical damage."
+    },
+    {
+      "name": "Keratin Scales",
+      "kind": "Reaction",
+      "rulesText": "When the Pangolati would mark HP from an attack, you can mark a Stress to reduce the number of HP it marks by 1."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/dire-pangolati/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

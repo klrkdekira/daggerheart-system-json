@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/step-2-write-their-evasion",
+  "@type": "Rule",
+  "name": "Step 2: Write Their Evasion",
+  "slug": "step-2-write-their-evasion",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "STEP 2: WRITE THEIR EVASION",
+    "lineStart": 1382,
+    "lineEnd": 1384,
+    "pdfPageStart": 21,
+    "pdfPageEnd": 21
+  },
+  "rulesText": "Fill in their Evasion, which starts at 10.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/step-2-write-their-evasion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

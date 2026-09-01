@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/ancestry-feature",
+  "@type": "Rule",
+  "name": "Ancestry Feature",
+  "slug": "ancestry-feature",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "ANCESTRY FEATURE",
+    "lineStart": 2281,
+    "lineEnd": 2285,
+    "pdfPageStart": 35,
+    "pdfPageEnd": 35
+  },
+  "rulesText": "**Luckbender:** Once per session, after you or a willing ally within Close range makes an action roll, you can spend 3 Hope to reroll the Duality Dice.\n\n**Wings:** You can fly. While flying, you can mark a Stress after an adversary makes an attack against you to gain a +2 bonus to your Evasion against that attack.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/ancestry-feature/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

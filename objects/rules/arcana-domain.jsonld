@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/arcana-domain",
+  "@type": "Rule",
+  "name": "Arcana Domain",
+  "slug": "arcana-domain",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "ARCANA DOMAIN",
+    "lineStart": 14396,
+    "lineEnd": 14396,
+    "pdfPageStart": 206,
+    "pdfPageEnd": 206
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/arcana-domain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

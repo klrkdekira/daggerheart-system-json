@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/redcap-butcher",
+  "@type": "Adversary",
+  "name": "Redcap Butcher",
+  "slug": "redcap-butcher",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "REDCAP BUTCHER",
+    "lineStart": 6606,
+    "lineEnd": 6624,
+    "pdfPageStart": 108,
+    "pdfPageEnd": 108
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Grin disconcertingly",
+    "hack and slash",
+    "scramble"
+  ],
+  "difficulty": 12,
+  "thresholds": "5/10",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Meat Cleaver",
+    "range": "Melee",
+    "damage": "1d8+1 phy"
+  },
+  "experience": "Scurry +2",
+  "description": "A halfling-sized fey creature who hacks their victims apart with a variety of cutting implements. They wear a conical red hat sealed on their head with candle wax.",
+  "features": [
+    {
+      "name": "Chop Happy",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack against up to three targets. For each target who marks HP, you gain a Fear."
+    },
+    {
+      "name": "Knife Thrower",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack against a target within Far range. If the Butcher is Hidden, they make the attack with advantage."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/redcap-butcher/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

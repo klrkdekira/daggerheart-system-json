@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/splendor-touched",
+  "@type": "DomainCard",
+  "name": "Splendor‑touched",
+  "slug": "splendor-touched",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SPLENDOR‑TOUCHED",
+    "lineStart": 16172,
+    "lineEnd": 16181,
+    "pdfPageStart": 222,
+    "pdfPageEnd": 222
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When 4 or more of the domain cards in your loadout are from the Splendor domain, gain the following benefits:\n\n  - +3 bonus to your Severe damage threshold\n  - Once per long rest, when incoming damage would require you to mark a number of Hit Points, you can choose to mark that much Stress or spend that much Hope instead.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/splendor-touched/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

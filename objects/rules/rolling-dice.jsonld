@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/rolling-dice",
+  "@type": "Rule",
+  "name": "Rolling Dice",
+  "slug": "rolling-dice",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ROLLING DICE",
+    "lineStart": 4491,
+    "lineEnd": 4493,
+    "pdfPageStart": 86,
+    "pdfPageEnd": 86
+  },
+  "rulesText": "The GM has no Duality Dice; instead, they roll a single d20 called the GM’s Die.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/rolling-dice/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

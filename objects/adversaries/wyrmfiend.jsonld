@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/wyrmfiend",
+  "@type": "Adversary",
+  "name": "Wyrmfiend",
+  "slug": "wyrmfiend",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "WYRMFIEND",
+    "lineStart": 11337,
+    "lineEnd": 11357,
+    "pdfPageStart": 157,
+    "pdfPageEnd": 157
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Hold the line",
+    "sacrifice",
+    "serve",
+    "swarm"
+  ],
+  "difficulty": 17,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Weapons from the Hoard",
+    "range": "Melee",
+    "damage": "11 phy"
+  },
+  "experience": "Dragon Bond +2",
+  "description": "A reptilian biped created by mysterious and ancient dragon magic. Wyrmfiends exist more as extensions of their draconic master’s will than as individual beings.",
+  "features": [
+    {
+      "name": "Minion (13)",
+      "kind": "Passive",
+      "rulesText": "The Wyrmfiend is defeated when it takes any damage. For every 13 damage a PC deals to the Wyrmfiend, the PC defeats an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Venomous Bite",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make an attack against a PC within Melee range. On a success, deal 4d4+4 physical damage and Poison the target until they succeed on a Strength Roll (20). While Poisoned, the target must roll a d6 before they make an action roll. On a result of 4 or lower, the target must mark a Stress."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Wyrmfiends within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 11 physical damage each. Combine this damage."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/wyrmfiend/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

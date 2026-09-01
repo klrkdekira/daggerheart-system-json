@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/evolution",
+  "@type": "Rule",
+  "name": "Evolution",
+  "slug": "evolution",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "EVOLUTION",
+    "lineStart": 5018,
+    "lineEnd": 5020,
+    "pdfPageStart": 94,
+    "pdfPageEnd": 94
+  },
+  "rulesText": "Evolutions are features that alter an adversary when certain trigger conditions are met. When triggered, an evolution feature usually clears HP or Stress, alters the stats of the adversary’s standard attack, and gives the adversary access to new features. An adversary’s evolution can’t be triggered more than once in a scene.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/evolution/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

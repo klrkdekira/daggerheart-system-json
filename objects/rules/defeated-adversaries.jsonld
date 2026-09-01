@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/defeated-adversaries",
+  "@type": "Rule",
+  "name": "Defeated Adversaries",
+  "slug": "defeated-adversaries",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DEFEATED ADVERSARIES",
+    "lineStart": 5052,
+    "lineEnd": 5054,
+    "pdfPageStart": 94,
+    "pdfPageEnd": 94
+  },
+  "rulesText": "When an adversary marks their last Hit Point, they are defeated: incapacitated, tied up, routed, killed, or anything else the table decides makes sense.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/defeated-adversaries/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

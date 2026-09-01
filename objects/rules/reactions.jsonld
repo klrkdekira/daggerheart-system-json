@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/reactions",
+  "@type": "Rule",
+  "name": "Reactions",
+  "slug": "reactions",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "REACTIONS",
+    "lineStart": 4988,
+    "lineEnd": 4994,
+    "pdfPageStart": 94,
+    "pdfPageEnd": 94
+  },
+  "rulesText": "**Heavy Hitter - Reaction:** When this adversary deals damage with a standard attack, you can spend a Fear to gain a +X bonus to the damage roll.\n\n**Team-Up - Reaction:** When another adversary within Very Close range of this adversary deals X damage to a creature, you can mark a Stress to make a standard attack against that same creature. On a success, combine the damage.\n\n**Momentum - Reaction:** When this adversary makes a successful attack against a PC, you gain a Fear.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/reactions/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

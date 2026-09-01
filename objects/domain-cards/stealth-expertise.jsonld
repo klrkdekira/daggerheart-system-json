@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/stealth-expertise",
+  "@type": "DomainCard",
+  "name": "Stealth Expertise",
+  "slug": "stealth-expertise",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "STEALTH EXPERTISE",
+    "lineStart": 15664,
+    "lineEnd": 15672,
+    "pdfPageStart": 217,
+    "pdfPageEnd": 217
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "When you roll with Fear while attempting to move unnoticed through a dangerous area, you can mark a Stress to roll with Hope instead.\n\nIf an ally within Close range is also attempting to move unnoticed and rolls with Fear, you can mark a Stress to change their result to a roll with Hope.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/stealth-expertise/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

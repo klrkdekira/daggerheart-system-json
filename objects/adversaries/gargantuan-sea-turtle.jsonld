@@ -1,0 +1,68 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/gargantuan-sea-turtle",
+  "@type": "Adversary",
+  "name": "Gargantuan Sea Turtle",
+  "slug": "gargantuan-sea-turtle",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GARGANTUAN SEA TURTLE",
+    "lineStart": 9488,
+    "lineEnd": 9512,
+    "pdfPageStart": 136,
+    "pdfPageEnd": 136
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Acquire riches",
+    "capsize trading vessels",
+    "lie in wait",
+    "use the waves as cover"
+  ],
+  "difficulty": 18,
+  "thresholds": "21/41",
+  "hitPoints": 10,
+  "stress": 6,
+  "attackModifier": "+7",
+  "standardAttack": {
+    "name": "Crushing Jaws",
+    "range": "Very Close",
+    "damage": "3d12+7 phy"
+  },
+  "experience": "Open Sea +5",
+  "description": "A monstrous sea turtle that has an adamantine shell and beak.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Turtle can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it."
+    },
+    {
+      "name": "Piercing Bite",
+      "kind": "Passive",
+      "rulesText": "When the Turtle makes a successful standard attack against a PC, the PC must either mark an Armor Slot without receiving its benefit or take double damage."
+    },
+    {
+      "name": "Tail Bash",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack against all PCs behind the Turtle within Very Close range. On a success, a target takes an extra 1d12 physical damage and is pushed away from the Turtle to Close range."
+    },
+    {
+      "name": "Gigaton Splash",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Turtle use its weight to unleash an unstoppable wall of water that targets all creatures within Far range. Each PC must make a Strength Reaction Roll to navigate the tide. Targets who fail are pushed away from the Turtle to Close range, take 4d8 physical damage, and become temporarily Vulnerable. Targets who succeed must mark a Stress. For each target who failed, you gain a Fear."
+    },
+    {
+      "name": "Steam Breath",
+      "kind": "Action",
+      "rulesText": "Spend 2 Fear to have the Turtle release a blast of superheated steam targeting all PCs in front of it within Close range. Each target must make an Agility Reaction Roll. Targets who fail take 4d8 magic damage and become temporarily Vulnerable. Targets who succeed must choose to either mark a Stress or take half damage."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/gargantuan-sea-turtle/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

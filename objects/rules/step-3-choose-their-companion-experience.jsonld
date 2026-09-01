@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/step-3-choose-their-companion-experience",
+  "@type": "Rule",
+  "name": "Step 3: Choose Their Companion Experience",
+  "slug": "step-3-choose-their-companion-experience",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "STEP 3: CHOOSE THEIR COMPANION EXPERIENCE",
+    "lineStart": 1386,
+    "lineEnd": 1394,
+    "pdfPageStart": 21,
+    "pdfPageEnd": 21
+  },
+  "rulesText": "Create two Experiences for your companion based on their training and the history you have together.\n\nStart with +2 in both Experiences. Whenever you gain a new Experience, your companion also gains one. All new Experiences start at +2.\n\nExample Companion Experiences\n\nBold Distraction, Expert Climber, Fetch, Friendly, Guardian of the Forest, Horrifying, Intimidating, Loyal Until the End, Navigation, Nimble, Nobody Left Behind, On High Alert, Protective, Royal Companion, Scout, Service Animal, Trusted Mount, Vigilant, We Always Find Them, You Can’t Hit What You Can’t Find",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/step-3-choose-their-companion-experience/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

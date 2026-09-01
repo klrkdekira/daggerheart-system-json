@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/daggerheart-system-json/systems/weapon.schema.json",
+  "type": "object",
+  "properties": {
+    "@context": {
+      "const": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld"
+    },
+    "@id": {
+      "type": "string",
+      "pattern": "^https://cheeleong\\.dev/daggerheart-system-json/objects/[a-z-]+/[a-z0-9-]+$"
+    },
+    "@type": {
+      "const": "Weapon"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "source": {
+      "$ref": "common.schema.json#/$defs/nodeRef"
+    },
+    "sourceLocator": {
+      "$ref": "common.schema.json#/$defs/sourceLocator"
+    },
+    "htmlPage": {
+      "$ref": "common.schema.json#/$defs/pageRef"
+    },
+    "fromSection": {
+      "$ref": "common.schema.json#/$defs/nodeRef"
+    },
+    "tier": {
+      "type": "integer"
+    },
+    "category": {
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "variant": {
+      "enum": [
+        "core",
+        "combat-wheelchair",
+        "everyday-hero",
+        "western",
+        "monster-hunting"
+      ]
+    },
+    "trait": {
+      "type": "string",
+      "minLength": 1
+    },
+    "range": {
+      "type": "string",
+      "minLength": 1
+    },
+    "damage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tieredDamage": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "damageTypes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "physical",
+          "magic"
+        ]
+      }
+    },
+    "burden": {
+      "type": "string",
+      "minLength": 1
+    },
+    "feature": {
+      "$ref": "common.schema.json#/$defs/feature"
+    }
+  },
+  "required": [
+    "@context",
+    "@id",
+    "@type",
+    "name",
+    "slug",
+    "source",
+    "sourceLocator",
+    "htmlPage",
+    "category",
+    "variant",
+    "trait",
+    "range"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/blessed-brass-knuckles",
+  "@type": "Weapon",
+  "name": "Blessed Brass Knuckles",
+  "slug": "blessed-brass-knuckles",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Weapons",
+    "lineStart": 14187,
+    "lineEnd": 14187,
+    "pdfPageStart": 201,
+    "pdfPageEnd": 201
+  },
+  "category": "primary",
+  "variant": "monster-hunting",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "tieredDamage": [
+    "Tier 1: d8+1 mag",
+    "Tier 2: d8+4 mag",
+    "Tier 3: d8+7 mag",
+    "Tier 4: d8+10 mag"
+  ],
+  "damageTypes": [
+    "magic"
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/blessed-brass-knuckles/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/monster-hunting-campaigns"
+  }
+}

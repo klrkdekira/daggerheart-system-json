@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/invoke-torment",
+  "@type": "DomainCard",
+  "name": "Invoke Torment",
+  "slug": "invoke-torment",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "INVOKE TORMENT",
+    "lineStart": 15393,
+    "lineEnd": 15401,
+    "pdfPageStart": 214,
+    "pdfPageEnd": 214
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "You deal double damage to targets that have all their Stress marked.\n\nAdditionally, when an adversary within Close range is defeated with all its Stress marked, you gain a Hope..",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/invoke-torment/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

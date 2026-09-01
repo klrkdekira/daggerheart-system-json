@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/cruel-precision",
+  "@type": "DomainCard",
+  "name": "Cruel Precision",
+  "slug": "cruel-precision",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "CRUEL PRECISION",
+    "lineStart": 14918,
+    "lineEnd": 14924,
+    "pdfPageStart": 210,
+    "pdfPageEnd": 210
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When you make a successful attack with a weapon, gain a bonus to your damage roll equal to either your Finesse or Agility.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/cruel-precision/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

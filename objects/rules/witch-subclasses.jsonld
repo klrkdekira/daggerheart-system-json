@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/witch-subclasses",
+  "@type": "Rule",
+  "name": "Witch Subclasses",
+  "slug": "witch-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WITCH SUBCLASSES",
+    "lineStart": 1958,
+    "lineEnd": 1960,
+    "pdfPageStart": 29,
+    "pdfPageEnd": 29
+  },
+  "rulesText": "Choose either the Hedge or Moon subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/witch-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

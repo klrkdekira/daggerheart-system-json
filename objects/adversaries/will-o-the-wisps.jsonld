@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/will-o-the-wisps",
+  "@type": "Adversary",
+  "name": "Will-O’-The-Wisps",
+  "slug": "will-o-the-wisps",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "WILL-O’-THE-WISPS",
+    "lineStart": 7034,
+    "lineEnd": 7054,
+    "pdfPageStart": 112,
+    "pdfPageEnd": 112
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Dazzle and distract",
+    "disorient",
+    "lead astray"
+  ],
+  "difficulty": 9,
+  "thresholds": "5/9",
+  "hitPoints": 4,
+  "stress": 2,
+  "attackModifier": "−3",
+  "standardAttack": {
+    "name": "Flash",
+    "range": "Close",
+    "damage": "1d4+2 mag"
+  },
+  "experience": "Darkness +3",
+  "description": "Lazily floating orbs of color-shifting werelight.",
+  "features": [
+    {
+      "name": "Horde (1d4−1)",
+      "kind": "Passive",
+      "rulesText": "When the Will-o’-the-Wisps have marked half or more of their HP, their standard attack deals 1d4−1 magic damage instead."
+    },
+    {
+      "name": "Kaleidoscopic",
+      "kind": "Passive",
+      "rulesText": "The Will-o’-the-Wisps pulse and dance in hypnotic, color-changing patterns that entrance any creature who looks upon them. All targets within Very Close range of the Will-o’-the-Wisps are Vulnerable."
+    },
+    {
+      "name": "Fascinating",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Will-o’-the-Wisps trace looping light trails through the air, leaving afterimages that beg to be deciphered. Each PC within Far range must succeed on an Instinct Reaction Roll (13) or mark a Stress and move up to Close range toward the Will-o’-the-Wisps."
+    }
+  ],
+  "role": "Horde (8/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/will-o-the-wisps/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-of-despair",
+  "@type": "Adversary",
+  "name": "Demon of Despair",
+  "slug": "demon-of-despair",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DEMON OF DESPAIR",
+    "lineStart": 9198,
+    "lineEnd": 9220,
+    "pdfPageStart": 133,
+    "pdfPageEnd": 133
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Make fear contagious",
+    "stick to the shadows",
+    "undermine resolve"
+  ],
+  "difficulty": 17,
+  "thresholds": "18/35",
+  "hitPoints": 6,
+  "stress": 5,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Miasma Bolt",
+    "range": "Far",
+    "damage": "3d6+1 mag"
+  },
+  "experience": "Manipulation +3",
+  "description": "A cloaked demon-creature with long limbs, seeping shadows.",
+  "features": [
+    {
+      "name": "Depths of Despair",
+      "kind": "Passive",
+      "rulesText": "The Demon deals double damage to PCs with 0 Hope."
+    },
+    {
+      "name": "Your Struggle Is Pointless",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to weigh down the spirits of all PCs within Far range. All targets affected replace their Hope Die with a d8 until they roll a success with Hope or their next rest."
+    },
+    {
+      "name": "Your Friends Will Fail You",
+      "kind": "Reaction",
+      "rulesText": "When a PC fails with Fear, you can mark a Stress to cause all other PCs within Close range to lose a Hope."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Demon makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/demon-of-despair/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

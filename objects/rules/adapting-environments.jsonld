@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/adapting-environments",
+  "@type": "Rule",
+  "name": "Adapting Environments",
+  "slug": "adapting-environments",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ADAPTING ENVIRONMENTS",
+    "lineStart": 11506,
+    "lineEnd": 11510,
+    "pdfPageStart": 159,
+    "pdfPageEnd": 159
+  },
+  "rulesText": "Sometimes you want to use an environment but it’s at the wrong tier for your party. Or you might want to replace a feature or two, then present it as an entirely different environment. Whether planning your session or even improvising an environment mid-session, you can adjust an existing environment’s stat block to fit the needs of your scene or improvise elements as needed. The environments framework is there to help organize ideas, not to stifle creativity.\n\nWhen you need to quickly adjust a stat block to a different tier, you can simply replace its existing statistics with those listed on the Environment Statistics by Tier table, using the column that corresponds to your party’s tier.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/adapting-environments/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

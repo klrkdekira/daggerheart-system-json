@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/siphon-essence",
+  "@type": "DomainCard",
+  "name": "Siphon Essence",
+  "slug": "siphon-essence",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SIPHON ESSENCE",
+    "lineStart": 15250,
+    "lineEnd": 15258,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Make a Spellcast Roll against a target within Very Close range. Once per long rest on a success, the target takes d12+4 magic damage using your Proficiency. On a success with Fear, you gain a +1 bonus to your Proficiency for this attack.\n\nYou clear a number of Hit Points equal to the number of Hit Points the target marked from this attack.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/siphon-essence/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

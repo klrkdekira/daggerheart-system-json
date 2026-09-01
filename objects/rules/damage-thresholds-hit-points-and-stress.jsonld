@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/damage-thresholds-hit-points-and-stress",
+  "@type": "Rule",
+  "name": "Damage Thresholds, Hit Points, and Stress",
+  "slug": "damage-thresholds-hit-points-and-stress",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DAMAGE THRESHOLDS, HIT POINTS, AND STRESS",
+    "lineStart": 4937,
+    "lineEnd": 4978,
+    "pdfPageStart": 93,
+    "pdfPageEnd": 94
+  },
+  "rulesText": "These systems function the same way they do for PCs. The numbers listed after “Threshold” are the adversary’s Major and Severe Thresholds.\n\n##### ATTACK MODIFIER\n\nWhen you attack with the adversary, apply this bonus or penalty to your attack roll.\n\n##### STANDARD ATTACK\n\nA description of the adversary’s primary mode of inflicting harm on the PCs. It includes the attack’s name, its effective range, and the damage it deals on a success. Using an adversary’s standard attack is a GM move.\n\n##### EXPERIENCE (OPTIONAL)\n\nThe GM can spend a Fear to add an adversary’s relevant Experience to raise their attack roll or increase the Difficulty of a roll made against them.\n\nEXAMPLE EXPERIENCES:\n\n| | | |\n| --- | --- | --- |\n| Acrobatics | Hunt from Above | Navigation |\n| Ambusher | Intimidation | Nobility |\n| Bartering | Intrusion | Quick Reflexes |\n| Blademaster | Keen Senses | Socialite |\n| Bodyguard | Magical Knowledge | Stealth |\n| Commander | Nature’s Friend | Tracker |\n\n##### FEATURE(S)\n\nThere are three kinds of adversary features: actions, reactions, and passives. Note: each adversaries stress is tracked individually. If a feature requires the GM to spend Stress to activate it, the Stress must come from the adversary whose feature is being activate. If a feature has a Fear requirement, it must be spent in addition to any Fear already spent—for instance, to interrupt the PCs and put the spotlight on the adversary.\n\n- **Actions:** a special attack or other unique action that the adversary can perform when the spotlight is on them.\n- **Reactions:** special effects that take effect when their trigger occurs, regardless of whether the spotlight is on the adversary.\n- **Passives:** special abilities that remain in effect by default and require no resources or triggers to activate.\n\n##### FEAR FEATURE(S)\n\nHigh-impact effects that cost a Fear to activate.\n\nEXAMPLE ADVERSARY FEATURES:",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/damage-thresholds-hit-points-and-stress/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

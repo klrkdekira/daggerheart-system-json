@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/valdenhax",
+  "@type": "Adversary",
+  "name": "Valdenhax",
+  "slug": "valdenhax",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "VALDENHAX",
+    "lineStart": 8920,
+    "lineEnd": 8942,
+    "pdfPageStart": 130,
+    "pdfPageEnd": 130
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Collect souls",
+    "fly",
+    "vex trespassers"
+  ],
+  "difficulty": 16,
+  "thresholds": "12/24",
+  "hitPoints": 6,
+  "stress": 4,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Giant Stone Pestle",
+    "range": "Melee",
+    "damage": "2d8+2 phy"
+  },
+  "experience": "Witchcraft +3",
+  "description": "A malevolent forest hag who has long, mossy hair and flies through the air with an oversized mortar and pestle.",
+  "features": [
+    {
+      "name": "To Me, My Pretties",
+      "kind": "Action",
+      "rulesText": "Once per scene, summon 2d4 Tier 2 Hordes, which appear at Far range. You gain a Fear for each Horde summoned in this way."
+    },
+    {
+      "name": "Shadow Strangler",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to attack a target within Far range. On a success, the shadow of the Valdenhax’s hand stretches across the ground until it grasps the target’s shadow and drains their essence. The target marks 1d4 Stress, and you gain an equal number of Fear."
+    },
+    {
+      "name": "Corpse Whisperer",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Valdenhax call out to the lingering spirit of a fallen ally within Close range. Roll a d6. On an even result, the Valdenhax resurrects the ally with half its HP cleared. On an odd result, the Valdenhax absorbs the dregs of its life force and clears a Stress."
+    },
+    {
+      "name": "Vexing Word",
+      "kind": "Reaction",
+      "rulesText": "After a PC makes a roll, you can mark a Stress to force them to reroll it. This feature can’t be used if the PC critically succeeds."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/valdenhax/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

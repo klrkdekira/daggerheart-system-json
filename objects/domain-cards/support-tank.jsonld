@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/support-tank",
+  "@type": "DomainCard",
+  "name": "Support Tank",
+  "slug": "support-tank",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SUPPORT TANK",
+    "lineStart": 16316,
+    "lineEnd": 16322,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When an ally within Close range fails a roll, you can spend 2 Hope to allow them to reroll either their Hope or Fear Die.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/support-tank/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

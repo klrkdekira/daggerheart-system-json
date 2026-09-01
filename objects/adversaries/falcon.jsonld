@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/falcon",
+  "@type": "Adversary",
+  "name": "Falcon",
+  "slug": "falcon",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FALCON",
+    "lineStart": 5710,
+    "lineEnd": 5728,
+    "pdfPageStart": 100,
+    "pdfPageEnd": 100
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Circle",
+    "clutch",
+    "dive",
+    "spy"
+  ],
+  "difficulty": 12,
+  "thresholds": "5/8",
+  "hitPoints": 3,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Talons",
+    "range": "Melee",
+    "damage": "1d6+1 phy"
+  },
+  "experience": "Keen Senses +4, Fly +3",
+  "description": "A bird of prey that has long, pointed wings and a notched beak.",
+  "features": [
+    {
+      "name": "Nimble Flyer",
+      "kind": "Passive",
+      "rulesText": "While flying, the Falcon gains a +3 bonus to its Difficulty."
+    },
+    {
+      "name": "Dive Bomb",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack against a target from above. The Falcon gains a +2 bonus to the attack and damage rolls."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/falcon/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

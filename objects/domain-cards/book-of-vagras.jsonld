@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-vagras",
+  "@type": "DomainCard",
+  "name": "Book of Vagras",
+  "slug": "book-of-vagras",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BOOK OF VAGRAS",
+    "lineStart": 15028,
+    "lineEnd": 15038,
+    "pdfPageStart": 211,
+    "pdfPageEnd": 211
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+  },
+  "cardType": "Grimoire",
+  "recallCost": 2,
+  "rulesText": "Runic Lock: Make a Spellcast Roll (15) on an object you’re touching that can close (such as a lock, chest, or box). Once per rest on a success, you can lock the object so it can only be opened by creatures of your choice. Someone with access to magic and an hour of time to study the spell can break it.\n\nArcane Door: When you have no adversaries within Melee range, make a Spellcast Roll (13). On a success, spend a Hope to create a portal from where you are to a point within Far range you can see. It closes once a creature has passed through it.\n\nReveal: Make a Spellcast Roll. If there is anything magically hidden within Close range, it is revealed.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/book-of-vagras/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

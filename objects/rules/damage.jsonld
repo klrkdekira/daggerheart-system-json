@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/damage",
+  "@type": "Rule",
+  "name": "Damage",
+  "slug": "damage",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "DAMAGE",
+    "lineStart": 3363,
+    "lineEnd": 3365,
+    "pdfPageStart": 55,
+    "pdfPageEnd": 55
+  },
+  "rulesText": "A weapon’s damage indicates the size of the damage dice you roll on a successful attack with it; you roll a number of dice equal to your Proficiency. If the damage includes a flat modifier, this number is added to the total damage rolled, but is not altered or affected by Proficiency.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/damage/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

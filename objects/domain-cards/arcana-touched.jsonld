@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/arcana-touched",
+  "@type": "DomainCard",
+  "name": "Arcana‑touched",
+  "slug": "arcana-touched",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "ARCANA‑TOUCHED",
+    "lineStart": 14514,
+    "lineEnd": 14523,
+    "pdfPageStart": 207,
+    "pdfPageEnd": 207
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When 4 or more of the domain cards in your loadout are from the Arcana domain, gain the following benefits:\n\n  - +1 bonus to your Spellcast Rolls\n  - Once per rest, you can switch the results of your Hope and Fear Dice.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/arcana-touched/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

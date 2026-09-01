@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/shapeshifting-fiend",
+  "@type": "Adversary",
+  "name": "Shapeshifting Fiend",
+  "slug": "shapeshifting-fiend",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SHAPESHIFTING FIEND",
+    "lineStart": 9842,
+    "lineEnd": 9866,
+    "pdfPageStart": 140,
+    "pdfPageEnd": 140
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Impersonate",
+    "sow discord",
+    "tempt betrayal"
+  ],
+  "difficulty": 17,
+  "thresholds": "20/32",
+  "hitPoints": 4,
+  "stress": 8,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Hidden Blade",
+    "range": "Melee",
+    "damage": "3d8+3 phy"
+  },
+  "experience": "Manipulate +3, Mimic +2",
+  "description": "An evil entity who impersonates a trusted figure.",
+  "features": [
+    {
+      "name": "Fiendish Nature",
+      "kind": "Passive",
+      "rulesText": "The Fiend has resistance to magic damage and can’t be fooled by magic illusions."
+    },
+    {
+      "name": "Impersonate",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Fiend magically transform into a humanoid they have previously interacted with. A PC who targets the Fiend while they’re in the form of a person the PC cares for must succeed on an Instinct Reaction Roll or the attack fails and the PC must mark a Stress."
+    },
+    {
+      "name": "Turn Invisible",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make the Fiend Hidden until they make an action roll or take damage."
+    },
+    {
+      "name": "Backhanded Guidance",
+      "kind": "Reaction",
+      "rulesText": "When a PC makes an action roll while the Fiend is in the scene, you can mark a Stress to add 1d6 to the result of their Fear Die. Exposed!"
+    },
+    {
+      "name": "(Phase Change)",
+      "kind": "Reaction",
+      "rulesText": "When the Fiend is defeated or the PCs discover its true identity, replace the Fiend with Shapeshifting Fiend Revealed and immediately spotlight them."
+    }
+  ],
+  "role": "Social",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/shapeshifting-fiend/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

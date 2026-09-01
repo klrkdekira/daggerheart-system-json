@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/rogue-subclasses",
+  "@type": "Rule",
+  "name": "Rogue Subclasses",
+  "slug": "rogue-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "ROGUE SUBCLASSES",
+    "lineStart": 1461,
+    "lineEnd": 1463,
+    "pdfPageStart": 23,
+    "pdfPageEnd": 23
+  },
+  "rulesText": "Choose either the Nightwalker or Syndicate subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/rogue-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

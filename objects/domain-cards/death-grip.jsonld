@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/death-grip",
+  "@type": "DomainCard",
+  "name": "Death Grip",
+  "slug": "death-grip",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "DEATH GRIP",
+    "lineStart": 15878,
+    "lineEnd": 15893,
+    "pdfPageStart": 219,
+    "pdfPageEnd": 219
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Make a Spellcast Roll against a target within Close range and choose one of the following options:\n\n  - You pull the target into Melee range or pull yourself into\n\nMelee range of them.\n\n  - You constrict the target and force them to mark 2 Stress.\n  - All adversaries between you and the target must succeed on a Reaction Roll (13) or be hit by vines, taking 3d6+2 physical damage.\n\nOn a success, vines reach out from your hands, causing the chosen effect and temporarily Restraining the target.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/death-grip/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

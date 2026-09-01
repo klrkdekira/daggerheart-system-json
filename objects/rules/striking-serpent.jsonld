@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/striking-serpent",
+  "@type": "Rule",
+  "name": "Striking Serpent",
+  "slug": "striking-serpent",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "STRIKING SERPENT",
+    "lineStart": 987,
+    "lineEnd": 999,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "rulesText": "*(Cobra, Rattlesnake, Viper, etc.)*\n\n*Finesse +1 | Evasion +2*\n\n*Very Close Finesse d8+4 phy*\n\n**Gain advantage on:** climb, deceive, sprint\n\n**Venomous Strike:** Make an attack against any number of targets within Very Close range. On a success, a target is temporarily Poisoned. A Poisoned creature takes 1d10 direct physical damage each time they act.\n\n**Warning Hiss:** Mark a Stress to force any number of targets within Melee range to move back to Very Close range.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/striking-serpent/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

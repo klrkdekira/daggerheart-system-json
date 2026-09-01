@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/additional-rules",
+  "@type": "Rule",
+  "name": "Additional Rules",
+  "slug": "additional-rules",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "ADDITIONAL RULES",
+    "lineStart": 3245,
+    "lineEnd": 3279,
+    "pdfPageStart": 53,
+    "pdfPageEnd": 53
+  },
+  "rulesText": "The following rules apply to many aspects of the game.\n\n#### ROUNDING UP\n\nThis game doesn’t use fractions; if you need to round to a whole number, round up unless otherwise specified. When in doubt, resolve any ambiguity in favor of the PCs.\n\n#### REROLLING DICE\n\nWhen a feature allows you to reroll a die, you always take the new result unless the feature specifically says otherwise.\n\n#### INCOMING DAMAGE\n\nIncoming damage means the total damage from a single attack or source, before Armor Slots are marked.\n\n#### SIMULTANEOUS EFFECTS\n\nIf the resolution order of multiple effects is unclear, the person in control of the effects (player or GM) decides what order to resolve them in.\n\n#### STACKING EFFECTS\n\nUnless stated otherwise, all effects beside conditions and advantage/disadvantage can stack.\n\n#### ONGOING SPELL EFFECTS\n\nIf an effect doesn’t have a listed mechanical expiration, it only ends when decided by the controlling player, the GM, or the demands of the fiction.\n\n#### SPENDING RESOURCES\n\nUnless an effect states otherwise, you can’t spend Hope or mark Stress multiple times on the same feature to increase or repeat its effects on the same roll.\n\n#### USING FEATURES AFTER A ROLL\n\nIf a feature allows you to affect a roll after the result has been totaled, you can use it after the GM declares whether the roll succeeds or fails, but not after the consequences unfold or another roll is made.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/additional-rules/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

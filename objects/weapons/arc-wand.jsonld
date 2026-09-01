@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/arc-wand",
+  "@type": "Weapon",
+  "name": "Arc Wand",
+  "slug": "arc-wand",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3617,
+    "lineEnd": 3617,
+    "pdfPageStart": 62,
+    "pdfPageEnd": 62
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Presence",
+  "range": "Close",
+  "burden": "One-Handed",
+  "damage": "d8+6 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Bouncing",
+    "rulesText": "Mark any number of Stress to target that many additional creatures in range of the attack."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/arc-wand/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

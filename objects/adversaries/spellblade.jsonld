@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spellblade",
+  "@type": "Adversary",
+  "name": "Spellblade",
+  "slug": "spellblade",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SPELLBLADE",
+    "lineStart": 6836,
+    "lineEnd": 6858,
+    "pdfPageStart": 110,
+    "pdfPageEnd": 110
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Blast",
+    "command",
+    "endure"
+  ],
+  "difficulty": 14,
+  "thresholds": "8/14",
+  "hitPoints": 6,
+  "stress": 3,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Empowered Longsword",
+    "range": "Melee",
+    "damage": "1d8+4 phy/mag"
+  },
+  "experience": "Magical Knowledge +2",
+  "description": "A mercenary combining swordplay and magic to deadly effect.",
+  "features": [
+    {
+      "name": "Arcane Steel",
+      "kind": "Passive",
+      "rulesText": "Damage dealt by the Spellblade’s standard attack is considered both physical and magic."
+    },
+    {
+      "name": "Suppressing Blast",
+      "kind": "Action",
+      "rulesText": "Mark a Stress and target a group within Far range. All targets must succeed on an Agility Reaction Roll or take 1d8+2 magic damage. You gain a Fear for each target who marked HP from this attack."
+    },
+    {
+      "name": "Move as a Unit",
+      "kind": "Action",
+      "rulesText": "Spend 2 Fear to spotlight up to five allies within Far range."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Spellblade makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/spellblade/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

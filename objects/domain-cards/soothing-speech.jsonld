@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/soothing-speech",
+  "@type": "DomainCard",
+  "name": "Soothing Speech",
+  "slug": "soothing-speech",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SOOTHING SPEECH",
+    "lineStart": 15471,
+    "lineEnd": 15477,
+    "pdfPageStart": 215,
+    "pdfPageEnd": 215
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "During a short rest, when you take the time to comfort another character while using the Tend to Wounds downtime move on them, clear an additional Hit Point on that character. When you do, you also clear 2 Hit Points.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/soothing-speech/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

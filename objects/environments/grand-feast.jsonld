@@ -1,0 +1,70 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/grand-feast",
+  "@type": "Environment",
+  "name": "Grand Feast",
+  "slug": "grand-feast",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GRAND FEAST",
+    "lineStart": 11858,
+    "lineEnd": 11886,
+    "pdfPageStart": 163,
+    "pdfPageEnd": 163
+  },
+  "tier": 1,
+  "impulses": [
+    "Bring everyone together",
+    "celebrate a momentous occasion",
+    "encourage revelrous abandon"
+  ],
+  "difficulty": 11,
+  "potentialAdversariesText": "Apprentice Assassin, Guard, Merchant, Petty Noble, Sellsword, Spy",
+  "description": "A community-wide celebration featuring way too much drink, food, and fun.",
+  "features": [
+    {
+      "name": "Loose Lips & Fast Friends",
+      "kind": "Passive",
+      "rulesText": "Everyone is here to have a good time. PCs have advantage on Presence Rolls to socialize with other revelers.\n\nWhat is everyone celebrating? Where’s the party? Who’s footing the bill?"
+    },
+    {
+      "name": "The Evening’s Entertainment",
+      "kind": "Action",
+      "rulesText": "The host of the feast kicks off the entertainment portion of the evening. Each PC can make an action roll to initiate a performance, competition, or other lighthearted diversion. A PC who succeeds becomes an Honored Guest. Until the feast ends, an Honored Guest can claim a gift from the host, then clear the condition.\n\nWhat does the host want to see or hear more than anything else? What can they offer the PCs in return?"
+    },
+    {
+      "name": "“There’s Always That One…”",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to Trap a PC in conversation with the most unpleasant person at the party until the PC succeeds on an action roll to extricate themself from this social black hole. While Trapped, a PC can’t make action rolls except to try to clear this condition. When a Trapped PC fails an action roll, they must mark a Stress.\n\nWhat makes this dud so unpleasant? What’s something the PC cares about that the dud constantly diminishes or dismisses? What boring or awful thing can the dud not shut up about?"
+    },
+    {
+      "name": "Last Call",
+      "kind": "Reaction",
+      "rulesText": "After a long night, the partygoers start filtering out. When the feast concludes, all PCs who participated in the festivities clear all Stress and gain a Hope. Additionally, each Honored Guest clears all HP and gains an additional Hope, then clears the condition. Each PC who overindulged must succeed on a Strength Reaction Roll or become Hungover until their next rest. While Hungover, a PC gains a −1 penalty to action rolls.\n\nWhat crazy stories do the PCs share with one another as they leave the party? Who do the PCs see unexpectedly canoodling afterward?"
+    }
+  ],
+  "category": "Social",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/apprentice-assassin"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/merchant"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/petty-noble"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sellsword"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spy"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/grand-feast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

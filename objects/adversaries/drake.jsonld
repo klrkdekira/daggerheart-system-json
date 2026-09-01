@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/drake",
+  "@type": "Adversary",
+  "name": "Drake",
+  "slug": "drake",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DRAKE",
+    "lineStart": 9320,
+    "lineEnd": 9338,
+    "pdfPageStart": 134,
+    "pdfPageEnd": 134
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Coil and crush",
+    "protect master",
+    "slither around lairs and ruins",
+    "strike first"
+  ],
+  "difficulty": 14,
+  "thresholds": "16/30",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Claws & Teeth",
+    "range": "Melee",
+    "damage": "3d8+5 phy"
+  },
+  "experience": "Vicious +3",
+  "description": "A clawed quadruped that has a scaled, serpentine body and a willingness to serve its cousins, the dragons.",
+  "features": [
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Drake can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight it."
+    },
+    {
+      "name": "Guard Dog",
+      "kind": "Reaction",
+      "rulesText": "When a PC would deal damage to a creature within Close range, you can mark a Stress to have the Drake move to intercept the attack and take the damage instead. If the attacker is within Melee range of the Drake’s new position, you can immediately spotlight the Drake without spending Fear."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/drake/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

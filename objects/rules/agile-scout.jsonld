@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/agile-scout",
+  "@type": "Rule",
+  "name": "Agile Scout",
+  "slug": "agile-scout",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "AGILE SCOUT",
+    "lineStart": 855,
+    "lineEnd": 867,
+    "pdfPageStart": 15,
+    "pdfPageEnd": 15
+  },
+  "rulesText": "*(Fox, Mouse, Weasel, etc.)*\n\n*Agility +1 | Evasion +2*\n\n*Melee Agility d4 phy*\n\n**Gain advantage on:** deceive, locate, sneak\n\n**Agile:** Your movement is silent, and you can spend a Hope to move up to Far range without rolling.\n\n**Fragile:** When you take Major or greater damage, you drop out of Beastform.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/agile-scout/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

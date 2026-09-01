@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/counterspell",
+  "@type": "DomainCard",
+  "name": "Counterspell",
+  "slug": "counterspell",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "COUNTERSPELL",
+    "lineStart": 14446,
+    "lineEnd": 14452,
+    "pdfPageStart": 206,
+    "pdfPageEnd": 206
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "You can interrupt a magical effect taking place by making a reaction roll using your Spellcast trait. On a success, the effect stops and any consequences are avoided, and this card is placed in your vault.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/counterspell/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

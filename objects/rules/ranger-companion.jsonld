@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/ranger-companion",
+  "@type": "Rule",
+  "name": "Ranger Companion",
+  "slug": "ranger-companion",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "RANGER COMPANION",
+    "lineStart": 1374,
+    "lineEnd": 1376,
+    "pdfPageStart": 21,
+    "pdfPageEnd": 21
+  },
+  "rulesText": "When you choose the Beastbound Ranger subclass, take a companion sheet. This sheet is for tracking important information about your character’s companion and can be tucked beneath the right side of your character sheet for ease of viewing.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/ranger-companion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

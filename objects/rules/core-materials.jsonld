@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/core-materials",
+  "@type": "Rule",
+  "name": "Core Materials",
+  "slug": "core-materials",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "CORE MATERIALS",
+    "lineStart": 241,
+    "lineEnd": 241,
+    "pdfPageStart": 7,
+    "pdfPageEnd": 7
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/core-materials/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

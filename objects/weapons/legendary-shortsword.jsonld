@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-shortsword",
+  "@type": "Weapon",
+  "name": "Legendary Shortsword",
+  "slug": "legendary-shortsword",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 4 (LEVELS 8–10)",
+    "lineStart": 3808,
+    "lineEnd": 3808,
+    "pdfPageStart": 69,
+    "pdfPageEnd": 69
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Agility",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8+6 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Paired",
+    "rulesText": "+5 to primary weapon damage to targets within Melee range"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/legendary-shortsword/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

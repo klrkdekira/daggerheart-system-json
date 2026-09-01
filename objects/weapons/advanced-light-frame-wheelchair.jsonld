@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/advanced-light-frame-wheelchair",
+  "@type": "Weapon",
+  "name": "Advanced Light-Frame Wheelchair",
+  "slug": "advanced-light-frame-wheelchair",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Light Frame Models",
+    "lineStart": 3876,
+    "lineEnd": 3876,
+    "pdfPageStart": 70,
+    "pdfPageEnd": 70
+  },
+  "category": "primary",
+  "variant": "combat-wheelchair",
+  "trait": "Agility",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8+6 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 3,
+  "feature": {
+    "name": "Quick",
+    "rulesText": "When you make an attack, you can mark a Stress to target another creature within range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/advanced-light-frame-wheelchair/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/combat-wheelchair"
+  }
+}

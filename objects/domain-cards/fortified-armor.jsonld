@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/fortified-armor",
+  "@type": "DomainCard",
+  "name": "Fortified Armor",
+  "slug": "fortified-armor",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "FORTIFIED ARMOR",
+    "lineStart": 14653,
+    "lineEnd": 14659,
+    "pdfPageStart": 208,
+    "pdfPageEnd": 208
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "While you are wearing armor, gain a +2 bonus to your damage thresholds.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/fortified-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

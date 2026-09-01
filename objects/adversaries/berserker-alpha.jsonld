@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/berserker-alpha",
+  "@type": "Adversary",
+  "name": "Berserker Alpha",
+  "slug": "berserker-alpha",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "BERSERKER ALPHA",
+    "lineStart": 7369,
+    "lineEnd": 7389,
+    "pdfPageStart": 115,
+    "pdfPageEnd": 115
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Embrace the change",
+    "howl at the moon",
+    "lead the pack",
+    "run down enemies"
+  ],
+  "difficulty": 14,
+  "thresholds": "13/26",
+  "hitPoints": 6,
+  "stress": 4,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Tooth & Claw",
+    "range": "Melee",
+    "damage": "2d10+2 phy"
+  },
+  "experience": "Hunt +3, Keen Senses +2",
+  "description": "A veteran commander who quaffs magic elixirs to change into a beast and lead their packmates on a hunt.",
+  "features": [
+    {
+      "name": "Pack Fury",
+      "kind": "Passive",
+      "rulesText": "The Alpha gains a +1 bonus to their attack rolls for each ally within Very Close range of their attack’s target."
+    },
+    {
+      "name": "Bark at the Moon",
+      "kind": "Action",
+      "rulesText": "Once per scene, spend a Fear to have each ally within Close range of the Alpha clear a HP and a Stress."
+    },
+    {
+      "name": "Berserker Rage",
+      "kind": "Reaction",
+      "rulesText": "The first time in a scene the Alpha marks their last Stress, they gain a +6 bonus to damage rolls."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/berserker-alpha/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

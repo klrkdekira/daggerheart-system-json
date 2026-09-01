@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/seraph-subclasses",
+  "@type": "Rule",
+  "name": "Seraph Subclasses",
+  "slug": "seraph-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "SERAPH SUBCLASSES",
+    "lineStart": 1560,
+    "lineEnd": 1562,
+    "pdfPageStart": 24,
+    "pdfPageEnd": 24
+  },
+  "rulesText": "Choose either the Divine Wielder or Winged Sentinel subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/seraph-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

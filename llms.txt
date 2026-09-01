@@ -1,0 +1,37 @@
+# Daggerheart SRD System JSON
+
+> Machine-readable JSON-LD 1.1 reference corpus for the Daggerheart System Reference Document 2.0, with JSON Schema Draft 2020-12 validation. 1,539 records preserve source wording, typed fields, graph links, and line-level provenance.
+
+Attribution: This document, including the Witherwild Campaign Frame, is considered Public Game Content per the Darrington Press Community Gaming License. © 2026 Critical Role LLC. All rights reserved. For more information, please visit www.darringtonpress.com/license.
+
+## Entry points
+
+- [Human-readable explorer](https://cheeleong.dev/daggerheart-system-json/)
+- [Full corpus context](https://cheeleong.dev/daggerheart-system-json/llms-full.txt): complete text projection
+- [Aggregate manifest](https://cheeleong.dev/daggerheart-system-json/objects/daggerheart-system-data.jsonld)
+- [Single-file bundle](https://cheeleong.dev/daggerheart-system-json/objects/daggerheart-system-data.bundle.jsonld)
+- [Search index](https://cheeleong.dev/daggerheart-system-json/objects/search-index.json)
+- [Collection index](https://cheeleong.dev/daggerheart-system-json/objects/collection-index.json)
+- [JSON-LD context](https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld)
+- [Vocabulary terms](https://cheeleong.dev/daggerheart-system-json/vocab/terms.json)
+
+## Collections
+
+Raw records use `objects/<collection>/<slug>.jsonld`; indexable HTML counterparts use `records/<collection>/<slug>/`. Every JSON-LD record carries `htmlPage`.
+
+- sources: 1 Source records
+- domains: 10 Domain records
+- classes: 13 CharacterClass records
+- subclasses: 26 Subclass records
+- ancestries: 25 Ancestry records
+- communities: 15 Community records
+- transformations: 6 Transformation records
+- beastforms: 24 Beastform records
+- weapons: 358 Weapon records
+- armor: 76 Armor records
+- items: 120 Item records
+- consumables: 120 Consumable records
+- adversaries: 264 Adversary records
+- environments: 47 Environment records
+- domain-cards: 210 DomainCard records
+- rules: 224 Rule records

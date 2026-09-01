@@ -1,0 +1,63 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fallen-sorcerer",
+  "@type": "Adversary",
+  "name": "Fallen Sorcerer",
+  "slug": "fallen-sorcerer",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FALLEN SORCERER",
+    "lineStart": 10597,
+    "lineEnd": 10619,
+    "pdfPageStart": 148,
+    "pdfPageEnd": 148
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Acquire",
+    "dishearten",
+    "dominate",
+    "torment"
+  ],
+  "difficulty": 19,
+  "thresholds": "26/42",
+  "hitPoints": 6,
+  "stress": 5,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Corrupted Staff",
+    "range": "Far",
+    "damage": "4d6+10 mag"
+  },
+  "experience": "Ancient Knowledge +2",
+  "description": "A powerful mage bound by the bargains they made in life.",
+  "features": [
+    {
+      "name": "Conflagration",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to unleash an all-consuming firestorm and make an attack against all targets within Close range. Targets the Sorcerer succeeds against take 2d10+6 direct magic damage."
+    },
+    {
+      "name": "Nightmare Tableau",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to trap a target within Far range in a powerful illusion of their worst fears. While trapped, the target is Restrained and Vulnerable until they break free, ending both conditions, with a successful Instinct Roll."
+    },
+    {
+      "name": "Slippery",
+      "kind": "Reaction",
+      "rulesText": "When the Sorcerer takes damage from an attack, they can teleport up to Far range."
+    },
+    {
+      "name": "Shackles of Guilt",
+      "kind": "Reaction",
+      "rulesText": "Countdown (Loop 2d6). When the Sorcerer is in the spotlight for the first time, activate the countdown. When it triggers, all targets within Far range become Vulnerable and must mark a Stress as they relive their greatest regrets. A target can break free from their regret with a successful Presence or Strength Roll. When a PC fails to break free, they lose a Hope."
+    }
+  ],
+  "role": "Support",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/fallen-sorcerer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/griffin",
+  "@type": "Adversary",
+  "name": "Griffin",
+  "slug": "griffin",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GRIFFIN",
+    "lineStart": 10757,
+    "lineEnd": 10775,
+    "pdfPageStart": 150,
+    "pdfPageEnd": 150
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Hunt",
+    "look for an opening",
+    "swoop"
+  ],
+  "difficulty": 18,
+  "thresholds": "30/45",
+  "hitPoints": 6,
+  "stress": 4,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Beak & Talons",
+    "range": "Very Close",
+    "damage": "4d8+4 phy"
+  },
+  "experience": "Riches +5, Keen Senses +3",
+  "description": "A large leonine creature that has the head, talons, and wings of an eagle.",
+  "features": [
+    {
+      "name": "Treasure Hoarder",
+      "kind": "Passive",
+      "rulesText": "When a PC would mark any number of HP from the Griffin’s attack, the PC can choose instead to give the Griffin an equal number of bags of gold."
+    },
+    {
+      "name": "Swooping Slash",
+      "kind": "Action",
+      "rulesText": "Move up to Far range and make a standard attack against a target along the way."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/griffin/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

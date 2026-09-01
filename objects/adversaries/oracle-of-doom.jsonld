@@ -1,0 +1,73 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/oracle-of-doom",
+  "@type": "Adversary",
+  "name": "Oracle of Doom",
+  "slug": "oracle-of-doom",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ORACLE OF DOOM",
+    "lineStart": 11003,
+    "lineEnd": 11029,
+    "pdfPageStart": 153,
+    "pdfPageEnd": 153
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Change environment",
+    "condemn",
+    "dishearten",
+    "toss aside"
+  ],
+  "difficulty": 20,
+  "thresholds": "38/68",
+  "hitPoints": 11,
+  "stress": 10,
+  "attackModifier": "+8",
+  "standardAttack": {
+    "name": "Psychic Attack",
+    "range": "Far",
+    "damage": "4d8+9 mag"
+  },
+  "experience": "Boundless Knowledge +4",
+  "description": "A towering immortal and incarnation of fate, cursed to only see bad outcomes.",
+  "features": [
+    {
+      "name": "Terrifying",
+      "kind": "Passive",
+      "rulesText": "When the Oracle makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear."
+    },
+    {
+      "name": "Walls Closing In",
+      "kind": "Passive",
+      "rulesText": "When a creature rolls a failure while within Very Far range of the Oracle, they must mark a Stress."
+    },
+    {
+      "name": "Pronounce Fate",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to present a target within Far range with a vision of their personal nightmare. The target must make a Knowledge Reaction Roll. On a failure, they lose all Hope and take 2d20+4 direct magic damage. On a success, they take half damage and lose a Hope."
+    },
+    {
+      "name": "Summon Tormentors",
+      "kind": "Action",
+      "rulesText": "Once per day, spend 2 Fear to summon 2d4 Tier 2 or below Minions relevant to one of the PC’s personal nightmares. They appear at Close range relative to that PC."
+    },
+    {
+      "name": "Ominous Knowledge",
+      "kind": "Reaction",
+      "rulesText": "When the Oracle sees a mortal creature, they instantly know one of their personal nightmares."
+    },
+    {
+      "name": "Vengeful Fate",
+      "kind": "Reaction",
+      "rulesText": "When the Oracle marks HP from an attack within Very Close range, you can mark a Stress to knock the attacker back to Far range and deal 2d10+4 physical damage."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/oracle-of-doom/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

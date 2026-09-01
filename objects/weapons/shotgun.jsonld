@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/shotgun",
+  "@type": "Weapon",
+  "name": "Shotgun",
+  "slug": "shotgun",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Weapons",
+    "lineStart": 14019,
+    "lineEnd": 14019,
+    "pdfPageStart": 197,
+    "pdfPageEnd": 197
+  },
+  "category": "primary",
+  "variant": "western",
+  "trait": "Strength",
+  "range": "Very Close",
+  "burden": "Two-Handed",
+  "tieredDamage": [
+    "Tier 1: d6+2 phy",
+    "Tier 2: d6+5 phy",
+    "Tier 3: d6+8 phy",
+    "Tier 4: d6+11 phy"
+  ],
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Scattershot",
+    "rulesText": "When you make an attack, target all creatures in front of you within range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/shotgun/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/western-campaigns"
+  }
+}

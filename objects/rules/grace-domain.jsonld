@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/grace-domain",
+  "@type": "Rule",
+  "name": "Grace Domain",
+  "slug": "grace-domain",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "GRACE DOMAIN",
+    "lineStart": 15405,
+    "lineEnd": 15405,
+    "pdfPageStart": 215,
+    "pdfPageEnd": 215
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/grace-domain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

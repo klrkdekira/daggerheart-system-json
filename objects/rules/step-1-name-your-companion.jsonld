@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/step-1-name-your-companion",
+  "@type": "Rule",
+  "name": "Step 1: Name Your Companion",
+  "slug": "step-1-name-your-companion",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "STEP 1: NAME YOUR COMPANION",
+    "lineStart": 1378,
+    "lineEnd": 1380,
+    "pdfPageStart": 21,
+    "pdfPageEnd": 21
+  },
+  "rulesText": "Work with the GM to decide what kind of animal you have as your companion. Give them a name and add a picture of them to the companion sheet.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/step-1-name-your-companion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

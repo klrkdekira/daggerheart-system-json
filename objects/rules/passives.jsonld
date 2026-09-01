@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/passives",
+  "@type": "Rule",
+  "name": "Passives",
+  "slug": "passives",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "PASSIVES",
+    "lineStart": 4996,
+    "lineEnd": 5008,
+    "pdfPageStart": 94,
+    "pdfPageEnd": 94
+  },
+  "rulesText": "**Horde (X) - Passive:** When the Horde has marked half or more of their HP, their standard attack deals X damage instead.\n\n**Minion (X) - Passive:** This adversary is defeated when they take any damage. For every X damage a PC deals to this adversary, defeat an additional Minion within range the attack would succeed against.\n\n**Relentless (X) - Passive:** This adversary can be spotlighted up to X times per GM turn. Spend Fear as usual to spotlight them.\n\n**Slow - Passive:** When you spotlight this adversary and they don’t have a token on their stat block, they can’t act yet. Place a token on their stat block and describe what they’re preparing to do. When you spotlight this adversary and they have a token on their stat block, clear the token and they can act.\n\n**Arcane Form - Passive:** This adversary is resistant to magic damage.\n\n**Armored Carapace - Passive:** When this adversary takes physical damage, reduce it by X.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/passives/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

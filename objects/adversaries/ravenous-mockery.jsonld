@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/ravenous-mockery",
+  "@type": "Adversary",
+  "name": "Ravenous Mockery",
+  "slug": "ravenous-mockery",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "RAVENOUS MOCKERY",
+    "lineStart": 8540,
+    "lineEnd": 8560,
+    "pdfPageStart": 126,
+    "pdfPageEnd": 126
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Ambush",
+    "lie in wait",
+    "swallow without chewing",
+    "take on an unassuming shape"
+  ],
+  "difficulty": 14,
+  "thresholds": "8/19",
+  "hitPoints": 4,
+  "stress": 4,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Gnashing Teeth",
+    "range": "Melee",
+    "damage": "2d6+4 phy"
+  },
+  "experience": "Mimicry +5, Hungry +3",
+  "description": "A shapeshifting predator that assumes the appearance of inanimate objects to lure unwary prey into its threat range.",
+  "features": [
+    {
+      "name": "Tongue Attack",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to attack a creature within Close range. On a success, the target is pulled into Melee range with the Mockery and Restrained until they escape with a successful Strength Roll, and you can spend a Fear to activate the Mockery’s Devour feature against the target."
+    },
+    {
+      "name": "Devour",
+      "kind": "Action",
+      "rulesText": "Attack a target within Melee range. On a success, the Mockery Swallows the target. While Swallowed, the target is Restrained and marks a HP when the Mockery is spotlighted. The Mockery disgorges all Swallowed creatures when it takes Major or Severe damage."
+    },
+    {
+      "name": "Never Just One",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to reveal that another object on the battlefield has been a Ravenous Mockery the whole time, then immediately spotlight it."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/ravenous-mockery/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

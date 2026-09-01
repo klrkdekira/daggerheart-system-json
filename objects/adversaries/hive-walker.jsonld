@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hive-walker",
+  "@type": "Adversary",
+  "name": "Hive Walker",
+  "slug": "hive-walker",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HIVE WALKER",
+    "lineStart": 8318,
+    "lineEnd": 8336,
+    "pdfPageStart": 124,
+    "pdfPageEnd": 124
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Encase prey in honey",
+    "protect the hive"
+  ],
+  "difficulty": 12,
+  "thresholds": "11/24",
+  "hitPoints": 3,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Rotting Fist",
+    "range": "Melee",
+    "damage": "2d6+3 phy"
+  },
+  "experience": "Meat Eater +2",
+  "description": "A corpse filled with and puppeted by a colony of carrion-eating bees.",
+  "features": [
+    {
+      "name": "Blood Honey",
+      "kind": "Action",
+      "rulesText": "The Walker disgorges thick crimson honey at all targets between it and a point within Close range. Each target in that line must succeed on an Agility Reaction Roll or take 2d8 magic damage and become temporarily Restrained as the honey hardens on them."
+    },
+    {
+      "name": "Bee-Ruption",
+      "kind": "Reaction",
+      "rulesText": "When the Walker marks HP, vengeful bees erupt from its body to protect it. Each target within Very Close range must succeed on an Instinct Reaction Roll or take 1d8 direct physical damage for each HP the Hive Walker has marked. Restrained targets automatically fail the reaction roll."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/hive-walker/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

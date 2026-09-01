@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/legendary-rune-shield",
+  "@type": "Weapon",
+  "name": "Legendary Rune Shield",
+  "slug": "legendary-rune-shield",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 4 (LEVELS 8–10)",
+    "lineStart": 3815,
+    "lineEnd": 3815,
+    "pdfPageStart": 69,
+    "pdfPageEnd": 69
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Knowledge",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d4+6 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 4,
+  "feature": {
+    "name": "Protective",
+    "rulesText": "+4 to Armor Score"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/legendary-rune-shield/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

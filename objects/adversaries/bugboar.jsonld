@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/bugboar",
+  "@type": "Adversary",
+  "name": "Bugboar",
+  "slug": "bugboar",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "BUGBOAR",
+    "lineStart": 5446,
+    "lineEnd": 5466,
+    "pdfPageStart": 98,
+    "pdfPageEnd": 98
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Ambush",
+    "bully",
+    "seek carnage and shiny things"
+  ],
+  "difficulty": 13,
+  "thresholds": "8/15",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Spiked Mace",
+    "range": "Very Close",
+    "damage": "1d8+6 phy"
+  },
+  "experience": "Traps +3",
+  "description": "A large bipedal creature that has a tusked snout and coarse fur.",
+  "features": [
+    {
+      "name": "Surprise!",
+      "kind": "Passive",
+      "rulesText": "If the Bugboar makes its first attack in a scene before it’s marked HP or Stress, it has advantage on the attack and deals an extra 1d8 damage."
+    },
+    {
+      "name": "Brutal",
+      "kind": "Reaction",
+      "rulesText": "When the Bugboar makes a successful standard attack, you can mark a Stress to deal an extra 1d6 damage."
+    },
+    {
+      "name": "Warheart",
+      "kind": "Reaction",
+      "rulesText": "When a condition would be imposed on the Bugboar, you can spend a Fear to negate it."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/bugboar/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

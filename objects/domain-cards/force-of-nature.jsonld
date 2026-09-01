@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/force-of-nature",
+  "@type": "DomainCard",
+  "name": "Force of Nature",
+  "slug": "force-of-nature",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "FORCE OF NATURE",
+    "lineStart": 16011,
+    "lineEnd": 16027,
+    "pdfPageStart": 220,
+    "pdfPageEnd": 220
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Mark a Stress to transform into a hulking nature spirit, gaining the following benefits:\n\n  - When you succeed on an attack or Spellcast Roll, gain a +10 bonus to the damage roll.\n\n  - When you deal enough damage to defeat a creature within\n\nClose range, you absorb them and clear an Armor Slot.\n\n  - You can’t be Restrained.\n\nBefore you make an action roll, you must spend a Hope. If you can’t, you revert to your normal form.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/force-of-nature/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

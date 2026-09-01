@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/swarm-of-rats",
+  "@type": "Adversary",
+  "name": "Swarm of Rats",
+  "slug": "swarm-of-rats",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SWARM OF RATS",
+    "lineStart": 6880,
+    "lineEnd": 6896,
+    "pdfPageStart": 110,
+    "pdfPageEnd": 110
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Consume",
+    "obscure",
+    "swarm"
+  ],
+  "difficulty": 10,
+  "thresholds": "6/10",
+  "hitPoints": 6,
+  "stress": 2,
+  "attackModifier": "−3",
+  "standardAttack": {
+    "name": "Claws",
+    "range": "Melee",
+    "damage": "1d8+2 phy"
+  },
+  "description": "A skittering mass of ordinary rodents moving as one like a ravenous wave.",
+  "features": [
+    {
+      "name": "Horde (1d4+1)",
+      "kind": "Passive",
+      "rulesText": "When the Swarm has marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead."
+    },
+    {
+      "name": "In Your Face",
+      "kind": "Passive",
+      "rulesText": "All targets within Melee range have disadvantage on attacks against targets other than the Swarm."
+    }
+  ],
+  "role": "Horde (10/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/swarm-of-rats/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

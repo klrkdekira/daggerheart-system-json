@@ -1,0 +1,74 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/volcanic-dragon-obsidian-predator",
+  "@type": "Adversary",
+  "name": "Volcanic Dragon: Obsidian Predator",
+  "slug": "volcanic-dragon-obsidian-predator",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "VOLCANIC DRAGON: OBSIDIAN PREDATOR",
+    "lineStart": 11221,
+    "lineEnd": 11247,
+    "pdfPageStart": 155,
+    "pdfPageEnd": 155
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Defend lair",
+    "dive-bomb",
+    "fly",
+    "hunt",
+    "intimidate"
+  ],
+  "difficulty": 19,
+  "thresholds": "33/65",
+  "hitPoints": 6,
+  "stress": 5,
+  "attackModifier": "+8",
+  "standardAttack": {
+    "name": "Obsidian Claws",
+    "range": "Close",
+    "damage": "4d10+4 phy"
+  },
+  "experience": "Hunt from Above +5",
+  "description": "A massive winged creature with obsidian scales and impossibly sharp claws.",
+  "features": [
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Obsidian Predator can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Flying",
+      "kind": "Passive",
+      "rulesText": "While flying, the Obsidian Predator gains a +3 bonus to their Difficulty."
+    },
+    {
+      "name": "Obsidian Scales",
+      "kind": "Passive",
+      "rulesText": "The Obsidian Predator is resistant to physical damage."
+    },
+    {
+      "name": "Avalanche Tail",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against all targets within Close range. Targets the Obsidian Predator succeeds against take 4d6+4 physical damage and are knocked back to Far range and Vulnerable until their next roll with Hope."
+    },
+    {
+      "name": "Dive-Bomb",
+      "kind": "Action",
+      "rulesText": "If the Obsidian Predator is flying, mark a Stress to choose a point within Far range. Move to that point and make an attack against all targets within Very Close range. Targets the Obsidian Predator succeeds against take 2d10+6 physical damage and must mark a Stress and lose a Hope."
+    },
+    {
+      "name": "Erupting Rage (Phase Change)",
+      "kind": "Reaction",
+      "rulesText": "When the Obsidian Predator marks their last HP, replace them with the Molten Scourge and immediately spotlight them."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/volcanic-dragon-obsidian-predator/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

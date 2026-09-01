@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/supplemental-campaign-mechanics",
+  "@type": "Rule",
+  "name": "Supplemental Campaign Mechanics",
+  "slug": "supplemental-campaign-mechanics",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "lineStart": 13575,
+    "lineEnd": 13577,
+    "pdfPageStart": 190,
+    "pdfPageEnd": 190
+  },
+  "rulesText": "You can use following optional mechanics to supplement your campaigns.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/supplemental-campaign-mechanics/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

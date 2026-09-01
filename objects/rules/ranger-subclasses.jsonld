@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/ranger-subclasses",
+  "@type": "Rule",
+  "name": "Ranger Subclasses",
+  "slug": "ranger-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "RANGER SUBCLASSES",
+    "lineStart": 1304,
+    "lineEnd": 1306,
+    "pdfPageStart": 20,
+    "pdfPageEnd": 20
+  },
+  "rulesText": "Choose either the Beastbound or Wayfinder subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/ranger-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

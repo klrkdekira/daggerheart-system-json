@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/bladed-guard",
+  "@type": "Adversary",
+  "name": "Bladed Guard",
+  "slug": "bladed-guard",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "BLADED GUARD",
+    "lineStart": 5854,
+    "lineEnd": 5872,
+    "pdfPageStart": 101,
+    "pdfPageEnd": 101
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Arrest",
+    "close gates",
+    "make it through the day",
+    "pin down"
+  ],
+  "difficulty": 12,
+  "thresholds": "5/9",
+  "hitPoints": 5,
+  "stress": 2,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Longsword",
+    "range": "Melee",
+    "damage": "1d6+1 phy"
+  },
+  "experience": "Local Knowledge +3",
+  "description": "An armored guard bearing a sword and shield painted in the settlement’s colors.",
+  "features": [
+    {
+      "name": "Shield Wall",
+      "kind": "Passive",
+      "rulesText": "A creature who tries to move within Very Close range of the Guard must succeed on an Agility Roll. If additional Bladed Guards are standing in a line alongside the first, and each is within Melee range of another guard in the line, the Difficulty increases by the total number of guards in that line."
+    },
+    {
+      "name": "Detain",
+      "kind": "Action",
+      "rulesText": "Make an attack against a target within Very Close range. On a success, mark a Stress to Restrain the target until they break free with a successful attack, Finesse Roll, or Strength Roll."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/bladed-guard/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

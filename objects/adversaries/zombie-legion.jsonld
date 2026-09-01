@@ -1,0 +1,61 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/zombie-legion",
+  "@type": "Adversary",
+  "name": "Zombie Legion",
+  "slug": "zombie-legion",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ZOMBIE LEGION",
+    "lineStart": 11435,
+    "lineEnd": 11457,
+    "pdfPageStart": 158,
+    "pdfPageEnd": 158
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Consume brain",
+    "shred flesh",
+    "surround"
+  ],
+  "difficulty": 17,
+  "thresholds": "25/45",
+  "hitPoints": 8,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Undead Hands",
+    "range": "Close",
+    "damage": "4d6+10 phy"
+  },
+  "description": "A large pack of undead, still powerful despite their rotting flesh.",
+  "features": [
+    {
+      "name": "Horde (2d6+5)",
+      "kind": "Passive",
+      "rulesText": "When the Legion has marked half or more of their HP, their standard attack deals 2d6+5 physical damage instead."
+    },
+    {
+      "name": "Unyielding",
+      "kind": "Passive",
+      "rulesText": "The Legion has resistance to physical damage."
+    },
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Legion can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Overwhelm",
+      "kind": "Reaction",
+      "rulesText": "When the Legion takes Minor damage from an attack within Melee range, you can mark a Stress to make a standard attack with advantage against the attacker.\n\nEnvironments represent everything in a scene beyond the PCs and adversaries, such as the physical space, background NPCs, and natural forces."
+    }
+  ],
+  "role": "Horde (3/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/zombie-legion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

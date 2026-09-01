@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/archer-squadron",
+  "@type": "Adversary",
+  "name": "Archer Squadron",
+  "slug": "archer-squadron",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ARCHER SQUADRON",
+    "lineStart": 7208,
+    "lineEnd": 7226,
+    "pdfPageStart": 114,
+    "pdfPageEnd": 114
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Stick together",
+    "survive",
+    "volley fire"
+  ],
+  "difficulty": 13,
+  "thresholds": "8/16",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Longbow",
+    "range": "Far",
+    "damage": "2d6+3 phy"
+  },
+  "description": "A group of trained archers bearing massive bows.",
+  "features": [
+    {
+      "name": "Horde (1d6+3)",
+      "kind": "Passive",
+      "rulesText": "When the Squadron has marked half or more of their HP, their standard attack deals 1d6+3 physical damage instead."
+    },
+    {
+      "name": "Focused Volley",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to target a point within Far range. Make an attack with advantage against all targets within Close range of that point. Targets the Squadron succeeds against take 1d10+4 physical damage."
+    },
+    {
+      "name": "Suppressing Fire",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to target a point within Far range. Until the next roll with Fear, a creature who moves within Close range of that point must make an Agility Reaction Roll. On a failure, they take 2d6+3 physical damage. On a success, they take half damage."
+    }
+  ],
+  "role": "Horde (2/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/archer-squadron/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

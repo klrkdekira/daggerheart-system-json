@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/damage-type",
+  "@type": "Rule",
+  "name": "Damage Type",
+  "slug": "damage-type",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "DAMAGE TYPE",
+    "lineStart": 3367,
+    "lineEnd": 3369,
+    "pdfPageStart": 55,
+    "pdfPageEnd": 55
+  },
+  "rulesText": "A weapon’s damage type indicates whether it deals physical or magic damage. Weapons that deal magic damage can only be wielded by characters with a Spellcast trait.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/damage-type/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

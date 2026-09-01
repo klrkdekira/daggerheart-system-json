@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/sphere-of-influence-examples",
+  "@type": "Rule",
+  "name": "Sphere of Influence Examples",
+  "slug": "sphere-of-influence-examples",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "SPHERE OF INFLUENCE EXAMPLES",
+    "lineStart": 1754,
+    "lineEnd": 1767,
+    "pdfPageStart": 26,
+    "pdfPageEnd": 26
+  },
+  "rulesText": "When building a warlock, choose their patron’s sphere of influence from the list below or work with the GM to make your own.\n\n| | | |\n| --- | --- | --- |\n| Ambition | Leaders | Secrets |\n| Artists | Love | Soldiers |\n| Chaos | Mercy | Strength |\n| Darkness | Mischief | Travelers |\n| Death | Nature | Tricksters |\n| Gamblers | Protectors | Truth |\n| Honor | Revenge | War |\n| Justice | Scholars | Wisdom |",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/sphere-of-influence-examples/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

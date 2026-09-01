@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/grappler",
+  "@type": "Weapon",
+  "name": "Grappler",
+  "slug": "grappler",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 1 (LEVEL 1)",
+    "lineStart": 3744,
+    "lineEnd": 3744,
+    "pdfPageStart": 66,
+    "pdfPageEnd": 66
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Finesse",
+  "range": "Close",
+  "burden": "One-Handed",
+  "damage": "d6 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 1,
+  "feature": {
+    "name": "Hooked",
+    "rulesText": "On a successful attack, you can pull the target into Melee range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/grappler/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

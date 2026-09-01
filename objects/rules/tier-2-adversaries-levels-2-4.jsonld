@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-2-adversaries-levels-2-4",
+  "@type": "Rule",
+  "name": "Tier 2 Adversaries (levels 2-4)",
+  "slug": "tier-2-adversaries-levels-2-4",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TIER 2 ADVERSARIES (LEVELS 2-4)",
+    "lineStart": 7206,
+    "lineEnd": 7206,
+    "pdfPageStart": 114,
+    "pdfPageEnd": 114
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/tier-2-adversaries-levels-2-4/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/gargantuan-war-machine",
+  "@type": "Adversary",
+  "name": "Gargantuan War Machine",
+  "slug": "gargantuan-war-machine",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GARGANTUAN WAR MACHINE",
+    "lineStart": 10709,
+    "lineEnd": 10733,
+    "pdfPageStart": 150,
+    "pdfPageEnd": 150
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Crush",
+    "destroy"
+  ],
+  "difficulty": 20,
+  "thresholds": "48/88",
+  "hitPoints": 10,
+  "stress": 6,
+  "attackModifier": "+7",
+  "standardAttack": {
+    "name": "Fists of Iron",
+    "range": "Close",
+    "damage": "4d12+10 phy"
+  },
+  "experience": "Unbreakable +3",
+  "description": "A 100-foot-tall adamantine construct that has gemstone eyes, powered by a chest crucible of elemental flame.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Machine can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it."
+    },
+    {
+      "name": "Awesome Size",
+      "kind": "Passive",
+      "rulesText": "When the Machine enters the battlefield, each PC must either lose a Hope or mark 1d4 Stress."
+    },
+    {
+      "name": "Rocket Punch",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against a PC within Close range. On a success, the target takes 4d12+10 direct physical damage and marks 2 Armor Slots without gaining their benefits."
+    },
+    {
+      "name": "Ground-Breaking Stomp",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a point within Close range and make an attack roll against all enemies within Close range of that point. Targets the attack succeeds against take 4d12 direct physical damage and are Vulnerable until they are spotlighted. Additionally, the entire area becomes rubble, and a PC must succeed on an Agility Reaction Roll (16) to move through it."
+    },
+    {
+      "name": "Supercharged",
+      "kind": "Reaction",
+      "rulesText": "Countdown (Loop 2d6). When the Machine is spotlighted for the first time, activate the countdown. It ticks down each time the Machine is spotlighted. When it triggers, place a token on this stat block as the Machine’s chest crucible flares with magical flame. For each token on this stat block, the Machine gains a +1 bonus to Difficulty and attack rolls, and its standard attack deals an extra 1d12 damage. Remove a token when the Machine takes Severe damage."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/gargantuan-war-machine/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

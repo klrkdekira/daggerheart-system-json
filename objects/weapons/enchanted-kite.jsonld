@@ -1,0 +1,37 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/enchanted-kite",
+  "@type": "Weapon",
+  "name": "Enchanted Kite",
+  "slug": "enchanted-kite",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Magic Weapons",
+    "lineStart": 13661,
+    "lineEnd": 13661,
+    "pdfPageStart": 191,
+    "pdfPageEnd": 191
+  },
+  "category": "primary",
+  "variant": "everyday-hero",
+  "trait": "Presence",
+  "range": "Far",
+  "burden": "Two-Handed",
+  "damage": "d6 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "feature": {
+    "name": "Versatile",
+    "rulesText": "This weapon can also be used with these statistics—Presence, Melee, d10."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/enchanted-kite/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

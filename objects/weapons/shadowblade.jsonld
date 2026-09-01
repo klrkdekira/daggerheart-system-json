@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/shadowblade",
+  "@type": "Weapon",
+  "name": "Shadowblade",
+  "slug": "shadowblade",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3426,
+    "lineEnd": 3426,
+    "pdfPageStart": 56,
+    "pdfPageEnd": 56
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Presence",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8 phy/mag",
+  "damageTypes": [
+    "physical",
+    "magic"
+  ],
+  "tier": 1,
+  "feature": {
+    "name": "Otherworldly",
+    "rulesText": "On a successful attack, you can deal physical or magic damage."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/shadowblade/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

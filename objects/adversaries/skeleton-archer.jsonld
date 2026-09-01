@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/skeleton-archer",
+  "@type": "Adversary",
+  "name": "Skeleton Archer",
+  "slug": "skeleton-archer",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SKELETON ARCHER",
+    "lineStart": 6738,
+    "lineEnd": 6754,
+    "pdfPageStart": 109,
+    "pdfPageEnd": 109
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Perforate distracted targets",
+    "play dead",
+    "steal skin"
+  ],
+  "difficulty": 9,
+  "thresholds": "4/7",
+  "hitPoints": 3,
+  "stress": 2,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Shortbow",
+    "range": "Far",
+    "damage": "1d8+1 phy"
+  },
+  "description": "A fragile skeleton with a shortbow and arrows.",
+  "features": [
+    {
+      "name": "Opportunist",
+      "kind": "Passive",
+      "rulesText": "When two or more adversaries are within Very Close range of a creature, all damage the Archer deals to that creature is doubled."
+    },
+    {
+      "name": "Deadly Shot",
+      "kind": "Action",
+      "rulesText": "Make an attack against a Vulnerable target within Far range. On a success, mark a Stress to deal 3d4+8 physical damage."
+    }
+  ],
+  "role": "Ranged",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/skeleton-archer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

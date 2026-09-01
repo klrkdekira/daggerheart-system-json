@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/lasso",
+  "@type": "Weapon",
+  "name": "Lasso",
+  "slug": "lasso",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Secondary Weapons",
+    "lineStart": 14025,
+    "lineEnd": 14025,
+    "pdfPageStart": 197,
+    "pdfPageEnd": 197
+  },
+  "category": "secondary",
+  "variant": "western",
+  "trait": "Agility",
+  "range": "Very Close",
+  "burden": "One-Handed",
+  "tieredDamage": [
+    "Tier 1: d4 phy",
+    "Tier 2: d4+3 phy",
+    "Tier 3: d4+6 phy",
+    "Tier 4: d4+9 phy"
+  ],
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Roped",
+    "rulesText": "On a successful attack, you can temporarily Rope the target instead of dealing damage. While Roped, the target is Restrained and Vulnerable, but you must remain within Very Close range of the target. When the target would clear this condition, you can make a Strength Reaction Roll. On a success, they remain Roped."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/lasso/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/western-campaigns"
+  }
+}

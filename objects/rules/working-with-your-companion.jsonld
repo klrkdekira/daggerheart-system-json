@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/working-with-your-companion",
+  "@type": "Rule",
+  "name": "Working with Your Companion",
+  "slug": "working-with-your-companion",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WORKING WITH YOUR COMPANION",
+    "lineStart": 1400,
+    "lineEnd": 1402,
+    "pdfPageStart": 21,
+    "pdfPageEnd": 21
+  },
+  "rulesText": "The following sections will run you through the basics of working with your companion.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/working-with-your-companion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

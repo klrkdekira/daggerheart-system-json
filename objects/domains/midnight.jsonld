@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight",
+  "@type": "Domain",
+  "name": "Midnight",
+  "slug": "midnight",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "MIDNIGHT",
+    "lineStart": 271,
+    "lineEnd": 273,
+    "pdfPageStart": 7,
+    "pdfPageEnd": 7
+  },
+  "description": "Midnight is the domain of shadows and secrecy. Whether by clever tricks, deft magic, or the cloak of night, those who channel these forces practice the art of obscurity and can uncover sequestered treasures. Midnight offers practitioners the power to control and create enigmas. The Midnight domain can be accessed by the Assassin, Rogue, and Sorcerer classes.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domains/midnight/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

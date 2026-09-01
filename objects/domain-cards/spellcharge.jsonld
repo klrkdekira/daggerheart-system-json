@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/spellcharge",
+  "@type": "DomainCard",
+  "name": "Spellcharge",
+  "slug": "spellcharge",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SPELLCHARGE",
+    "lineStart": 15753,
+    "lineEnd": 15761,
+    "pdfPageStart": 218,
+    "pdfPageEnd": 218
+  },
+  "level": 8,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "When you take magic damage, place tokens equal to the number of Hit Points you marked on this card. You can store a number of tokens equal to your Spellcast trait.\n\nWhen you make a successful attack against a target, you can spend any number of tokens to add a d6 for each token spent to your damage roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/spellcharge/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

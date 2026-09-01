@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/frost-titan",
+  "@type": "Adversary",
+  "name": "Frost Titan",
+  "slug": "frost-titan",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FROST TITAN",
+    "lineStart": 9462,
+    "lineEnd": 9486,
+    "pdfPageStart": 136,
+    "pdfPageEnd": 136
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Claim trophies",
+    "raid and pillage",
+    "test mettle"
+  ],
+  "difficulty": 17,
+  "thresholds": "22/40",
+  "hitPoints": 10,
+  "stress": 4,
+  "attackModifier": "+7",
+  "standardAttack": {
+    "name": "Dual Axes",
+    "range": "Very Close",
+    "damage": "3d10+2 phy"
+  },
+  "experience": "Cold +3, War +3",
+  "description": "A blue-skinned goliath who has rimed hair and wears trophies of past battles.",
+  "features": [
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Titan can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "War Horn",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to force each PC within Far range to succeed on a Presence Reaction Roll or mark a Stress and become Vulnerable until after the next attack against them."
+    },
+    {
+      "name": "Bull Rush",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to move up to Close range and make an attack roll against a target within Melee range. On a success, deal 4d10+2 physical damage and knock the target back to Close range."
+    },
+    {
+      "name": "Cleaving Strike",
+      "kind": "Reaction",
+      "rulesText": "When a PC marks HP from the Titan’s standard attack, you can mark a Stress to force another PC within Very Close range who the attack would have succeeded against to mark the same number of HP."
+    },
+    {
+      "name": "Trophy Hunter",
+      "kind": "Reaction",
+      "rulesText": "When the Titan defeats a PC, the Titan takes the PC’s most valuable possession as a trophy."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/frost-titan/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

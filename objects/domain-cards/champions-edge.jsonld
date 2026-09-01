@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/champions-edge",
+  "@type": "DomainCard",
+  "name": "Champion’s Edge",
+  "slug": "champions-edge",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "CHAMPION’S EDGE",
+    "lineStart": 14661,
+    "lineEnd": 14673,
+    "pdfPageStart": 208,
+    "pdfPageEnd": 208
+  },
+  "level": 5,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When you critically succeed on an attack, you can spend up to 3 Hope and choose one of the following options for each Hope spent:\n\n  - You clear a Hit Point.\n  - You clear an Armor Slot.\n  - The target must mark an additional Hit Point.\n\nYou can’t choose the same option more than once.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/champions-edge/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

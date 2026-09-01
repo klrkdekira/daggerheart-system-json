@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/range",
+  "@type": "Rule",
+  "name": "Range",
+  "slug": "range",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "RANGE",
+    "lineStart": 3359,
+    "lineEnd": 3361,
+    "pdfPageStart": 55,
+    "pdfPageEnd": 55
+  },
+  "rulesText": "A weapon’s range specifies the maximum distance between the attacker and their target when attacking with it.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/range/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace",
+  "@type": "Domain",
+  "name": "Grace",
+  "slug": "grace",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "GRACE",
+    "lineStart": 267,
+    "lineEnd": 269,
+    "pdfPageStart": 7,
+    "pdfPageEnd": 7
+  },
+  "description": "Grace is the domain of charisma. Through rapturous storytelling, charming spells, or a shroud of lies, those who channel this power define the realities of their adversaries, bending perception to their will. Grace offers its wielders raw magnetism and mastery over language. The Grace domain can be accessed by the Bard, Rogue, and Warlock classes",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domains/grace/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

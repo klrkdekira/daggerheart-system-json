@@ -1,0 +1,71 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-empress",
+  "@type": "Adversary",
+  "name": "Entombed Empress",
+  "slug": "entombed-empress",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ENTOMBED EMPRESS",
+    "lineStart": 7773,
+    "lineEnd": 7799,
+    "pdfPageStart": 119,
+    "pdfPageEnd": 119
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Command inferiors",
+    "curse the invaders"
+  ],
+  "difficulty": 16,
+  "thresholds": "12/24",
+  "hitPoints": 6,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Swipe",
+    "range": "Melee",
+    "damage": "2d8+2 phy"
+  },
+  "experience": "Ruler +4, Undead +2",
+  "description": "The undead ruler of a forgotten realm. She’s been given blasphemous funeral rites to prevent her soul from moving on.",
+  "features": [
+    {
+      "name": "Empty Husk",
+      "kind": "Passive",
+      "rulesText": "The Empress has resistance to physical damage."
+    },
+    {
+      "name": "Missing Organs",
+      "kind": "Passive",
+      "rulesText": "The Empress’s internal organs have been removed and placed into six crystal containers hidden throughout her tomb. Each time the PCs find and destroy one, the Empress marks a HP."
+    },
+    {
+      "name": "Grasping Chains",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Empress target a creature within Close range and try to telekinetically bind them with her funeral chains. Make an attack against a target within Close range. On a success, the Empress pulls the target into Melee range, deals 2d8 physical damage, and temporarily Restrains them."
+    },
+    {
+      "name": "Deathless Obedience",
+      "kind": "Action",
+      "rulesText": "Up to three times per scene, you can spend a Fear to spotlight any number of allies within Close range. If any attacks succeed against the same target, combine the damage."
+    },
+    {
+      "name": "Accursed Caress",
+      "kind": "Reaction",
+      "rulesText": "When the Empress makes a successful standard attack against a PC, you can spend a Fear to activate a Doom Countdown (1d6+1) for that PC. It ticks down when a PC rolls with Fear. When it triggers, the PC marks all HP and makes a death move. If the Empress is defeated or the PCs take a rest, all Doom Countdowns end."
+    },
+    {
+      "name": "Final Transformation (Phase Change)",
+      "kind": "Reaction",
+      "rulesText": "When the Empress marks her last HP, replace her with the Entombed Cat Beast and immediately spotlight them."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/entombed-empress/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

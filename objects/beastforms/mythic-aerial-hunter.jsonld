@@ -1,0 +1,49 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/mythic-aerial-hunter",
+  "@type": "Beastform",
+  "name": "Mythic Aerial Hunter",
+  "slug": "mythic-aerial-hunter",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "MYTHIC AERIAL HUNTER",
+    "lineStart": 1141,
+    "lineEnd": 1153,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "tier": 4,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Dragon, Pterodactyl, Roc, Wyvern, etc.",
+  "traitBonus": "Finesse +3",
+  "evasionBonus": 4,
+  "attack": {
+    "range": "Melee",
+    "trait": "Finesse",
+    "damage": "d10+11 phy"
+  },
+  "advantageOn": [
+    "attack",
+    "deceive",
+    "locate",
+    "navigate"
+  ],
+  "features": [
+    {
+      "name": "Carrier",
+      "rulesText": "You can carry up to three willing allies with you when you move."
+    },
+    {
+      "name": "Deadly Raptor",
+      "rulesText": "You can fly at will and move up to Far range as part of your action. When you move in a straight line into Melee range of a target from at least Close range and make an attack against that target in the same action, you can reroll all damage dice that rolled a result lower than your Proficiency."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/mythic-aerial-hunter/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

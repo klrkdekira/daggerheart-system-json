@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/i-am-your-shield",
+  "@type": "DomainCard",
+  "name": "I Am Your Shield",
+  "slug": "i-am-your-shield",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "I AM YOUR SHIELD",
+    "lineStart": 16266,
+    "lineEnd": 16272,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When an ally within Very Close range would take damage, you can mark a Stress to stand in the way and make yourself the target of the attack instead. When you take damage from this attack, you can mark any number of Armor Slots.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/i-am-your-shield/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

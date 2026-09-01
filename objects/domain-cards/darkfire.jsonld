@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/darkfire",
+  "@type": "DomainCard",
+  "name": "Darkfire",
+  "slug": "darkfire",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "DARKFIRE",
+    "lineStart": 15312,
+    "lineEnd": 15318,
+    "pdfPageStart": 214,
+    "pdfPageEnd": 214
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Once per scene, spend any number of Hope to target an equal number of adversaries within Close range. Each target makes a Reaction Roll (15). Targets who fail take d8+6 magic damage using your Spellcast trait as they are engulfed in dark fire. Targets who succeed take half damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/darkfire/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

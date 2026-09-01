@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/giving-out-gold-equipment-and-loot",
+  "@type": "Rule",
+  "name": "Giving Out Gold, Equipment, and Loot",
+  "slug": "giving-out-gold-equipment-and-loot",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GIVING OUT GOLD, EQUIPMENT, AND LOOT",
+    "lineStart": 4774,
+    "lineEnd": 4797,
+    "pdfPageStart": 91,
+    "pdfPageEnd": 91
+  },
+  "rulesText": "It’s up to you and your players how much importance you want to place on gold, equipment, and loot in your campaign.\n\nAdjust the availability and utility of wealth and equipment to reflect the tone, themes, and setting of your campaign.\n\nIf you don’t wish to track gold, then when PCs go shopping for new items let them pick one or two from a short, preselected list that aligns with your campaign setting and the party’s current location.\n\nOtherwise, set the prices of goods and services by adjusting the entries in the Average Costs table to reflect your campaign setting:\n\n| | |\n| --- | --- |\n| Meals for a party of adventurers per night | 1 Handful |\n| Standard inn room per night | 1 Handful |\n| Luxury inn room per night | 1 Bag |\n| Carriage ride | 2 Handfuls |\n| Mount (horse, mule, etc.) | 3 Bags |\n| Specialized tools | 3 Handfuls |\n| Fine clothing | 3 Handfuls |\n| Luxury clothing | 1 Bag |\n| Tier 1 equipment (weapons, armor) | 1–5 Handfuls |\n| Tier 2 equipment (weapons, armor) | 1–2 Bags |\n| Tier 3 equipment (weapons, armor) | 5–10 Bags |\n| Tier 4 equipment (weapons, armor) | 1–2 Chests |",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/giving-out-gold-equipment-and-loot/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

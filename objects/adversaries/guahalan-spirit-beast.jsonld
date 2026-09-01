@@ -1,0 +1,61 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/guahalan-spirit-beast",
+  "@type": "Adversary",
+  "name": "Guahalan Spirit Beast",
+  "slug": "guahalan-spirit-beast",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GUAHALAN SPIRIT BEAST",
+    "lineStart": 8246,
+    "lineEnd": 8266,
+    "pdfPageStart": 124,
+    "pdfPageEnd": 124
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Protect",
+    "sacrifice",
+    "surround"
+  ],
+  "difficulty": 13,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 2,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Bite & Claw",
+    "range": "Melee",
+    "damage": "5 mag"
+  },
+  "description": "A brightly colored spirit in the shape of an animal.",
+  "features": [
+    {
+      "name": "Minion (5)",
+      "kind": "Passive",
+      "rulesText": "The Spirit Beast is defeated when it takes any damage. For every 5 damage a PC deals to the Spirit Beast, the PC defeats an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Ethereal Form",
+      "kind": "Passive",
+      "rulesText": "The Spirit Beast has resistance to physical damage."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Guahalan Spirit Beasts within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 magic damage each. Combine this damage."
+    },
+    {
+      "name": "Beast Bomb",
+      "kind": "Reaction",
+      "rulesText": "When the Spirit Beast is defeated, it explodes in white flame and deals 5 magic damage to creatures within Melee range."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/guahalan-spirit-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

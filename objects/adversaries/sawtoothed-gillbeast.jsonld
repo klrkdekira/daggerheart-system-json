@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sawtoothed-gillbeast",
+  "@type": "Adversary",
+  "name": "Sawtoothed Gillbeast",
+  "slug": "sawtoothed-gillbeast",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SAWTOOTHED GILLBEAST",
+    "lineStart": 6698,
+    "lineEnd": 6718,
+    "pdfPageStart": 109,
+    "pdfPageEnd": 109
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Clamber ashore",
+    "hit and run",
+    "peek above the waterline"
+  ],
+  "difficulty": 12,
+  "thresholds": "5/10",
+  "hitPoints": 4,
+  "stress": 2,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Waterlogged Weaponry",
+    "range": "Close",
+    "damage": "1d8+1 phy"
+  },
+  "experience": "Aquatic +2",
+  "description": "A stocky fish creature that has rows of razor-sharp teeth.",
+  "features": [
+    {
+      "name": "Ka-Chomp",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to attack a target within Melee range. On a success, the target takes 1d12 physical damage and must mark an Armor Slot without gaining its benefit (they can still use armor to reduce the damage)."
+    },
+    {
+      "name": "Feeding Frenzy",
+      "kind": "Reaction",
+      "rulesText": "When a creature marks HP, you can spend a Fear to spotlight all Sawtoothed Gillbeasts within Very Close range of them. Those Gillbeasts move into Melee range of the creature and each make a standard attack against them. If any attacks succeed, combine their damage."
+    },
+    {
+      "name": "Scaly",
+      "kind": "Reaction",
+      "rulesText": "When the Gillbeast would mark any number of HP, roll a d6. On a result of 6, you can mark a Stress instead."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/sawtoothed-gillbeast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

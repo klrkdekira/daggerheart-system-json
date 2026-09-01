@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/tangle-bramble-swarm",
+  "@type": "Adversary",
+  "name": "Tangle Bramble Swarm",
+  "slug": "tangle-bramble-swarm",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TANGLE BRAMBLE SWARM",
+    "lineStart": 6922,
+    "lineEnd": 6942,
+    "pdfPageStart": 111,
+    "pdfPageEnd": 111
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Digest",
+    "entangle",
+    "immobilize"
+  ],
+  "difficulty": 12,
+  "thresholds": "6/11",
+  "hitPoints": 6,
+  "stress": 3,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Thorns",
+    "range": "Melee",
+    "damage": "1d6+3 phy"
+  },
+  "experience": "Camouflage +2",
+  "description": "A cluster of animate, blood-drinking tumbleweeds, each the size of a large gourd.",
+  "features": [
+    {
+      "name": "Horde (1d4+2)",
+      "kind": "Passive",
+      "rulesText": "When the Swarm has marked half or more of their HP, their standard attack deals 1d4+2 physical damage instead."
+    },
+    {
+      "name": "Crush",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to deal 2d6+8 direct physical damage to a target with 3 or more bramble tokens."
+    },
+    {
+      "name": "Encumber",
+      "kind": "Reaction",
+      "rulesText": "When the Swarm succeeds on an attack, give the target a bramble token. If a target has any bramble tokens, they are Restrained. If a target has 3 or more bramble tokens, they are also Vulnerable. All bramble tokens can be removed by succeeding on a Finesse Roll (12 + the number of bramble tokens) or dealing Major or greater damage to the Swarm. If bramble tokens are removed from a target using a Finesse Roll, a number of Tangle Bramble Minions spawn within Melee range equal to the number of tokens removed."
+    }
+  ],
+  "role": "Horde (3/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/tangle-bramble-swarm/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/jagged-knife-kneebreaker",
+  "@type": "Adversary",
+  "name": "Jagged Knife Kneebreaker",
+  "slug": "jagged-knife-kneebreaker",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "JAGGED KNIFE KNEEBREAKER",
+    "lineStart": 5978,
+    "lineEnd": 5996,
+    "pdfPageStart": 102,
+    "pdfPageEnd": 102
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Grapple",
+    "intimidate",
+    "profit",
+    "steal"
+  ],
+  "difficulty": 12,
+  "thresholds": "7/14",
+  "hitPoints": 7,
+  "stress": 4,
+  "attackModifier": "−3",
+  "standardAttack": {
+    "name": "Club",
+    "range": "Melee",
+    "damage": "1d4+6 phy"
+  },
+  "experience": "Thief +2, Unveiled Threats +3",
+  "description": "An imposing brawler carrying a large club.",
+  "features": [
+    {
+      "name": "I’ve Got ’Em",
+      "kind": "Passive",
+      "rulesText": "Creatures Restrained by the Kneebreaker take double damage from attacks by other adversaries."
+    },
+    {
+      "name": "Hold Them Down",
+      "kind": "Action",
+      "rulesText": "Make an attack against a target within Melee range. On a success, the target takes no damage but is Restrained and Vulnerable. The target can break free, clearing both conditions, with a successful Strength Roll or is freed automatically if the Kneebreaker takes Major or greater damage."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/jagged-knife-kneebreaker/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/summon-horror",
+  "@type": "DomainCard",
+  "name": "Summon Horror",
+  "slug": "summon-horror",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SUMMON HORROR",
+    "lineStart": 15286,
+    "lineEnd": 15294,
+    "pdfPageStart": 214,
+    "pdfPageEnd": 214
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Once per scene, mark a Stress to summon an otherworldly creature that deals d8+1 magic damage using your Spellcast trait to a target within Far range. If the target marks any Hit Points from this attack, they must succeed on a Reaction Roll (12) to steel themselves against the horror or mark an equal number of Stress.\n\nAfter making the attack, the creature dissipates.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/summon-horror/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

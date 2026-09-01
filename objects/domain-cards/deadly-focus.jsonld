@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/deadly-focus",
+  "@type": "DomainCard",
+  "name": "Deadly Focus",
+  "slug": "deadly-focus",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "DEADLY FOCUS",
+    "lineStart": 14645,
+    "lineEnd": 14651,
+    "pdfPageStart": 208,
+    "pdfPageEnd": 208
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "Once per rest, you can apply all your focus toward a target of your choice. Until you attack another creature, you defeat the target, or the battle ends, gain a +1 bonus to your Proficiency.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/deadly-focus/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

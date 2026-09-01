@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/weapons",
+  "@type": "Rule",
+  "name": "Weapons",
+  "slug": "weapons",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "WEAPONS",
+    "lineStart": 3347,
+    "lineEnd": 3349,
+    "pdfPageStart": 55,
+    "pdfPageEnd": 55
+  },
+  "rulesText": "All weapons have a tier, trait, range, damage die, damage type, and burden. Some weapons also have a feature.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/weapons/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

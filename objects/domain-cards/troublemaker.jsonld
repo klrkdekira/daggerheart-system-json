@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/troublemaker",
+  "@type": "DomainCard",
+  "name": "Troublemaker",
+  "slug": "troublemaker",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "TROUBLEMAKER",
+    "lineStart": 15445,
+    "lineEnd": 15451,
+    "pdfPageStart": 215,
+    "pdfPageEnd": 215
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When you taunt or provoke a target within Far range, make a Presence Roll against them. Once per rest on a success, roll a number of d4s equal to your Proficiency. The target must mark Stress equal to the highest result rolled.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/troublemaker/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

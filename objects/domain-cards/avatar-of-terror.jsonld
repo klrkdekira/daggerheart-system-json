@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/avatar-of-terror",
+  "@type": "DomainCard",
+  "name": "Avatar of Terror",
+  "slug": "avatar-of-terror",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "AVATAR OF TERROR",
+    "lineStart": 15383,
+    "lineEnd": 15391,
+    "pdfPageStart": 214,
+    "pdfPageEnd": 214
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Mark a Stress to transform into a creature fueled by fear. While in this form, you gain a 1d6 bonus to your damage rolls for each Fear in the GM’s pool. Additionally, you gain a Hope when the GM spends a Fear to spotlight an adversary within Very Close range.\n\nBefore you make an action roll, you must spend a Hope. If you can’t, you revert to your normal form.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/avatar-of-terror/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spectral-archer",
+  "@type": "Adversary",
+  "name": "Spectral Archer",
+  "slug": "spectral-archer",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SPECTRAL ARCHER",
+    "lineStart": 8694,
+    "lineEnd": 8712,
+    "pdfPageStart": 128,
+    "pdfPageEnd": 128
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Move through solid objects",
+    "stay out of the fray",
+    "rehash old battles"
+  ],
+  "difficulty": 13,
+  "thresholds": "6/14",
+  "hitPoints": 3,
+  "stress": 3,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Longbow",
+    "range": "Far",
+    "damage": "2d10+2 phy"
+  },
+  "experience": "Ancient Knowledge +2",
+  "description": "A ghostly fighter with an ethereal bow, unable to move on while their charge is vulnerable.",
+  "features": [
+    {
+      "name": "Ghost",
+      "kind": "Passive",
+      "rulesText": "The Archer has resistance to physical damage. Mark a Stress to move up to Close range through solid objects."
+    },
+    {
+      "name": "Pick Your Target",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make an attack within Far range against a PC who is within Very Close range of at least two other PCs. On a success, the target takes 2d8+12 physical damage."
+    }
+  ],
+  "role": "Ranged",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/spectral-archer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/great-predator",
+  "@type": "Rule",
+  "name": "Great Predator",
+  "slug": "great-predator",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "GREAT PREDATOR",
+    "lineStart": 1031,
+    "lineEnd": 1043,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "rulesText": "*(Dire Wolf, Velociraptor, Sabertooth Tiger, etc.)*\n\n*Strength +2 | Evasion +2*\n\n*Melee Strength d12+8 phy*\n\n**Gain advantage on:** attack, sneak, sprint\n\n**Carrier:** You can carry up to two willing allies with you when you move.\n\n**Vicious Maul:** When you succeed on an attack against a target, you can spend a Hope to make them temporarily Vulnerable and gain a +1 bonus to your Proficiency for this attack.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/great-predator/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

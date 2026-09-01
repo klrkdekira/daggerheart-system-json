@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/offhand-brass-knuckles",
+  "@type": "Weapon",
+  "name": "Offhand Brass Knuckles",
+  "slug": "offhand-brass-knuckles",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TIER 1 (LEVEL 1)",
+    "lineStart": 3735,
+    "lineEnd": 3735,
+    "pdfPageStart": 66,
+    "pdfPageEnd": 66
+  },
+  "category": "secondary",
+  "variant": "core",
+  "trait": "Strength",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "damage": "d8 phy",
+  "damageTypes": [
+    "physical"
+  ],
+  "tier": 1,
+  "feature": {
+    "name": "Paired",
+    "rulesText": "+2 to primary weapon damage to targets within Melee range"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/offhand-brass-knuckles/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/secondary-weapon-tables"
+  }
+}

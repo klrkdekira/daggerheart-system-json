@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/repeating-crossbow",
+  "@type": "Weapon",
+  "name": "Repeating Crossbow",
+  "slug": "repeating-crossbow",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Primary Weapons",
+    "lineStart": 14189,
+    "lineEnd": 14189,
+    "pdfPageStart": 201,
+    "pdfPageEnd": 201
+  },
+  "category": "primary",
+  "variant": "monster-hunting",
+  "trait": "Finesse",
+  "range": "Far",
+  "burden": "Two-Handed",
+  "tieredDamage": [
+    "Tier 1: d6+2 phy",
+    "Tier 2: d6+5 phy",
+    "Tier 3: d6+8 phy",
+    "Tier 4: d6+11 phy"
+  ],
+  "damageTypes": [
+    "physical"
+  ],
+  "feature": {
+    "name": "Quick",
+    "rulesText": "When you make an attack, you can mark a Stress to target another creature within range."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/repeating-crossbow/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/monster-hunting-campaigns"
+  }
+}

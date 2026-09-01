@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/pirate-raiders",
+  "@type": "Adversary",
+  "name": "Pirate Raiders",
+  "slug": "pirate-raiders",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "PIRATE RAIDERS",
+    "lineStart": 6482,
+    "lineEnd": 6500,
+    "pdfPageStart": 107,
+    "pdfPageEnd": 107
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Gang up",
+    "plunder",
+    "raid"
+  ],
+  "difficulty": 12,
+  "thresholds": "5/11",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Cutlass",
+    "range": "Melee",
+    "damage": "1d8+2 phy"
+  },
+  "experience": "Sailor +3",
+  "description": "Seafaring scoundrels moving in a ravaging pack.",
+  "features": [
+    {
+      "name": "Horde (1d4+1)",
+      "kind": "Passive",
+      "rulesText": "When the Raiders have marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead."
+    },
+    {
+      "name": "Swashbuckler",
+      "kind": "Passive",
+      "rulesText": "When the Raiders mark 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress."
+    }
+  ],
+  "role": "Horde (3/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/pirate-raiders/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

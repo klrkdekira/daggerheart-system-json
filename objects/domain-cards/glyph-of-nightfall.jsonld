@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/glyph-of-nightfall",
+  "@type": "DomainCard",
+  "name": "Glyph of Nightfall",
+  "slug": "glyph-of-nightfall",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "GLYPH OF NIGHTFALL",
+    "lineStart": 15674,
+    "lineEnd": 15680,
+    "pdfPageStart": 217,
+    "pdfPageEnd": 217
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Make a Spellcast Roll against a target within Very Close range. On a success, spend a Hope to conjure a dark glyph upon their body that exposes their weak points, temporarily reducing the target’s Difficulty by a value equal to your Knowledge (minimum 1).",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/glyph-of-nightfall/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

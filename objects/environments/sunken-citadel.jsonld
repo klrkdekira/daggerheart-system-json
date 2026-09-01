@@ -1,0 +1,64 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/sunken-citadel",
+  "@type": "Environment",
+  "name": "Sunken Citadel",
+  "slug": "sunken-citadel",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SUNKEN CITADEL",
+    "lineStart": 12769,
+    "lineEnd": 12797,
+    "pdfPageStart": 177,
+    "pdfPageEnd": 177
+  },
+  "tier": 3,
+  "impulses": [
+    "Draw them deep",
+    "drown them",
+    "reveal ancient wonders"
+  ],
+  "difficulty": 16,
+  "potentialAdversariesText": "Cursed Merfolk, Deep Dweller, Plesiosaurus",
+  "description": "The sunken ruins of a long-lost civilization filled with ancient technology and dark magic.",
+  "features": [
+    {
+      "name": "Underwater Environment",
+      "kind": "Passive",
+      "rulesText": "This environment is underwater (see the “Moving and Fighting Underwater” rules on page 168 of the core rulebook). In addition to those rules, a creature who breathes air tracks their supply with an Air Supply Countdown. Its starting value is equal to 3 + their tier, and it ticks down when they take an action. If a PC fails an action roll or rolls with Fear, you can use a GM move to tick down their countdown an additional time. If the roll is a failure with Fear, you can tick it down twice instead. Once their countdown triggers, a PC must mark a Stress whenever they take an action underwater until they resurface.\n\nHave you ever known anyone who drowned? What do you think about to keep calm and stretch your air supply?"
+    },
+    {
+      "name": "Air Pockets",
+      "kind": "Passive",
+      "rulesText": "A PC can reset their their Air Supply Countdown to its starting value by locating a pocket of air with a successful Knowledge or Instinct Roll.\n\nWhat signs or structures do you look for? What does it feel like to know this might be the last breath you take?"
+    },
+    {
+      "name": "Lost Technology",
+      "kind": "Passive",
+      "rulesText": "The ruins are carved with strange magical runes and littered with lost technology. A PC can make a Knowledge Roll to learn useful information about this lost civilization from any runes or devices they come across.\n\nWho once called this place home? How did their technology work? Why were they ultimately destroyed and cast down into the depths?"
+    },
+    {
+      "name": "Deepwater Denizens",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to summon up to two Deep Dwellers and 1d6 Cursed Merfolk who try to bind the PCs to their will. These adversaries appear at Close range of a PC, then one immediately takes the spotlight.\n\nWhy do these creatures stay here among the ruins? Are they unwilling or unable to resurrect this once-prosperous civilization?"
+    }
+  ],
+  "category": "Exploration",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cursed-merfolk"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/deep-dweller"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/plesiosaurus"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/sunken-citadel/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

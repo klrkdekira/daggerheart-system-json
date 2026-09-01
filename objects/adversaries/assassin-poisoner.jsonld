@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/assassin-poisoner",
+  "@type": "Adversary",
+  "name": "Assassin Poisoner",
+  "slug": "assassin-poisoner",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ASSASSIN POISONER",
+    "lineStart": 7248,
+    "lineEnd": 7268,
+    "pdfPageStart": 114,
+    "pdfPageEnd": 114
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Anticipate",
+    "get paid",
+    "kill",
+    "taint food and water"
+  ],
+  "difficulty": 14,
+  "thresholds": "8/16",
+  "hitPoints": 4,
+  "stress": 4,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Poisoned Throwing Dagger",
+    "range": "Close",
+    "damage": "2d8+1 phy"
+  },
+  "experience": "Intrusion +2",
+  "description": "A cunning scoundrel skilled in both poisons and ambushing.",
+  "features": [
+    {
+      "name": "Grindletooth Venom",
+      "kind": "Passive",
+      "rulesText": "Targets who mark HP from the Assassin’s attacks are Vulnerable until they clear a HP."
+    },
+    {
+      "name": "Out of Nowhere",
+      "kind": "Passive",
+      "rulesText": "The Assassin has advantage on attacks if they are Hidden."
+    },
+    {
+      "name": "Fumigation",
+      "kind": "Action",
+      "rulesText": "Drop a smoke bomb that fills the air within Close range with smoke, Dizzying all targets in this area. Dizzied targets have disadvantage on their next action roll, then clear the condition."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/assassin-poisoner/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

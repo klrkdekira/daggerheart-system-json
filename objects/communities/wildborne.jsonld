@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/communities/wildborne",
+  "@type": "Community",
+  "name": "Wildborne",
+  "slug": "wildborne",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WILDBORNE",
+    "lineStart": 2614,
+    "lineEnd": 2622,
+    "pdfPageStart": 42,
+    "pdfPageEnd": 42
+  },
+  "description": "Being part of a wildborne community means you lived deep within the forest. Wildborne communities are defined by their dedication to the conservation of their homelands, and many have strong religious or cultural ties to the fauna they live among. This results in unique architectural and technological advancements that favor sustainability over short-term, high-yield results. It is a hallmark of wildborne societies to integrate their villages and cities with the natural environment and avoid disturbing the lives of the plants and animals. While some construct their lodgings high in the branches of trees, others establish their homes on the ground beneath the forest canopy. It’s not uncommon for wildborne to remain reclusive and hidden within their woodland homes.\n\nWildborne are often hardy, loyal, nurturing, reclusive, sagacious, and vibrant.",
+  "feature": {
+    "name": "Lightfoot",
+    "rulesText": "Your movement is naturally silent. You have advantage on rolls to move without being heard."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/communities/wildborne/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

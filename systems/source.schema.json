@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/daggerheart-system-json/systems/source.schema.json",
+  "type": "object",
+  "properties": {
+    "@context": {
+      "const": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld"
+    },
+    "@id": {
+      "const": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+    },
+    "@type": {
+      "const": "Source"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "const": "daggerheart-srd-2-0"
+    },
+    "srdVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceFile": {
+      "const": "SRD.md"
+    },
+    "contentDigest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "pdfFile": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pdfDigest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1
+    },
+    "licenseUrl": {
+      "type": "object",
+      "properties": {
+        "@id": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "@id"
+      ],
+      "additionalProperties": false
+    },
+    "attributionStatement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "htmlPage": {
+      "$ref": "common.schema.json#/$defs/pageRef"
+    }
+  },
+  "required": [
+    "@context",
+    "@id",
+    "@type",
+    "name",
+    "slug",
+    "srdVersion",
+    "sourceFile",
+    "contentDigest",
+    "pdfFile",
+    "pdfDigest",
+    "license",
+    "licenseUrl",
+    "attributionStatement",
+    "htmlPage"
+  ],
+  "additionalProperties": false
+}

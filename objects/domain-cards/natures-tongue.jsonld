@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/natures-tongue",
+  "@type": "DomainCard",
+  "name": "Nature’s Tongue",
+  "slug": "natures-tongue",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "NATURE’S TONGUE",
+    "lineStart": 15818,
+    "lineEnd": 15826,
+    "pdfPageStart": 218,
+    "pdfPageEnd": 218
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "You can speak the language of the natural world. When you want to speak to the plants and animals around you, make an Instinct Roll (12). On a success, they’ll give you the information they know. On a roll with Fear, their knowledge might be limited or come at a cost.\n\nAdditionally, before you make a Spellcast Roll while within a natural environment, you can spend a Hope to gain a +2 bonus to the roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/natures-tongue/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shrug-it-off",
+  "@type": "DomainCard",
+  "name": "Shrug It Off",
+  "slug": "shrug-it-off",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SHRUG IT OFF",
+    "lineStart": 16360,
+    "lineEnd": 16366,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When you would take damage, you can mark a Stress to reduce the severity of the damage by one threshold. When you do, roll a d6. On a result of 3 or lower, place this card in your vault.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/shrug-it-off/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

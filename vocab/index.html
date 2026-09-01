@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vocabulary · Daggerheart SRD System JSON</title>
+<meta name="description" content="Dereferenceable classes and properties of the Daggerheart SRD System JSON vocabulary." />
+<link rel="canonical" href="https://cheeleong.dev/daggerheart-system-json/vocab/" />
+<link rel="alternate" type="application/json" href="terms.json" />
+<style>body{font:16px/1.65 system-ui,sans-serif;max-width:72rem;margin:2rem auto;padding:0 1.2rem;color:#241645;background:#f6f5fb}a{color:#24135f}h1,h2{font-family:Georgia,serif;color:#24135f}h2{padding-bottom:.25rem;border-bottom:2px solid #c9a227}table{border-collapse:collapse;width:100%;margin:1rem 0 2rem;background:#fff}th,td{border:1px solid #c9c2e4;padding:.5rem .6rem;text-align:left;vertical-align:top}th{background:#24135f;color:#fdf691}code{background:#ece9f6;padding:.08rem .3rem;border-radius:4px}footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #c9c2e4;color:#5c5382;font-size:.85rem}</style></head>
+<body><nav><a href="../">Corpus explorer</a> · <a href="terms.json">terms.json</a></nav>
+<h1>Vocabulary</h1>
+<p>Classes and properties under <code>https://cheeleong.dev/daggerheart-system-json/vocab/#</code>, as used by the
+<a href="../">Daggerheart SRD System JSON</a> corpus. Fragment identifiers on this
+page dereference each term. The machine-readable projection is
+<a href="terms.json">terms.json</a>.</p>
+<h2>Classes (18)</h2>
+<table><thead><tr><th>Class</th><th>Description</th></tr></thead><tbody>
+<tr id="Adversary"><td><code>Adversary</code></td><td>A decomposed adversary stat block.</td></tr>
+<tr id="Ancestry"><td><code>Ancestry</code></td><td>A heritage ancestry with its features.</td></tr>
+<tr id="Armor"><td><code>Armor</code></td><td>One armor table row across all variants and tiers.</td></tr>
+<tr id="Beastform"><td><code>Beastform</code></td><td>A Druid Beastform with stats, attack, and features.</td></tr>
+<tr id="Bundle"><td><code>Bundle</code></td><td>The single-file JSON-LD graph bundle.</td></tr>
+<tr id="CharacterClass"><td><code>CharacterClass</code></td><td>A playable class with starting stats and features.</td></tr>
+<tr id="Community"><td><code>Community</code></td><td>A heritage community with its feature.</td></tr>
+<tr id="Consumable"><td><code>Consumable</code></td><td>One single-use consumable with its roll number.</td></tr>
+<tr id="Domain"><td><code>Domain</code></td><td>One of the ten magic domains.</td></tr>
+<tr id="DomainCard"><td><code>DomainCard</code></td><td>A domain card with level, type, and recall cost.</td></tr>
+<tr id="Environment"><td><code>Environment</code></td><td>A decomposed environment stat block.</td></tr>
+<tr id="Item"><td><code>Item</code></td><td>One reusable loot item with its roll number.</td></tr>
+<tr id="Manifest"><td><code>Manifest</code></td><td>The aggregate collection manifest.</td></tr>
+<tr id="Rule"><td><code>Rule</code></td><td>Source-faithful prose for a section not covered by a typed record.</td></tr>
+<tr id="Source"><td><code>Source</code></td><td>The Daggerheart SRD source document record.</td></tr>
+<tr id="Subclass"><td><code>Subclass</code></td><td>A subclass with foundation, specialization, and mastery features.</td></tr>
+<tr id="Transformation"><td><code>Transformation</code></td><td>An optional transformation with features and questions.</td></tr>
+<tr id="Weapon"><td><code>Weapon</code></td><td>One weapon table row across all variants and tiers.</td></tr>
+</tbody></table>
+<h2>Properties (80)</h2>
+<table><thead><tr><th>Term</th><th>Maps to</th><th>Value kind</th><th>Description</th></tr></thead><tbody>
+<tr id="advantageOn"><td><code>advantageOn</code></td><td><code>dh:advantageOn</code></td><td>literal</td><td>Verbs a beastform gains advantage on.</td></tr>
+<tr id="appearsInEnvironment"><td><code>appearsInEnvironment</code></td><td><code>dh:potentialAdversary</code></td><td>node reference</td><td>Reverse of potentialAdversary: environments naming an adversary.</td></tr>
+<tr id="attack"><td><code>attack</code></td><td><code>dh:attack</code></td><td>structured value</td><td>Beastform attack statistics.</td></tr>
+<tr id="attackModifier"><td><code>attackModifier</code></td><td><code>dh:attackModifier</code></td><td>literal</td><td>Adversary attack modifier, as printed.</td></tr>
+<tr id="attributionStatement"><td><code>attributionStatement</code></td><td><code>dh:attributionStatement</code></td><td>literal</td><td>Verbatim source attribution statement.</td></tr>
+<tr id="backgroundQuestions"><td><code>backgroundQuestions</code></td><td><code>dh:backgroundQuestion</code></td><td>literal</td><td>Printed background questions.</td></tr>
+<tr id="baseScore"><td><code>baseScore</code></td><td><code>dh:baseScore</code></td><td>literal</td><td>Printed base armor score.</td></tr>
+<tr id="baseThresholds"><td><code>baseThresholds</code></td><td><code>dh:baseThresholds</code></td><td>literal</td><td>Printed base damage thresholds.</td></tr>
+<tr id="beastformsOfClass"><td><code>beastformsOfClass</code></td><td><code>dh:fromClass</code></td><td>node reference</td><td>Reverse of fromClass: beastforms granted by a class.</td></tr>
+<tr id="burden"><td><code>burden</code></td><td><code>dh:burden</code></td><td>literal</td><td>Hands occupied when equipped.</td></tr>
+<tr id="cardType"><td><code>cardType</code></td><td><code>dh:cardType</code></td><td>literal</td><td>Domain card type: Ability, Spell, or Grimoire.</td></tr>
+<tr id="cardsInDomain"><td><code>cardsInDomain</code></td><td><code>dh:domain</code></td><td>node reference</td><td>Reverse of domain: cards that belong to a domain.</td></tr>
+<tr id="category"><td><code>category</code></td><td><code>dh:category</code></td><td>literal</td><td>Weapon slot (primary/secondary) or environment type.</td></tr>
+<tr id="classItems"><td><code>classItems</code></td><td><code>dh:classItems</code></td><td>literal</td><td>Printed class item options.</td></tr>
+<tr id="classes"><td><code>classes</code></td><td><code>dh:class</code></td><td>node reference</td><td>Related character classes.</td></tr>
+<tr id="collections"><td><code>collections</code></td><td><code>dh:collection</code></td><td>structured value</td><td>Collection descriptors in the manifest.</td></tr>
+<tr id="connections"><td><code>connections</code></td><td><code>dh:connection</code></td><td>literal</td><td>Printed connection questions.</td></tr>
+<tr id="contentDigest"><td><code>contentDigest</code></td><td><code>dh:contentDigest</code></td><td>literal</td><td>SHA-256 digest of the source markdown.</td></tr>
+<tr id="corpusVersion"><td><code>corpusVersion</code></td><td><code>dh:corpusVersion</code></td><td>literal</td><td>Version of this corpus.</td></tr>
+<tr id="count"><td><code>count</code></td><td><code>dh:count</code></td><td>literal</td><td>Member count of a collection.</td></tr>
+<tr id="damage"><td><code>damage</code></td><td><code>dh:damage</code></td><td>literal</td><td>Printed damage expression.</td></tr>
+<tr id="damageTypes"><td><code>damageTypes</code></td><td><code>dh:damageType</code></td><td>literal</td><td>Damage types dealt (physical, magic).</td></tr>
+<tr id="description"><td><code>description</code></td><td><code>schema:description</code></td><td>literal</td><td>Source descriptive prose.</td></tr>
+<tr id="difficulty"><td><code>difficulty</code></td><td><code>dh:difficulty</code></td><td>literal</td><td>Printed difficulty value.</td></tr>
+<tr id="domain"><td><code>domain</code></td><td><code>dh:domain</code></td><td>node reference</td><td>The magic domain a card belongs to.</td></tr>
+<tr id="domains"><td><code>domains</code></td><td><code>dh:domain</code></td><td>node reference</td><td>Magic domains a class grants access to.</td></tr>
+<tr id="entityType"><td><code>entityType</code></td><td><code>dh:entityType</code></td><td>literal</td><td>JSON-LD entity type of a collection.</td></tr>
+<tr id="evasionBonus"><td><code>evasionBonus</code></td><td><code>dh:evasionBonus</code></td><td>literal</td><td>Beastform Evasion bonus.</td></tr>
+<tr id="exampleCreatures"><td><code>exampleCreatures</code></td><td><code>dh:exampleCreatures</code></td><td>literal</td><td>Printed example creatures for a beastform.</td></tr>
+<tr id="experience"><td><code>experience</code></td><td><code>dh:experience</code></td><td>literal</td><td>Printed adversary Experience modifiers.</td></tr>
+<tr id="feature"><td><code>feature</code></td><td><code>dh:feature</code></td><td>structured value</td><td>A single named feature.</td></tr>
+<tr id="features"><td><code>features</code></td><td><code>dh:feature</code></td><td>structured value</td><td>Ordered named features.</td></tr>
+<tr id="fromClass"><td><code>fromClass</code></td><td><code>dh:fromClass</code></td><td>node reference</td><td>The class that grants this entity.</td></tr>
+<tr id="fromSection"><td><code>fromSection</code></td><td><code>dh:fromSection</code></td><td>node reference</td><td>The rule section whose table this entity was extracted from.</td></tr>
+<tr id="hitPoints"><td><code>hitPoints</code></td><td><code>dh:hitPoints</code></td><td>literal</td><td>Adversary Hit Points.</td></tr>
+<tr id="hopeFeature"><td><code>hopeFeature</code></td><td><code>dh:hopeFeature</code></td><td>structured value</td><td>The class Hope feature.</td></tr>
+<tr id="htmlPage"><td><code>htmlPage</code></td><td><code>schema:url</code></td><td>node reference</td><td>Crawlable HTML counterpart of this record.</td></tr>
+<tr id="impulses"><td><code>impulses</code></td><td><code>dh:impulse</code></td><td>literal</td><td>Printed environment impulses.</td></tr>
+<tr id="itemSet"><td><code>itemSet</code></td><td><code>dh:itemSet</code></td><td>literal</td><td>Loot set provenance (core-set, expansion).</td></tr>
+<tr id="kind"><td><code>kind</code></td><td><code>dh:kind</code></td><td>literal</td><td>Feature kind (Passive, Action, Reaction, ...).</td></tr>
+<tr id="level"><td><code>level</code></td><td><code>dh:level</code></td><td>literal</td><td>Card level (1-10).</td></tr>
+<tr id="license"><td><code>license</code></td><td><code>dh:licenseCode</code></td><td>literal</td><td>License code of the source content.</td></tr>
+<tr id="licenseUrl"><td><code>licenseUrl</code></td><td><code>dh:licenseUrl</code></td><td>literal</td><td>License URL of the source content.</td></tr>
+<tr id="members"><td><code>members</code></td><td><code>dh:member</code></td><td>node reference</td><td>Member records of a collection.</td></tr>
+<tr id="motivesAndTactics"><td><code>motivesAndTactics</code></td><td><code>dh:motiveOrTactic</code></td><td>literal</td><td>Printed adversary motives and tactics.</td></tr>
+<tr id="name"><td><code>name</code></td><td><code>schema:name</code></td><td>literal</td><td>Display name of the entity.</td></tr>
+<tr id="parentClass"><td><code>parentClass</code></td><td><code>dh:parentClass</code></td><td>node reference</td><td>The class a subclass refines.</td></tr>
+<tr id="pdfDigest"><td><code>pdfDigest</code></td><td><code>dh:pdfDigest</code></td><td>literal</td><td>Registered SHA-256 digest of the official source PDF.</td></tr>
+<tr id="pdfFile"><td><code>pdfFile</code></td><td><code>dh:pdfFile</code></td><td>literal</td><td>Filename of the official source PDF.</td></tr>
+<tr id="potentialAdversaries"><td><code>potentialAdversaries</code></td><td><code>dh:potentialAdversary</code></td><td>node reference</td><td>Adversaries named by an environment stat block.</td></tr>
+<tr id="potentialAdversariesText"><td><code>potentialAdversariesText</code></td><td><code>dh:potentialAdversariesText</code></td><td>literal</td><td>Printed potential adversaries line, verbatim.</td></tr>
+<tr id="questions"><td><code>questions</code></td><td><code>dh:question</code></td><td>literal</td><td>Printed transformation questions.</td></tr>
+<tr id="range"><td><code>range</code></td><td><code>dh:range</code></td><td>literal</td><td>Printed range.</td></tr>
+<tr id="recallCost"><td><code>recallCost</code></td><td><code>dh:recallCost</code></td><td>literal</td><td>Stress cost to recall the card from the vault.</td></tr>
+<tr id="recordCount"><td><code>recordCount</code></td><td><code>dh:recordCount</code></td><td>literal</td><td>Total record count in the manifest.</td></tr>
+<tr id="role"><td><code>role</code></td><td><code>dh:role</code></td><td>literal</td><td>Adversary role (Solo, Leader, Horde, ...).</td></tr>
+<tr id="roll"><td><code>roll</code></td><td><code>dh:roll</code></td><td>literal</td><td>Loot table roll number.</td></tr>
+<tr id="rulesText"><td><code>rulesText</code></td><td><code>dh:rulesText</code></td><td>literal</td><td>Source rules wording, preserved verbatim.</td></tr>
+<tr id="schemaReference"><td><code>schemaReference</code></td><td><code>dh:schemaReference</code></td><td>node reference</td><td>JSON Schema contract for a collection.</td></tr>
+<tr id="sectionEntities"><td><code>sectionEntities</code></td><td><code>dh:fromSection</code></td><td>node reference</td><td>Reverse of fromSection: entities extracted from a section.</td></tr>
+<tr id="sections"><td><code>sections</code></td><td><code>dh:section</code></td><td>structured value</td><td>Ordered untyped subsections retained with the entity.</td></tr>
+<tr id="slug"><td><code>slug</code></td><td><code>dh:slug</code></td><td>literal</td><td>Stable lowercase-kebab-case identifier.</td></tr>
+<tr id="source"><td><code>source</code></td><td><code>dcterms:source</code></td><td>node reference</td><td>The SRD source record this entity derives from.</td></tr>
+<tr id="sourceFile"><td><code>sourceFile</code></td><td><code>dh:sourceFile</code></td><td>literal</td><td>Filename of the source markdown.</td></tr>
+<tr id="sourceLocator"><td><code>sourceLocator</code></td><td><code>dh:sourceLocator</code></td><td>structured value</td><td>Chapter, heading, SRD.md line span, and PDF page span.</td></tr>
+<tr id="spellcastTrait"><td><code>spellcastTrait</code></td><td><code>dh:spellcastTrait</code></td><td>literal</td><td>Subclass Spellcast trait.</td></tr>
+<tr id="srdVersion"><td><code>srdVersion</code></td><td><code>dh:srdVersion</code></td><td>literal</td><td>Version of the source SRD.</td></tr>
+<tr id="stage"><td><code>stage</code></td><td><code>dh:stage</code></td><td>literal</td><td>Subclass feature stage (foundation, specialization, mastery).</td></tr>
+<tr id="standardAttack"><td><code>standardAttack</code></td><td><code>dh:standardAttack</code></td><td>structured value</td><td>Adversary standard attack statistics.</td></tr>
+<tr id="startingEvasion"><td><code>startingEvasion</code></td><td><code>dh:startingEvasion</code></td><td>literal</td><td>Class starting Evasion.</td></tr>
+<tr id="startingHitPoints"><td><code>startingHitPoints</code></td><td><code>dh:startingHitPoints</code></td><td>literal</td><td>Class starting Hit Points.</td></tr>
+<tr id="stress"><td><code>stress</code></td><td><code>dh:stress</code></td><td>literal</td><td>Adversary Stress.</td></tr>
+<tr id="subclassOf"><td><code>subclassOf</code></td><td><code>dh:subclass</code></td><td>node reference</td><td>Reverse of subclass: the class listing this subclass.</td></tr>
+<tr id="subclasses"><td><code>subclasses</code></td><td><code>dh:subclass</code></td><td>node reference</td><td>Subclasses belonging to a class.</td></tr>
+<tr id="thresholds"><td><code>thresholds</code></td><td><code>dh:thresholds</code></td><td>literal</td><td>Printed damage thresholds.</td></tr>
+<tr id="tier"><td><code>tier</code></td><td><code>dh:tier</code></td><td>literal</td><td>Play tier (1-4).</td></tr>
+<tr id="tieredDamage"><td><code>tieredDamage</code></td><td><code>dh:tieredDamage</code></td><td>literal</td><td>Per-tier damage expressions.</td></tr>
+<tr id="trait"><td><code>trait</code></td><td><code>dh:trait</code></td><td>literal</td><td>Character trait used with the entity.</td></tr>
+<tr id="traitBonus"><td><code>traitBonus</code></td><td><code>dh:traitBonus</code></td><td>literal</td><td>Beastform trait bonus.</td></tr>
+<tr id="variant"><td><code>variant</code></td><td><code>dh:variant</code></td><td>literal</td><td>Equipment variant (core, combat-wheelchair, everyday-hero, western, monster-hunting).</td></tr>
+</tbody></table>
+<footer>This work includes material from the Daggerheart System Reference Document 2.0,
+© 2026 Critical Role LLC, used as Public Game Content per the Darrington Press
+Community Gaming License (www.darringtonpress.com/license).</footer></body></html>

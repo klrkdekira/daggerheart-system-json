@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cult-fang",
+  "@type": "Adversary",
+  "name": "Cult Fang",
+  "slug": "cult-fang",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CULT FANG",
+    "lineStart": 7541,
+    "lineEnd": 7557,
+    "pdfPageStart": 116,
+    "pdfPageEnd": 116
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Capture sacrifices",
+    "isolate prey",
+    "rise in the ranks"
+  ],
+  "difficulty": 15,
+  "thresholds": "9/17",
+  "hitPoints": 4,
+  "stress": 4,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Long Knife",
+    "range": "Melee",
+    "damage": "2d8+4 phy"
+  },
+  "description": "A professional killer-turned-cultist.",
+  "features": [
+    {
+      "name": "Shadow’s Embrace",
+      "kind": "Passive",
+      "rulesText": "The Fang can climb and walk on vertical surfaces. Mark a Stress to move from one shadow to another within Far range."
+    },
+    {
+      "name": "Pick Off the Straggler",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to cause a target within Melee range to make an Instinct Reaction Roll. On a failure, the target must mark 2 Stress and is teleported with the Fang to a shadow within Far range, making them temporarily Vulnerable. On a success, the target must mark a Stress."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/cult-fang/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

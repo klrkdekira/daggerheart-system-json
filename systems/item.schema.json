@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/daggerheart-system-json/systems/item.schema.json",
+  "type": "object",
+  "properties": {
+    "@context": {
+      "const": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld"
+    },
+    "@id": {
+      "type": "string",
+      "pattern": "^https://cheeleong\\.dev/daggerheart-system-json/objects/[a-z-]+/[a-z0-9-]+$"
+    },
+    "@type": {
+      "const": "Item"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "source": {
+      "$ref": "common.schema.json#/$defs/nodeRef"
+    },
+    "sourceLocator": {
+      "$ref": "common.schema.json#/$defs/sourceLocator"
+    },
+    "htmlPage": {
+      "$ref": "common.schema.json#/$defs/pageRef"
+    },
+    "fromSection": {
+      "$ref": "common.schema.json#/$defs/nodeRef"
+    },
+    "itemSet": {
+      "enum": [
+        "core-set",
+        "expansion"
+      ]
+    },
+    "roll": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "@context",
+    "@id",
+    "@type",
+    "name",
+    "slug",
+    "source",
+    "sourceLocator",
+    "htmlPage",
+    "itemSet",
+    "roll",
+    "description"
+  ],
+  "additionalProperties": false
+}

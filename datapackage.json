@@ -1,0 +1,92 @@
+{
+  "name": "daggerheart-system-json",
+  "title": "Daggerheart SRD System JSON",
+  "description": "A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the Daggerheart System Reference Document 2.0.",
+  "homepage": "https://cheeleong.dev/daggerheart-system-json/",
+  "version": "0.1.0",
+  "licenses": [
+    {
+      "name": "DPCGL",
+      "title": "Darrington Press Community Gaming License (SRD content)",
+      "path": "https://www.darringtonpress.com/license"
+    },
+    {
+      "name": "MIT",
+      "title": "MIT License (repository code, schemas, documentation)",
+      "path": "https://opensource.org/license/mit/"
+    }
+  ],
+  "repository": "https://github.com/klrkdekira/daggerheart-system-json",
+  "contributors": [
+    { "title": "Chee Leong Chow", "role": "author" },
+    { "title": "Critical Role LLC", "role": "author", "path": "https://www.daggerheart.com/srd/" }
+  ],
+  "resources": [
+    {
+      "name": "manifest",
+      "path": "objects/daggerheart-system-data.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "name": "bundle",
+      "path": "objects/daggerheart-system-data.bundle.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "name": "llms-full",
+      "path": "llms-full.txt",
+      "format": "txt",
+      "mediatype": "text/plain"
+    },
+    {
+      "name": "search-index",
+      "path": "objects/search-index.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "collection-index",
+      "path": "objects/collection-index.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "build-metrics",
+      "path": "objects/build-metrics.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "source",
+      "path": "SRD.md",
+      "format": "md",
+      "mediatype": "text/markdown"
+    },
+    {
+      "name": "jsonld-context",
+      "path": "systems/context.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "name": "vocabulary-terms",
+      "path": "vocab/terms.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "llms-guide",
+      "path": "llms.txt",
+      "format": "txt",
+      "mediatype": "text/plain"
+    },
+    {
+      "name": "sitemap",
+      "path": "sitemap.xml",
+      "format": "xml",
+      "mediatype": "application/xml"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/syndicate",
+  "@type": "Rule",
+  "name": "Syndicate",
+  "slug": "syndicate",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "SYNDICATE",
+    "lineStart": 1489,
+    "lineEnd": 1536,
+    "pdfPageStart": 23,
+    "pdfPageEnd": 23
+  },
+  "rulesText": "Play the Syndicate if you want to have a web of contacts everywhere you go.\n\n##### SPELLCAST TRAIT\n\nFinesse\n\n##### FOUNDATION FEATURE\n\n**Well-Connected:** When you arrive in a prominent town or environment, you know somebody who calls this place home. Give them a name, note how you think they could be useful, and choose one fact from the following list:\n\n  - They owe me a favor, but they’ll be hard to find.\n  - They’re going to ask for something in exchange.\n  - They’re always in a great deal of trouble.\n  - We used to be together. It’s a long story.\n  - We didn’t part on great terms.\n\n##### SPECIALIZATION FEATURE\n\n**Contacts Everywhere:** Once per session, you can briefly call on a shady contact. Choose one of the following benefits and describe what brought them here to help you in this moment:\n\n  - They provide 1 handful of gold, a unique tool, or a mundane object that the situation requires.\n  - On your next action roll, their help provides a +3 bonus to the result of your Hope or Fear Die.\n  - The next time you deal damage, they snipe from the shadows, adding 2d8 to your damage roll.\n\n##### MASTERY FEATURE\n\n**Reliable Backup:** You can use your “Contacts Everywhere” feature three times per session. The following options are added to the list of benefits you can choose from when you use that feature:\n\n  - When you mark 1 or more Hit Points, they can rush out to shield you, reducing the Hit Points marked by 1.\n  - When you make a Presence Roll in conversation, they back you up. You can roll a d20 as your Hope Die.\n\n##### BACKGROUND QUESTIONS\n\nAnswer any of the following background questions. You can also create your own questions.\n\n- What did you get caught doing that got you exiled from your home community?\n- You used to have a different life, but you’ve tried to leave it behind. Who from your past is still chasing you?\n- Who from your past were you most sad to say goodbye to?\n\n##### CONNECTIONS\n\nAsk your fellow players one of the following questions for their character to answer, or create your own questions.\n\n- What did I recently convince you to do that got us both in trouble?\n- What have I discovered about your past that I hold secret from the others?\n- Who do you know from my past, and how have they influenced your feelings about me?",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/syndicate/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fallen-shock-troop",
+  "@type": "Adversary",
+  "name": "Fallen Shock Troop",
+  "slug": "fallen-shock-troop",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FALLEN SHOCK TROOP",
+    "lineStart": 10577,
+    "lineEnd": 10595,
+    "pdfPageStart": 148,
+    "pdfPageEnd": 148
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Crush",
+    "dominate",
+    "earn relief",
+    "punish"
+  ],
+  "difficulty": 18,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Cursed Axe",
+    "range": "Very Close",
+    "damage": "12 phy"
+  },
+  "description": "A cursed soul bound to the Fallen’s will.",
+  "features": [
+    {
+      "name": "Minion (12)",
+      "kind": "Passive",
+      "rulesText": "The Shock Troop is defeated when they take any damage. For every 12 damage a PC deals to the Shock Troop, defeat an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Aura of Doom",
+      "kind": "Passive",
+      "rulesText": "When a PC marks HP from an attack by the Shock Troop, they lose a Hope."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Fallen Shock Troops within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 12 physical damage each. Combine this damage."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/fallen-shock-troop/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

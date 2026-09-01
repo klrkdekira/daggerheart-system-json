@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/legendary-hybrid",
+  "@type": "Beastform",
+  "name": "Legendary Hybrid",
+  "slug": "legendary-hybrid",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "LEGENDARY HYBRID",
+    "lineStart": 1099,
+    "lineEnd": 1107,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "tier": 3,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Griffon, Sphinx, etc.",
+  "traitBonus": "Strength +2",
+  "evasionBonus": 3,
+  "attack": {
+    "range": "Melee",
+    "trait": "Strength",
+    "damage": "d10+8 phy"
+  },
+  "features": [
+    {
+      "name": "Hybrid Features",
+      "rulesText": "To transform into this creature, mark an additional Stress. Choose any two Beastform options from Tiers 1–2. Choose a total of four advantages and two features from those options."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/legendary-hybrid/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

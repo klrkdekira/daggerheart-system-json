@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/household-friend",
+  "@type": "Beastform",
+  "name": "Household Friend",
+  "slug": "household-friend",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "HOUSEHOLD FRIEND",
+    "lineStart": 871,
+    "lineEnd": 883,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "tier": 1,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Cat, Dog, Rabbit, etc.",
+  "traitBonus": "Instinct +1",
+  "evasionBonus": 2,
+  "attack": {
+    "range": "Melee",
+    "trait": "Instinct",
+    "damage": "d6 phy"
+  },
+  "advantageOn": [
+    "climb",
+    "locate",
+    "protect"
+  ],
+  "features": [
+    {
+      "name": "Companion",
+      "rulesText": "When you Help an Ally, you can roll a d8 as your advantage die."
+    },
+    {
+      "name": "Fragile",
+      "rulesText": "When you take Major or greater damage, you drop out of Beastform."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/household-friend/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

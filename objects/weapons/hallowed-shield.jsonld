@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/hallowed-shield",
+  "@type": "Weapon",
+  "name": "Hallowed Shield",
+  "slug": "hallowed-shield",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Secondary Weapons",
+    "lineStart": 14196,
+    "lineEnd": 14196,
+    "pdfPageStart": 201,
+    "pdfPageEnd": 201
+  },
+  "category": "secondary",
+  "variant": "monster-hunting",
+  "trait": "Instinct",
+  "range": "Melee",
+  "burden": "One-Handed",
+  "tieredDamage": [
+    "Tier 1: d4 mag",
+    "Tier 2: d4+2 mag",
+    "Tier 3: d4+4 mag",
+    "Tier 4: d4+6 mag"
+  ],
+  "damageTypes": [
+    "magic"
+  ],
+  "feature": {
+    "name": "Resonant",
+    "rulesText": "When you critically succeed on a primary weapon attack, you gain an additional Hope."
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/hallowed-shield/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/monster-hunting-campaigns"
+  }
+}

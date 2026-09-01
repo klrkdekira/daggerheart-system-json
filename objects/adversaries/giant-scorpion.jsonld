@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-scorpion",
+  "@type": "Adversary",
+  "name": "Giant Scorpion",
+  "slug": "giant-scorpion",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GIANT SCORPION",
+    "lineStart": 5772,
+    "lineEnd": 5792,
+    "pdfPageStart": 100,
+    "pdfPageEnd": 100
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Ambush",
+    "feed",
+    "grapple",
+    "poison"
+  ],
+  "difficulty": 13,
+  "thresholds": "7/13",
+  "hitPoints": 6,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Pincers",
+    "range": "Melee",
+    "damage": "1d12+2 phy"
+  },
+  "experience": "Camouflage +2",
+  "description": "A human-sized arachnid with tearing claws and a stinging tail.",
+  "features": [
+    {
+      "name": "Double Strike",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack against two targets within Melee range."
+    },
+    {
+      "name": "Venomous Stinger",
+      "kind": "Action",
+      "rulesText": "Make an attack against a target within Very Close range. On a success, spend a Fear to deal 1d4+4 physical damage and Poison them until their next rest or they succeed on a Knowledge Roll (16). While Poisoned, the target must roll a d6 before they make an action roll. On a result of 4 or lower, they must mark a Stress."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Scorpion makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/giant-scorpion/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

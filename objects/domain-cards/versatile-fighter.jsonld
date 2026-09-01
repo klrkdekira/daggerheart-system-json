@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/versatile-fighter",
+  "@type": "DomainCard",
+  "name": "Versatile Fighter",
+  "slug": "versatile-fighter",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "VERSATILE FIGHTER",
+    "lineStart": 14635,
+    "lineEnd": 14643,
+    "pdfPageStart": 208,
+    "pdfPageEnd": 208
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "You can use a different character trait for an equipped weapon, rather than the trait the weapon calls for.\n\nWhen you deal damage, you can mark a Stress to use the maximum result of one of your damage dice instead of rolling it.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/versatile-fighter/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

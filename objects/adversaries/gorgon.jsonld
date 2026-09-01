@@ -1,0 +1,68 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/gorgon",
+  "@type": "Adversary",
+  "name": "Gorgon",
+  "slug": "gorgon",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GORGON",
+    "lineStart": 8148,
+    "lineEnd": 8172,
+    "pdfPageStart": 123,
+    "pdfPageEnd": 123
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Corner",
+    "hit-and-run",
+    "petrify",
+    "seek vengeance"
+  ],
+  "difficulty": 15,
+  "thresholds": "13/25",
+  "hitPoints": 9,
+  "stress": 3,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Sunsear Shortbow",
+    "range": "Far",
+    "damage": "2d20+3 mag"
+  },
+  "experience": "Stealth +3",
+  "description": "A snake-headed, scaled humanoid with a gilded bow, enraged that their peace has been disturbed.",
+  "features": [
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Gorgon can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Sunsear Arrows",
+      "kind": "Passive",
+      "rulesText": "When the Gorgon makes a successful standard attack, the target Glows until the end of the scene and can’t become Hidden. Attack rolls made against a Glowing target have advantage."
+    },
+    {
+      "name": "Crown of Serpents",
+      "kind": "Action",
+      "rulesText": "Make an attack roll against a target within Melee range using the Gorgon’s protective snakes. On a success, mark a Stress to deal 2d10+4 physical damage and the target must mark a Stress."
+    },
+    {
+      "name": "Petrifying Gaze",
+      "kind": "Reaction",
+      "rulesText": "When the Gorgon takes damage from an attack within Close range, you can spend a Fear to force the attacker to make an Instinct Reaction Roll. On a failure, they begin to turn to stone, marking a HP and starting a Petrification Countdown (4). This countdown ticks down when the Gorgon is attacked. When it triggers, the target must make a death move. If the Gorgon is defeated, all petrification countdowns end."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Gorgon makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/gorgon/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

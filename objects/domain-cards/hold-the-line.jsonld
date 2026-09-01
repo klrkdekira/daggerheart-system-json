@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/hold-the-line",
+  "@type": "DomainCard",
+  "name": "Hold the Line",
+  "slug": "hold-the-line",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "HOLD THE LINE",
+    "lineStart": 16397,
+    "lineEnd": 16405,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "Describe the defensive stance you take and spend a Hope. If an adversary moves within Very Close range, they’re pulled into Melee range and Restrained.\n\nThis condition lasts until you move or fail a roll with Fear, or the GM spends 2 Fear on their turn to clear it.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/hold-the-line/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

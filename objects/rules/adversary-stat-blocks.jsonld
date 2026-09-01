@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/adversary-stat-blocks",
+  "@type": "Rule",
+  "name": "Adversary Stat Blocks",
+  "slug": "adversary-stat-blocks",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ADVERSARY STAT BLOCKS",
+    "lineStart": 4895,
+    "lineEnd": 4935,
+    "pdfPageStart": 93,
+    "pdfPageEnd": 93
+  },
+  "rulesText": "All the information required to run an adversary is contained in their stat block. An adversary’s stat block includes their:\n\n##### NAME\n\nEach stat block has a unique name. Abilities that affect adversaries with a certain name include all adversaries who use that stat block, regardless of their in-story name.\n\n##### TIER\n\nEach adversary is designed to oppose PCs of a certain tier. If you confront the party with an adversary from another tier, adjust their stats.\n\n##### TYPE\n\nThe adversary’s type appears alongside their tier. An adversary’s type represents the role they play in a conflict. The adversary types are:\n\n- **Bruisers:** tough; deliver powerful attacks.\n- **Hordes:** groups of identical creatures acting together as a single unit.\n\n> Note: The number of creatures represented by each Hit Point in a horde's stat block is indicated by \"X/HP.\" For example, a 2/HP horde with 3 HP represents a group of six.\n\n- **Leaders:** command and summon other adversaries.\n- **Minions:** easily dispatched but dangerous in numbers.\n- **Ranged:** fragile in close encounters but deal high damage at range.\n- **Skulks:** maneuver and exploit opportunities to ambush opponents.\n- **Socials:** present challenges around conversation instead of combat.\n- **Solos:** present a formidable challenge to a whole party, with or without support.\n- **Standards:** representative of their fictional group.\n- **Supports:** enhance their allies and disrupt their opponents.\n\n##### DESCRIPTION\n\nA summary of the adversary's appearance and demeanor.\n\n##### MOTIVES & TACTICS\n\nSuggusted impulses, actions and goals for the adversary.\n\n##### DIFFICULTY\n\nThe Difficulty of any roll made against the adversary, unless otherwise noted.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/adversary-stat-blocks/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

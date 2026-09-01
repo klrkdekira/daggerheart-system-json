@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/siren",
+  "@type": "Adversary",
+  "name": "Siren",
+  "slug": "siren",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SIREN",
+    "lineStart": 8674,
+    "lineEnd": 8692,
+    "pdfPageStart": 128,
+    "pdfPageEnd": 128
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Consume",
+    "lure prey",
+    "subdue with song"
+  ],
+  "difficulty": 14,
+  "thresholds": "9/18",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Distended Jaw Bite",
+    "range": "Melee",
+    "damage": "2d6+3 phy"
+  },
+  "experience": "Song Repertoire +3",
+  "description": "A half-fish person with shimmering scales and an irresistible voice.",
+  "features": [
+    {
+      "name": "Captive Audience",
+      "kind": "Passive",
+      "rulesText": "If the Siren makes a standard attack against a target Entranced by their song, the attack deals 2d10+1 damage instead of their standard damage."
+    },
+    {
+      "name": "Enchanting Song",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to sing a song that affects all targets within Close range. Targets must succeed on an Instinct Reaction Roll or become Entranced until they mark 2 Stress. Other Sirens within Close range of the target can mark a Stress to each add a +1 bonus to the Difficulty of the reaction roll. While Entranced, a target can’t act and is Vulnerable."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/siren/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/greater-water-elemental",
+  "@type": "Adversary",
+  "name": "Greater Water Elemental",
+  "slug": "greater-water-elemental",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GREATER WATER ELEMENTAL",
+    "lineStart": 9538,
+    "lineEnd": 9556,
+    "pdfPageStart": 136,
+    "pdfPageEnd": 136
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Deluge",
+    "disperse",
+    "drown"
+  ],
+  "difficulty": 17,
+  "thresholds": "17/34",
+  "hitPoints": 5,
+  "stress": 5,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Crashing Wave",
+    "range": "Very Close",
+    "damage": "3d4+1 mag"
+  },
+  "description": "A huge living wave that crashes down upon enemies.",
+  "features": [
+    {
+      "name": "Water Jet",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to attack a target within Very Close range. On a success, deal 2d4+7 physical damage and the target’s next action has disadvantage. On a failure, the target must mark a Stress."
+    },
+    {
+      "name": "Drowning Embrace",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make an attack against all targets within Very Close range. Targets the Elemental succeeds against become Restrained and Vulnerable as they begin drowning. A target can break free, ending both conditions, with a successful Strength or Instinct Roll."
+    },
+    {
+      "name": "High Tide",
+      "kind": "Reaction",
+      "rulesText": "When the Elemental makes a successful standard attack, you can mark a Stress to knock the target back to Close range."
+    }
+  ],
+  "role": "Support",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/greater-water-elemental/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

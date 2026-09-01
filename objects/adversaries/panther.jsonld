@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/panther",
+  "@type": "Adversary",
+  "name": "Panther",
+  "slug": "panther",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "PANTHER",
+    "lineStart": 6392,
+    "lineEnd": 6410,
+    "pdfPageStart": 106,
+    "pdfPageEnd": 106
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Climb trees",
+    "pounce",
+    "stalk"
+  ],
+  "difficulty": 14,
+  "thresholds": "5/10",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Teeth and Claws",
+    "range": "Melee",
+    "damage": "1d8+1 phy"
+  },
+  "experience": "Keen Senses +3, Slink +3",
+  "description": "A large feline predator that stalks its prey from the shadows.",
+  "features": [
+    {
+      "name": "Shadow Stalker",
+      "kind": "Passive",
+      "rulesText": "While Hidden, the Panther gains a +2 bonus to its attack rolls."
+    },
+    {
+      "name": "Pouncing Strike",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Panther leap into Melee range of a target within Far range and make an attack against them. On a success, deal 1d12+2 physical damage."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/panther/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

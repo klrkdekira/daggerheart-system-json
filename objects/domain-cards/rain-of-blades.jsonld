@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/rain-of-blades",
+  "@type": "DomainCard",
+  "name": "Rain of Blades",
+  "slug": "rain-of-blades",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "RAIN OF BLADES",
+    "lineStart": 15566,
+    "lineEnd": 15574,
+    "pdfPageStart": 216,
+    "pdfPageEnd": 216
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Spend a Hope to make a Spellcast Roll and conjure throwing blades that strike out at all targets within Very Close range. Targets you succeed against take d8+2 magic damage using your Proficiency.\n\nIf a target you hit is Vulnerable, they take an extra 1d8 damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/rain-of-blades/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

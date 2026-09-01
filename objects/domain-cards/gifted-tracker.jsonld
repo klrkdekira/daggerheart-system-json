@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/gifted-tracker",
+  "@type": "DomainCard",
+  "name": "Gifted Tracker",
+  "slug": "gifted-tracker",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "GIFTED TRACKER",
+    "lineStart": 15773,
+    "lineEnd": 15786,
+    "pdfPageStart": 218,
+    "pdfPageEnd": 218
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "When you’re tracking a specific creature or group of creatures based on signs of their passage, you can spend any number of Hope and ask the GM that many questions from the following list.\n\n  - What direction did they go?\n  - How long ago did they pass through?\n  - What were they doing in this location?\n  - How many of them were here?\n\nWhen you encounter creatures you’ve tracked in this way, gain a +1 bonus to your Evasion against them.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/gifted-tracker/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

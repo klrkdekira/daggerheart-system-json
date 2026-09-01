@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hill-titan",
+  "@type": "Adversary",
+  "name": "Hill Titan",
+  "slug": "hill-titan",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HILL TITAN",
+    "lineStart": 8292,
+    "lineEnd": 8316,
+    "pdfPageStart": 124,
+    "pdfPageEnd": 124
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Eat",
+    "make a mess",
+    "patrol stomping grounds"
+  ],
+  "difficulty": 14,
+  "thresholds": "13/26",
+  "hitPoints": 10,
+  "stress": 5,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Tree Stump",
+    "range": "Very Close",
+    "damage": "2d10+4 phy"
+  },
+  "experience": "Survival +3, Vengeful +3",
+  "description": "A goliath clad in animal skins and surrounded by a swarm of insects.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Titan can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Passive",
+      "rulesText": "When the Titan makes a successful attack against a PC, you gain a Fear."
+    },
+    {
+      "name": "Gullible",
+      "kind": "Passive",
+      "rulesText": "PCs have advantage on action rolls to trick or emotionally manipulate the Titan."
+    },
+    {
+      "name": "Bug Swarm",
+      "kind": "Passive",
+      "rulesText": "PCs are Vulnerable while within Very Close range."
+    },
+    {
+      "name": "Mighty Swing",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make a standard attack against all targets within Very Close range."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/hill-titan/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

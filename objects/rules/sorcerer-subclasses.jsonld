@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/sorcerer-subclasses",
+  "@type": "Rule",
+  "name": "Sorcerer Subclasses",
+  "slug": "sorcerer-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "SORCERER SUBCLASSES",
+    "lineStart": 1656,
+    "lineEnd": 1658,
+    "pdfPageStart": 25,
+    "pdfPageEnd": 25
+  },
+  "rulesText": "Choose either the Elemental Origin or Primal Origin subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/sorcerer-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

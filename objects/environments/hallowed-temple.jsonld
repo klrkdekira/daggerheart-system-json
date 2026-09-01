@@ -1,0 +1,64 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/hallowed-temple",
+  "@type": "Environment",
+  "name": "Hallowed Temple",
+  "slug": "hallowed-temple",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HALLOWED TEMPLE",
+    "lineStart": 12226,
+    "lineEnd": 12259,
+    "pdfPageStart": 169,
+    "pdfPageEnd": 169
+  },
+  "tier": 2,
+  "impulses": [
+    "Connect the Mortal Realm with the Hallows Above",
+    "display the power of the divine",
+    "provide aid and succor to the faithful"
+  ],
+  "difficulty": 13,
+  "potentialAdversariesText": "Guards (Archer Guard, Bladed Guard, Head Guard)",
+  "description": "A bustling but well-kept temple that provides healing and hosts regular services, overseen by a priest or seraph.",
+  "features": [
+    {
+      "name": "A Place of Healing",
+      "kind": "Passive",
+      "rulesText": "A PC who takes a rest in the Hallowed Temple automatically clears all HP.\n\nWhat does the incense smell like? What kinds of songs do the acolytes sing?"
+    },
+    {
+      "name": "Divine Guidance",
+      "kind": "Passive",
+      "rulesText": "A PC who prays to a deity while in the Hallowed Temple can make an Instinct Roll to receive answers. If the god they beseech isn’t welcome in this temple, the roll is made with disadvantage.\n\n- Critical Success: The PC gains clear information. Additionally, they gain 1d4 Hope, which can be distributed between the party if they share the vision and guidance they received.\n- Success with Hope: The PC receives clear information.\n- Success with Fear: The PC receives brief flashes of insight and an emotional impression conveying an answer.\n- Any Failure: The PC receives only vague flashes. They can mark a Stress to receive one clear image without context.\n\nWhat does it feel like as you are touched by this vision? What feeling lingers after the images have passed?"
+    },
+    {
+      "name": "Relentless Hope",
+      "kind": "Reaction",
+      "rulesText": "Once per scene, each PC can mark a Stress to turn a result with Fear into a result with Hope.\n\nWhat emotions or memories do you connect with when fear presses in?"
+    },
+    {
+      "name": "Divine Censure",
+      "kind": "Reaction",
+      "rulesText": "When the PCs have trespassed, blasphemed, or offended the clergy, you can spend a Fear to summon a High Seraph and 1d4 Bladed Guards within Close range of the senior priest to reinforce their will.\n\nWhat symbols or icons do they bear that signal they are anointed agents of the divinity? Who leads the group and what led them to this calling?"
+    }
+  ],
+  "category": "Social",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/archer-guard"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/bladed-guard"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/head-guard"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/hallowed-temple/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

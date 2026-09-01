@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/wordsmith",
+  "@type": "Subclass",
+  "name": "Wordsmith",
+  "slug": "wordsmith",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WORDSMITH",
+    "lineStart": 533,
+    "lineEnd": 573,
+    "pdfPageStart": 11,
+    "pdfPageEnd": 11
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/bard"
+  },
+  "features": [
+    {
+      "name": "Rousing Speech",
+      "stage": "foundation",
+      "rulesText": "Once per long rest, you can give a heartfelt, inspiring speech. All allies within Far range clear 2 Stress."
+    },
+    {
+      "name": "Heart of a Poet",
+      "stage": "foundation",
+      "rulesText": "After you make an action roll to impress, persuade, or offend someone, you can spend a Hope to add a d4 to the roll."
+    }
+  ],
+  "description": "Play the Wordsmith if you want to use clever wordplay and captivate crowds.",
+  "spellcastTrait": "Presence",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/subclasses/wordsmith/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

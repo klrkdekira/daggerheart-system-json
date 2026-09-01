@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/redcap-breaker",
+  "@type": "Adversary",
+  "name": "Redcap Breaker",
+  "slug": "redcap-breaker",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "REDCAP BREAKER",
+    "lineStart": 6586,
+    "lineEnd": 6604,
+    "pdfPageStart": 108,
+    "pdfPageEnd": 108
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Beat chest and bellow",
+    "ragdoll puny enemies",
+    "rush forward recklessly"
+  ],
+  "difficulty": 13,
+  "thresholds": "8/15",
+  "hitPoints": 6,
+  "stress": 3,
+  "attackModifier": "+1",
+  "standardAttack": {
+    "name": "Wooden Mallet",
+    "range": "Melee",
+    "damage": "1d12+2 phy"
+  },
+  "experience": "Bones +2",
+  "description": "A large, brutish fey creature who has a conical red cap sealed on their head with candle wax.",
+  "features": [
+    {
+      "name": "Backbreaker",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against a target within Melee range. On a success, deal 3d4+10 physical damage. A target who marks HP from this attack is Restrained until they clear a HP."
+    },
+    {
+      "name": "Kneecapper",
+      "kind": "Reaction",
+      "rulesText": "When the Breaker makes a successful standard attack, you can spend a Fear to make the target temporarily Vulnerable."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/redcap-breaker/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

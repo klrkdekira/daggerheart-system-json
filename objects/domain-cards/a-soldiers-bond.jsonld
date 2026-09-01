@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/a-soldiers-bond",
+  "@type": "DomainCard",
+  "name": "A Soldier’s Bond",
+  "slug": "a-soldiers-bond",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "A SOLDIER’S BOND",
+    "lineStart": 14611,
+    "lineEnd": 14617,
+    "pdfPageStart": 208,
+    "pdfPageEnd": 208
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "Once per long rest, when you compliment someone or ask them about something they’re good at, you can both gain 3 Hope.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/a-soldiers-bond/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

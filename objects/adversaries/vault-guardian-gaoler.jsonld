@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vault-guardian-gaoler",
+  "@type": "Adversary",
+  "name": "Vault Guardian Gaoler",
+  "slug": "vault-guardian-gaoler",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "VAULT GUARDIAN GAOLER",
+    "lineStart": 10114,
+    "lineEnd": 10130,
+    "pdfPageStart": 142,
+    "pdfPageEnd": 142
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Carry away",
+    "entrap",
+    "protect",
+    "pummel"
+  ],
+  "difficulty": 16,
+  "thresholds": "19/33",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Body Bash",
+    "range": "Very Close",
+    "damage": "3d6+2 phy"
+  },
+  "description": "A boxy, dust-covered construct with thick metallic swinging doors on their torso.",
+  "features": [
+    {
+      "name": "Blocking Shield",
+      "kind": "Passive",
+      "rulesText": "Creatures within Melee range of the Gaoler have disadvantage on attack rolls against them. Creatures trapped inside the Gaoler are immune to this feature."
+    },
+    {
+      "name": "Lock Up",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against a target within Very Close range. On a success, the target is Restrained within the Gaoler until freed with a successful Strength Roll (18). While Restrained, the target can only attack the Gaoler."
+    }
+  ],
+  "role": "Support",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/vault-guardian-gaoler/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

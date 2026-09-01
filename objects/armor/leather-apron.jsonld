@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/armor/leather-apron",
+  "@type": "Armor",
+  "name": "Leather Apron",
+  "slug": "leather-apron",
+  "sourceLocator": {
+    "chapter": "SUPPLEMENTAL CAMPAIGN MECHANICS",
+    "heading": "Armor",
+    "lineStart": 13684,
+    "lineEnd": 13684,
+    "pdfPageStart": 192,
+    "pdfPageEnd": 192
+  },
+  "variant": "everyday-hero",
+  "baseThresholds": "6 / 13",
+  "baseScore": "3",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/armor/leather-apron/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/everyday-hero-starting-equipment"
+  }
+}

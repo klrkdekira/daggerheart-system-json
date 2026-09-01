@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/redcap-biters",
+  "@type": "Adversary",
+  "name": "Redcap Biters",
+  "slug": "redcap-biters",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "REDCAP BITERS",
+    "lineStart": 6564,
+    "lineEnd": 6582,
+    "pdfPageStart": 107,
+    "pdfPageEnd": 107
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Bring ’em down",
+    "celebrate tiny victories",
+    "giggle and chitter",
+    "scamper between the walls"
+  ],
+  "difficulty": 10,
+  "thresholds": "6/11",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "−1",
+  "standardAttack": {
+    "name": "Gnash",
+    "range": "Melee",
+    "damage": "1d8+4 phy"
+  },
+  "experience": "Nooks and Crannies +3",
+  "description": "A troop of fist-sized fey creatures who have needle-sharp teeth and conical red caps sealed on their heads with candle wax.",
+  "features": [
+    {
+      "name": "Horde (1d4+2)",
+      "kind": "Passive",
+      "rulesText": "When the Biters have marked half or more of their HP, their standard attack deals 1d4+2 physical damage instead."
+    },
+    {
+      "name": "Ankle Weights",
+      "kind": "Passive",
+      "rulesText": "A PC must mark a Stress to move out of the Biters’ Melee range."
+    }
+  ],
+  "role": "Horde (3/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/redcap-biters/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

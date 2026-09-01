@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/archmage",
+  "@type": "Adversary",
+  "name": "Archmage",
+  "slug": "archmage",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ARCHMAGE",
+    "lineStart": 9002,
+    "lineEnd": 9026,
+    "pdfPageStart": 131,
+    "pdfPageEnd": 131
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Corrupt",
+    "destroy",
+    "overwhelm with evil power"
+  ],
+  "difficulty": 18,
+  "thresholds": "24/45",
+  "hitPoints": 5,
+  "stress": 8,
+  "attackModifier": "+5",
+  "standardAttack": {
+    "name": "Archmage’s Greatstaff",
+    "range": "Far",
+    "damage": "3d10 mag"
+  },
+  "experience": "Esoterica +4",
+  "description": "A seeker of secret knowledge hidden away in a tome-filled tower.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Archmage can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Orbiting Aegis",
+      "kind": "Passive",
+      "rulesText": "When the Archmage appears, they conjure six discs of magical energy that orbit around them. Place a d6 Aegis Die on this stat block with the 6 value facing up. When a PC makes a successful attack against the Archmage, roll a d6. If the result is equal to or less than the value of the Aegis Die, tick the Aegis Die down and ignore the damage. A PC can make a Knowledge Roll to tick down the Aegis Die by 1 on a success or by 2 on a success with Hope."
+    },
+    {
+      "name": "Force Salvo",
+      "kind": "Action",
+      "rulesText": "Spend any number of Fear and roll that many d4s. The Archmage unleashes a number of magical homing force bolts equal to the total result. For each bolt, a creature within Far range marks a HP. The same creature can be targeted by up to three force bolts."
+    },
+    {
+      "name": "Fireball",
+      "kind": "Action",
+      "rulesText": "Mark any number of Stress to target the same number of PCs within Far range. Each target must succeed on an Agility Reaction Roll or take 4d10 magic damage."
+    },
+    {
+      "name": "Counterspell",
+      "kind": "Reaction",
+      "rulesText": "When a PC succeeds on a Spellcast Roll, you can spend a Fear to have the Archmage make a reaction roll with a Difficulty equal to the Spellcast Roll’s result. On a success, the PC’s Spellcast Roll fails instead, and you place a token on this stat block. Using this feature again costs additional Fear equal to the number of tokens on this stat block. You can’t Counterspell a critical success."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/archmage/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

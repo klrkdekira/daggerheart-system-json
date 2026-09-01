@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/household-friend",
+  "@type": "Rule",
+  "name": "Household Friend",
+  "slug": "household-friend",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "HOUSEHOLD FRIEND",
+    "lineStart": 871,
+    "lineEnd": 883,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "rulesText": "*(Cat, Dog, Rabbit, etc.)*\n\n*Instinct +1 | Evasion +2*\n\n*Melee Instinct d6 phy*\n\n**Gain advantage on:** climb, locate, protect\n\n**Companion:** When you Help an Ally, you can roll a d8 as your advantage die.\n\n**Fragile:** When you take Major or greater damage, you drop out of Beastform.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/household-friend/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

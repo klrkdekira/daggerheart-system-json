@@ -1,0 +1,72 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/crimson-lepus",
+  "@type": "Adversary",
+  "name": "Crimson Lepus",
+  "slug": "crimson-lepus",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CRIMSON LEPUS",
+    "lineStart": 9076,
+    "lineEnd": 9102,
+    "pdfPageStart": 132,
+    "pdfPageEnd": 132
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Be cute",
+    "go for the throat",
+    "hop around"
+  ],
+  "difficulty": 18,
+  "thresholds": "20/35",
+  "hitPoints": 10,
+  "stress": 6,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Leaping Bite",
+    "range": "Very Close",
+    "damage": "3d20 phy"
+  },
+  "experience": "Vicious +4",
+  "description": "A red-eyed rabbit that thinks only of murder.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Lepus can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it."
+    },
+    {
+      "name": "“Awww...”",
+      "kind": "Passive",
+      "rulesText": "When the Lepus first appears, it is Too Cute. To attack a Too Cute creature, a PC must succeed on an Instinct Reaction Roll (20). Clear the Too Cute condition if a PC deals damage to the Lepus or if the Lepus attacks a PC."
+    },
+    {
+      "name": "Terrifying",
+      "kind": "Passive",
+      "rulesText": "When the Lepus makes a successful attack, all PCs within Close range lose a Hope, and you gain a Fear."
+    },
+    {
+      "name": "Leaping Jugular Strike",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Lepus leap into Melee range of a target within Far range and make an attack against them. On a success, deal 3d20 direct physical damage. If the target marks HP from this attack, they become Vulnerable until they clear a HP."
+    },
+    {
+      "name": "Evasive",
+      "kind": "Reaction",
+      "rulesText": "When the Lepus would take damage, roll a d6. On a 4 or higher, halve the damage. If the damage was already halved, the Lepus takes no damage."
+    },
+    {
+      "name": "“Run Away!”",
+      "kind": "Reaction",
+      "rulesText": "When a PC with no Hope takes the spotlight within Very Far range of the Lepus, the PC must succeed on a Presence Reaction Roll or use their action to flee the battlefield until they spend a Hope to return."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/crimson-lepus/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

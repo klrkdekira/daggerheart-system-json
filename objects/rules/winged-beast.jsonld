@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/winged-beast",
+  "@type": "Rule",
+  "name": "Winged Beast",
+  "slug": "winged-beast",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WINGED BEAST",
+    "lineStart": 1015,
+    "lineEnd": 1027,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "rulesText": "*(Hawk, Owl, Raven, etc.)*\n\n*Finesse +1 | Evasion +3*\n\n*Melee Finesse d4+2 phy*\n\n**Gain advantage on:** deceive, locate, scare\n\n**Bird’s-Eye View:** You can fly at will. Once per rest while you are airborne, you can ask the GM a question about the scene below you without needing to roll. The first time a character makes a roll to act on this information, they gain advantage on the roll.\n\n**Hollow Bones:** You gain a −2 penalty to your damage thresholds.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/winged-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

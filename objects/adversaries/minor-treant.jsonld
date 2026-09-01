@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/minor-treant",
+  "@type": "Adversary",
+  "name": "Minor Treant",
+  "slug": "minor-treant",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MINOR TREANT",
+    "lineStart": 6248,
+    "lineEnd": 6264,
+    "pdfPageStart": 105,
+    "pdfPageEnd": 105
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Crush",
+    "overwhelm",
+    "protect"
+  ],
+  "difficulty": 10,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "−2",
+  "standardAttack": {
+    "name": "Clawed Branch",
+    "range": "Melee",
+    "damage": "4 phy"
+  },
+  "description": "An ambulatory sapling rising up to defend their forest.",
+  "features": [
+    {
+      "name": "Minion (5)",
+      "kind": "Passive",
+      "rulesText": "The Treant is defeated when they take any damage. For every 5 damage a PC deals to the Treant, defeat an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Minor Treants within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 4 physical damage each. Combine this damage."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/minor-treant/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

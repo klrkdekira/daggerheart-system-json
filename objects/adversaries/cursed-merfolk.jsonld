@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cursed-merfolk",
+  "@type": "Adversary",
+  "name": "Cursed Merfolk",
+  "slug": "cursed-merfolk",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CURSED MERFOLK",
+    "lineStart": 9128,
+    "lineEnd": 9148,
+    "pdfPageStart": 132,
+    "pdfPageEnd": 132
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Separate enemies",
+    "strike from the shadows",
+    "use aquatic environment to advantage"
+  ],
+  "difficulty": 16,
+  "thresholds": "18/35",
+  "hitPoints": 5,
+  "stress": 4,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Chained Trident",
+    "range": "Far",
+    "damage": "3d6 phy"
+  },
+  "experience": "Aquatic +3",
+  "description": "A half-fish, half-human creature psychically bound to serve the Deep Dwellers.",
+  "features": [
+    {
+      "name": "Fish-Tailed",
+      "kind": "Passive",
+      "rulesText": "The Merfolk is Vulnerable out of the water."
+    },
+    {
+      "name": "Gang Up",
+      "kind": "Passive",
+      "rulesText": "The Merfolk gains a +2 bonus to attack rolls against targets within Melee range of one or more allies."
+    },
+    {
+      "name": "“Get Over Here!”",
+      "kind": "Reaction",
+      "rulesText": "When the Merfolk makes a successful standard attack against a target beyond Melee range, you can mark a Stress to pull them into Melee range. If you do, you can spend a Fear to make a standard attack with advantage against the target."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/cursed-merfolk/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

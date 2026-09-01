@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/bare-bones",
+  "@type": "DomainCard",
+  "name": "Bare Bones",
+  "slug": "bare-bones",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BARE BONES",
+    "lineStart": 16195,
+    "lineEnd": 16206,
+    "pdfPageStart": 222,
+    "pdfPageEnd": 222
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "When you choose not to equip armor, you have a base Armor Score of 3 + your Strength and use the following as your base damage thresholds:\n\n  - Tier 1: 9/19\n  - Tier 2: 11/24\n  - Tier 3: 13/31\n  - Tier 4: 15/38",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/bare-bones/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

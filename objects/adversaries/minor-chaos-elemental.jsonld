@@ -1,0 +1,66 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/minor-chaos-elemental",
+  "@type": "Adversary",
+  "name": "Minor Chaos Elemental",
+  "slug": "minor-chaos-elemental",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MINOR CHAOS ELEMENTAL",
+    "lineStart": 6174,
+    "lineEnd": 6196,
+    "pdfPageStart": 104,
+    "pdfPageEnd": 104
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Confound",
+    "destabilize",
+    "transmogrify"
+  ],
+  "difficulty": 14,
+  "thresholds": "7/14",
+  "hitPoints": 7,
+  "stress": 3,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Warp Blast",
+    "range": "Close",
+    "damage": "1d12+6 mag"
+  },
+  "description": "A coruscating mass of uncontrollable magic.",
+  "features": [
+    {
+      "name": "Arcane Form",
+      "kind": "Passive",
+      "rulesText": "The Elemental is resistant to magic damage."
+    },
+    {
+      "name": "Sickening Flux",
+      "kind": "Action",
+      "rulesText": "Mark a HP to force all targets within Close range to mark a Stress and become Vulnerable until their next rest or they clear a HP."
+    },
+    {
+      "name": "Remake Reality",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to transform the area within Very Close range into a different biome. All targets within this area take 2d6+3 direct magic damage."
+    },
+    {
+      "name": "Magical Reflection",
+      "kind": "Reaction",
+      "rulesText": "When the Elemental takes damage from an attack within Close range, deal an amount of damage to the attacker equal to half the damage they dealt."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Elemental makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/minor-chaos-elemental/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

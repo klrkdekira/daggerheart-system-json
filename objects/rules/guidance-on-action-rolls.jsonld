@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/guidance-on-action-rolls",
+  "@type": "Rule",
+  "name": "Guidance on Action Rolls",
+  "slug": "guidance-on-action-rolls",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GUIDANCE ON ACTION ROLLS",
+    "lineStart": 4503,
+    "lineEnd": 4510,
+    "pdfPageStart": 86,
+    "pdfPageEnd": 86
+  },
+  "rulesText": "After a player describes a move they want to make during the game, you might decide an action roll is necessary to determine how the scene progresses. Use this guide to determine what to present the player, choosing whichever option best fits the situation:\n\n- Determine whether the roll is necessary, considering the PC’s Experiences or backstory, the pressure they’re acting under, and the possible outcomes.\n- Establish the stakes of an action roll before the player makes it.\n- Communicate any unavoidable consequences.\n- If desired, you can offer the player the opportunity to forgo an action roll in exchange for agreeing to an interesting outcome, cost, or complication.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/guidance-on-action-rolls/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/glass-snake",
+  "@type": "Adversary",
+  "name": "Glass Snake",
+  "slug": "glass-snake",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GLASS SNAKE",
+    "lineStart": 5796,
+    "lineEnd": 5814,
+    "pdfPageStart": 101,
+    "pdfPageEnd": 101
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Climb",
+    "feed",
+    "keep distance",
+    "scare"
+  ],
+  "difficulty": 14,
+  "thresholds": "6/10",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Glass Fangs",
+    "range": "Very Close",
+    "damage": "1d8+2 phy"
+  },
+  "description": "A clear serpent with a massive head that leaves behind a glass shard trail wherever they go.",
+  "features": [
+    {
+      "name": "Armor-Shredding Shards",
+      "kind": "Passive",
+      "rulesText": "After a successful attack against the Snake within Melee range, the attacker must mark an Armor Slot. If they can’t mark an Armor Slot, they must mark an HP."
+    },
+    {
+      "name": "Spinning Serpent",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against all targets within Very Close range. Targets the Snake succeeds against take 1d6+1 physical damage."
+    },
+    {
+      "name": "Spitter",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to introduce a d6 Spitter Die. When the Snake is in the spotlight, roll this die. On a result of 5 or higher, all targets in front of the Snake within Far range must succeed on an Agility Reaction Roll or take 1d4 physical damage. The Snake can take the spotlight a second time this GM turn."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/glass-snake/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

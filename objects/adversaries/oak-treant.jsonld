@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/oak-treant",
+  "@type": "Adversary",
+  "name": "Oak Treant",
+  "slug": "oak-treant",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "OAK TREANT",
+    "lineStart": 9946,
+    "lineEnd": 9966,
+    "pdfPageStart": 141,
+    "pdfPageEnd": 141
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Hide in plain sight",
+    "preserve the forest",
+    "root down",
+    "swing branches"
+  ],
+  "difficulty": 17,
+  "thresholds": "22/40",
+  "hitPoints": 7,
+  "stress": 4,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Branch",
+    "range": "Very Close",
+    "damage": "3d8+2 phy"
+  },
+  "experience": "Forest Knowledge +3",
+  "description": "A sturdy animate old-growth tree.",
+  "features": [
+    {
+      "name": "Just a Tree",
+      "kind": "Passive",
+      "rulesText": "Before they make their first attack in a fight or after they become Hidden, the Treant is indistinguishable from other trees until they next act or a PC succeeds on an Instinct Roll to identify them."
+    },
+    {
+      "name": "Seed Barrage",
+      "kind": "Action",
+      "rulesText": "Mark a Stress and make an attack against up to three targets within Close range, pummeling them with giant acorns. Targets the Treant succeeds against take 2d10+5 physical damage."
+    },
+    {
+      "name": "Take Root",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to Root the Treant in place. The Treant is Restrained while Rooted, and can end this effect instead of moving while they are spotlighted. While Rooted, the Treant has resistance to physical damage."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/oak-treant/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

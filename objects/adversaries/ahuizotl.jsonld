@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/ahuizotl",
+  "@type": "Adversary",
+  "name": "Ahuizotl",
+  "slug": "ahuizotl",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "AHUIZOTL",
+    "lineStart": 5378,
+    "lineEnd": 5398,
+    "pdfPageStart": 97,
+    "pdfPageEnd": 97
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Ambush",
+    "drown",
+    "restrain"
+  ],
+  "difficulty": 12,
+  "thresholds": "5/9",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Bite",
+    "range": "Melee",
+    "damage": "1d6+2 phy"
+  },
+  "experience": "Stealth +2, Swimming +2",
+  "description": "A doglike ambush predator that has a clawed hand on the end of a long prehensile tail and drags victims into rivers to drown them.",
+  "features": [
+    {
+      "name": "Aquatic Attacker",
+      "kind": "Passive",
+      "rulesText": "When the Ahuizotl attacks from the water, it has advantage on the attack and deals an extra 1d6 damage."
+    },
+    {
+      "name": "Tail Swat",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against a target within Very Close range. On a success, deal 1d8+2 physical damage."
+    },
+    {
+      "name": "Drag and Bag",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Ahuizotl grab a target within Close range with its tail, pull the target into Melee range, and temporarily Restrain them. The Ahuizotl has advantage on attacks against targets Restrained in this way."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/ahuizotl/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

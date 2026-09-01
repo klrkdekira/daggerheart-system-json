@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade",
+  "@type": "Domain",
+  "name": "Blade",
+  "slug": "blade",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "BLADE",
+    "lineStart": 251,
+    "lineEnd": 253,
+    "pdfPageStart": 7,
+    "pdfPageEnd": 7
+  },
+  "description": "Blade is the domain of weapon mastery. Whether by steel, bow, or perhaps a more specialized arm, those who follow this path have the skill to cut short the lives of others. Wielders of Blade dedicate themselves to achieving inexorable power over death. The Blade domain can be accessed by the Assassin, Guardian, and Warrior classes.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domains/blade/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

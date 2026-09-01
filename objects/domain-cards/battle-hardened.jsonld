@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/battle-hardened",
+  "@type": "DomainCard",
+  "name": "Battle‑hardened",
+  "slug": "battle-hardened",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BATTLE‑HARDENED",
+    "lineStart": 14689,
+    "lineEnd": 14695,
+    "pdfPageStart": 208,
+    "pdfPageEnd": 208
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "Once per long rest when you would make a Death Move, you can spend a Hope to clear a Hit Point instead.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/battle-hardened/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

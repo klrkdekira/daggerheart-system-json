@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/step-4-choose-their-attack-and-record-damage-die",
+  "@type": "Rule",
+  "name": "Step 4: Choose Their Attack and Record Damage Die",
+  "slug": "step-4-choose-their-attack-and-record-damage-die",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "STEP 4: CHOOSE THEIR ATTACK AND RECORD DAMAGE DIE",
+    "lineStart": 1396,
+    "lineEnd": 1398,
+    "pdfPageStart": 21,
+    "pdfPageEnd": 21
+  },
+  "rulesText": "Finally, describe your companion’s method of dealing damage (their standard attack) and record it in the “Attack & Damage” section. At level 1, your companion’s damage die is a d6 and their range is Melee. Choose whether they deal physical or magic damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/step-4-choose-their-attack-and-record-damage-die/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

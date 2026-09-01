@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/winged-beast",
+  "@type": "Beastform",
+  "name": "Winged Beast",
+  "slug": "winged-beast",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WINGED BEAST",
+    "lineStart": 1015,
+    "lineEnd": 1027,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "tier": 2,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Hawk, Owl, Raven, etc.",
+  "traitBonus": "Finesse +1",
+  "evasionBonus": 3,
+  "attack": {
+    "range": "Melee",
+    "trait": "Finesse",
+    "damage": "d4+2 phy"
+  },
+  "advantageOn": [
+    "deceive",
+    "locate",
+    "scare"
+  ],
+  "features": [
+    {
+      "name": "Bird’s-Eye View",
+      "rulesText": "You can fly at will. Once per rest while you are airborne, you can ask the GM a question about the scene below you without needing to roll. The first time a character makes a roll to act on this information, they gain advantage on the roll."
+    },
+    {
+      "name": "Hollow Bones",
+      "rulesText": "You gain a −2 penalty to your damage thresholds."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/winged-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/giant-beastmaster",
+  "@type": "Adversary",
+  "name": "Giant Beastmaster",
+  "slug": "giant-beastmaster",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GIANT BEASTMASTER",
+    "lineStart": 8003,
+    "lineEnd": 8023,
+    "pdfPageStart": 121,
+    "pdfPageEnd": 121
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Command",
+    "make a living",
+    "maneuver",
+    "pin down",
+    "protect companion animals"
+  ],
+  "difficulty": 16,
+  "thresholds": "12/24",
+  "hitPoints": 6,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Longbow",
+    "range": "Far",
+    "damage": "2d8+4 phy"
+  },
+  "experience": "Animal Handling +3",
+  "description": "A leather-clad warrior bearing a whip and massive bow.",
+  "features": [
+    {
+      "name": "Two as One",
+      "kind": "Passive",
+      "rulesText": "When the Beastmaster is spotlighted, you can also spotlight a Tier 1 animal adversary currently under their control."
+    },
+    {
+      "name": "Pinning Strike",
+      "kind": "Action",
+      "rulesText": "Make a standard attack against a target. On a success, you can mark a Stress to pin them to a nearby surface. The pinned target is Restrained until they break free with a successful Finesse or Strength Roll."
+    },
+    {
+      "name": "Deadly Companion",
+      "kind": "Action",
+      "rulesText": "Twice per scene, summon a Bear, Dire Wolf, or similar Tier 1 animal adversary under the Beastmaster’s control. The adversary appears at Close range and is immediately spotlighted."
+    }
+  ],
+  "role": "Leader",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/giant-beastmaster/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

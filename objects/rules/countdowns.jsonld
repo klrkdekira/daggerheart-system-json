@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/countdowns",
+  "@type": "Rule",
+  "name": "Countdowns",
+  "slug": "countdowns",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "COUNTDOWNS",
+    "lineStart": 4745,
+    "lineEnd": 4753,
+    "pdfPageStart": 91,
+    "pdfPageEnd": 91
+  },
+  "rulesText": "Countdowns represent a period of time or series of events preceding a future effect. A countdown begins at a starting value. When a countdown advances, it’s reduced by 1. The countdown’s effect is triggered when the countdown reaches 0.\n\n> Note: You can track countdowns by “spinning down” dice or ticking off boxes.\n\nStandard countdowns advance every time a player makes an action roll. If an adversary or environment ability refers to a “Countdown [n],” then it means a standard countdown with a starting value of n.\n\nDynamic countdowns advance by up to 3 depending on the outcomes of action rolls. Consequence countdowns are dynamic countdowns to negative effects. Progress countdowns are dynamic countdowns to positive effects. Dynamic countdowns advance according to this chart:",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/countdowns/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

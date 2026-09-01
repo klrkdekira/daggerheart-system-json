@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/flow-of-the-game",
+  "@type": "Rule",
+  "name": "Flow of the Game",
+  "slug": "flow-of-the-game",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "FLOW OF THE GAME",
+    "lineStart": 2784,
+    "lineEnd": 2808,
+    "pdfPageStart": 46,
+    "pdfPageEnd": 46
+  },
+  "rulesText": "Daggerheart is a conversation. The GM describes fictional scenarios involving the PCs, and the players take turns describing how their characters react. The goal of every person at the table is to build upon everyone else’s ideas and collaboratively tell a satisfying story. The system facilitates this collaborative process by providing structure to the conversation and mechanics for resolving moments of tension where fate or fortune determine the outcome of events.\n\n#### PLAYER PRINCIPLES & BEST PRACTICES\n\nTo get the most out of Daggerheart, we recommend players keep the following principles and practices in mind throughout each session:\n\n#### PRINCIPLES\n\n- Be a fan of your character and their journey.\n- Spotlight your friends.\n- Address the characters and address the players.\n- Build the world together.\n- Play to find out what happens.\n- Hold on gently.\n\n#### BEST PRACTICES\n\n- Embrace danger.\n- Use your resources.\n- Tell the story.\n- Discover your character.\n\nFor more information, see the Daggerheart Core Rulebook, pages 9 and 108.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/flow-of-the-game/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

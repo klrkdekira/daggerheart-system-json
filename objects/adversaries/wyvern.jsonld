@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/wyvern",
+  "@type": "Adversary",
+  "name": "Wyvern",
+  "slug": "wyvern",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "WYVERN",
+    "lineStart": 10224,
+    "lineEnd": 10244,
+    "pdfPageStart": 144,
+    "pdfPageEnd": 144
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Cast a long shadow",
+    "snatch and grab",
+    "wheel through the air"
+  ],
+  "difficulty": 16,
+  "thresholds": "18/35",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Teeth & Claws",
+    "range": "Very Close",
+    "damage": "3d8+5 phy"
+  },
+  "experience": "Death from Above +4",
+  "description": "A two-legged dragon that flies from its mountaintop aerie to devour livestock.",
+  "features": [
+    {
+      "name": "Double Strike",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Wyvern make two standard attacks. If both attacks succeed against the same target, combine the damage."
+    },
+    {
+      "name": "Terrifying Shriek",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Wyvern let out a spine-chilling screech. All PCs within Far range are Terrified until they succeed on a Presence Roll (18) to clear the condition or the Wyvern is defeated. While Terrified, a PC doesn’t gain a Hope when they roll with Hope."
+    },
+    {
+      "name": "Clutch",
+      "kind": "Reaction",
+      "rulesText": "When the Wyvern makes a successful attack against a PC, you can spend a Fear to have the Wyvern Restrain the target in its claws until the PC succeeds on a Strength Roll (18) or the Wyvern takes Major or greater damage. While Restrained in this way, the PC has disadvantage on attack rolls."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/wyvern/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cipactli",
+  "@type": "Adversary",
+  "name": "Cipactli",
+  "slug": "cipactli",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CIPACTLI",
+    "lineStart": 10456,
+    "lineEnd": 10482,
+    "pdfPageStart": 146,
+    "pdfPageEnd": 146
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Consume",
+    "reshape the land",
+    "trample"
+  ],
+  "difficulty": 20,
+  "thresholds": "35/60",
+  "hitPoints": 8,
+  "stress": 5,
+  "attackModifier": "+8",
+  "standardAttack": {
+    "name": "Bite",
+    "range": "Close",
+    "damage": "4d8+12 phy"
+  },
+  "experience": "Hungry +3, Primordial +3",
+  "description": "A gargantuan crocodile that has a body covered in a patchwork of fish scales, toad skin, and dozens of hungry mouths.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Cipactli can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it."
+    },
+    {
+      "name": "Many Mouths",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack against all targets within Very Close range. Targets the Cipactli succeeds against must also mark a Stress."
+    },
+    {
+      "name": "Frenzied Feeding",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to force all PCs within Close range to succeed on an Instinct Reaction Roll or take 4d6 direct physical damage. The Cipactli clears a HP for each creature who took Severe damage from this attack."
+    },
+    {
+      "name": "Quaking Footfalls",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to force each PC within Far range to make an Agility Reaction Roll. Targets who fail must mark 2 Stress and are Vulnerable until they take damage. Targets who succeed must mark a Stress."
+    },
+    {
+      "name": "Lifeblooded",
+      "kind": "Reaction",
+      "rulesText": "When the Cipactli takes Severe damage, its blood splashes to the ground and instantly erupts into a jungle. All creatures within Close range are temporarily Restrained."
+    },
+    {
+      "name": "Verdant Explosion",
+      "kind": "Reaction",
+      "rulesText": "When the Cipactli marks its last HP, its body erupts into dense vegetation that overtakes the landscape."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/cipactli/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/unyielding-armor",
+  "@type": "DomainCard",
+  "name": "Unyielding Armor",
+  "slug": "unyielding-armor",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "UNYIELDING ARMOR",
+    "lineStart": 16425,
+    "lineEnd": 16431,
+    "pdfPageStart": 224,
+    "pdfPageEnd": 224
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When you would mark an Armor Slot, roll a number of d6s equal to your Proficiency. If any roll a 6, reduce the severity by one threshold without marking an Armor Slot.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/unyielding-armor/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dire-wolf",
+  "@type": "Adversary",
+  "name": "Dire Wolf",
+  "slug": "dire-wolf",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DIRE WOLF",
+    "lineStart": 5670,
+    "lineEnd": 5688,
+    "pdfPageStart": 100,
+    "pdfPageEnd": 100
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Defend territory",
+    "harry",
+    "protect pack",
+    "surround",
+    "trail"
+  ],
+  "difficulty": 12,
+  "thresholds": "5/9",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Claws",
+    "range": "Melee",
+    "damage": "1d6+2 phy"
+  },
+  "experience": "Keen Senses +3",
+  "description": "A large wolf with menacing teeth, seldom encountered alone.",
+  "features": [
+    {
+      "name": "Pack Tactics",
+      "kind": "Passive",
+      "rulesText": "If the Wolf makes a successful standard attack and another Dire Wolf is within Melee range of the target, deal 1d6+5 physical damage instead of their standard damage and you gain a Fear."
+    },
+    {
+      "name": "Hobbling Strike",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make an attack against a target within Melee range. On a success, deal 3d4+10 direct physical damage and make them Vulnerable until they clear at least 1 HP."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/dire-wolf/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

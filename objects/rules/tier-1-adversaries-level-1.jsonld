@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-1-adversaries-level-1",
+  "@type": "Rule",
+  "name": "Tier 1 Adversaries (level 1)",
+  "slug": "tier-1-adversaries-level-1",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TIER 1 ADVERSARIES (LEVEL 1)",
+    "lineStart": 5352,
+    "lineEnd": 5352,
+    "pdfPageStart": 97,
+    "pdfPageEnd": 97
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/tier-1-adversaries-level-1/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

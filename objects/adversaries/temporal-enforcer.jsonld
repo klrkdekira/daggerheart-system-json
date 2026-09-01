@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/temporal-enforcer",
+  "@type": "Adversary",
+  "name": "Temporal Enforcer",
+  "slug": "temporal-enforcer",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TEMPORAL ENFORCER",
+    "lineStart": 11195,
+    "lineEnd": 11219,
+    "pdfPageStart": 155,
+    "pdfPageEnd": 155
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Repair the timeline",
+    "seek out temporal heretics",
+    "serve the Lords of Continuity"
+  ],
+  "difficulty": 20,
+  "thresholds": "42/68",
+  "hitPoints": 8,
+  "stress": 5,
+  "attackModifier": "+4",
+  "standardAttack": {
+    "name": "Adamantine Hammer",
+    "range": "Very Close",
+    "damage": "40 direct phy"
+  },
+  "experience": "Temporal Anomalies +3",
+  "description": "A giant mechanical being from a dimension outside time, built by the Time Keepers to preserve the Holy Continuum.",
+  "features": [
+    {
+      "name": "Relentless (2)",
+      "kind": "Passive",
+      "rulesText": "The Enforcer can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Time Looper",
+      "kind": "Passive",
+      "rulesText": "Countdown (Loop 2d6). When the Enforcer first appears, activate the countdown. It ticks down when the Enforcer is spotlighted. When it triggers, the Enforcer clears all HP, Stress, and conditions. Reroll the countdown when the Enforcer takes Severe damage."
+    },
+    {
+      "name": "Move Between Moments",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Enforcer teleport to a point within Very Far range, then spotlight them again."
+    },
+    {
+      "name": "Instant Rewind",
+      "kind": "Reaction",
+      "rulesText": "When the Enforcer fails an attack, you can spend a Fear to reroll the die."
+    },
+    {
+      "name": "Invert Polarity",
+      "kind": "Reaction",
+      "rulesText": "Up to three times per scene, you can spend a Fear to flip any die rolled onto its obverse result. This effect can’t be used to alter a critical success."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/temporal-enforcer/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

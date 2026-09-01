@@ -1,0 +1,34 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/glowing-rings",
+  "@type": "Weapon",
+  "name": "Glowing Rings",
+  "slug": "glowing-rings",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Magic Weapons",
+    "lineStart": 3427,
+    "lineEnd": 3427,
+    "pdfPageStart": 56,
+    "pdfPageEnd": 56
+  },
+  "category": "primary",
+  "variant": "core",
+  "trait": "Agility",
+  "range": "Very Close",
+  "burden": "Two-Handed",
+  "damage": "d10+2 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 1,
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/glowing-rings/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/primary-weapon-tables"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/abandoned-grove",
+  "@type": "Environment",
+  "name": "Abandoned Grove",
+  "slug": "abandoned-grove",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ABANDONED GROVE",
+    "lineStart": 11586,
+    "lineEnd": 11618,
+    "pdfPageStart": 160,
+    "pdfPageEnd": 160
+  },
+  "tier": 1,
+  "impulses": [
+    "Draw in the curious",
+    "echo the past"
+  ],
+  "difficulty": 11,
+  "potentialAdversariesText": "Beasts (Bear, Dire Wolf, Glass Snake), Grove Guardians (Minor Treant, Sylvan Soldier, Young Dryad)",
+  "description": "A former druidic grove lying fallow and fully reclaimed by nature.",
+  "features": [
+    {
+      "name": "Overgrown Battlefield",
+      "kind": "Passive",
+      "rulesText": "There has been a battle here. A PC can make an Instinct Roll to identify evidence of that fight. On a success with Hope, learn all three pieces of information below. On a success with Fear, learn two. On a failure, a PC can mark a Stress to learn one and gain advantage on the next action roll to investigate this environment. A PC with an appropriate background or Experience can learn an additional detail and ask a follow-up question about the scene and get a truthful (if not always complete) answer.\n\n- Traces of a battle (broken weapons and branches, gouges in the ground) litter the ground.\n- A moss-covered tree trunk is actually the corpse of a treant.\n- Still-standing trees are twisted in strange ways, as if by powerful magic.\n\nWhy did these groups come to blows? Why is the grove unused now?"
+    },
+    {
+      "name": "Barbed Vines",
+      "kind": "Action",
+      "rulesText": "Pick a point within the grove. All targets within Very Close range of that point must succeed on an Agility Reaction Roll or take 1d8+3 physical damage and become Restrained by barbed vines. Restrained lasts until they’re freed with a successful Finesse or Strength roll or by dealing at least 6 damage to the vines.\n\nHow many vines are there? Where do they grab you? Do they pull you down or lift you off the ground?"
+    },
+    {
+      "name": "You Are Not Welcome Here",
+      "kind": "Action",
+      "rulesText": "A Young Dryad, two Sylvan Soldiers, and a number of Minor Treants equal to the number of PCs appear to confront the party for their intrusion.\n\nWhat are the grove guardians concealing? What threat to the forest could the PCs confront to appease the Dryad?"
+    },
+    {
+      "name": "Defiler",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to summon a Minor Chaos Elemental drawn to the echoes of violence and discord. They appear within Far range of a chosen PC and immediately take the spotlight.\n\nWhat color does the grass turn as the elemental appears? How does the chaos warp insects and small wildlife within the grove?"
+    }
+  ],
+  "category": "Exploration",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/bear"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/dire-wolf"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/glass-snake"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/minor-treant"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/sylvan-soldier"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/young-dryad"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/abandoned-grove/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

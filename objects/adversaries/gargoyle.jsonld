@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/gargoyle",
+  "@type": "Adversary",
+  "name": "Gargoyle",
+  "slug": "gargoyle",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GARGOYLE",
+    "lineStart": 7981,
+    "lineEnd": 8001,
+    "pdfPageStart": 121,
+    "pdfPageEnd": 121
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Hide in plain sight",
+    "overwatch",
+    "swoop down"
+  ],
+  "difficulty": 13,
+  "thresholds": "14/28",
+  "hitPoints": 8,
+  "stress": 2,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Stone Claws",
+    "range": "Melee",
+    "damage": "2d10+3 phy"
+  },
+  "experience": "Camouflage +4, Ruins +3",
+  "description": "A magically animated statue resembling a terrifying beast or demon.",
+  "features": [
+    {
+      "name": "Unliving",
+      "kind": "Passive",
+      "rulesText": "The Gargoyle has resistance to magic damage."
+    },
+    {
+      "name": "Swooping Strike",
+      "kind": "Action",
+      "rulesText": "Choose a point within Far range. The Gargoyle moves to that point and makes a standard attack against one target along its path."
+    },
+    {
+      "name": "Petrifying Slash",
+      "kind": "Reaction",
+      "rulesText": "When the Gargoyle deals damage, the target must succeed on a Strength Reaction Roll or become Vulnerable. If the target is already Vulnerable, they become Restrained. If the target is already Vulnerable and Restrained, they must make a death move. The PC can spend a Hope per condition to clear it."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/gargoyle/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

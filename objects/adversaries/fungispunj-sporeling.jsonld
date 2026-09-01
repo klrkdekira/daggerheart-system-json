@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fungispunj-sporeling",
+  "@type": "Adversary",
+  "name": "Fungispunj Sporeling",
+  "slug": "fungispunj-sporeling",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FUNGISPUNJ SPORELING",
+    "lineStart": 7933,
+    "lineEnd": 7953,
+    "pdfPageStart": 120,
+    "pdfPageEnd": 120
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Avoid violence",
+    "spray attackers"
+  ],
+  "difficulty": 13,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "−1",
+  "standardAttack": {
+    "name": "Neuro Spore",
+    "range": "Very Close",
+    "damage": "4 mag"
+  },
+  "experience": "Darkness +3",
+  "description": "A halfling-sized mushroom creature that defends itself from attackers with tiny puffs of neurotoxic spores.",
+  "features": [
+    {
+      "name": "Minion (6)",
+      "kind": "Passive",
+      "rulesText": "The Sporeling is defeated when it takes any damage. For every 6 damage a PC deals to the Sporeling, the PC defeats an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Fungispunj Sporelings within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 4 magic damage each. Combine this damage."
+    },
+    {
+      "name": "Form Up",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to combine three Sporelings within a Close area and replace them with a Fungispunj Sporophore."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/fungispunj-sporeling/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

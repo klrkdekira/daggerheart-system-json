@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/adversaries-and-environments",
+  "@type": "Rule",
+  "name": "Adversaries and Environments",
+  "slug": "adversaries-and-environments",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ADVERSARIES AND ENVIRONMENTS",
+    "lineStart": 4891,
+    "lineEnd": 4891,
+    "pdfPageStart": 93,
+    "pdfPageEnd": 93
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/adversaries-and-environments/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

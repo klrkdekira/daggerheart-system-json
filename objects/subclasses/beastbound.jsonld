@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/beastbound",
+  "@type": "Subclass",
+  "name": "Beastbound",
+  "slug": "beastbound",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "BEASTBOUND",
+    "lineStart": 1308,
+    "lineEnd": 1332,
+    "pdfPageStart": 20,
+    "pdfPageEnd": 20
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/ranger"
+  },
+  "features": [
+    {
+      "name": "Companion",
+      "stage": "foundation",
+      "rulesText": "You have an animal companion of your choice (at the GM’s discretion). They stay by your side unless you tell them otherwise.\n\nTake the Ranger Companion sheet. When you level up your character, choose a level-up option for your companion from this sheet as well."
+    },
+    {
+      "name": "Expert Training",
+      "stage": "specialization",
+      "rulesText": "Choose an additional level-up option for your companion."
+    },
+    {
+      "name": "Battle-Bonded",
+      "stage": "specialization",
+      "rulesText": "When an adversary attacks you while they’re within your companion’s Melee range, you gain a +2 bonus to your Evasion against the attack."
+    },
+    {
+      "name": "Advanced Training",
+      "stage": "mastery",
+      "rulesText": "Choose two additional level-up options for your companion."
+    },
+    {
+      "name": "Loyal Friend",
+      "stage": "mastery",
+      "rulesText": "Once per long rest, when the damage from an attack would mark your companion’s last Stress or your last Hit Point and you’re within Close range of each other, you or your companion can rush to the other’s side and take that damage instead."
+    }
+  ],
+  "description": "Play the Beastbound if you want to form a deep bond with an animal ally.",
+  "spellcastTrait": "Agility",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/subclasses/beastbound/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/fire-titan",
+  "@type": "Adversary",
+  "name": "Fire Titan",
+  "slug": "fire-titan",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "FIRE TITAN",
+    "lineStart": 9432,
+    "lineEnd": 9458,
+    "pdfPageStart": 135,
+    "pdfPageEnd": 135
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Act valorously",
+    "make war",
+    "think tactically"
+  ],
+  "difficulty": 18,
+  "thresholds": "19/35",
+  "hitPoints": 10,
+  "stress": 5,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Greatsword",
+    "range": "Close",
+    "damage": "3d12+4 phy"
+  },
+  "experience": "Smithing +5, Tactics +3",
+  "description": "An armor-clad goliath who has ash-gray skin and fiery hair and wields a masterwork greatsword crafted in their own smithy.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Titan can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Masterwork Armor",
+      "kind": "Passive",
+      "rulesText": "Countdown (3). When the Titan first appears, activate the countdown. It ticks down when the Titan takes Major or Severe damage. Until the countdown triggers, reduce incoming damage by 1d12. When it triggers, the Titan gains a +1 bonus to their Difficulty and attack rolls."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Passive",
+      "rulesText": "When the Titan makes a successful attack against a PC, you gain a Fear."
+    },
+    {
+      "name": "Hurl Rock",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to choose a point within Far range, then make an attack against all targets between the Titan and that point. Targets the Titan succeeds against take 3d12 physical damage."
+    },
+    {
+      "name": "Skull Splitter",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to place a token on this stat block. The next time the Titan is spotlighted, you must spend the token from this stat block and make an attack against a PC within Close range. On a success, deal 3d20+5 direct physical damage. On a failure, the target marks a Stress."
+    },
+    {
+      "name": "Blazing Heart",
+      "kind": "Reaction",
+      "rulesText": "When the Titan marks half or more of their HP, you can spend a Fear and mark any number of Stress to clear a number of HP equal to the number of Stress marked."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/fire-titan/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/young-ice-dragon",
+  "@type": "Adversary",
+  "name": "Young Ice Dragon",
+  "slug": "young-ice-dragon",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "YOUNG ICE DRAGON",
+    "lineStart": 10274,
+    "lineEnd": 10302,
+    "pdfPageStart": 144,
+    "pdfPageEnd": 144
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Avalanche",
+    "defend lair",
+    "fly",
+    "freeze",
+    "defend what is mine",
+    "maul"
+  ],
+  "difficulty": 18,
+  "thresholds": "21/41",
+  "hitPoints": 10,
+  "stress": 6,
+  "attackModifier": "+7",
+  "standardAttack": {
+    "name": "Bite and Claws",
+    "range": "Close",
+    "damage": "4d10 phy"
+  },
+  "experience": "Protect What Is Mine +3",
+  "description": "A glacier-blue dragon with four powerful limbs and frost-tinged wings.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Dragon can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Rend and Crush",
+      "kind": "Passive",
+      "rulesText": "If a target damaged by the Dragon doesn’t mark an Armor Slot to reduce the damage, they must mark a Stress."
+    },
+    {
+      "name": "No Hope",
+      "kind": "Passive",
+      "rulesText": "When a PC rolls with Fear while within Far range of the Dragon, they lose a Hope."
+    },
+    {
+      "name": "Blizzard Breath",
+      "kind": "Action",
+      "rulesText": "Spend 2 Fear to release an icy whorl in front of the Dragon within Close range. All targets in this area must make an Agility Reaction Roll. Targets who fail take 4d6+5 magic damage and are Restrained by ice until they break free with a successful Strength Roll. Targets who succeed must mark 2 Stress or take half damage."
+    },
+    {
+      "name": "Avalanche",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Dragon unleash a huge downfall of snow and ice, covering all other creatures within Far range. All targets within this area must succeed on an Instinct Reaction Roll or be buried in snow and rocks, becoming Vulnerable until they dig themselves out from the debris. For each PC that fails the reaction roll, you gain a Fear."
+    },
+    {
+      "name": "Frozen Scales",
+      "kind": "Reaction",
+      "rulesText": "When a creature makes a successful attack against the Dragon from within Very Close range, they must mark a Stress and become Chilled until their next rest or they clear a Stress. While they are Chilled, they have disadvantage on attack rolls."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Reaction",
+      "rulesText": "When the Dragon makes a successful attack against a PC, you gain a Fear."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/young-ice-dragon/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

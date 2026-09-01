@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/healing-field",
+  "@type": "DomainCard",
+  "name": "Healing Field",
+  "slug": "healing-field",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "HEALING FIELD",
+    "lineStart": 15895,
+    "lineEnd": 15903,
+    "pdfPageStart": 219,
+    "pdfPageEnd": 219
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/sage"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Once per long rest, you can conjure a field of healing plants around you. Everywhere within Close range of you bursts to life with vibrant nature, allowing you and all allies in the area to clear a Hit Point.\n\nSpend 2 Hope to allow you and all allies to clear 2 Hit Points instead.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/healing-field/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

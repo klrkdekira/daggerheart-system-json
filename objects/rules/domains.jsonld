@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/domains",
+  "@type": "Rule",
+  "name": "Domains",
+  "slug": "domains",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "DOMAINS",
+    "lineStart": 243,
+    "lineEnd": 245,
+    "pdfPageStart": 7,
+    "pdfPageEnd": 7
+  },
+  "rulesText": "There are ten Domains, each comprising a collection of cards granting features or special abilities expressing a particular theme. Please note the Daggerheart Core Set includes only the following nine domains: Arcana, Blade, Bone, Codex, Grace, Midnight, Sage, Splendor, and Valor.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/domains/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/catrin",
+  "@type": "Adversary",
+  "name": "Catrin",
+  "slug": "catrin",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CATRIN",
+    "lineStart": 9028,
+    "lineEnd": 9048,
+    "pdfPageStart": 131,
+    "pdfPageEnd": 131
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Dominate the conversation",
+    "seek attention",
+    "steal everything"
+  ],
+  "difficulty": 17,
+  "thresholds": "20/32",
+  "hitPoints": 5,
+  "stress": 6,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Spirit Flame",
+    "range": "Far",
+    "damage": "3d8+5 mag"
+  },
+  "experience": "Opulence +2, Storyteller +2",
+  "description": "A lavishly adorned skeleton that has an endless appetite for gold.",
+  "features": [
+    {
+      "name": "Attracted to Wealth",
+      "kind": "Passive",
+      "rulesText": "PCs carrying at least a bag of gold gain advantage on Presence Rolls made to influence the Catrin."
+    },
+    {
+      "name": "The Weight of Opulence",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to turn the Catrin’s gaze toward the PC carrying the most gold. The target must succeed on an Instinct Reaction Roll or lose a Hope for each bag of gold they’re carrying. If the PC loses their last Hope or has no Hope to lose, they mark Stress instead."
+    },
+    {
+      "name": "Expensive Failure",
+      "kind": "Reaction",
+      "rulesText": "When a PC within Melee range fails an action roll, you can mark a Stress to have the Catrin brazenly steal a handful of gold from them."
+    }
+  ],
+  "role": "Social",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/catrin/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

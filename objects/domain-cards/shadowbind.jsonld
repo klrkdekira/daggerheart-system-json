@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/shadowbind",
+  "@type": "DomainCard",
+  "name": "Shadowbind",
+  "slug": "shadowbind",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SHADOWBIND",
+    "lineStart": 15638,
+    "lineEnd": 15644,
+    "pdfPageStart": 217,
+    "pdfPageEnd": 217
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Spell",
+  "recallCost": 0,
+  "rulesText": "Make a Spellcast Roll against all adversaries within Very Close range. Targets you succeed against are temporarily Restrained as their shadow binds them in place.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/shadowbind/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

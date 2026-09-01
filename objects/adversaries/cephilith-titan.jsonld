@@ -1,0 +1,73 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cephilith-titan",
+  "@type": "Adversary",
+  "name": "Cephilith Titan",
+  "slug": "cephilith-titan",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CEPHILITH TITAN",
+    "lineStart": 10428,
+    "lineEnd": 10454,
+    "pdfPageStart": 146,
+    "pdfPageEnd": 146
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Call and consume followers",
+    "corrupt reality",
+    "invade the Mortal Realm",
+    "spew forth chaos"
+  ],
+  "difficulty": 20,
+  "thresholds": "38/68",
+  "hitPoints": 10,
+  "stress": 10,
+  "attackModifier": "+8",
+  "standardAttack": {
+    "name": "Pseudoclaw",
+    "range": "Close",
+    "damage": "4d8+10 mag"
+  },
+  "experience": "Chaos +5, Psychic +5",
+  "description": "A transdimensional entity in the form of an impossibly large, winged humanoid with an octopus-shaped head and rows of glowing eyes.",
+  "features": [
+    {
+      "name": "Relentless (X)",
+      "kind": "Passive",
+      "rulesText": "The Titan can be spotlighted up to X times per GM turn, where X equals the number of PCs in the scene. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Terrifying",
+      "kind": "Passive",
+      "rulesText": "When the Titan makes a successful attack, all PCs within Close range lose a Hope, and you gain a Fear."
+    },
+    {
+      "name": "Merely a Projection",
+      "kind": "Passive",
+      "rulesText": "The Titan appears in the Mortal Realm as a psychic projection approximating their true form. They have immunity to physical damage and resistance to magic damage."
+    },
+    {
+      "name": "Psychic Scream",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Titan unleash a mind-shattering onslaught of nightmarish visions from the Outer Realms. Each PC within Far range must make an Instinct Reaction Roll (22). Targets who fail take 4d12 direct magic damage. Targets who succeed must mark a Stress."
+    },
+    {
+      "name": "Summon Worshippers",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to summon 1d4 Cephilith Abominations, which appear within Far range, then choose one to immediately spotlight."
+    },
+    {
+      "name": "“It’s Here…”",
+      "kind": "Evolution",
+      "rulesText": "When the Titan has marked half their HP, they manifest in their full form, clearing all HP and losing the “Merely a Projection” feature. While the Titan is in this form, a creature who marks HP from the Titan’s standard attack must mark an additional HP."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/cephilith-titan/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

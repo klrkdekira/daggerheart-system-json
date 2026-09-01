@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/phantom-retreat",
+  "@type": "DomainCard",
+  "name": "Phantom Retreat",
+  "slug": "phantom-retreat",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "PHANTOM RETREAT",
+    "lineStart": 15692,
+    "lineEnd": 15698,
+    "pdfPageStart": 217,
+    "pdfPageEnd": 217
+  },
+  "level": 5,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Spend a Hope to activate Phantom Retreat where you’re currently standing. Spend another Hope at any time before your next rest to disappear from where you are and reappear where you were standing when you activated Phantom Retreat. This spell ends after you reappear.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/phantom-retreat/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/plesiosaurus",
+  "@type": "Adversary",
+  "name": "Plesiosaurus",
+  "slug": "plesiosaurus",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "PLESIOSAURUS",
+    "lineStart": 9770,
+    "lineEnd": 9788,
+    "pdfPageStart": 139,
+    "pdfPageEnd": 139
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Dive deeper",
+    "eat fish",
+    "swim peacefully"
+  ],
+  "difficulty": 16,
+  "thresholds": "18/35",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Bite",
+    "range": "Very Close",
+    "damage": "3d8+5 phy"
+  },
+  "experience": "Lochs +3",
+  "description": "A canoe-length marine lizard that has a long neck and four flippers.",
+  "features": [
+    {
+      "name": "Only a Rumor",
+      "kind": "Passive",
+      "rulesText": "While deep underwater, the Plesiosaurus can’t be located or targeted."
+    },
+    {
+      "name": "Wall of Water",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Plesiosaurus breach and crash, sending a wall of water from one side of its body. Each PC within Far range on that side of the Plesiosaurus must succeed on an Agility Reaction Roll (18) or take 3d10 physical damage and be pushed back to Far range."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/plesiosaurus/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

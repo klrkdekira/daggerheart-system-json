@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/dread-domain",
+  "@type": "Rule",
+  "name": "Dread Domain",
+  "slug": "dread-domain",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "DREAD DOMAIN",
+    "lineStart": 15191,
+    "lineEnd": 15191,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/dread-domain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

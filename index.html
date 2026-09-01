@@ -1,0 +1,1299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Daggerheart SRD 2.0 JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications." />
+<meta name="author" content="Chee Leong Chow" />
+<meta name="theme-color" content="#140a3e" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Daggerheart SRD System JSON" />
+<meta property="og:description" content="Browse and download a source-faithful Daggerheart SRD 2.0 reference corpus in JSON-LD 1.1." />
+<meta property="og:site_name" content="Daggerheart SRD System JSON" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Daggerheart SRD System JSON" />
+<meta name="twitter:description" content="Browse and download a source-faithful Daggerheart SRD 2.0 reference corpus in JSON-LD 1.1." />
+<link rel="canonical" href="https://cheeleong.dev/daggerheart-system-json/" />
+<title>Daggerheart SRD System JSON</title>
+<link rel="license" href="https://www.darringtonpress.com/license" />
+<script>
+(function () {
+  // Dark is the default: Daggerheart's identity is a violet night sky with
+  // gold foil ("Fear"); the light theme is its parchment "Hope" counterpart.
+  var theme = "dark";
+  try {
+    var savedTheme = localStorage.getItem("daggerheart-theme");
+    if (savedTheme === "light" || savedTheme === "dark") {
+      theme = savedTheme;
+    }
+  } catch (error) {
+    // Dark remains the default when storage is unavailable.
+  }
+  document.documentElement.setAttribute("data-theme", theme);
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Daggerheart SRD System JSON",
+  "description": "A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the Daggerheart System Reference Document 2.0.",
+  "url": "https://cheeleong.dev/daggerheart-system-json/",
+  "creator": { "@type": "Person", "name": "Chee Leong Chow" },
+  "license": "https://www.darringtonpress.com/license",
+  "isBasedOn": "https://cheeleong.dev/daggerheart-system-json/SRD.md",
+  "inLanguage": "en",
+  "keywords": ["ttrpg", "daggerheart", "srd-2.0", "json-ld", "json-schema", "reference-corpus", "fair-data"],
+  "distribution": [
+    { "@type": "DataDownload", "name": "Manifest", "encodingFormat": "application/ld+json", "contentUrl": "https://cheeleong.dev/daggerheart-system-json/objects/daggerheart-system-data.jsonld" },
+    { "@type": "DataDownload", "name": "Self-Contained Bundle", "encodingFormat": "application/ld+json", "contentUrl": "https://cheeleong.dev/daggerheart-system-json/objects/daggerheart-system-data.bundle.jsonld" },
+    { "@type": "DataDownload", "name": "LLM Full Context", "encodingFormat": "text/plain", "contentUrl": "https://cheeleong.dev/daggerheart-system-json/llms-full.txt" },
+    { "@type": "DataDownload", "name": "Search Index", "encodingFormat": "application/json", "contentUrl": "https://cheeleong.dev/daggerheart-system-json/objects/search-index.json" }
+  ]
+}
+</script>
+<style>
+  /* Palette derived from the official Daggerheart brand kit
+     (daggerheart.com global colors): violet night sky #160942/#24135F,
+     gold foil #E7C74B/#EFD673/#FDF691, teal highlight #83CDC2/#007581,
+     lavender surfaces #F6F5FB, brand purple #6946A6.
+     Dark = "Fear" (default), light = "Hope". All text pairs meet WCAG AA. */
+  :root {
+    color-scheme: dark light;
+    --font-ui: "Questa Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-text: "Questa", ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --font-display: "Marcellus", "ivymode", ui-serif, Georgia, serif;
+    --bg: #140a3e; --panel: #1b0f4d; --panel2: #251761; --border: #3b2b77;
+    --text: #f6f5fb; --muted: #bcb2de; --accent: #e7c74b; --accent-strong: #efd673;
+    --accent-2: #83cdc2;
+    --accent-soft: #2e1e66; --card: #1d1152; --code-bg: #251761;
+    --nav-bg: #0d0430; --nav-text: #f6f5fb; --nav-muted: #9f92cc;
+    --nav-hover: #231566; --nav-accent: #e7c74b; --brass: #e7c74b;
+    --table-head: #24135f; --table-head-text: #fdf691;
+    --button-bg: #e7c74b; --button-hover: #efd673; --button-text: #160942;
+    --ambient: rgba(105, 70, 166, .22);
+    --shadow: 0 1px 2px rgba(5, 2, 20, .4), 0 10px 30px rgba(5, 2, 20, .25);
+    --shadow-hover: 0 2px 5px rgba(5, 2, 20, .5), 0 18px 42px rgba(5, 2, 20, .38);
+    --focus: #83cdc2;
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #140a3e; --panel: #1b0f4d; --panel2: #251761; --border: #3b2b77;
+    --text: #f6f5fb; --muted: #bcb2de; --accent: #e7c74b; --accent-strong: #efd673;
+    --accent-2: #83cdc2;
+    --accent-soft: #2e1e66; --card: #1d1152; --code-bg: #251761;
+    --nav-bg: #0d0430; --nav-text: #f6f5fb; --nav-muted: #9f92cc;
+    --nav-hover: #231566; --nav-accent: #e7c74b; --brass: #e7c74b;
+    --table-head: #24135f; --table-head-text: #fdf691;
+    --button-bg: #e7c74b; --button-hover: #efd673; --button-text: #160942;
+    --ambient: rgba(105, 70, 166, .22);
+    --shadow: 0 1px 2px rgba(5, 2, 20, .4), 0 10px 30px rgba(5, 2, 20, .25);
+    --shadow-hover: 0 2px 5px rgba(5, 2, 20, .5), 0 18px 42px rgba(5, 2, 20, .38);
+    --focus: #83cdc2;
+  }
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --bg: #f6f5fb; --panel: #ece9f6; --panel2: #dfdbf0; --border: #c9c2e4;
+    --text: #241645; --muted: #5c5382; --accent: #6946a6; --accent-strong: #24135f;
+    --accent-2: #007581;
+    --accent-soft: #efeaf9; --card: #ffffff; --code-bg: #ece9f6;
+    --nav-bg: #160942; --nav-text: #f6f5fb; --nav-muted: #a99cd6;
+    --nav-hover: #241560; --nav-accent: #e7c74b; --brass: #c9a227;
+    --table-head: #24135f; --table-head-text: #fdf691;
+    --button-bg: #e7c74b; --button-hover: #dcb92f; --button-text: #160942;
+    --ambient: rgba(105, 70, 166, .09);
+    --shadow: 0 1px 2px rgba(36, 19, 95, .07), 0 10px 30px rgba(36, 19, 95, .05);
+    --shadow-hover: 0 2px 5px rgba(36, 19, 95, .11), 0 18px 40px rgba(36, 19, 95, .1);
+    --focus: #007581;
+  }
+  ::selection { background: #e7c74b; color: #160942; }
+  * { box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.7 var(--font-ui);
+    display: flex; flex-direction: column; overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  a { color: var(--accent-strong); text-underline-offset: .2em; text-decoration-thickness: .08em; }
+  a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
+    outline: 3px solid var(--focus); outline-offset: 2px;
+  }
+  .skip-link {
+    position: fixed; z-index: 20; top: .75rem; left: .75rem; padding: .65rem .9rem;
+    border-radius: 8px; background: var(--card); color: var(--text); box-shadow: var(--shadow-hover);
+    transform: translateY(-150%);
+  }
+  .skip-link:focus { transform: translateY(0); }
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+  }
+  header {
+    position: relative; z-index: 5; min-height: 76px; padding: .85rem 1.35rem;
+    border-bottom: 2px solid var(--brass); display: grid;
+    grid-template-columns: minmax(250px, auto) minmax(280px, 600px) minmax(190px, auto);
+    align-items: center; justify-content: space-between; gap: 1.75rem;
+    background: var(--card); background: color-mix(in srgb, var(--card) 96%, transparent);
+    box-shadow: 0 1px 0 rgba(0,0,0,.025);
+  }
+  .brand { display: flex; align-items: center; min-width: 0; }
+  .brand-copy { min-width: 0; padding-left: .85rem; border-left: 3px solid var(--brass); }
+  header h1 { margin: 0; font-size: 1.05rem; font-weight: 720; line-height: 1.3; letter-spacing: -.012em; }
+  header h1 a { color: var(--text); text-decoration: none; }
+  header .tag { display: block; margin-top: .04rem; color: var(--muted); font-size: .78rem; line-height: 1.4; }
+  .search-icon {
+    width: 1.08rem; height: 1.08rem; fill: none; stroke: currentColor; stroke-width: 1.8;
+    stroke-linecap: round; stroke-linejoin: round;
+  }
+  .global-search { position: relative; display: flex; min-width: 0; filter: drop-shadow(0 2px 5px rgba(0,0,0,.04)); }
+  .global-search-icon {
+    position: absolute; z-index: 2; top: 50%; left: 1rem; color: var(--muted);
+    transform: translateY(-50%); pointer-events: none;
+  }
+  .global-search input {
+    width: 100%; min-width: 0; min-height: 46px; padding: .58rem .85rem .58rem 2.75rem;
+    border: 1px solid var(--border); border-right: 0; border-radius: 10px 0 0 10px;
+    background: var(--bg); color: var(--text); font: inherit; font-size: .92rem;
+  }
+  .global-search input::placeholder { color: var(--muted); }
+  .global-search input:focus-visible { position: relative; z-index: 1; }
+  .global-search button {
+    display: inline-flex; align-items: center; justify-content: center; gap: .55rem;
+    min-width: 104px; min-height: 46px; padding: .55rem 1rem; border: 1px solid var(--button-bg);
+    border-radius: 0 10px 10px 0; background: var(--button-bg); color: var(--button-text);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.28); font: inherit; font-size: .82rem; font-weight: 750;
+    cursor: pointer; transition: background-color .14s ease, border-color .14s ease, box-shadow .14s ease;
+  }
+  .global-search button::after { content: "→"; font-size: 1rem; line-height: 1; transition: transform .14s ease; }
+  .global-search button:hover { background: var(--button-hover); border-color: var(--button-hover); box-shadow: inset 0 1px 0 rgba(255,255,255,.32), 0 5px 14px rgba(231,199,75,.28); }
+  .global-search button:hover::after { transform: translateX(2px); }
+  .global-search button:active { box-shadow: inset 0 2px 5px rgba(0,0,0,.18); }
+  .header-actions { display: flex; align-items: center; justify-content: flex-end; gap: .85rem; }
+  .header-meta { color: var(--muted); font-size: .73rem; letter-spacing: .055em; text-transform: uppercase; white-space: nowrap; }
+  .header-repo {
+    display: inline-flex; align-items: center; justify-content: center; gap: .32rem;
+    min-height: 38px; padding: .4rem .72rem; border: 1px solid var(--border); border-radius: 9px;
+    background: var(--bg); color: var(--text); text-decoration: none; font-size: .75rem; font-weight: 700;
+  }
+  .header-repo::after { content: "↗"; color: var(--accent); font-size: .82rem; line-height: 1; }
+  .header-repo:hover { border-color: var(--accent); background: var(--panel); }
+  .theme-toggle {
+    display: inline-flex; align-items: center; gap: .42rem; min-height: 38px; padding: .4rem .72rem;
+    border: 1px solid var(--border); border-radius: 9px; background: var(--bg); color: var(--text);
+    font: inherit; font-size: .75rem; font-weight: 700; cursor: pointer;
+  }
+  .theme-toggle:hover { border-color: var(--accent); background: var(--panel); }
+  .theme-icon { width: 1rem; color: var(--accent); font-size: .9rem; line-height: 1; text-align: center; }
+  #layout { display: flex; flex: 1; min-width: 0; min-height: 0; }
+  nav {
+    width: 232px; flex: none; padding: 1.15rem .8rem 1.75rem; border-right: 1px solid rgba(0,0,0,.18);
+    background: linear-gradient(180deg, var(--nav-bg), color-mix(in srgb, var(--nav-bg) 92%, #000));
+    color: var(--nav-text); overflow-y: auto;
+    scrollbar-color: var(--nav-hover) transparent;
+  }
+  nav a {
+    display: flex; justify-content: space-between; align-items: baseline; gap: .5rem;
+    min-height: 42px; padding: .52rem .72rem; margin-bottom: .12rem; border-radius: 8px;
+    color: var(--nav-text); text-decoration: none; font-size: .91rem;
+    border-left: 3px solid transparent; transition: background-color .14s ease, border-color .14s ease;
+  }
+  nav a:hover { background: var(--nav-hover); }
+  nav a.active { background: var(--nav-hover); border-left-color: var(--nav-accent); color: #fff; font-weight: 650; }
+  nav a .count {
+    min-width: 1.75rem; padding: .07rem .38rem; border-radius: 999px;
+    background: rgba(255,255,255,.085); color: var(--nav-muted); text-align: center; font-size: .72rem;
+  }
+  nav a.active .count { color: var(--nav-accent); background: rgba(224,160,88,.12); }
+  nav .navhead { color: var(--nav-muted); font-size: .68rem; font-weight: 750; text-transform: uppercase;
+    letter-spacing: .14em; padding: .35rem .85rem .65rem; }
+  #list {
+    width: 360px; flex: none; display: flex; flex-direction: column; min-height: 0;
+    border-right: 1px solid var(--border); background: var(--panel); box-shadow: 8px 0 24px rgba(45,31,20,.035);
+  }
+  #list.is-idle { display: none; }
+  #list.is-searching #filterwrap, #list.is-searching #filterhint { display: none; }
+  #filterwrap { position: relative; display: grid; padding: 1rem .95rem .48rem; }
+  .filter-search-icon {
+    z-index: 1; grid-area: 1 / 1; align-self: center; justify-self: start;
+    margin-left: .77rem; color: var(--muted); pointer-events: none;
+  }
+  #filter {
+    grid-area: 1 / 1;
+    width: 100%; min-height: 44px; padding: .58rem .8rem .58rem 2.3rem;
+    border: 1px solid var(--border); border-radius: 10px;
+    background: var(--card); color: var(--text); font: inherit; font-size: .92rem;
+    box-shadow: 0 1px 3px rgba(37,39,36,.045);
+  }
+  #filter::placeholder { color: var(--muted); opacity: .9; }
+  #filter:focus-visible { border-color: var(--focus); }
+  #filterhint { color: var(--muted); font-size: .74rem; padding: .18rem 1.05rem .55rem; }
+  #items { overflow-x: hidden; overflow-y: auto; flex: 1; padding: .1rem .65rem 1.35rem; scrollbar-color: var(--border) transparent; }
+  #items .group {
+    position: sticky; z-index: 1; top: 0; background: var(--panel); color: var(--muted);
+    font-size: .68rem; font-weight: 750; text-transform: uppercase; letter-spacing: .11em;
+    padding: .78rem .65rem .36rem; border-bottom: 1px solid var(--border); margin-bottom: .22rem;
+  }
+  #items a {
+    display: block; padding: .58rem .68rem; margin: .08rem 0; border-radius: 9px;
+    border: 1px solid transparent; color: var(--text); text-decoration: none;
+  }
+  #items a:hover { background: var(--card); border-color: var(--border); }
+  #items a.active { background: var(--card); border-color: var(--accent); box-shadow: var(--shadow); }
+  #items .nm { display: block; font-weight: 650; font-size: .93rem; line-height: 1.4; }
+  #items .sub { display: block; margin-top: .1rem; color: var(--muted); font-size: .78rem; line-height: 1.45;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #detail {
+    flex: 1; min-width: 0; overflow: auto;
+    padding: clamp(2.5rem, 5vw, 4.75rem) clamp(1.25rem, 2vw, 2.5rem) 6rem;
+    background-color: var(--bg);
+    background-image:
+      radial-gradient(circle at 82% -12%, var(--ambient), transparent 34rem),
+      linear-gradient(90deg, color-mix(in srgb, var(--ambient) 28%, transparent), transparent 12rem);
+  }
+  .record, .landing { width: 100%; min-width: 0; }
+  .record { max-width: 64rem; margin: 0 auto; }
+  .record h2, .landing h2 {
+    text-wrap: balance; letter-spacing: -.028em; overflow-wrap: break-word;
+  }
+  .record h2 { font-family: var(--font-display); font-weight: 400; letter-spacing: .004em; }
+  .landing h2 { font-family: var(--font-display); font-weight: 400; letter-spacing: .004em; }
+  .record-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 1.25rem; margin-bottom: .35rem; }
+  .record h2 { margin: 0 0 .3rem; font-size: clamp(2rem, 3.2vw, 2.7rem); line-height: 1.1; }
+  .entity-type { flex: none; margin-top: .35rem; padding: .28rem .62rem; border: 1px solid var(--border); border-radius: 999px; background: var(--card); color: var(--muted); font-size: .68rem; font-weight: 750; letter-spacing: .075em; text-transform: uppercase; }
+  .subtitle { color: var(--accent-2); font-family: var(--font-text); font-style: italic; margin: 0 0 .8rem; font-size: 1.13rem; line-height: 1.55; }
+  .provenance { color: var(--muted); font-size: .78rem; margin: 0 0 1.75rem; }
+  .provenance a { color: var(--accent); font-weight: 650; }
+  .facts {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .7rem;
+    margin: 0 0 1.75rem;
+  }
+  .fact { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: .76rem .88rem; box-shadow: var(--shadow); }
+  .fact .k { display: block; margin-bottom: .16rem; color: var(--accent); font-size: .69rem; font-weight: 750; text-transform: uppercase; letter-spacing: .095em; }
+  .fact .v { font-size: .94rem; line-height: 1.48; overflow-wrap: anywhere; }
+  .prose { max-width: 70ch; white-space: pre-wrap; font-family: var(--font-text); font-size: 1.14rem; line-height: 1.8; text-wrap: pretty; }
+  .prose.quote { border-left: 3px solid var(--brass); padding-left: 1rem; font-style: italic; color: var(--muted); }
+  .structured-section { margin: 1.75rem 0; }
+  .structured-title { margin: 0 0 .68rem; color: var(--accent); font-size: .7rem; font-weight: 800; letter-spacing: .105em; text-transform: uppercase; }
+  .relation-list { display: flex; flex-wrap: wrap; gap: .48rem; }
+  .relation-link { display: inline-flex; align-items: center; gap: .42rem; padding: .42rem .66rem; border: 1px solid var(--border); border-radius: 8px; background: var(--card); color: var(--accent-strong); font-size: .8rem; font-weight: 700; text-decoration: none; box-shadow: var(--shadow); }
+  .relation-link::after { content: "→"; color: var(--muted); }
+  .relation-link:hover { border-color: var(--accent); }
+  .attack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .8rem; margin: 0 0 1.75rem; }
+  .attack-card { padding: 1rem 1.05rem; border: 1px solid var(--border); border-radius: 10px; background: var(--card); box-shadow: var(--shadow); }
+  .attack-card strong { display: block; font-family: var(--font-text); font-size: 1.4rem; line-height: 1.3; }
+  .attack-card span { display: block; margin-top: .18rem; color: var(--muted); font-size: 1.08rem; font-weight: 500; line-height: 1.6; }
+  .source-links { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin: -.85rem 0 1.75rem; }
+  .source-links a { font-size: .8rem; font-weight: 700; color: var(--accent-strong); }
+  h3.sect { margin: 2.4rem 0 .72rem; padding-bottom: .46rem; border-bottom: 2px solid var(--brass);
+    font-family: var(--font-text); font-size: 1.34rem; font-weight: 700; line-height: 1.35; color: var(--accent-strong); }
+  h3.sect .kind { margin-left: .55rem; color: var(--muted); font-family: var(--font-ui); font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; vertical-align: middle; }
+  ul.plain { max-width: 70ch; margin: .4rem 0 0; padding-left: 1.3rem; font-family: var(--font-text); font-size: 1.1rem; line-height: 1.75; }
+  ul.plain li { margin: .35rem 0; }
+  .tablewrap { overflow-x: auto; margin: 1.5rem 0; border: 1px solid var(--border); border-radius: 11px; box-shadow: var(--shadow); background: var(--card); }
+  .tablewrap.tall { max-height: min(34rem, 70vh); overflow-y: auto; }
+  table.data { width: 100%; border-collapse: collapse; font-size: clamp(1.02rem, 1rem + .2vw, 1.1rem); font-weight: 450; line-height: 1.6; background: var(--card); }
+  table.data td, table.data th { border-bottom: 1px solid var(--border); padding: .78rem .95rem; text-align: left; vertical-align: top; }
+  table.data thead th {
+    position: sticky; top: 0; z-index: 1; background: var(--table-head); color: var(--table-head-text);
+    font-size: .92rem; font-weight: 750; line-height: 1.4; text-transform: uppercase; letter-spacing: .03em;
+    box-shadow: 0 1px 0 var(--border);
+  }
+  table.data tbody tr:nth-child(even) td { background: var(--panel); }
+  table.data tbody tr:hover td { background: var(--accent-soft); }
+  table.data td.num, table.data th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  table.data td.blank { color: var(--muted); text-align: center; }
+  table.data tbody tr:last-child td { border-bottom: 0; }
+  details.raw { margin-top: 3rem; padding-top: 1.15rem; border-top: 1px solid var(--border); }
+  details.raw summary { cursor: pointer; width: max-content; max-width: 100%; color: var(--muted); font-size: .84rem; font-weight: 650; }
+  details.raw summary:hover { color: var(--accent); }
+  pre { background: var(--code-bg); border: 1px solid var(--border); padding: 1.1rem; border-radius: 10px; overflow-x: auto; font: .8rem/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; }
+  .placeholder { color: var(--muted); padding: .65rem 1rem; }
+  /* landing */
+  .landing { max-width: 68rem; margin: 0 auto; }
+  .landing::before { content: "OPEN REFERENCE CORPUS"; display: block; color: var(--accent); font-size: .72rem; font-weight: 800; letter-spacing: .15em; margin-bottom: .72rem; }
+  .landing.collection-intro::before { content: "COLLECTION"; }
+  .landing h2 { max-width: 52rem; font-size: clamp(2.25rem, 4vw, 3.3rem); line-height: 1.08; margin: 0 0 1.2rem; }
+  .landing h2::after {
+    content: ""; display: block; width: 7.5rem; height: 3px; margin-top: 1.1rem; border-radius: 999px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  }
+  .landing .lede { color: var(--muted); max-width: 48rem; margin: 0; font-size: clamp(1.05rem, 1.55vw, 1.18rem); line-height: 1.76; text-wrap: pretty; }
+  .landing-meta { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.3rem; }
+  .landing-meta span {
+    padding: .3rem .65rem; border: 1px solid var(--border); border-radius: 999px;
+    background: var(--card); color: var(--muted); font-size: .73rem; font-weight: 700; letter-spacing: .025em;
+  }
+  .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 1.25rem; margin: 3rem 0 .9rem; }
+  .section-heading h3 { margin: 0; }
+  .section-heading p { margin: 0; color: var(--muted); font-size: .8rem; text-align: right; }
+  .cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .78rem; margin: 2.25rem 0 2.75rem; }
+  .section-heading + .cards { margin-top: 0; }
+  .cards a {
+    position: relative; min-height: 98px; background: var(--card); border: 1px solid var(--border); border-top: 2px solid var(--brass); border-radius: 11px;
+    padding: 1rem 1.08rem 1.05rem; text-decoration: none; color: var(--text); box-shadow: var(--shadow);
+    transition: transform .14s ease, border-color .14s ease, box-shadow .14s ease;
+  }
+  .cards a::after { content: "→"; position: absolute; right: 1rem; top: .95rem; color: var(--muted); opacity: .45; }
+  .cards a:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-hover); }
+  .cards a:hover::after { color: var(--accent); }
+  .cards .n { display: block; font-family: var(--font-display); font-size: 1.55rem; font-weight: 400; line-height: 1.35; color: var(--accent); }
+  .cards .l { color: var(--muted); font-size: .84rem; font-weight: 650; }
+  .landing h3 { margin: 2rem 0 .7rem; font-family: var(--font-text); font-size: 1.4rem; font-weight: 700; }
+  .resource-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; margin: .9rem 0 0; }
+  .resource-group { min-width: 0; padding: 1.15rem 1.2rem 1rem; border: 1px solid var(--border); border-radius: 11px; background: var(--card); box-shadow: var(--shadow); }
+  .resource-group h4 { margin: 0 0 .22rem; font-family: var(--font-text); font-size: 1.02rem; }
+  .resource-group > p { margin: 0 0 .82rem; color: var(--muted); font-size: .79rem; line-height: 1.55; }
+  .resource-list { padding: 0; margin: 0; list-style: none; }
+  .resource-list li { border-top: 1px solid var(--border); }
+  .resource-link { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .7rem; padding: .66rem 0; text-decoration: none; }
+  .resource-link > span:first-child { min-width: 0; }
+  .resource-link:hover .resource-name { text-decoration: underline; }
+  .resource-name { display: block; font-size: .86rem; font-weight: 700; overflow-wrap: anywhere; }
+  .resource-detail { display: block; color: var(--muted); font-size: .76rem; font-weight: 400; line-height: 1.48; }
+  .resource-type { align-self: center; color: var(--muted); font: .66rem/1.25 ui-monospace, SFMono-Regular, Consolas, monospace; text-transform: uppercase; }
+  .schema-details { margin-top: .82rem; }
+  .schema-details summary { width: max-content; max-width: 100%; cursor: pointer; color: var(--accent-strong); font-size: .79rem; font-weight: 700; }
+  .schema-details > .relation-list { margin-top: .72rem; }
+  .schema-links { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .72rem; }
+  .schema-links a { padding: .24rem .46rem; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); font: .7rem/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; text-decoration: none; }
+  .provenance-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; margin-top: 3rem; padding-top: 1.65rem; border-top: 1px solid var(--border); }
+  .provenance-grid h3 { margin: 0 0 .42rem; font-family: inherit; font-size: .88rem; }
+  .provenance-grid p { margin: 0; color: var(--muted); font-size: .81rem; line-height: 1.7; }
+  .project-links { display: flex; flex-wrap: wrap; gap: .45rem .9rem; margin-top: .75rem; font-size: .8rem; }
+  .landing a { color: var(--accent-strong); }
+  .attribution { color: var(--muted); font-size: .84rem; border-top: 1px solid var(--border);
+    margin-top: 2.6rem; padding-top: 1.15rem; max-width: 52rem; line-height: 1.72; }
+  .noscript { max-width: 44rem; margin: 2rem auto; padding: 1.2rem; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .cards a, .global-search button, .global-search button::after { transition: none; }
+  }
+  @media (max-width: 1180px) and (min-width: 981px) {
+    nav { width: 204px; }
+    #list { width: 316px; }
+    #detail { padding-right: 2rem; padding-left: 2rem; }
+  }
+  @media (max-width: 980px) {
+    header { min-height: 68px; padding: .72rem .95rem .85rem; grid-template-columns: minmax(0, 1fr) auto; gap: .7rem .9rem; }
+    .global-search { grid-column: 1 / -1; grid-row: 2; }
+    .header-meta { display: none; }
+    #layout { width: 100%; min-width: 0; flex-direction: column; }
+    nav { width: 100%; min-width: 0; display: flex; overflow-x: auto; overflow-y: hidden; border-right: none; border-bottom: 1px solid rgba(0,0,0,.16); padding: .5rem .55rem; }
+    nav .navhead { display: none; }
+    nav a { flex: none; min-height: 38px; padding: .42rem .68rem; white-space: nowrap; border-left: 0; border-bottom: 2px solid transparent; }
+    nav a.active { border-left: 0; border-bottom-color: var(--nav-accent); }
+    #list { width: 100%; min-width: 0; max-height: 36vh; border-right: none; border-bottom: 1px solid var(--border); }
+    #filterwrap { padding-top: .8rem; }
+    #detail { width: 100%; min-width: 0; overflow-x: hidden; padding: 2.5rem clamp(1.15rem, 5vw, 2.5rem) 4rem; }
+  }
+  @media (max-width: 640px) {
+    header .tag { max-width: 16rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .theme-toggle { width: 38px; padding: 0; justify-content: center; }
+    .theme-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .global-search button { min-width: 94px; padding-right: .75rem; padding-left: .75rem; }
+    #list { max-height: 34vh; }
+    #detail { padding-top: 2rem; }
+    .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .cards a { min-height: 92px; padding: .85rem .9rem .92rem; }
+    .landing h2 { font-size: clamp(2.05rem, 10vw, 2.65rem); }
+    .record h2 { font-size: clamp(2rem, 9vw, 2.5rem); }
+    .resource-grid, .provenance-grid { grid-template-columns: 1fr; }
+    .section-heading { display: block; }
+    .section-heading p { margin-top: .25rem; text-align: left; }
+    .record-heading { display: block; }
+    .entity-type { display: inline-block; margin: .15rem 0 .65rem; }
+  }
+  @media (max-width: 440px) {
+    header { padding-right: .75rem; padding-left: .75rem; }
+    header h1 { font-size: .95rem; }
+    header .tag { max-width: 14.5rem; font-size: .71rem; }
+    #detail { padding-right: 1rem; padding-left: 1rem; }
+    .landing::before { font-size: .68rem; }
+    .landing .lede { font-size: 1.02rem; line-height: 1.72; }
+    .cards, .facts { grid-template-columns: 1fr; }
+    .cards a { min-height: 84px; }
+    .resource-link { gap: .5rem; }
+    .resource-type { font-size: .62rem; }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#detail">Skip to record</a>
+<header>
+  <div class="brand">
+    <div class="brand-copy">
+      <h1><a href="#/">Daggerheart SRD Reference</a></h1>
+      <span class="tag">Searchable rules for people and machines</span>
+    </div>
+  </div>
+  <form class="global-search" id="global-search-form" role="search">
+    <label class="visually-hidden" for="global-search">Search the full corpus</label>
+    <svg class="search-icon global-search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle cx="10.75" cy="10.75" r="6.25"></circle>
+      <path d="m15.5 15.5 4.25 4.25"></path>
+    </svg>
+    <input id="global-search" type="search" placeholder="Search adversaries, domain cards, rules…" autocomplete="off" />
+    <button type="submit"><span>Search</span></button>
+  </form>
+  <div class="header-actions">
+    <span class="header-meta">Open data · Darrington Press CGL</span>
+    <a class="header-repo" href="https://github.com/klrkdekira/daggerheart-system-json" target="_blank" rel="noopener noreferrer" aria-label="Project repository on GitHub">GitHub</a>
+    <button class="theme-toggle" id="theme-toggle" type="button">
+      <span class="theme-icon" aria-hidden="true">☀</span>
+      <span class="theme-label">Light</span>
+    </button>
+  </div>
+</header>
+<div id="layout">
+  <nav id="nav" aria-label="Collections"></nav>
+  <div id="list">
+    <div id="filterwrap">
+      <svg class="search-icon filter-search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <circle cx="10.75" cy="10.75" r="6.25"></circle>
+        <path d="m15.5 15.5 4.25 4.25"></path>
+      </svg>
+      <input id="filter" type="search" placeholder="Filter…" aria-label="Filter current collection" autocomplete="off" />
+    </div>
+    <div id="filterhint">Filter this collection by name or summary</div>
+    <div id="items"></div>
+  </div>
+  <main id="detail" tabindex="-1">
+    <noscript>
+      <section class="noscript">
+        <h2>Daggerheart SRD System JSON</h2>
+        <p>JavaScript is required for the interactive explorer. The corpus remains available as static files:</p>
+        <p><a href="objects/daggerheart-system-data.bundle.jsonld">JSON-LD bundle</a> · <a href="llms-full.txt">full text context</a> · <a href="README.md">documentation</a></p>
+      </section>
+    </noscript>
+  </main>
+</div>
+<script>
+(function () {
+  "use strict";
+  var REPO = "https://github.com/klrkdekira/daggerheart-system-json";
+  var LABELS = {
+    classes: "Classes", subclasses: "Subclasses", domains: "Domains",
+    "domain-cards": "Domain Cards", ancestries: "Ancestries",
+    communities: "Communities", transformations: "Transformations",
+    beastforms: "Beastforms", weapons: "Weapons", armor: "Armor",
+    items: "Items", consumables: "Consumables", adversaries: "Adversaries",
+    environments: "Environments", rules: "Rules", sources: "Sources"
+  };
+  var NAV_ORDER = ["classes", "subclasses", "domains", "domain-cards",
+    "ancestries", "communities", "transformations", "beastforms",
+    "weapons", "armor", "items", "consumables",
+    "adversaries", "environments", "rules", "sources"];
+  var colIndex = null, searchIndex = null, searchIndexPromise = null;
+  var route = { collection: null, slug: null, search: null };
+
+  var nav = document.getElementById("nav");
+  var items = document.getElementById("items");
+  var detail = document.getElementById("detail");
+  var filter = document.getElementById("filter");
+  var globalSearchForm = document.getElementById("global-search-form");
+  var globalSearch = document.getElementById("global-search");
+  var themeToggle = document.getElementById("theme-toggle");
+  var themeColor = document.querySelector('meta[name="theme-color"]');
+
+  function currentTheme() {
+    return document.documentElement.getAttribute("data-theme") || "light";
+  }
+
+  function updateThemeToggle() {
+    var activeTheme = currentTheme();
+    var nextTheme = activeTheme === "dark" ? "light" : "dark";
+    themeColor.setAttribute("content", activeTheme === "dark" ? "#140a3e" : "#f6f5fb");
+    themeToggle.setAttribute("aria-label", "Use " + nextTheme + " theme");
+    themeToggle.setAttribute("title", "Use " + nextTheme + " theme");
+    themeToggle.querySelector(".theme-icon").textContent = nextTheme === "light" ? "☀" : "☾";
+    themeToggle.querySelector(".theme-label").textContent = nextTheme === "light" ? "Light" : "Dark";
+  }
+
+  themeToggle.addEventListener("click", function () {
+    var nextTheme = currentTheme() === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", nextTheme);
+    try { localStorage.setItem("daggerheart-theme", nextTheme); } catch (error) { /* optional */ }
+    updateThemeToggle();
+  });
+  updateThemeToggle();
+
+  function el(tag, cls, text) {
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text !== undefined) node.textContent = text;
+    return node;
+  }
+  function link(href, cls) {
+    var a = document.createElement("a");
+    a.href = href; if (cls) a.className = cls;
+    return a;
+  }
+
+  fetch("objects/collection-index.json")
+    .then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      colIndex = data.collections;
+      window.addEventListener("hashchange", onRoute);
+      onRoute();
+    })
+    .catch(function () {
+      detail.textContent = "";
+      detail.appendChild(el("p", "placeholder", "Could not load collection index."));
+    });
+
+  var lastCollection = null;
+
+  function onRoute() {
+    var rawHash = location.hash.replace(/^#\/?/, "");
+    var hash = "";
+    try {
+      hash = decodeURIComponent(rawHash);
+    } catch (error) {
+      hash = rawHash;
+    }
+    var parts = hash.split("/").filter(Boolean);
+    if (parts[0] === "search") {
+      route = { collection: null, slug: null, search: parts.slice(1).join("/") };
+      document.title = "Search: " + route.search + " · Daggerheart SRD Reference";
+      globalSearch.value = route.search;
+      filter.value = "";
+      lastCollection = null;
+      renderNav();
+      runGlobalSearch(route.search);
+      return;
+    }
+    route = { collection: parts[0] || null, slug: parts[1] || null, search: null };
+    globalSearch.value = "";
+    if (lastCollection !== route.collection) {
+      filter.value = "";
+      lastCollection = route.collection;
+    }
+    renderNav();
+    if (!route.collection || !colIndex || !colIndex[route.collection]) {
+      route.collection = null;
+      document.title = "Daggerheart SRD System JSON";
+      renderList(null);
+      renderLanding();
+      return;
+    }
+    renderList(route.collection, filter.value.trim());
+    if (route.slug) {
+      showRecord(route.collection, route.slug);
+    } else {
+      document.title = (LABELS[route.collection] || route.collection) + " · Daggerheart SRD Reference";
+      renderCollectionIntro(route.collection);
+    }
+  }
+
+  function renderNav() {
+    nav.textContent = "";
+    nav.appendChild(el("div", "navhead", "Browse"));
+    if (!colIndex) return;
+    NAV_ORDER.forEach(function (name) {
+      if (!colIndex[name]) return;
+      var a = link("#/" + name, route.collection === name ? "active" : "");
+      if (route.collection === name) a.setAttribute("aria-current", "page");
+      a.appendChild(el("span", null, LABELS[name] || name));
+      a.appendChild(el("span", "count", String(colIndex[name].length)));
+      nav.appendChild(a);
+    });
+  }
+
+  // ---- list pane -----------------------------------------------------
+
+  function renderList(collection, filterText) {
+    document.getElementById("list").classList.toggle("is-idle", !collection);
+    document.getElementById("list").classList.remove("is-searching");
+    items.textContent = "";
+    if (!collection) {
+      filter.placeholder = "Search the full corpus…";
+      items.appendChild(el("p", "placeholder", "Pick a collection above, or press Enter in the box to search everything."));
+      return;
+    }
+    filter.placeholder = "Filter " + (LABELS[collection] || collection).toLowerCase() + "…";
+    var needle = (filterText || "").toLowerCase();
+    var lastGroup = null, shown = 0, activeItem = null;
+    colIndex[collection].forEach(function (entry) {
+      if (needle &&
+          entry.name.toLowerCase().indexOf(needle) === -1 &&
+          entry.sub.toLowerCase().indexOf(needle) === -1 &&
+          (entry.group || "").toLowerCase().indexOf(needle) === -1) return;
+      if (entry.group !== lastGroup) {
+        items.appendChild(el("div", "group", entry.group));
+        lastGroup = entry.group;
+      }
+      var a = link("#/" + collection + "/" + entry.slug,
+        route.slug === entry.slug ? "active" : "");
+      if (route.slug === entry.slug) {
+        a.setAttribute("aria-current", "page");
+        activeItem = a;
+      }
+      a.appendChild(el("span", "nm", entry.name));
+      if (entry.sub) a.appendChild(el("span", "sub", entry.sub));
+      items.appendChild(a);
+      shown += 1;
+    });
+    if (!shown) items.appendChild(el("p", "placeholder", "No matches in this collection. Press Enter to search everything."));
+    if (activeItem) activeItem.scrollIntoView({ block: "center" });
+  }
+
+  var filterTimer = null;
+  filter.addEventListener("input", function () {
+    clearTimeout(filterTimer);
+    filterTimer = setTimeout(function () {
+      if (route.collection) renderList(route.collection, filter.value.trim());
+    }, 120);
+  });
+  globalSearchForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    var query = globalSearch.value.trim();
+    if (query) location.hash = "#/search/" + encodeURIComponent(query);
+  });
+
+  function ensureSearchIndex() {
+    if (!searchIndexPromise) {
+      searchIndexPromise = fetch("objects/search-index.json")
+        .then(function (r) { return r.json(); })
+        .then(function (idx) { searchIndex = idx; return idx; });
+    }
+    return searchIndexPromise;
+  }
+
+  function runGlobalSearch(query) {
+    document.getElementById("list").classList.remove("is-idle");
+    document.getElementById("list").classList.add("is-searching");
+    items.textContent = "";
+    items.appendChild(el("p", "placeholder", "Downloading the full search index (about 13 MB), then searching…"));
+    detail.textContent = "";
+    detail.appendChild(el("p", "placeholder", "Full-text results for “" + query + "” are in the list."));
+    var terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+    if (terms.some(function (term) { return term.length < 3; })) {
+      items.textContent = "";
+      items.appendChild(el("p", "placeholder", "Every search term needs at least 3 characters; no terms were ignored."));
+      return;
+    }
+    ensureSearchIndex().then(function (idx) {
+      var hits = null;
+      terms.forEach(function (term) {
+        var matched = {};
+        Object.keys(idx.tokens).forEach(function (token) {
+          if (token.indexOf(term) === 0) {
+            idx.tokens[token].forEach(function (posting) {
+              matched[posting.document] = posting.excerpt;
+            });
+          }
+        });
+        hits = hits === null ? matched : intersect(hits, matched);
+      });
+      items.textContent = "";
+      var allDocs = Object.keys(hits || {}).map(Number);
+      var docs = allDocs.slice(0, 300);
+      if (!docs.length) {
+        items.appendChild(el("p", "placeholder", "No matches anywhere."));
+        return;
+      }
+      var countLabel = allDocs.length > docs.length
+        ? "First " + docs.length + " of " + allDocs.length + " results"
+        : docs.length + " results";
+      items.appendChild(el("div", "group", countLabel));
+      docs.forEach(function (docIndex) {
+        var doc = idx.documents[docIndex];
+        var pathParts = doc.id.split("/"); // objects/<collection>/<slug>
+        var a = link("#/" + pathParts[1] + "/" + pathParts[2]);
+        a.appendChild(el("span", "nm", doc.name));
+        var matchedExcerpt = (hits || {})[docIndex] || doc.excerpt;
+        a.appendChild(el("span", "sub", (LABELS[pathParts[1]] || doc.type) +
+          (matchedExcerpt ? " · " + matchedExcerpt : "")));
+        items.appendChild(a);
+      });
+    }).catch(function () {
+      items.textContent = "";
+      items.appendChild(el("p", "placeholder", "Could not load search index."));
+    });
+  }
+  function intersect(a, b) {
+    var out = {};
+    Object.keys(a).forEach(function (k) { if (b[k]) out[k] = a[k] || b[k]; });
+    return out;
+  }
+
+  // ---- detail pane ---------------------------------------------------
+
+  function renderLanding() {
+    detail.textContent = "";
+    var box = el("div", "landing");
+    var total = NAV_ORDER.reduce(function (sum, name) {
+      return sum + (colIndex[name] ? colIndex[name].length : 0);
+    }, 0);
+    var browsable = total - (colIndex.sources ? colIndex.sources.length : 0);
+
+    box.appendChild(el("h2", null, "The Daggerheart SRD, as connected data"));
+    box.appendChild(el("p", "lede",
+      "A browsable, machine-readable reference corpus built from the Daggerheart System Reference Document 2.0. " +
+      "Records preserve source wording alongside typed fields, graph links, and line-level provenance. " +
+      "Browse a collection, filter its entries, or use the header search to search across the corpus."));
+
+    var meta = el("div", "landing-meta");
+    [total.toLocaleString() + " records", NAV_ORDER.length + " collections", "JSON-LD 1.1",
+      "JSON Schema 2020-12", "v0.1.0"].forEach(function (label) {
+      meta.appendChild(el("span", null, label));
+    });
+    box.appendChild(meta);
+
+    var browseHeading = el("div", "section-heading");
+    browseHeading.appendChild(el("h3", null, "Browse the corpus"));
+    browseHeading.appendChild(el("p", null, browsable.toLocaleString() + " rules and game-reference records"));
+    box.appendChild(browseHeading);
+    var cards = el("div", "cards");
+    NAV_ORDER.forEach(function (name) {
+      if (!colIndex[name] || name === "sources") return;
+      var a = link("#/" + name);
+      a.appendChild(el("span", "n", String(colIndex[name].length)));
+      a.appendChild(el("span", "l", LABELS[name]));
+      cards.appendChild(a);
+    });
+    box.appendChild(cards);
+
+    var dataHeading = el("div", "section-heading");
+    dataHeading.appendChild(el("h3", null, "Use the data"));
+    dataHeading.appendChild(el("p", null, "Download, integrate, validate, or cite the corpus"));
+    box.appendChild(dataHeading);
+
+    var resources = el("div", "resource-grid");
+    appendResourceGroup(resources, "Corpus downloads", "Primary data artifacts for applications and offline use.", [
+      ["objects/daggerheart-system-data.bundle.jsonld", "Self-contained bundle", "All records in one @graph · about 2.4 MB", "JSON-LD"],
+      ["objects/daggerheart-system-data.jsonld", "Aggregate manifest", "Collection membership, schemas, and corpus digest", "JSON-LD"],
+      ["datapackage.json", "Frictionless Data Package", "Portable dataset metadata and resource listing", "JSON"],
+      ["SRD.md", "Authoritative source", "Verified Markdown conversion of the SRD 2.0 PDF", "Markdown"]
+    ]);
+    appendResourceGroup(resources, "LLM and discovery", "Text projections and indexes for retrieval workflows.", [
+      ["llms-full.txt", "Full corpus context", "Single plain-text context file · about 1.5 MB", "Text"],
+      ["llms.txt", "LLM entry-point map", "Compact guide to corpus resources", "Text"],
+      ["objects/search-index.json", "Full-text search index", "Static inverted token index used by this explorer · about 13 MB", "JSON"],
+      ["objects/collection-index.json", "Collection index", "Names, slugs, groups, and display metadata", "JSON"],
+      ["sitemap.xml", "Record sitemap", "Canonical URLs for web discovery", "XML"]
+    ]);
+    appendResourceGroup(resources, "Model and validation", "Semantic vocabulary and machine-validation contracts.", [
+      ["systems/context.jsonld", "JSON-LD context", "Terms, prefixes, and IRI coercion", "JSON-LD"],
+      ["vocab/", "Vocabulary reference", "Dereferenceable classes and properties", "HTML"],
+      ["systems/common.schema.json", "Common entity schema", "Shared identity and provenance definitions", "Schema"],
+      ["objects/build-metrics.json", "Build metrics", "Record, collection, and relation totals", "JSON"]
+    ], true);
+    appendResourceGroup(resources, "Documentation and citation", "Technical architecture, citation metadata, and repository source.", [
+      ["SPECIFICATION.md", "Technical specification", "Authoritative architecture and extraction rules", "Markdown"],
+      ["README.md", "Project documentation", "Corpus scope, pipeline, and verification gates", "Markdown"],
+      ["CITATION.cff", "Citation metadata", "Preferred project citation", "CFF"],
+      [REPO, "GitHub repository", "Source code, issues, and build history", "GitHub"]
+    ]);
+    box.appendChild(resources);
+
+    var provenance = el("div", "provenance-grid");
+    var sourceInfo = el("section");
+    sourceInfo.appendChild(el("h3", null, "Source provenance"));
+    sourceInfo.appendChild(el("p", null,
+      "The authoritative in-scope source is SRD.md, a page-by-page verified conversion of the official " +
+      "Daggerheart SRD 2.0 PDF. Each record includes a source node plus chapter, heading, SRD.md line " +
+      "bounds, and the PDF pages it came from."));
+    appendInlineLinks(sourceInfo, [
+      ["SRD.md", "Read source"],
+      ["#/sources/daggerheart-srd-2-0", "Source record"],
+      ["https://www.daggerheart.com/srd/", "Official SRD"]
+    ]);
+    provenance.appendChild(sourceInfo);
+
+    var rightsInfo = el("section");
+    rightsInfo.appendChild(el("h3", null, "Rights and reuse"));
+    rightsInfo.appendChild(el("p", null,
+      "Daggerheart SRD material is Public Game Content under the Darrington Press Community Gaming " +
+      "License. This is an independent, unofficial project and is not affiliated with Darrington Press " +
+      "or Critical Role."));
+    appendInlineLinks(rightsInfo, [
+      ["https://www.darringtonpress.com/license", "Community Gaming License"],
+      ["LICENSE", "Repository license"]
+    ]);
+    provenance.appendChild(rightsInfo);
+    box.appendChild(provenance);
+
+    box.appendChild(el("p", "attribution",
+      "This work includes material from the Daggerheart System Reference Document 2.0, © 2026 Critical " +
+      "Role LLC, used as Public Game Content per the Darrington Press Community Gaming License " +
+      "(www.darringtonpress.com/license). Independent, unofficial project — not affiliated with " +
+      "Darrington Press or Critical Role."));
+    detail.appendChild(box);
+  }
+
+  function appendResourceGroup(parent, title, description, entries, includeSchemas) {
+    var group = el("section", "resource-group");
+    group.appendChild(el("h4", null, title));
+    group.appendChild(el("p", null, description));
+    var listNode = el("ul", "resource-list");
+    entries.forEach(function (entry) {
+      var li = el("li");
+      var a = link(entry[0], "resource-link");
+      if (/^https?:/.test(entry[0])) {
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+      }
+      var copy = el("span");
+      copy.appendChild(el("span", "resource-name", entry[1]));
+      copy.appendChild(el("span", "resource-detail", entry[2]));
+      a.appendChild(copy);
+      a.appendChild(el("span", "resource-type", entry[3]));
+      li.appendChild(a);
+      listNode.appendChild(li);
+    });
+    group.appendChild(listNode);
+    if (includeSchemas) appendSchemaLinks(group);
+    parent.appendChild(group);
+  }
+
+  function appendSchemaLinks(parent) {
+    var details = el("details", "schema-details");
+    details.appendChild(el("summary", null, "All collection schemas"));
+    var links = el("div", "schema-links");
+    ["source", "domain", "characterclass", "subclass", "ancestry", "community",
+      "transformation", "beastform", "weapon", "armor", "item", "consumable",
+      "adversary", "environment", "domaincard", "rule", "common"].forEach(function (name) {
+      var a = link("systems/" + name + ".schema.json");
+      a.textContent = name;
+      links.appendChild(a);
+    });
+    details.appendChild(links);
+    parent.appendChild(details);
+  }
+
+  function appendInlineLinks(parent, entries) {
+    var links = el("div", "project-links");
+    entries.forEach(function (entry) {
+      var a = link(entry[0]);
+      a.textContent = entry[1];
+      if (/^https?:/.test(entry[0])) {
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+      }
+      links.appendChild(a);
+    });
+    parent.appendChild(links);
+  }
+
+  function renderCollectionIntro(collection) {
+    detail.textContent = "";
+    var box = el("div", "landing collection-intro");
+    box.appendChild(el("h2", null, LABELS[collection] || collection));
+    box.appendChild(el("p", "lede", colIndex[collection].length +
+      " records. Select one from the list, or type to filter."));
+    detail.appendChild(box);
+  }
+
+  function refSlug(ref) {
+    if (!ref || !ref["@id"]) return null;
+    var parts = ref["@id"].split("/objects/")[1];
+    return parts ? parts.split("/") : null;
+  }
+
+  function refName(ref) {
+    var parts = refSlug(ref);
+    if (!parts) return "";
+    var match = (colIndex[parts[0]] || []).find(function (entry) {
+      return entry.slug === parts[1];
+    });
+    return match ? match.name : titleFromSlug(parts[1]);
+  }
+
+  function showRecord(collection, slug) {
+    detail.textContent = "";
+    detail.appendChild(el("p", "placeholder", "Loading…"));
+    var path = "objects/" + collection + "/" + slug + ".jsonld";
+    fetch(path).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    }).then(function (record) {
+      document.title = (record.name || slug) + " · Daggerheart SRD Reference";
+      detail.textContent = "";
+      var box = el("div", "record");
+      var heading = el("div", "record-heading");
+      heading.appendChild(el("h2", null, record.name || slug));
+      heading.appendChild(el("span", "entity-type", humanizeType(record["@type"] || "Record")));
+      box.appendChild(heading);
+
+      var subtitle = recordSubtitle(record);
+      if (subtitle) box.appendChild(el("p", "subtitle", subtitle));
+
+      var locator = record.sourceLocator;
+      if (locator) {
+        var pages = locator.pdfPageStart === locator.pdfPageEnd
+          ? "PDF p. " + locator.pdfPageStart
+          : "PDF pp. " + locator.pdfPageStart + "–" + locator.pdfPageEnd;
+        box.appendChild(el("p", "provenance",
+          "Daggerheart SRD 2.0 · " + locator.chapter + " · " + locator.heading +
+          " · " + pages + " · SRD.md lines " + locator.lineStart + "–" + locator.lineEnd));
+      }
+
+      var recordLinks = el("div", "source-links");
+      var rawLink = link(path); rawLink.textContent = "Raw JSON-LD";
+      recordLinks.appendChild(rawLink);
+      if (locator && locator.lineStart) {
+        var sourceUrl = REPO + "/blob/main/SRD.md?plain=1#L" +
+          locator.lineStart + (locator.lineEnd ? "-L" + locator.lineEnd : "");
+        var sourceLink = link(sourceUrl); sourceLink.textContent = "View source lines";
+        sourceLink.target = "_blank"; sourceLink.rel = "noopener noreferrer";
+        recordLinks.appendChild(sourceLink);
+      }
+      if (record.htmlPage && record.htmlPage["@id"]) {
+        var pageLink = link(record.htmlPage["@id"]); pageLink.textContent = "Standalone HTML";
+        recordLinks.appendChild(pageLink);
+      }
+      if (record.licenseUrl && record.licenseUrl["@id"]) {
+        var licenseLink = link(record.licenseUrl["@id"]); licenseLink.textContent = record.license || "License";
+        licenseLink.target = "_blank"; licenseLink.rel = "noopener noreferrer";
+        recordLinks.appendChild(licenseLink);
+      }
+      box.appendChild(recordLinks);
+
+      renderFacts(box, record);
+      if (record.standardAttack) renderAttack(box, "Standard attack", record.standardAttack, record.attackModifier);
+      if (record.attack) renderAttack(box, "Beastform attack", record.attack, null);
+      if (record.description) renderProse(box, record.description);
+      if (record.rulesText) renderProse(box, record.rulesText);
+
+      if (record.hopeFeature) renderFeature(box, record.hopeFeature, "Hope Feature");
+      (record.features || []).forEach(function (feature) { renderFeature(box, feature); });
+      if (record.feature && record.feature.rulesText !== undefined) {
+        renderFeature(box, record.feature, record["@type"] === "Community" ? "Community Feature" : "Feature");
+      }
+      (record.sections || []).forEach(function (section) { renderFeature(box, section); });
+      renderStringList(box, "Background Questions", record.backgroundQuestions);
+      renderStringList(box, "Connections", record.connections);
+      renderStringList(box, "Transformation Questions", record.questions);
+      renderRelations(box, record);
+
+      var raw = el("details", "raw");
+      raw.appendChild(el("summary", null, "Raw record JSON"));
+      raw.appendChild(el("pre", null, JSON.stringify(record, null, 2)));
+      box.appendChild(raw);
+      detail.appendChild(box);
+      detail.scrollTop = 0;
+      renderList(collection, filter.value.trim());
+    }).catch(function () {
+      detail.textContent = "";
+      detail.appendChild(el("p", "placeholder", "Could not load " + path));
+    });
+  }
+
+  function variantLabel(variant) {
+    return variant === "core" ? "" : titleFromSlug(variant || "") + " ";
+  }
+
+  function recordSubtitle(record) {
+    var type = record["@type"];
+    if (type === "Adversary") return "Tier " + record.tier + " " + record.role;
+    if (type === "Environment") return "Tier " + record.tier + " " + record.category;
+    if (type === "DomainCard") {
+      return "Level " + record.level + " " + refName(record.domain) + " " + record.cardType +
+        " · Recall Cost " + record.recallCost;
+    }
+    if (type === "Weapon") {
+      return variantLabel(record.variant) + (record.tier ? "Tier " + record.tier + " " : "") +
+        record.category.charAt(0).toUpperCase() + record.category.slice(1) + " Weapon";
+    }
+    if (type === "Armor") {
+      return variantLabel(record.variant) + (record.tier ? "Tier " + record.tier + " " : "") + "Armor";
+    }
+    if (type === "Beastform") {
+      return "Tier " + record.tier + " Druid Beastform" +
+        (record.exampleCreatures ? " (" + record.exampleCreatures + ")" : "");
+    }
+    if (type === "CharacterClass") {
+      return "Domains: " + (record.domains || []).map(refName).join(" & ");
+    }
+    if (type === "Subclass") return refName(record.parentClass) + " Subclass";
+    if (type === "Ancestry") return "Ancestry";
+    if (type === "Community") return "Community";
+    if (type === "Transformation") return "Transformation";
+    if (type === "Item" || type === "Consumable") {
+      return (record.itemSet === "core-set" ? "Core Set" : "Hope & Fear Expansion") +
+        " · Roll " + record.roll;
+    }
+    if (type === "Rule") return record.sourceLocator ? titleCase(record.sourceLocator.chapter) : "";
+    if (type === "Source") return record.license || "";
+    return "";
+  }
+
+  function titleCase(text) {
+    return text.split(" ").map(function (word) {
+      return word.length > 3 || !/^(and|an|a|of|the|to)$/i.test(word)
+        ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+        : word.toLowerCase();
+    }).join(" ");
+  }
+
+  var FACT_FIELDS = [
+    ["tier", "Tier"], ["role", "Role"], ["category", "Category"],
+    ["difficulty", "Difficulty"], ["thresholds", "Thresholds"],
+    ["hitPoints", "HP"], ["stress", "Stress"], ["attackModifier", "ATK"],
+    ["experience", "Experience"], ["motivesAndTactics", "Motives & Tactics"],
+    ["impulses", "Impulses"],
+    ["level", "Level"], ["cardType", "Card Type"], ["recallCost", "Recall Cost"],
+    ["startingEvasion", "Starting Evasion"], ["startingHitPoints", "Starting Hit Points"],
+    ["classItems", "Class Items"], ["spellcastTrait", "Spellcast Trait"],
+    ["trait", "Trait"], ["range", "Range"], ["damage", "Damage"],
+    ["tieredDamage", "Damage by Tier"], ["damageTypes", "Damage Type"],
+    ["burden", "Burden"], ["variant", "Variant"],
+    ["baseThresholds", "Base Thresholds"], ["baseScore", "Base Armor Score"],
+    ["itemSet", "Set"], ["roll", "Roll"],
+    ["exampleCreatures", "Example Creatures"], ["traitBonus", "Trait Bonus"],
+    ["evasionBonus", "Evasion Bonus"], ["advantageOn", "Advantage On"],
+    ["srdVersion", "SRD Version"], ["license", "License"],
+    ["sourceFile", "Source File"], ["contentDigest", "Content Digest"],
+    ["pdfFile", "PDF File"], ["pdfDigest", "PDF Digest"],
+    ["attributionStatement", "Attribution"]
+  ];
+  function renderFacts(box, record) {
+    var grid = el("div", "facts");
+    var count = 0;
+    FACT_FIELDS.forEach(function (pair) {
+      if (record[pair[0]] === undefined) return;
+      var node = el("div", "fact");
+      node.appendChild(el("span", "k", pair[1]));
+      node.appendChild(el("span", "v", displayValue(record[pair[0]])));
+      grid.appendChild(node);
+      count += 1;
+    });
+    if (count) box.appendChild(grid);
+  }
+
+  function displayValue(value) {
+    if (typeof value === "boolean") return value ? "Yes" : "No";
+    if (Array.isArray(value)) return value.join(", ");
+    if (value === "core-set") return "Core Set";
+    if (value === "expansion") return "Hope & Fear Expansion";
+    return String(value).replace(/<br>/g, "; ");
+  }
+
+  function humanizeType(value) {
+    return String(value).replace(/([a-z])([A-Z])/g, "$1 $2");
+  }
+
+  function renderAttack(box, title, attack, modifier) {
+    var section = el("section", "structured-section");
+    section.appendChild(el("h3", "structured-title", title));
+    var grid = el("div", "attack-grid");
+    var card = el("div", "attack-card");
+    card.appendChild(el("strong", null, attack.name || "Attack"));
+    var line = [
+      modifier ? "ATK " + modifier : null,
+      attack.trait || null,
+      attack.range || null,
+      attack.damage || null
+    ].filter(Boolean).join(" · ");
+    card.appendChild(el("span", null, line));
+    grid.appendChild(card);
+    section.appendChild(grid);
+    box.appendChild(section);
+  }
+
+  function renderFeature(box, feature, forcedLabel) {
+    var head = el("h3", "sect", feature.name || forcedLabel || "Feature");
+    var kind = feature.kind || feature.stage;
+    if (forcedLabel && feature.name) kind = forcedLabel + (kind ? " · " + kind : "");
+    if (kind) head.appendChild(el("span", "kind", kind));
+    box.appendChild(head);
+    if (feature.rulesText) renderProse(box, feature.rulesText);
+  }
+
+  function renderStringList(box, title, values) {
+    if (!values || !values.length) return;
+    box.appendChild(el("h3", "sect", title));
+    var list = el("ul", "plain");
+    values.forEach(function (value) { list.appendChild(el("li", null, value)); });
+    box.appendChild(list);
+  }
+
+  function renderRelations(box, record) {
+    var relationFields = [
+      ["source", "Source record"],
+      ["domains", "Domain"], ["domain", "Domain"],
+      ["subclasses", "Subclass"], ["parentClass", "Parent class"],
+      ["fromClass", "Class"], ["fromSection", "Source section"],
+      ["potentialAdversaries", "Adversary"]
+    ];
+    var section = el("section", "structured-section");
+    section.appendChild(el("h3", "structured-title", "Connected records"));
+    var linkCount = 0;
+    relationFields.forEach(function (pair) {
+      if (!record[pair[0]]) return;
+      var values = Array.isArray(record[pair[0]]) ? record[pair[0]] : [record[pair[0]]];
+      var links = el("div", "relation-list");
+      values.forEach(function (ref) {
+        var parts = refSlug(ref);
+        if (!parts || parts.length < 2) return;
+        var a = link("#/" + parts[0] + "/" + parts[1], "relation-link");
+        a.textContent = pair[1] + " · " + refName(ref);
+        links.appendChild(a);
+        linkCount += 1;
+      });
+      if (!links.childNodes.length) return;
+      if (links.childNodes.length > 16) {
+        var details = el("details", "schema-details");
+        details.appendChild(el("summary", null, pair[1] + " links · " + links.childNodes.length + " records"));
+        details.appendChild(links);
+        section.appendChild(details);
+      } else {
+        section.appendChild(links);
+      }
+    });
+    if (linkCount) box.appendChild(section);
+  }
+
+  function titleFromSlug(slug) {
+    return slug.split("-").map(function (part) {
+      return part ? part.charAt(0).toUpperCase() + part.slice(1) : part;
+    }).join(" ");
+  }
+
+  var BLANK_CELL = { "": true, "-": true, "—": true };
+  function isNumericValue(value) {
+    return /^[+-−]?[\d,]+(?:\.\d+)?$/.test(value) ||
+      /^\d*d\d+(?:\s*[+-]\s*\d+)?(?: (?:phy|mag))?$/.test(value) ||
+      /^\d+ \/ \d+$/.test(value);
+  }
+
+  function numericColumns(columns, rows) {
+    return columns.map(function (_, index) {
+      var seen = false;
+      var allNumeric = (rows || []).every(function (row) {
+        var cell = row.cells[index];
+        if (!cell || BLANK_CELL[cell.value]) return true;
+        seen = true;
+        return isNumericValue(cell.value);
+      });
+      return seen && allNumeric;
+    });
+  }
+
+  function renderDataTable(box, columns, rows) {
+    var wrap = el("div", "tablewrap");
+    if ((rows || []).length > 14) wrap.className += " tall";
+    var table = el("table", "data");
+    var numeric = numericColumns(columns, rows);
+    if (columns.some(function (c) { return c; })) {
+      var thead = el("thead");
+      var head = el("tr");
+      columns.forEach(function (column, index) {
+        head.appendChild(el("th", numeric[index] ? "num" : null, column));
+      });
+      thead.appendChild(head);
+      table.appendChild(thead);
+    }
+    var tbody = el("tbody");
+    (rows || []).forEach(function (row) {
+      var tr = el("tr");
+      row.cells.forEach(function (cell, index) {
+        var cls = BLANK_CELL[cell.value] ? "blank" : (numeric[index] ? "num" : null);
+        tr.appendChild(el("td", cls, cell.value.replace(/<br>/g, "; ")));
+      });
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+    box.appendChild(wrap);
+  }
+
+  function parsePipeTable(tableLines) {
+    var split = function (line) {
+      return line.replace(/^\|/, "").replace(/\|$/, "").split("|").map(function (c) { return c.trim(); });
+    };
+    var first = split(tableLines[0]);
+    var hasSeparator = tableLines.length > 1 && split(tableLines[1]).every(function (c) {
+      return /^:?-{3,}:?$/.test(c);
+    });
+    var columns = hasSeparator ? first : first.map(function () { return ""; });
+    var dataLines = hasSeparator ? tableLines.slice(2) : tableLines;
+    var rows = [];
+    dataLines.forEach(function (line) {
+      var cells = split(line);
+      if (/^:?-{3,}:?$/.test(cells[0])) return;
+      rows.push({ cells: cells.map(function (value) { return { value: value }; }) });
+    });
+    return { columns: columns, rows: rows };
+  }
+
+  function appendMarkdownText(node, text) {
+    // Bold-only inline markdown: split on ** pairs, keep everything textual.
+    var parts = text.split("**");
+    parts.forEach(function (part, index) {
+      if (!part) return;
+      if (index % 2 === 1) {
+        node.appendChild(el("strong", null, part));
+      } else {
+        node.appendChild(document.createTextNode(part));
+      }
+    });
+  }
+
+  function renderProse(box, text) {
+    // Render source prose: markdown pipe tables become real tables, heading
+    // lines become section headings, blockquotes become styled asides, and
+    // **bold** becomes emphasis. Everything else stays verbatim.
+    if (!text) return;
+    var lines = text.split("\n");
+    var buffer = [];
+    var bufferQuoted = false;
+    var flush = function () {
+      var chunk = buffer.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+      if (chunk) {
+        var node = el("div", bufferQuoted ? "prose quote" : "prose");
+        appendMarkdownText(node, chunk);
+        box.appendChild(node);
+      }
+      buffer = [];
+      bufferQuoted = false;
+    };
+    var isPipeLine = function (line) {
+      var trimmed = line.trim();
+      return trimmed.charAt(0) === "|" && trimmed.charAt(trimmed.length - 1) === "|" && trimmed.length > 2;
+    };
+    var index = 0;
+    while (index < lines.length) {
+      var line = lines[index];
+      if (isPipeLine(line)) {
+        flush();
+        var tableLines = [];
+        while (index < lines.length && isPipeLine(lines[index])) {
+          tableLines.push(lines[index].trim());
+          index += 1;
+        }
+        var parsed = parsePipeTable(tableLines);
+        renderDataTable(box, parsed.columns, parsed.rows);
+      } else if (/^#{1,6} /.test(line)) {
+        flush();
+        box.appendChild(el("h3", "sect", line.replace(/^#{1,6} /, "")));
+        index += 1;
+      } else if (/^> /.test(line.trim())) {
+        if (!bufferQuoted && buffer.some(function (b) { return b.trim(); })) flush();
+        bufferQuoted = true;
+        buffer.push(line.trim().replace(/^> /, ""));
+        index += 1;
+      } else {
+        if (bufferQuoted && line.trim()) flush();
+        buffer.push(line);
+        index += 1;
+      }
+    }
+    flush();
+  }
+})();
+</script>
+</body>
+</html>

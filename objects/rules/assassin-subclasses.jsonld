@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/assassin-subclasses",
+  "@type": "Rule",
+  "name": "Assassin Subclasses",
+  "slug": "assassin-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "ASSASSIN SUBCLASSES",
+    "lineStart": 398,
+    "lineEnd": 400,
+    "pdfPageStart": 9,
+    "pdfPageEnd": 9
+  },
+  "rulesText": "Choose either the Executioners Guild or Poisoners Guild subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/assassin-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

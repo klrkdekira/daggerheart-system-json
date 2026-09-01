@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/tangle-bramble",
+  "@type": "Adversary",
+  "name": "Tangle Bramble",
+  "slug": "tangle-bramble",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TANGLE BRAMBLE",
+    "lineStart": 6944,
+    "lineEnd": 6962,
+    "pdfPageStart": 111,
+    "pdfPageEnd": 111
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Combine",
+    "drain",
+    "entangle"
+  ],
+  "difficulty": 11,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "−1",
+  "standardAttack": {
+    "name": "Thorns",
+    "range": "Melee",
+    "damage": "2 phy"
+  },
+  "description": "An animate, blood-drinking tumbleweed.",
+  "features": [
+    {
+      "name": "Minion (4)",
+      "kind": "Passive",
+      "rulesText": "The Bramble is defeated when they take any damage. For every 4 damage a PC deals to the Tangle Bramble, defeat an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Tangle Brambles within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 2 physical damage each. Combine this damage."
+    },
+    {
+      "name": "Drain and Multiply",
+      "kind": "Reaction",
+      "rulesText": "When an attack from the Bramble causes a target to mark HP and there are three or more Tangle Bramble Minions within Close range, you can combine the Minions into a Tangle Bramble Swarm Horde. The Horde’s HP is equal to the number of Minions combined."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/tangle-bramble/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

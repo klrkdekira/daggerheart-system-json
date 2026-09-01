@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/wall-walk",
+  "@type": "DomainCard",
+  "name": "Wall Walk",
+  "slug": "wall-walk",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "WALL WALK",
+    "lineStart": 14420,
+    "lineEnd": 14426,
+    "pdfPageStart": 206,
+    "pdfPageEnd": 206
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Spend a Hope to allow a creature you can touch to climb on walls and ceilings as easily as walking on the ground. This lasts until the end of the scene or you cast Wall Walk again",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/wall-walk/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

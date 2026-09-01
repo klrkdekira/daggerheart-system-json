@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-elite-guard",
+  "@type": "Adversary",
+  "name": "Entombed Elite Guard",
+  "slug": "entombed-elite-guard",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ENTOMBED ELITE GUARD",
+    "lineStart": 7751,
+    "lineEnd": 7769,
+    "pdfPageStart": 118,
+    "pdfPageEnd": 118
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Form up",
+    "protect the empress",
+    "strike as one"
+  ],
+  "difficulty": 15,
+  "thresholds": "9/18",
+  "hitPoints": 4,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Curved Blade",
+    "range": "Melee",
+    "damage": "2d10+2 phy"
+  },
+  "experience": "Soldier +3",
+  "description": "An elite undead soldier buried with their empress to defend the tomb from theft and desecration.",
+  "features": [
+    {
+      "name": "Battle Formation",
+      "kind": "Passive",
+      "rulesText": "The Guard gains a +1 bonus to their Difficulty for each ally within Very Close range."
+    },
+    {
+      "name": "Javelin",
+      "kind": "Action",
+      "rulesText": "Make an attack against a target within Very Far range. On a success, deal 2d6+2 physical damage."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/entombed-elite-guard/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

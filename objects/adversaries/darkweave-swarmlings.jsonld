@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/darkweave-swarmlings",
+  "@type": "Adversary",
+  "name": "Darkweave Swarmlings",
+  "slug": "darkweave-swarmlings",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DARKWEAVE SWARMLINGS",
+    "lineStart": 5628,
+    "lineEnd": 5646,
+    "pdfPageStart": 99,
+    "pdfPageEnd": 99
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Burst out of holes",
+    "climb up legs",
+    "crawl into ears",
+    "scuttle under clothes"
+  ],
+  "difficulty": 9,
+  "thresholds": "4/8",
+  "hitPoints": 8,
+  "stress": 4,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Nibble",
+    "range": "Melee",
+    "damage": "1d8 phy"
+  },
+  "experience": "Climb +2",
+  "description": "A teeming swarm of tiny spiders woven out of shadow-silk.",
+  "features": [
+    {
+      "name": "Horde (1d4)",
+      "kind": "Passive",
+      "rulesText": "When the Swarmlings have marked half or more of their HP, their standard attack deals 1d4 physical damage instead."
+    },
+    {
+      "name": "“Get ’em Off, Get ’em Off!”",
+      "kind": "Reaction",
+      "rulesText": "When an attack from the Swarmlings causes a target to mark HP, you can mark a Stress to make the target temporarily Covered in Spiders. While Covered in Spiders, the target must roll a d6 when they make an action roll. On a result of 4 or higher, they must mark a Stress or you gain a Fear."
+    }
+  ],
+  "role": "Horde (8/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/darkweave-swarmlings/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

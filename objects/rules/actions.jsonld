@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/actions",
+  "@type": "Rule",
+  "name": "Actions",
+  "slug": "actions",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ACTIONS",
+    "lineStart": 4980,
+    "lineEnd": 4986,
+    "pdfPageStart": 94,
+    "pdfPageEnd": 94
+  },
+  "rulesText": "**Haymaker - Action:** Make an attack against a target within Very Close range. On a success, deal X direct physical damage.\n\n**Shredding Strike - Action:** Make an attack against a target within Very Close range. On a success, deal X physical damage and the target must mark an Armor Slot without gaining its benefit (they can still use armor to reduce the damage).\n\n**More Where That Came From - Action:** Summon three Jagged Knife Lackeys, who appear at Far range.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/actions/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/cephilith-hatchling",
+  "@type": "Adversary",
+  "name": "Cephilith Hatchling",
+  "slug": "cephilith-hatchling",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CEPHILITH HATCHLING",
+    "lineStart": 10360,
+    "lineEnd": 10380,
+    "pdfPageStart": 145,
+    "pdfPageEnd": 145
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Climb",
+    "feed",
+    "hatch",
+    "numb",
+    "scuttle"
+  ],
+  "difficulty": 18,
+  "thresholds": "None",
+  "hitPoints": 1,
+  "stress": 1,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Barbed Suckers",
+    "range": "Melee",
+    "damage": "9 phy"
+  },
+  "experience": "Psychic +2",
+  "description": "A squidlike parasite that latches onto their prey’s skull, bathing the victim’s brain in extradimensional neurotoxins.",
+  "features": [
+    {
+      "name": "Minion (12)",
+      "kind": "Passive",
+      "rulesText": "The Hatchling is defeated when they take any damage. For every 12 damage a PC deals to the Hatchling, the PC defeats an additional Minion within range the attack would succeed against."
+    },
+    {
+      "name": "Comatize",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Hatchling latch onto the head of a PC within Melee range. The PC must mark a Stress as the Hatchling injects the PC’s brain with psycho-chemicals, and they must mark an additional Stress each time any PC fails a roll with Fear. The PC can remove the Hatchling by spending a number of Hope equal to the number of Stress they have marked. If a PC marks their last Stress while the Hatchling is latched on, the PC must make a death move. If the PC dies, you can spend a Fear to resurrect them as a Cephilith Novitiate."
+    },
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Cephilith Hatchlings within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 9 physical damage each. Combine this damage."
+    }
+  ],
+  "role": "Minion",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/cephilith-hatchling/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

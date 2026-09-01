@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/wizard-subclasses",
+  "@type": "Rule",
+  "name": "Wizard Subclasses",
+  "slug": "wizard-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WIZARD SUBCLASSES",
+    "lineStart": 2063,
+    "lineEnd": 2065,
+    "pdfPageStart": 31,
+    "pdfPageEnd": 31
+  },
+  "rulesText": "Choose either the School of Knowledge or School of War subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/wizard-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

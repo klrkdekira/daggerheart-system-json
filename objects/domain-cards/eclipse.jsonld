@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/eclipse",
+  "@type": "DomainCard",
+  "name": "Eclipse",
+  "slug": "eclipse",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "ECLIPSE",
+    "lineStart": 15798,
+    "lineEnd": 15808,
+    "pdfPageStart": 218,
+    "pdfPageEnd": 218
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Make a Spellcast Roll (16). Once per long rest on a success, plunge the entire area within Far range into complete darkness only you and your allies can see through. Attack rolls have disadvantage when targeting you or an ally within this shadow.\n\nAdditionally, when you or an ally succeeds with Hope against an adversary within this shadow, the target must mark a Stress.\n\nThis spell lasts until the GM spends a Fear on their turn to clear this effect or you take Severe damage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/eclipse/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

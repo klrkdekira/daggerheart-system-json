@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/daggerheart-system-json/systems/adversary.schema.json",
+  "type": "object",
+  "properties": {
+    "@context": {
+      "const": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld"
+    },
+    "@id": {
+      "type": "string",
+      "pattern": "^https://cheeleong\\.dev/daggerheart-system-json/objects/[a-z-]+/[a-z0-9-]+$"
+    },
+    "@type": {
+      "const": "Adversary"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "source": {
+      "$ref": "common.schema.json#/$defs/nodeRef"
+    },
+    "sourceLocator": {
+      "$ref": "common.schema.json#/$defs/sourceLocator"
+    },
+    "htmlPage": {
+      "$ref": "common.schema.json#/$defs/pageRef"
+    },
+    "fromSection": {
+      "$ref": "common.schema.json#/$defs/nodeRef"
+    },
+    "tier": {
+      "type": "integer"
+    },
+    "role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "motivesAndTactics": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "difficulty": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "thresholds": {
+      "type": "string",
+      "minLength": 1
+    },
+    "hitPoints": {
+      "type": "integer"
+    },
+    "stress": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "attackModifier": {
+      "type": "string",
+      "minLength": 1
+    },
+    "standardAttack": {
+      "$ref": "common.schema.json#/$defs/attack"
+    },
+    "experience": {
+      "type": "string",
+      "minLength": 1
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/feature"
+      }
+    }
+  },
+  "required": [
+    "@context",
+    "@id",
+    "@type",
+    "name",
+    "slug",
+    "source",
+    "sourceLocator",
+    "htmlPage",
+    "tier",
+    "role",
+    "features"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/outer-realms-abomination",
+  "@type": "Adversary",
+  "name": "Outer Realms Abomination",
+  "slug": "outer-realms-abomination",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "OUTER REALMS ABOMINATION",
+    "lineStart": 11031,
+    "lineEnd": 11051,
+    "pdfPageStart": 153,
+    "pdfPageEnd": 153
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Demolish",
+    "devour",
+    "undermine"
+  ],
+  "difficulty": 19,
+  "thresholds": "35/71",
+  "hitPoints": 7,
+  "stress": 5,
+  "attackModifier": "+2d4",
+  "standardAttack": {
+    "name": "Massive Pseudopod",
+    "range": "Very Close",
+    "damage": "4d6+13 mag"
+  },
+  "description": "A chaotic mockery of life, constantly in flux.",
+  "features": [
+    {
+      "name": "Chaotic Form",
+      "kind": "Passive",
+      "rulesText": "When the Abomination attacks, roll 2d4 and use the result as their attack modifier."
+    },
+    {
+      "name": "Disorienting Presence",
+      "kind": "Passive",
+      "rulesText": "When a target takes damage from the Abomination, they must make an Instinct Reaction Roll. On a failure, they gain disadvantage on their next action roll and you gain a Fear."
+    },
+    {
+      "name": "Reality Quake",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to rattle the edges of reality within Far range of the Abomination. All targets within that area must succeed on a Knowledge Reaction Roll or become Unstuck from reality until the end of the scene. When an Unstuck target spends Hope or marks Armor Slots, HP, or Stress, they must double the amount spent or marked."
+    },
+    {
+      "name": "Unreal Form",
+      "kind": "Reaction",
+      "rulesText": "When the Abomination takes damage, reduce it by 1d20. If the Abomination marks 1 or fewer Hit Points from a successful attack against them, you gain a Fear."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/outer-realms-abomination/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

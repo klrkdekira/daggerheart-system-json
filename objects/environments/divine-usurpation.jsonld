@@ -1,0 +1,77 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/divine-usurpation",
+  "@type": "Environment",
+  "name": "Divine Usurpation",
+  "slug": "divine-usurpation",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DIVINE USURPATION",
+    "lineStart": 12938,
+    "lineEnd": 12974,
+    "pdfPageStart": 179,
+    "pdfPageEnd": 179
+  },
+  "tier": 4,
+  "impulses": [
+    "Collect power",
+    "overawe",
+    "silence dissent"
+  ],
+  "difficulty": 20,
+  "potentialAdversariesText": "Arch-Necromancer, Fallen Shock Troops, Mortal Hunter, Oracle of Doom, Perfected Zombie",
+  "description": "A massive ritual designed to breach the gates of the Hallows Above and unseat the New Gods themselves.",
+  "features": [
+    {
+      "name": "Final Preparations",
+      "kind": "Passive",
+      "rulesText": "When the environment first takes the spotlight, designate one adversary as the Usurper seeking to overthrow the gods. Activate a Long-Term Countdown (8) as the Usurper assembles what they need to conduct the ritual. When it triggers, spotlight this environment to use the “Beginning of the End” feature. While this environment remains in play, you can hold up to 15 Fear.\n\nWhat does the Usurper still require: The heart of a High Seraph? The lodestone of an ancient waygate? The loyalty of two archenemies? The heartbroken tears of a pure soul?"
+    },
+    {
+      "name": "Divine Blessing",
+      "kind": "Passive",
+      "rulesText": "When a PC critically succeeds, they can spend 2 Hope to refresh an ability normally limited by uses (such as once per rest, once per session).\n\nWhat god favors you as you fight against this usurpation? How does your renewed power reflect their influence?"
+    },
+    {
+      "name": "Defilers Abound",
+      "kind": "Action",
+      "rulesText": "Spend 2 Fear to summon 1d4+2 Fallen Shock Troops that appear within Close range of the Usurper to assist their divine siege. Immediately spotlight the Shock Troops to use a “Group Attack” action.\n\nWhich High Fallen do these troops serve? Which god’s flesh do they wish to feast upon?"
+    },
+    {
+      "name": "Godslayer",
+      "kind": "Action",
+      "rulesText": "If the Divine Siege Countdown (see “Beginning of the End”) has triggered, you can spend 3 Fear to describe the Usurper slaying one of the gods of the Hallows Above, feasting upon their power and growing stronger. The Usurper clears 2 HP. Increase their Difficulty, damage, attack modifier, or give them a new feature from the slain god.\n\nWhich god meets their end? What are their last words? How does the Usurper’s new stolen power manifest?"
+    },
+    {
+      "name": "Beginning of the End",
+      "kind": "Reaction",
+      "rulesText": "When the “Final Preparations” long-term countdown triggers, the Usurper begins hammering on the gates of the Hallows themselves. Activate a Divine Siege Countdown (10). Spotlight the Usurper to describe the Usurper’s assault and tick down this countdown by 1. If the Usurper takes Major or greater damage, tick up the countdown by 1. When it triggers, the Usurper shatters the barrier between the Mortal Realm and the Hallows Above to slay the gods and take their place. You gain a Fear for each unmarked HP the Usurper has. You can immediately use the “Godslayer” feature without spending Fear to make an additional GM move.\n\nHow does the Mortal Realm writhe as the natural order is violated? What mortals witness this blasphemy from afar?"
+    },
+    {
+      "name": "Ritual Nexus",
+      "kind": "Reaction",
+      "rulesText": "On any failure with Fear against the Usurper, the PC must mark 1d4 Stress from the backlash of magical power.\n\nWhat visions of failures past torment you as your efforts fall short? How are these memories twisted by the Usurper?"
+    }
+  ],
+  "category": "Event",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/arch-necromancer"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/mortal-hunter"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/oracle-of-doom"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/perfected-zombie"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/divine-usurpation/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

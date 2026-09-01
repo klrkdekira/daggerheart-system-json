@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/guahalan-alebrujo",
+  "@type": "Adversary",
+  "name": "Guahalan Alebrujo",
+  "slug": "guahalan-alebrujo",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "GUAHALAN ALEBRUJO",
+    "lineStart": 8174,
+    "lineEnd": 8198,
+    "pdfPageStart": 123,
+    "pdfPageEnd": 123
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Destroy",
+    "give no quarter",
+    "ravage"
+  ],
+  "difficulty": 14,
+  "thresholds": "13/26",
+  "hitPoints": 6,
+  "stress": 5,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Tooth & Claw",
+    "range": "Very Close",
+    "damage": "2d10+4 mag"
+  },
+  "experience": "Brutal +2, Quick +2",
+  "description": "A huge, colorful, chimeric beast formed from many animals.",
+  "features": [
+    {
+      "name": "The Beast Unleashed",
+      "kind": "Passive",
+      "rulesText": "The Alebrujo gains a bonus to damage rolls equal to the number of Fear you have."
+    },
+    {
+      "name": "Guahalan Sacrifice",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Alebrujo devour a Minion within Very Close range, then clear a HP or a Stress."
+    },
+    {
+      "name": "Howl of the Guahala",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Alebrujo emit a howl. Each PC within Far range must succeed on a Presence Reaction Roll or become temporarily Panicked. While Panicked, a PC must mark a Stress when they take the spotlight."
+    },
+    {
+      "name": "Rip & Tear",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make a standard attack with advantage. On a success, you can mark a Stress to make another standard attack against an additional target within range. You can continue marking Stress to make additional attacks until the Alebrujo fails an attack roll."
+    },
+    {
+      "name": "Brutal Spectacle",
+      "kind": "Reaction",
+      "rulesText": "When the Alebrujo deals Severe damage, you can spend a Fear to force all targets within Close range to mark a Stress."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/guahalan-alebrujo/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

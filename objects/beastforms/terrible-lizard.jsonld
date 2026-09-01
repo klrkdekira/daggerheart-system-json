@@ -1,0 +1,49 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/terrible-lizard",
+  "@type": "Beastform",
+  "name": "Terrible Lizard",
+  "slug": "terrible-lizard",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "TERRIBLE LIZARD",
+    "lineStart": 1127,
+    "lineEnd": 1139,
+    "pdfPageStart": 18,
+    "pdfPageEnd": 18
+  },
+  "tier": 4,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Brachiosaurus, Tyrannosaurus, etc.",
+  "traitBonus": "Strength +3",
+  "evasionBonus": 2,
+  "attack": {
+    "range": "Melee",
+    "trait": "Strength",
+    "damage": "d12+10 phy"
+  },
+  "advantageOn": [
+    "attack",
+    "deceive",
+    "scare",
+    "track"
+  ],
+  "features": [
+    {
+      "name": "Devastating Strikes",
+      "rulesText": "When you deal Severe damage to a target within Melee range, you can mark a Stress to force them to mark an additional Hit Point."
+    },
+    {
+      "name": "Massive Stride",
+      "rulesText": "You can move up to Far range without rolling. You ignore rough terain (at the GM’s discretion) due to your size."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/terrible-lizard/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

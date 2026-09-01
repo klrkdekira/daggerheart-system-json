@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/through-your-eyes",
+  "@type": "DomainCard",
+  "name": "Through Your Eyes",
+  "slug": "through-your-eyes",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "THROUGH YOUR EYES",
+    "lineStart": 15479,
+    "lineEnd": 15485,
+    "pdfPageStart": 215,
+    "pdfPageEnd": 215
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "Choose a target within Very Far range. You can see through their eyes and hear through their ears. You can transition between using your own senses or the target’s freely until you cast another spell or until your next rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/through-your-eyes/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

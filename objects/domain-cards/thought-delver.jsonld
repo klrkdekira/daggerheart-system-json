@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/thought-delver",
+  "@type": "DomainCard",
+  "name": "Thought Delver",
+  "slug": "thought-delver",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "THOUGHT DELVER",
+    "lineStart": 15487,
+    "lineEnd": 15495,
+    "pdfPageStart": 215,
+    "pdfPageEnd": 215
+  },
+  "level": 5,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "You can peek into the minds of others. Spend a Hope to read the vague surface thoughts of a target within Far range. Make a Spellcast Roll against the target to delve for deeper, more hidden thoughts.\n\nOn a roll with Fear, the target might, at the GM’s discretion, become aware that you’re reading their thoughts.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/thought-delver/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

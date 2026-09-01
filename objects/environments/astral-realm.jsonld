@@ -1,0 +1,70 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/astral-realm",
+  "@type": "Environment",
+  "name": "Astral Realm",
+  "slug": "astral-realm",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ASTRAL REALM",
+    "lineStart": 12532,
+    "lineEnd": 12560,
+    "pdfPageStart": 173,
+    "pdfPageEnd": 173
+  },
+  "tier": 3,
+  "impulses": [
+    "Attack their psyches",
+    "summon their subconscious fears",
+    "warp their perceptions"
+  ],
+  "difficulty": 16,
+  "potentialAdversariesText": "Demon of Despair, Elemental Spark, Pain Priest, Psychic Vampires (Head Vampire, Night Children)",
+  "description": "A psychic realm of energy and emotion, where the strong in spirit can reshape the rules of reality.",
+  "features": [
+    {
+      "name": "Out-of-Body Experience",
+      "kind": "Passive",
+      "rulesText": "Because the party isn’t physically in this realm, Strength, Agility, and Finesse Rolls automatically fail. Additionally, when a character would mark a HP, they must lose a Hope or mark a Stress instead. If a character can’t mark a Stress, they must make a death move.\n\nHow does the projection of your mental self-image differ from your physical appearance? Which one do you consider the “real” you?"
+    },
+    {
+      "name": "Mental Manifestations",
+      "kind": "Passive",
+      "rulesText": "With a successful Knowledge Roll, PCs can alter the psychic environment, such as by inverting gravity or conjuring a rapidly self-assembling staircase. A PC can use a mental manifestation once per scene to gain advantage on a roll to navigate the Astral Realm.\n\nIs the construct you manifest a memory from real life or a figment of your own imagination? What key detail do you focus on to make it more stable?"
+    },
+    {
+      "name": "Matter Is Illusion",
+      "kind": "Passive",
+      "rulesText": "Countdown (10). Time and distance are relative here, and simply moving through the space requires an act of will. To cross the Astral Realm, the party must complete the countdown using only Knowledge, Instinct, or Presence Rolls. On a failure with Fear, a PC takes 3d8 direct magic damage.\n\nDo you think or feel your way through this place? What difference does it make here?"
+    },
+    {
+      "name": "Astral Adversaries",
+      "kind": "Passive",
+      "rulesText": "Adversaries in the Astral Realm are immune to physical damage, as they are psychic projections instead of flesh and blood.\n\nHow does an adversary’s astral form differ from their physical form? Why are these psychic projections drawn to the PCs?"
+    }
+  ],
+  "category": "Traversal",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/demon-of-despair"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elemental-spark"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/pain-priest"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/head-vampire"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/night-children"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/astral-realm/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

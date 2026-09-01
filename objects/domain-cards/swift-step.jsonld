@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/swift-step",
+  "@type": "DomainCard",
+  "name": "Swift Step",
+  "slug": "swift-step",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SWIFT STEP",
+    "lineStart": 14968,
+    "lineEnd": 14974,
+    "pdfPageStart": 210,
+    "pdfPageEnd": 210
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 2,
+  "rulesText": "When an attack made against you fails, clear a Stress. If you can’t clear a Stress, gain a Hope.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/swift-step/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

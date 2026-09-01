@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/pick-and-pull",
+  "@type": "DomainCard",
+  "name": "Pick and Pull",
+  "slug": "pick-and-pull",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "PICK AND PULL",
+    "lineStart": 15558,
+    "lineEnd": 15564,
+    "pdfPageStart": 216,
+    "pdfPageEnd": 216
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/midnight"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "You have advantage on action rolls to pick nonmagical locks, disarm nonmagical traps, or steal items from a target (either through stealth or by force).",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/pick-and-pull/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

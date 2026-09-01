@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/executioners-guild",
+  "@type": "Rule",
+  "name": "Executioners Guild",
+  "slug": "executioners-guild",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "EXECUTIONERS GUILD",
+    "lineStart": 402,
+    "lineEnd": 426,
+    "pdfPageStart": 9,
+    "pdfPageEnd": 9
+  },
+  "rulesText": "Play the Executioners Guild if you want to strike down your targets with lethal precision.\n\n##### SPELLCAST TRAIT\n\nAgility\n\n##### FOUNDATION FEATURES\n\n**First Strike:** The first time in a scene you succeed on an attack, you deal double damage.\n\n**Ambush:** Your “Marked for Death” feature uses d6s instead of d4s.\n\n##### SPECIALIZATION FEATURES\n\n**Death Strike:** When you deal Severe damage to a creature, you can mark a Stress to force them to mark an additional Hit Point.\n\n**Scorpion’s Poise:** You gain a +2 bonus to your Evasion against attacks made by a creature you’ve Marked for Death.\n\n##### MASTERY FEATURES\n\n**True Strike:** Once per long rest when you fail an attack, you can spend a Hope to make it a success instead.\n\n**Backstab:** Your “Marked for Death” feature uses d8s instead of d6s.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/executioners-guild/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

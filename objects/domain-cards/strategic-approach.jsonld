@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/strategic-approach",
+  "@type": "DomainCard",
+  "name": "Strategic Approach",
+  "slug": "strategic-approach",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "STRATEGIC APPROACH",
+    "lineStart": 14818,
+    "lineEnd": 14830,
+    "pdfPageStart": 209,
+    "pdfPageEnd": 209
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "After a long rest, place a number of tokens equal to your Knowledge on this card (minimum 1). The first time you move within Close range of an adversary and make an attack against them, you can spend one token to choose one of the following options:\n\n  - You make the attack with advantage.\n  - You clear a Stress on an ally within Melee range of the adversary.\n  - You add a d8 to your damage roll.\n\nWhen you take a long rest, clear all unspent tokens.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/strategic-approach/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/hideous-retribution",
+  "@type": "DomainCard",
+  "name": "Hideous Retribution",
+  "slug": "hideous-retribution",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "HIDEOUS RETRIBUTION",
+    "lineStart": 15224,
+    "lineEnd": 15230,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "When an ally within Close range takes damage from a target you can see, you can make a reaction roll against the target using your Spellcast trait. On a success, mark a Stress to deal d6 magic damage using your Proficiency.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/hideous-retribution/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

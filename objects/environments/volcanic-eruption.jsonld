@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/volcanic-eruption",
+  "@type": "Environment",
+  "name": "Volcanic Eruption",
+  "slug": "volcanic-eruption",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "VOLCANIC ERUPTION",
+    "lineStart": 12835,
+    "lineEnd": 12859,
+    "pdfPageStart": 178,
+    "pdfPageEnd": 178
+  },
+  "tier": 3,
+  "impulses": [
+    "Create panic all around",
+    "cut off the exits",
+    "isolate",
+    "make them scramble for safety",
+    "split the party"
+  ],
+  "difficulty": 16,
+  "potentialAdversariesText": "Elemental Spark, Lava Elemental (Greater Earth Elemental), Volcanic Dragon",
+  "description": "An explosion of heat and molten rock that leaves behind only charred desolation.",
+  "features": [
+    {
+      "name": "Unstable Ground",
+      "kind": "Passive",
+      "rulesText": "The ground here is uneven, prone to collapse, and constantly shifting. PCs who fail an Agility Roll to move must mark a HP and are temporarily Restrained.\n\nWhat strange shapes and colors do the PCs see in the cooled lava? How do the people who live nearby keep their footing on the slick, shiny surface?"
+    },
+    {
+      "name": "Violent Eruption",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the ground erupt at a point of your choice, spewing lava into the air and spreading it along the ground. All targets within Very Close range of that point lose a Hope and take 3d8+3 physical damage. The area within Very Close range of the eruption point becomes lava until the end of the scene. A creature who moves into or through the lava takes 3d8+3 physical damage. Until the end of the scene, you can spend a Fear to expand the lava area by one step (such as Very Close to Close or Close to Far).\n\nWhat makes the lava seem alive? How can the PCs predict its behavior?"
+    },
+    {
+      "name": "Vent Toxic Gas",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to open a fissure that belches out toxic gas at a point of your choice, creating a cloud that blankets everything within Far range. While inside the cloud, a PC must track their air supply with an Air Supply Countdown. Its starting value is equal to 3 + their tier, and it ticks down when they take an action. If a PC fails an action roll or rolls with Fear, you can use a GM move to tick down their countdown an additional time. If the roll is a failure with Fear, you can tick it down twice instead. Once the countdown ends, a PC must mark a Stress whenever they take an action within the gas until they escape the cloud.\n\nWhat signs do you see to indicate the presence of toxic gas? What taste lingers in the mouths of the PCs who inhale the gas?"
+    }
+  ],
+  "category": "Event",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/elemental-spark"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/greater-earth-elemental"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/volcanic-eruption/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

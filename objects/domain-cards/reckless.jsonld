@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/reckless",
+  "@type": "DomainCard",
+  "name": "Reckless",
+  "slug": "reckless",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "RECKLESS",
+    "lineStart": 14619,
+    "lineEnd": 14625,
+    "pdfPageStart": 208,
+    "pdfPageEnd": 208
+  },
+  "level": 2,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/blade"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "Mark a Stress to gain advantage on an attack.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/reckless/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

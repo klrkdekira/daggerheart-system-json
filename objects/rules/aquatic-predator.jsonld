@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/aquatic-predator",
+  "@type": "Rule",
+  "name": "Aquatic Predator",
+  "slug": "aquatic-predator",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "AQUATIC PREDATOR",
+    "lineStart": 1073,
+    "lineEnd": 1085,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "rulesText": "*(Dolphin, Orca, Shark, etc.)*\n\n*Agility +2 | Evasion +4*\n\n*Melee Agility d10+6 phy*\n\n**Gain advantage on:** attack, swim, track\n\n**Aquatic:** You can breathe and move naturally underwater.\n\n**Vicious Maul:** When you succeed on an attack against a target, you can spend a Hope to make them Vulnerable and gain a +1 bonus to your Proficiency for this attack.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/aquatic-predator/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

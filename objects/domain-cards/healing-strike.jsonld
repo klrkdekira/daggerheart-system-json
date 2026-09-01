@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/healing-strike",
+  "@type": "DomainCard",
+  "name": "Healing Strike",
+  "slug": "healing-strike",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "HEALING STRIKE",
+    "lineStart": 16164,
+    "lineEnd": 16170,
+    "pdfPageStart": 222,
+    "pdfPageEnd": 222
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/splendor"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "When you deal damage to an adversary, you can spend 2 Hope to clear a Hit Point on an ally within Close range.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/healing-strike/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

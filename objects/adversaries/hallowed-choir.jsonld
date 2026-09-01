@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/hallowed-choir",
+  "@type": "Adversary",
+  "name": "Hallowed Choir",
+  "slug": "hallowed-choir",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "HALLOWED CHOIR",
+    "lineStart": 10797,
+    "lineEnd": 10817,
+    "pdfPageStart": 151,
+    "pdfPageEnd": 151
+  },
+  "tier": 4,
+  "motivesAndTactics": [
+    "Drown out disbelief",
+    "raise voices"
+  ],
+  "difficulty": 17,
+  "thresholds": "24/48",
+  "hitPoints": 7,
+  "stress": 6,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Choral Blast",
+    "range": "Far",
+    "damage": "4d10 mag"
+  },
+  "experience": "Music +2",
+  "description": "A heavenly host of winged humanoids whose song calls forth tears of religious awe.",
+  "features": [
+    {
+      "name": "Horde (2d10)",
+      "kind": "Passive",
+      "rulesText": "When the Choir has marked half or more of its HP, its standard attack deals 2d10 magic damage instead."
+    },
+    {
+      "name": "Celestial Coda",
+      "kind": "Passive",
+      "rulesText": "Countdown (Loop 3). The Choir’s divine song builds on itself with each refrain. When the Choir first appears, activate the countdown. It ticks down when a PC gains a Hope. When it triggers, place a token on this stat block. The Choir gains a bonus to its damage rolls equal to the number of tokens on this stat block."
+    },
+    {
+      "name": "Aural Assault",
+      "kind": "Action",
+      "rulesText": "The Choir unleashes its built-up divine energy in a single burst, clearing all tokens from this stat block. Deal 1d12 direct magic damage to each enemy within Close range for each token cleared."
+    }
+  ],
+  "role": "Horde (6/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/hallowed-choir/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

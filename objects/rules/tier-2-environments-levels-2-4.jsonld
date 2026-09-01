@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/tier-2-environments-levels-2-4",
+  "@type": "Rule",
+  "name": "Tier 2 Environments (levels 2-4)",
+  "slug": "tier-2-environments-levels-2-4",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "TIER 2 ENVIRONMENTS (LEVELS 2-4)",
+    "lineStart": 12094,
+    "lineEnd": 12094,
+    "pdfPageStart": 167,
+    "pdfPageEnd": 167
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/tier-2-environments-levels-2-4/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

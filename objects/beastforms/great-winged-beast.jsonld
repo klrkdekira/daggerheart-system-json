@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/great-winged-beast",
+  "@type": "Beastform",
+  "name": "Great Winged Beast",
+  "slug": "great-winged-beast",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "GREAT WINGED BEAST",
+    "lineStart": 1059,
+    "lineEnd": 1071,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "tier": 3,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Giant Eagle, Falcon, etc.",
+  "traitBonus": "Finesse +2",
+  "evasionBonus": 3,
+  "attack": {
+    "range": "Melee",
+    "trait": "Finesse",
+    "damage": "d8+6 phy"
+  },
+  "advantageOn": [
+    "deceive",
+    "distract",
+    "locate"
+  ],
+  "features": [
+    {
+      "name": "Bird’s-Eye View",
+      "rulesText": "You can fly at will. Once per rest while you are airborne, you can ask the GM a question about the scene below you without needing to roll. The first time a character makes a roll to act on this information, they gain advantage on the roll."
+    },
+    {
+      "name": "Carrier",
+      "rulesText": "You can carry up to two willing allies with you when you move."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/great-winged-beast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

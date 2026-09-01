@@ -1,0 +1,53 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/deeproot-defender",
+  "@type": "Adversary",
+  "name": "Deeproot Defender",
+  "slug": "deeproot-defender",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DEEPROOT DEFENDER",
+    "lineStart": 5648,
+    "lineEnd": 5666,
+    "pdfPageStart": 99,
+    "pdfPageEnd": 99
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Ambush",
+    "grab",
+    "protect",
+    "pummel"
+  ],
+  "difficulty": 10,
+  "thresholds": "8/14",
+  "hitPoints": 7,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Vines",
+    "range": "Close",
+    "damage": "1d8+3 phy"
+  },
+  "experience": "Huge +3",
+  "description": "A burly vegetable-person with grasping vines.",
+  "features": [
+    {
+      "name": "Ground Slam",
+      "kind": "Action",
+      "rulesText": "Slam the ground, knocking all targets within Very Close range back to Far range. Each target knocked back this way must mark a Stress."
+    },
+    {
+      "name": "Grab and Drag",
+      "kind": "Action",
+      "rulesText": "Make an attack against a target within Close range. On a success, spend a Fear to pull them into Melee range, deal 1d6+2 physical damage, and Restrain them until the Defender takes Severe damage."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/deeproot-defender/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

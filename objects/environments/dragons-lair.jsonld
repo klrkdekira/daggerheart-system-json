@@ -1,0 +1,65 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/dragons-lair",
+  "@type": "Environment",
+  "name": "Dragon’s Lair",
+  "slug": "dragons-lair",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "DRAGON’S LAIR",
+    "lineStart": 12671,
+    "lineEnd": 12699,
+    "pdfPageStart": 175,
+    "pdfPageEnd": 175
+  },
+  "tier": 3,
+  "impulses": [
+    "Lure into the levels below",
+    "make escape impossible",
+    "tempt with treasure",
+    "wake the dragon"
+  ],
+  "difficulty": 16,
+  "potentialAdversariesText": "The Dragon’s Minions (Drake, Wyvern), Young Fire Dragon",
+  "description": "A collection of gold, jewels, and artifacts in the heart of an active volcano.",
+  "features": [
+    {
+      "name": "The Dragon Wakes",
+      "kind": "Passive",
+      "rulesText": "Consequence Countdown (8). The dragon that amassed this treasure lies sleeping somewhere on, under, or near the hoard. When the PCs enter the lair, activate the countdown. When it triggers, the dragon awakens and each PC must succeed on a Presence Reaction Roll or mark a Stress. You gain a Fear for each Stress marked this way.\n\nWhere does this dragon slumber? What does it dream about?"
+    },
+    {
+      "name": "Treasure Hoard",
+      "kind": "Passive",
+      "rulesText": "At the heart of the lair sits a mountain of treasure. If the party wishes to locate the treasure, they must complete a Progress Countdown (12). When it triggers, the party can tick down the Consequence Countdown to search through the treasure mound by rolling a number of d12s equal to 1 + their tier on the Item or Consumable table (their choice).\n\nHow did the party learn of this collection? What do they hope to find here?"
+    },
+    {
+      "name": "Volcanic Activity",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to trigger a volcanic eruption. Each character must make an Agility Reaction Roll. Targets who fail are burned by gouts of lava and flame as the earth breaks around them and take 3d8+5 physical damage. Targets who succeed take half damage.\n\nWhat paths of egress are blocked by the volcano’s shifting configuration? How do the PCs protect themselves from the stifling heat?"
+    },
+    {
+      "name": "Watchdogs",
+      "kind": "Reaction",
+      "rulesText": "When a PC fails a roll to navigate the lair, you can spend a Fear to summon 1d6 Drakes and up to two Wyverns, who appear within Close range of a PC and are immediately spotlighted.\n\nWhy do these creatures serve the slumbering dragon? What signs does the party find that foreshadow their presence?"
+    }
+  ],
+  "category": "Exploration",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/drake"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/wyvern"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/young-fire-dragon"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/dragons-lair/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

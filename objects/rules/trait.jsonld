@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/trait",
+  "@type": "Rule",
+  "name": "Trait",
+  "slug": "trait",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "TRAIT",
+    "lineStart": 3355,
+    "lineEnd": 3357,
+    "pdfPageStart": 55,
+    "pdfPageEnd": 55
+  },
+  "rulesText": "A weapon’s trait specifies which trait to use when making an attack roll with it.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/trait/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/centaur-warden",
+  "@type": "Adversary",
+  "name": "Centaur Warden",
+  "slug": "centaur-warden",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CENTAUR WARDEN",
+    "lineStart": 7411,
+    "lineEnd": 7433,
+    "pdfPageStart": 115,
+    "pdfPageEnd": 115
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Live in harmony with nature",
+    "protect the wilderness",
+    "use mobility and distance to drive off intruders"
+  ],
+  "difficulty": 14,
+  "thresholds": "10/19",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Recurved Bow",
+    "range": "Far",
+    "damage": "2d8+4 phy"
+  },
+  "experience": "Nature +2, Philosophy +2",
+  "description": "A half-human, half-horse guardian who patrols the borders of idyllic lands uncorrupted by the touch of civilization.",
+  "features": [
+    {
+      "name": "Flanking Maneuver",
+      "kind": "Passive",
+      "rulesText": "When the Warden makes a standard attack against a target within Melee range of one or more of the Warden’s allies, the Warden gains a +2 bonus to the attack roll."
+    },
+    {
+      "name": "Eye of the Sage",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make a standard attack. The Warden has advantage on the attack roll and critically succeeds on a roll of 19–20."
+    },
+    {
+      "name": "Trample",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Warden gallop up to Far range in a straight line. Each target in their path must make an Agility Reaction Roll. Targets who succeed take 1d6+2 physical damage. Targets who fail take double damage and must mark a Stress."
+    },
+    {
+      "name": "Quick Volley",
+      "kind": "Reaction",
+      "rulesText": "When the Warden makes a standard attack, you can mark any number of Stress to target an equal number of additional creatures within range."
+    }
+  ],
+  "role": "Ranged",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/centaur-warden/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/wall-of-hunger",
+  "@type": "DomainCard",
+  "name": "Wall of Hunger",
+  "slug": "wall-of-hunger",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "WALL OF HUNGER",
+    "lineStart": 15339,
+    "lineEnd": 15345,
+    "pdfPageStart": 214,
+    "pdfPageEnd": 214
+  },
+  "level": 7,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Make a Spellcast Roll (10). On a success, you can spend a Hope to create a visible wall of writhing necrotic energy between two points within Far range. The wall lasts until you mark a Hit Point or cast this spell again. A creature inside the wall when it appears or that passes through it must mark 2 Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/wall-of-hunger/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/poltergeist",
+  "@type": "Adversary",
+  "name": "Poltergeist",
+  "slug": "poltergeist",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "POLTERGEIST",
+    "lineStart": 6522,
+    "lineEnd": 6542,
+    "pdfPageStart": 107,
+    "pdfPageEnd": 107
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Flicker candles",
+    "rattle chains",
+    "shake windows",
+    "throw people around the room"
+  ],
+  "difficulty": 9,
+  "thresholds": "4/None",
+  "hitPoints": 2,
+  "stress": 2,
+  "attackModifier": "−1",
+  "standardAttack": {
+    "name": "Thrown Object",
+    "range": "Far",
+    "damage": "1d6+3 phy"
+  },
+  "experience": "Spooky +3",
+  "description": "A baleful, translucent spirit that possesses inanimate objects.",
+  "features": [
+    {
+      "name": "Specter",
+      "kind": "Passive",
+      "rulesText": "The Poltergeist has resistance to physical damage. Mark a Stress to move up to Close range through solid objects."
+    },
+    {
+      "name": "Possessor",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Poltergeist inhabit a nonmagical object that is entirely within Close range, infusing the object with a ghostly glow. The next time the Poltergeist would take damage, the object is destroyed instead, and the Poltergeist is expelled from it."
+    },
+    {
+      "name": "Ghost Storm",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Poltergeist pull all unequipped nonmagical objects within Very Close range into a violent vortex. Each target in that area must make an Agility Reaction Roll. Targets who fail take 1d12+2 physical damage. Targets who succeed take half damage."
+    }
+  ],
+  "role": "Ranged",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/poltergeist/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

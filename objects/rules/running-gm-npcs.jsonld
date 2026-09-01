@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/running-gm-npcs",
+  "@type": "Rule",
+  "name": "Running Gm Npcs",
+  "slug": "running-gm-npcs",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "RUNNING GM NPCS",
+    "lineStart": 4799,
+    "lineEnd": 4807,
+    "pdfPageStart": 91,
+    "pdfPageEnd": 91
+  },
+  "rulesText": "When you run NPCs as the GM, you should always strive to follow your GM principles and use them to bring the world to life. Differentiate NPCs with unique manners of speech and action; let their individual goals and desires motivate their actions.\n\nThe only essential elements for a NPC are their name, description, and motive. If it’s likely that the PCs will roll actions against them, give them a Difficulty. Adversaries can be invented or improvised by modifying the stat block of another adversary.\n\nIf an NPC becomes an ally in combat, they don’t need a stat block—just put the spotlight on what they do and show how their involvement alters the fiction. If a PC capitalizes on their help during the scene, give the PC advantage. NPCs that don’t have Hit Points or Stress can still be injured or killed if the fiction demands it.\n\nIf you want an important NPC to mechanically interact with the system, you can give them one or more features with specific triggers and effects. An NPC might also have a choice that adjusts the parameters of their feature. For example:",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/running-gm-npcs/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/viscera-sucker",
+  "@type": "Adversary",
+  "name": "Viscera Sucker",
+  "slug": "viscera-sucker",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "VISCERA SUCKER",
+    "lineStart": 10178,
+    "lineEnd": 10198,
+    "pdfPageStart": 143,
+    "pdfPageEnd": 143
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Clamp onto prey",
+    "suck blood",
+    "tear in half"
+  ],
+  "difficulty": 14,
+  "thresholds": "16/30",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+2",
+  "standardAttack": {
+    "name": "Long Nails",
+    "range": "Melee",
+    "damage": "2d6+7 phy"
+  },
+  "experience": "Flying +3",
+  "description": "A vampiric demon whose upper body detaches at sundown to fly through nearby villages in search of victims. It has a winged upper body with hanging entrails.",
+  "features": [
+    {
+      "name": "Join or Die",
+      "kind": "Passive",
+      "rulesText": "The Viscera Sucker dies if it hasn’t reconnected its upper and lower halves by dawn."
+    },
+    {
+      "name": "Entangling Entrails",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Viscera Sucker latch onto a target within Very Close range, Restraining them until they escape with a successful Strength Roll (16)."
+    },
+    {
+      "name": "Lifesuck",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to have the Viscera Sucker drink blood from a Restrained target within Melee range. The target marks a HP, and the Viscera Sucker clears a HP."
+    }
+  ],
+  "role": "Skulk",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/viscera-sucker/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

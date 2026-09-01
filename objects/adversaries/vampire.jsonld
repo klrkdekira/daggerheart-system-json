@@ -1,0 +1,54 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/vampire",
+  "@type": "Adversary",
+  "name": "Vampire",
+  "slug": "vampire",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "VAMPIRE",
+    "lineStart": 10038,
+    "lineEnd": 10056,
+    "pdfPageStart": 142,
+    "pdfPageEnd": 142
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Bite",
+    "charm",
+    "deceive",
+    "feed",
+    "intimidate"
+  ],
+  "difficulty": 16,
+  "thresholds": "18/35",
+  "hitPoints": 5,
+  "stress": 4,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Rapier",
+    "range": "Melee",
+    "damage": "3d8 phy"
+  },
+  "experience": "Nocturnal Hunter +3",
+  "description": "An intelligent undead with blood-stained lips and a predator’s smile.",
+  "features": [
+    {
+      "name": "Draining Bite",
+      "kind": "Action",
+      "rulesText": "Make an attack against a target within Melee range. On a success, deal 5d4 physical damage. A target who marks HP from this attack loses a Hope and must mark a Stress. The Vampire then clears a HP."
+    },
+    {
+      "name": "Mistform",
+      "kind": "Reaction",
+      "rulesText": "When the Vampire takes physical damage, you can spend a Fear to take half damage."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/vampire/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/pain-priest",
+  "@type": "Adversary",
+  "name": "Pain Priest",
+  "slug": "pain-priest",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "PAIN PRIEST",
+    "lineStart": 9726,
+    "lineEnd": 9744,
+    "pdfPageStart": 138,
+    "pdfPageEnd": 138
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Feed on emotions",
+    "locate the innocent or curious",
+    "tempt them with their deepest desires"
+  ],
+  "difficulty": 16,
+  "thresholds": "16/32",
+  "hitPoints": 6,
+  "stress": 5,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Torture Implements",
+    "range": "Melee",
+    "damage": "3d6+4 phy"
+  },
+  "experience": "Experimentation +4",
+  "description": "A member of an other-dimensional religious order devoted to exploring the boundaries of mortal suffering and ecstasy.",
+  "features": [
+    {
+      "name": "Walk Between Worlds",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to place the Priest anywhere within Very Far range and immediately spotlight them again."
+    },
+    {
+      "name": "Pleasure and Pain",
+      "kind": "Reaction",
+      "rulesText": "When a PC within Close range of the Priest gains a Hope or marks HP, roll a d8. On a result of 8, the Priest opens a portal to their original dimension and flees there with the closest party member. You gain 1d6 Fear. The portal remains open until the Priest is defeated or spotlighted again."
+    }
+  ],
+  "role": "Social",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/pain-priest/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

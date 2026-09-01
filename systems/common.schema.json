@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/daggerheart-system-json/systems/common.schema.json",
+  "$defs": {
+    "nodeRef": {
+      "type": "object",
+      "properties": {
+        "@id": {
+          "type": "string",
+          "pattern": "^https://cheeleong\\.dev/daggerheart-system-json/objects/[a-z-]+/[a-z0-9-]+$"
+        }
+      },
+      "required": [
+        "@id"
+      ],
+      "additionalProperties": false
+    },
+    "sourceLocator": {
+      "type": "object",
+      "properties": {
+        "chapter": {
+          "type": "string",
+          "minLength": 1
+        },
+        "heading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lineStart": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "lineEnd": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pdfPageStart": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pdfPageEnd": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "chapter",
+        "heading",
+        "lineStart",
+        "lineEnd",
+        "pdfPageStart",
+        "pdfPageEnd"
+      ],
+      "additionalProperties": false
+    },
+    "feature": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stage": {
+          "enum": [
+            "foundation",
+            "specialization",
+            "mastery"
+          ]
+        },
+        "rulesText": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "rulesText"
+      ],
+      "additionalProperties": false
+    },
+    "attack": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "range": {
+          "type": "string",
+          "minLength": 1
+        },
+        "trait": {
+          "type": "string",
+          "minLength": 1
+        },
+        "damage": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "range",
+        "damage"
+      ],
+      "additionalProperties": false
+    },
+    "pageRef": {
+      "type": "object",
+      "properties": {
+        "@id": {
+          "type": "string",
+          "pattern": "^https://cheeleong\\.dev/daggerheart-system-json/records/[a-z-]+/[a-z0-9-]+/$"
+        }
+      },
+      "required": [
+        "@id"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

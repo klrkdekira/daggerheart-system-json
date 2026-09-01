@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/inevitable",
+  "@type": "DomainCard",
+  "name": "Inevitable",
+  "slug": "inevitable",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "INEVITABLE",
+    "lineStart": 16342,
+    "lineEnd": 16348,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 6,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When you fail an action roll, your next action roll has advantage.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/inevitable/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

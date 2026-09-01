@@ -1,0 +1,43 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/ambushed",
+  "@type": "Environment",
+  "name": "Ambushed",
+  "slug": "ambushed",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "AMBUSHED",
+    "lineStart": 11684,
+    "lineEnd": 11704,
+    "pdfPageStart": 161,
+    "pdfPageEnd": 161
+  },
+  "tier": 1,
+  "impulses": [
+    "Overwhelm",
+    "scatter",
+    "surround"
+  ],
+  "difficulty": "Special (see “Relative Strength”)",
+  "potentialAdversariesText": "Any",
+  "description": "An ambush is set to catch an unsuspecting party off-guard.",
+  "features": [
+    {
+      "name": "Relative Strength",
+      "kind": "Passive",
+      "rulesText": "The Difficulty of this environment equals that of the adversary with the highest Difficulty.\n\nWho cues the ambush? What makes it clear they’re in charge?"
+    },
+    {
+      "name": "Surprise!",
+      "kind": "Action",
+      "rulesText": "The ambushers reveal themselves to the party, you gain 2 Fear, and the spotlight immediately shifts to one of the ambushing adversaries.\n\nWhat do the ambushers want from the party? How do their tactics in the ambush reflect that?"
+    }
+  ],
+  "category": "Event",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/ambushed/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

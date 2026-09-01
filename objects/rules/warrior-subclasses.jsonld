@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/warrior-subclasses",
+  "@type": "Rule",
+  "name": "Warrior Subclasses",
+  "slug": "warrior-subclasses",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WARRIOR SUBCLASSES",
+    "lineStart": 1871,
+    "lineEnd": 1873,
+    "pdfPageStart": 28,
+    "pdfPageEnd": 28
+  },
+  "rulesText": "Choose either the Call of the Brave or Call of the Slayer subclass.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/warrior-subclasses/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/forceful-push",
+  "@type": "DomainCard",
+  "name": "Forceful Push",
+  "slug": "forceful-push",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "FORCEFUL PUSH",
+    "lineStart": 16254,
+    "lineEnd": 16262,
+    "pdfPageStart": 222,
+    "pdfPageEnd": 222
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "Make an attack with your primary weapon against a target within Melee range. On a success, you deal damage and knock them back to Close range. On a success with Hope, add a d6 to your damage roll.\n\nAdditionally, you can spend a Hope to make them temporarily Vulnerable.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/forceful-push/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/inspirational-words",
+  "@type": "DomainCard",
+  "name": "Inspirational Words",
+  "slug": "inspirational-words",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "INSPIRATIONAL WORDS",
+    "lineStart": 15423,
+    "lineEnd": 15435,
+    "pdfPageStart": 215,
+    "pdfPageEnd": 215
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "Your speech is imbued with power. After a long rest, place a number of tokens on this card equal to your Presence. When you speak with an ally, you can spend a token from this card to give them one benefit from the following options:\n\n  - Your ally clears a Stress.\n  - Your ally clears a Hit Point.\n  - Your ally gains a Hope.\n\nWhen you take a long rest, clear all unspent tokens.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/inspirational-words/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

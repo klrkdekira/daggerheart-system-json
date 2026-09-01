@@ -1,0 +1,73 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/shapeshifting-fiend-revealed",
+  "@type": "Adversary",
+  "name": "Shapeshifting Fiend Revealed",
+  "slug": "shapeshifting-fiend-revealed",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "SHAPESHIFTING FIEND REVEALED",
+    "lineStart": 9868,
+    "lineEnd": 9894,
+    "pdfPageStart": 140,
+    "pdfPageEnd": 140
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Claim souls",
+    "confuse and misdirect",
+    "escape to the Circles Below",
+    "teleport"
+  ],
+  "difficulty": 17,
+  "thresholds": "20/32",
+  "hitPoints": 10,
+  "stress": 8,
+  "attackModifier": "+3",
+  "standardAttack": {
+    "name": "Mantis Claws",
+    "range": "Very Close",
+    "damage": "3d12+5 phy"
+  },
+  "experience": "Hellbound +3, Immortal +2",
+  "description": "A towering humanoid who has an insectile head and multiple sets of glowing red eyes.",
+  "features": [
+    {
+      "name": "Relentless (3)",
+      "kind": "Passive",
+      "rulesText": "The Fiend can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+    },
+    {
+      "name": "Fiendish Resistance",
+      "kind": "Passive",
+      "rulesText": "The Fiend has resistance to magic damage and can’t be fooled by magic illusions."
+    },
+    {
+      "name": "Demonic Rage",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to make a standard attack with a bonus to the attack roll equal the amount of Stress the Fiend has marked. On a success, the attack deals direct damage."
+    },
+    {
+      "name": "Hall of Mirrors",
+      "kind": "Action",
+      "rulesText": "Mark 2 Stress to have the Fiend summon four illusory duplicates and activate a Duplicate Countdown (4). When the Fiend is targeted by an attack, they gain a bonus to their Difficulty equal to the countdown die’s current value. The countdown ticks down when a PC fails an attack against the Fiend. When it triggers, the duplicates vanish."
+    },
+    {
+      "name": "Flash Claw",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to have the Fiend unleash an arc of magical energy. Make an attack roll against all targets within Close range. Targets the attack succeeds against take 3d20 magic damage."
+    },
+    {
+      "name": "Mind Games",
+      "kind": "Reaction",
+      "rulesText": "When an attack targeting the Fiend from beyond Very Close range succeeds with Fear, you can mark a Stress to have the Fiend instantly switch places with a PC within Very Close range. The PC takes the damage instead."
+    }
+  ],
+  "role": "Solo",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/shapeshifting-fiend-revealed/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

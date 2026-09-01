@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/preservation-blast",
+  "@type": "DomainCard",
+  "name": "Preservation Blast",
+  "slug": "preservation-blast",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "PRESERVATION BLAST",
+    "lineStart": 14470,
+    "lineEnd": 14476,
+    "pdfPageStart": 206,
+    "pdfPageEnd": 206
+  },
+  "level": 4,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+  },
+  "cardType": "Spell",
+  "recallCost": 2,
+  "rulesText": "Make a Spellcast Roll against all targets within Melee range. Targets you succeed against are forced back to Far range and take d8+3 magic damage using your Spellcast trait.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/preservation-blast/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

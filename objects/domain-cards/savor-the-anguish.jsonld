@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/savor-the-anguish",
+  "@type": "DomainCard",
+  "name": "Savor the Anguish",
+  "slug": "savor-the-anguish",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "SAVOR THE ANGUISH",
+    "lineStart": 15375,
+    "lineEnd": 15381,
+    "pdfPageStart": 214,
+    "pdfPageEnd": 214
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "When an adversary within Close range takes Severe damage, you can clear a Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/savor-the-anguish/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

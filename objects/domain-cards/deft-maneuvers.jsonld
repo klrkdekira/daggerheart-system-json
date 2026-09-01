@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/deft-maneuvers",
+  "@type": "DomainCard",
+  "name": "Deft Maneuvers",
+  "slug": "deft-maneuvers",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "DEFT MANEUVERS",
+    "lineStart": 14758,
+    "lineEnd": 14766,
+    "pdfPageStart": 209,
+    "pdfPageEnd": 209
+  },
+  "level": 1,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/bone"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "Once per rest, mark a Stress to sprint anywhere within Far range without making an Agility Roll to get there.\n\nIf you end this movement within Melee range of an adversary and immediately make an attack against them, gain a +1 bonus to the attack roll.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/deft-maneuvers/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

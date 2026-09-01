@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/troubadour",
+  "@type": "Rule",
+  "name": "Troubadour",
+  "slug": "troubadour",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "TROUBADOUR",
+    "lineStart": 509,
+    "lineEnd": 531,
+    "pdfPageStart": 11,
+    "pdfPageEnd": 11
+  },
+  "rulesText": "Play the Troubadour if you want to play music to bolster your allies.\n\n##### SPELLCAST TRAIT\n\nPresence\n\n##### FOUNDATION FEATURE\n\n**Gifted Performer:** You can play three different types of songs, once each per long rest; describe how you perform for others to gain the listed benefit:\n\n  - **Relaxing Song:** You and all allies within Close range clear a Hit Point.\n  - **Epic Song:** Make a target within Close range temporarily Vulnerable.\n  - **Heartbreaking Song:** You and all allies within Close range gain a Hope.\n\n##### SPECIALIZATION FEATURE\n\nMaestro. Your rallying songs steel the courage of those who listen. When you give a Rally Die to an ally, they can gain a Hope or clear a Stress.\n\n##### MASTERY FEATURE\n\nVirtuoso. You are among the greatest of your craft and your skill is boundless. You can perform each of your “Gifted Performer” feature’s songs twice per long rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/troubadour/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

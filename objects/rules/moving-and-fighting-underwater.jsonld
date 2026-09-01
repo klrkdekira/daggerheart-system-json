@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/moving-and-fighting-underwater",
+  "@type": "Rule",
+  "name": "Moving and Fighting Underwater",
+  "slug": "moving-and-fighting-underwater",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "MOVING AND FIGHTING UNDERWATER",
+    "lineStart": 4875,
+    "lineEnd": 4881,
+    "pdfPageStart": 92,
+    "pdfPageEnd": 92
+  },
+  "rulesText": "By default, attack rolls made while the attacker is underwater have disadvantage.\n\nFor creatures that can’t breathe underwater, use a standard countdown (3) to track how long they can hold their breath. Advance the countdown whenever the PC takes an action. In addition if they fail a roll or roll with Fear while underwater, you can spend your GM move to advance it an additional time—or twice, if they rolled a failure with Fear.\n\nOnce the countdown ends, the underwater PC must mark a Stress whenever they take an action.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/moving-and-fighting-underwater/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

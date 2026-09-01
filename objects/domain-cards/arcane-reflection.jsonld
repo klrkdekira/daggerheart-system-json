@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/arcane-reflection",
+  "@type": "DomainCard",
+  "name": "Arcane Reflection",
+  "slug": "arcane-reflection",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "ARCANE REFLECTION",
+    "lineStart": 14533,
+    "lineEnd": 14539,
+    "pdfPageStart": 207,
+    "pdfPageEnd": 207
+  },
+  "level": 8,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/arcana"
+  },
+  "cardType": "Spell",
+  "recallCost": 1,
+  "rulesText": "When you would take magic damage, you can spend any number of Hope to roll that many d6s. If any roll a 6, the attack is reflected back to the caster, dealing the damage to them instead.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/arcane-reflection/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

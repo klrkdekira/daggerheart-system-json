@@ -1,0 +1,71 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/warlock",
+  "@type": "CharacterClass",
+  "name": "Warlock",
+  "slug": "warlock",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "WARLOCK",
+    "lineStart": 1730,
+    "lineEnd": 1752,
+    "pdfPageStart": 26,
+    "pdfPageEnd": 26
+  },
+  "domains": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/dread"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+    }
+  ],
+  "subclasses": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/pact-of-the-endless"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/pact-of-the-wrathful"
+    }
+  ],
+  "startingEvasion": 11,
+  "startingHitPoints": 5,
+  "hopeFeature": {
+    "name": "Patron’s Boon",
+    "rulesText": "When you fail a roll, you can spend 3 Hope to reroll with advantage."
+  },
+  "features": [
+    {
+      "name": "Patron’s Pact",
+      "rulesText": "You have committed yourself to a supernatural entity—such as a god, fae, or demon—in exchange for power. Write their name on your character sheet, then work with your GM to determine their sphere of influence (such as Nature, Chaos, Wisdom, Mischief, Love, War, Justice, or Death). Before making an action roll that relates to your patron’s sphere of influence, you can spend a Favor to call upon their aid, rolling your Patron Die and adding its result to the total. Your Patron Die starts at a d6 and increases to a d8 at level 5."
+    },
+    {
+      "name": "Favor",
+      "rulesText": "You start with 3 Favor. You can use a downtime move to show tribute to your patron. Describe how and gain Favor equal to your Spellcast trait. Additionally, when you succeed on an action roll with Hope, you can choose to gain a Favor instead of a Hope.\n\n> Note: The maximum Favor you can hold at one time is 6."
+    }
+  ],
+  "classItems": "A carving that symbolizes your patron or a ring you can’t remove",
+  "backgroundQuestions": [
+    "Who from your community shunned you after you made a pact with your patron?",
+    "What desperate situation led you to pledge your life to your patron?",
+    "Your patron has given you one task you must accomplish above all else. What is it, and why does it worry you?"
+  ],
+  "connections": [
+    "Why do you think I confide in you about what my patron says and does?",
+    "Our relationship has changed since you saw me show tribute to my patron. What did you see, and how has it affected you?",
+    "I once did something very foolish, and you’ve never let me live it down. What was it?"
+  ],
+  "sections": [
+    {
+      "name": "Sphere of Influence Examples",
+      "rulesText": "When building a warlock, choose their patron’s sphere of influence from the list below or work with the GM to make your own.\n\n| | | |\n| --- | --- | --- |\n| Ambition | Leaders | Secrets |\n| Artists | Love | Soldiers |\n| Chaos | Mercy | Strength |\n| Darkness | Mischief | Travelers |\n| Death | Nature | Tricksters |\n| Gamblers | Protectors | Truth |\n| Honor | Revenge | War |\n| Justice | Scholars | Wisdom |"
+    }
+  ],
+  "description": "Those who’ve traded their lives—or perhaps even their souls—to an otherworldly patron in exchange for incredible power are known as warlocks. Often, these mortals have reached a point of desperation that leads them to make this sacrifice: they hope to protect themselves or a loved one, aid their community, seek vengeance, increase their status, or otherwise further their ambitions. The powerful entities they entreat are as varied as the warlocks themselves: gods, spirits, demons, or other beings unknown to even the mortal who makes the pact. The entities each have their own sphere of influence that defines their otherworldly power, and those that collect souls are rarely known for their benevolence. Thus, a warlock’s power is defined by the relationship they maintain with their benefactor. Despite their terrifying magic, warlocks might find that someone or something else is pulling their strings.\n\nDOMAINS – Dread & Grace",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/classes/warlock/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

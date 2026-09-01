@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/master-of-the-craft",
+  "@type": "DomainCard",
+  "name": "Master of the Craft",
+  "slug": "master-of-the-craft",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "MASTER OF THE CRAFT",
+    "lineStart": 15592,
+    "lineEnd": 15598,
+    "pdfPageStart": 216,
+    "pdfPageEnd": 216
+  },
+  "level": 9,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/grace"
+  },
+  "cardType": "Ability",
+  "recallCost": 0,
+  "rulesText": "Gain a permanent +2 bonus to two of your Experiences or a permanent +3 bonus to one of your Experiences. Then place this card in your vault permanently.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/master-of-the-craft/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/lean-on-me",
+  "@type": "DomainCard",
+  "name": "Lean on Me",
+  "slug": "lean-on-me",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "LEAN ON ME",
+    "lineStart": 16300,
+    "lineEnd": 16306,
+    "pdfPageStart": 223,
+    "pdfPageEnd": 223
+  },
+  "level": 3,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/valor"
+  },
+  "cardType": "Ability",
+  "recallCost": 1,
+  "rulesText": "Once per long rest, when you console or inspire an ally who failed an action roll, you can both clear 2 Stress.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/lean-on-me/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

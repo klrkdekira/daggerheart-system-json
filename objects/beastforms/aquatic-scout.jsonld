@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/aquatic-scout",
+  "@type": "Beastform",
+  "name": "Aquatic Scout",
+  "slug": "aquatic-scout",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "AQUATIC SCOUT",
+    "lineStart": 913,
+    "lineEnd": 925,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "tier": 1,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Eel, Fish, Octopus, etc.",
+  "traitBonus": "Agility +1",
+  "evasionBonus": 2,
+  "attack": {
+    "range": "Melee",
+    "trait": "Agility",
+    "damage": "d4 phy"
+  },
+  "advantageOn": [
+    "navigate",
+    "sneak",
+    "swim"
+  ],
+  "features": [
+    {
+      "name": "Aquatic",
+      "rulesText": "You can breathe and move naturally underwater."
+    },
+    {
+      "name": "Fragile",
+      "rulesText": "When you take Major or greater damage, you drop out of Beastform."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/aquatic-scout/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

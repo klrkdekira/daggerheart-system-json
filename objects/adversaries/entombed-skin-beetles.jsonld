@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/entombed-skin-beetles",
+  "@type": "Adversary",
+  "name": "Entombed Skin Beetles",
+  "slug": "entombed-skin-beetles",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ENTOMBED SKIN BEETLES",
+    "lineStart": 7823,
+    "lineEnd": 7843,
+    "pdfPageStart": 119,
+    "pdfPageEnd": 119
+  },
+  "tier": 2,
+  "motivesAndTactics": [
+    "Carpet the ground",
+    "consume the living",
+    "crawl under clothing"
+  ],
+  "difficulty": 14,
+  "thresholds": "10/20",
+  "hitPoints": 5,
+  "stress": 3,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Pincers",
+    "range": "Melee",
+    "damage": "2d8+2 phy"
+  },
+  "experience": "Tombs +3",
+  "description": "Flesh-eating beetles that burrow beneath the skin.",
+  "features": [
+    {
+      "name": "Horde (2d4+1)",
+      "kind": "Passive",
+      "rulesText": "When the Beetles have marked half or more of their HP, their standard attack deals 2d4+1 physical damage instead."
+    },
+    {
+      "name": "Momentum",
+      "kind": "Passive",
+      "rulesText": "When the Beetles make a successful attack against a PC, you gain a Fear."
+    },
+    {
+      "name": "Omophagous",
+      "kind": "Action",
+      "rulesText": "Mark a HP to have 5 Beetles burrow under the skin of a PC within Melee range, forcing them to mark a Stress and Infecting them. While Infected, the target takes 6 direct physical damage every time they roll with Fear. This condition is cleared when the PC clears a HP or a Stress."
+    }
+  ],
+  "role": "Horde (5/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/entombed-skin-beetles/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

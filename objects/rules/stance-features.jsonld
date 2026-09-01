@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/stance-features",
+  "@type": "Rule",
+  "name": "Stance Features",
+  "slug": "stance-features",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "STANCE FEATURES",
+    "lineStart": 691,
+    "lineEnd": 693,
+    "pdfPageStart": 13,
+    "pdfPageEnd": 13
+  },
+  "rulesText": "The following section lists all martial stances by tier.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/stance-features/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

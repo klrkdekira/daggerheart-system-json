@@ -1,0 +1,1062 @@
+{
+  "vocabulary": "https://cheeleong.dev/daggerheart-system-json/vocab/#",
+  "classes": [
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Adversary",
+      "anchor": "Adversary",
+      "description": "A decomposed adversary stat block."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Ancestry",
+      "anchor": "Ancestry",
+      "description": "A heritage ancestry with its features."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Armor",
+      "anchor": "Armor",
+      "description": "One armor table row across all variants and tiers."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Beastform",
+      "anchor": "Beastform",
+      "description": "A Druid Beastform with stats, attack, and features."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Bundle",
+      "anchor": "Bundle",
+      "description": "The single-file JSON-LD graph bundle."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#CharacterClass",
+      "anchor": "CharacterClass",
+      "description": "A playable class with starting stats and features."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Community",
+      "anchor": "Community",
+      "description": "A heritage community with its feature."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Consumable",
+      "anchor": "Consumable",
+      "description": "One single-use consumable with its roll number."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Domain",
+      "anchor": "Domain",
+      "description": "One of the ten magic domains."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#DomainCard",
+      "anchor": "DomainCard",
+      "description": "A domain card with level, type, and recall cost."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Environment",
+      "anchor": "Environment",
+      "description": "A decomposed environment stat block."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Item",
+      "anchor": "Item",
+      "description": "One reusable loot item with its roll number."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Manifest",
+      "anchor": "Manifest",
+      "description": "The aggregate collection manifest."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Rule",
+      "anchor": "Rule",
+      "description": "Source-faithful prose for a section not covered by a typed record."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Source",
+      "anchor": "Source",
+      "description": "The Daggerheart SRD source document record."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Subclass",
+      "anchor": "Subclass",
+      "description": "A subclass with foundation, specialization, and mastery features."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Transformation",
+      "anchor": "Transformation",
+      "description": "An optional transformation with features and questions."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#Weapon",
+      "anchor": "Weapon",
+      "description": "One weapon table row across all variants and tiers."
+    }
+  ],
+  "properties": [
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#advantageOn",
+      "anchor": "advantageOn",
+      "jsonTerms": [
+        "advantageOn"
+      ],
+      "mapsTo": "dh:advantageOn",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Verbs a beastform gains advantage on."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#appearsInEnvironment",
+      "anchor": "appearsInEnvironment",
+      "jsonTerms": [
+        "appearsInEnvironment"
+      ],
+      "mapsTo": "dh:potentialAdversary",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Reverse of potentialAdversary: environments naming an adversary.",
+      "reverseOf": "dh:potentialAdversary"
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#attack",
+      "anchor": "attack",
+      "jsonTerms": [
+        "attack"
+      ],
+      "mapsTo": "dh:attack",
+      "valueKinds": [
+        "structured value"
+      ],
+      "description": "Beastform attack statistics."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#attackModifier",
+      "anchor": "attackModifier",
+      "jsonTerms": [
+        "attackModifier"
+      ],
+      "mapsTo": "dh:attackModifier",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Adversary attack modifier, as printed."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#attributionStatement",
+      "anchor": "attributionStatement",
+      "jsonTerms": [
+        "attributionStatement"
+      ],
+      "mapsTo": "dh:attributionStatement",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Verbatim source attribution statement."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#backgroundQuestions",
+      "anchor": "backgroundQuestions",
+      "jsonTerms": [
+        "backgroundQuestions"
+      ],
+      "mapsTo": "dh:backgroundQuestion",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed background questions."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#baseScore",
+      "anchor": "baseScore",
+      "jsonTerms": [
+        "baseScore"
+      ],
+      "mapsTo": "dh:baseScore",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed base armor score."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#baseThresholds",
+      "anchor": "baseThresholds",
+      "jsonTerms": [
+        "baseThresholds"
+      ],
+      "mapsTo": "dh:baseThresholds",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed base damage thresholds."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#beastformsOfClass",
+      "anchor": "beastformsOfClass",
+      "jsonTerms": [
+        "beastformsOfClass"
+      ],
+      "mapsTo": "dh:fromClass",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Reverse of fromClass: beastforms granted by a class.",
+      "reverseOf": "dh:fromClass"
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#burden",
+      "anchor": "burden",
+      "jsonTerms": [
+        "burden"
+      ],
+      "mapsTo": "dh:burden",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Hands occupied when equipped."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#cardType",
+      "anchor": "cardType",
+      "jsonTerms": [
+        "cardType"
+      ],
+      "mapsTo": "dh:cardType",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Domain card type: Ability, Spell, or Grimoire."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#cardsInDomain",
+      "anchor": "cardsInDomain",
+      "jsonTerms": [
+        "cardsInDomain"
+      ],
+      "mapsTo": "dh:domain",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Reverse of domain: cards that belong to a domain.",
+      "reverseOf": "dh:domain"
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#category",
+      "anchor": "category",
+      "jsonTerms": [
+        "category"
+      ],
+      "mapsTo": "dh:category",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Weapon slot (primary/secondary) or environment type."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#classItems",
+      "anchor": "classItems",
+      "jsonTerms": [
+        "classItems"
+      ],
+      "mapsTo": "dh:classItems",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed class item options."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#classes",
+      "anchor": "classes",
+      "jsonTerms": [
+        "classes"
+      ],
+      "mapsTo": "dh:class",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Related character classes."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#collections",
+      "anchor": "collections",
+      "jsonTerms": [
+        "collections"
+      ],
+      "mapsTo": "dh:collection",
+      "valueKinds": [
+        "structured value"
+      ],
+      "description": "Collection descriptors in the manifest."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#connections",
+      "anchor": "connections",
+      "jsonTerms": [
+        "connections"
+      ],
+      "mapsTo": "dh:connection",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed connection questions."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#contentDigest",
+      "anchor": "contentDigest",
+      "jsonTerms": [
+        "contentDigest"
+      ],
+      "mapsTo": "dh:contentDigest",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "SHA-256 digest of the source markdown."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#corpusVersion",
+      "anchor": "corpusVersion",
+      "jsonTerms": [
+        "corpusVersion"
+      ],
+      "mapsTo": "dh:corpusVersion",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Version of this corpus."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#count",
+      "anchor": "count",
+      "jsonTerms": [
+        "count"
+      ],
+      "mapsTo": "dh:count",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Member count of a collection."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#damage",
+      "anchor": "damage",
+      "jsonTerms": [
+        "damage"
+      ],
+      "mapsTo": "dh:damage",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed damage expression."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#damageTypes",
+      "anchor": "damageTypes",
+      "jsonTerms": [
+        "damageTypes"
+      ],
+      "mapsTo": "dh:damageType",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Damage types dealt (physical, magic)."
+    },
+    {
+      "iri": "https://schema.org/description",
+      "anchor": "description",
+      "jsonTerms": [
+        "description"
+      ],
+      "mapsTo": "schema:description",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Source descriptive prose."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#difficulty",
+      "anchor": "difficulty",
+      "jsonTerms": [
+        "difficulty"
+      ],
+      "mapsTo": "dh:difficulty",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed difficulty value."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#domain",
+      "anchor": "domain",
+      "jsonTerms": [
+        "domain"
+      ],
+      "mapsTo": "dh:domain",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "The magic domain a card belongs to."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#domains",
+      "anchor": "domains",
+      "jsonTerms": [
+        "domains"
+      ],
+      "mapsTo": "dh:domain",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Magic domains a class grants access to."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#entityType",
+      "anchor": "entityType",
+      "jsonTerms": [
+        "entityType"
+      ],
+      "mapsTo": "dh:entityType",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "JSON-LD entity type of a collection."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#evasionBonus",
+      "anchor": "evasionBonus",
+      "jsonTerms": [
+        "evasionBonus"
+      ],
+      "mapsTo": "dh:evasionBonus",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Beastform Evasion bonus."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#exampleCreatures",
+      "anchor": "exampleCreatures",
+      "jsonTerms": [
+        "exampleCreatures"
+      ],
+      "mapsTo": "dh:exampleCreatures",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed example creatures for a beastform."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#experience",
+      "anchor": "experience",
+      "jsonTerms": [
+        "experience"
+      ],
+      "mapsTo": "dh:experience",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed adversary Experience modifiers."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#feature",
+      "anchor": "feature",
+      "jsonTerms": [
+        "feature"
+      ],
+      "mapsTo": "dh:feature",
+      "valueKinds": [
+        "structured value"
+      ],
+      "description": "A single named feature."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#features",
+      "anchor": "features",
+      "jsonTerms": [
+        "features"
+      ],
+      "mapsTo": "dh:feature",
+      "valueKinds": [
+        "structured value"
+      ],
+      "description": "Ordered named features."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#fromClass",
+      "anchor": "fromClass",
+      "jsonTerms": [
+        "fromClass"
+      ],
+      "mapsTo": "dh:fromClass",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "The class that grants this entity."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#fromSection",
+      "anchor": "fromSection",
+      "jsonTerms": [
+        "fromSection"
+      ],
+      "mapsTo": "dh:fromSection",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "The rule section whose table this entity was extracted from."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#hitPoints",
+      "anchor": "hitPoints",
+      "jsonTerms": [
+        "hitPoints"
+      ],
+      "mapsTo": "dh:hitPoints",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Adversary Hit Points."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#hopeFeature",
+      "anchor": "hopeFeature",
+      "jsonTerms": [
+        "hopeFeature"
+      ],
+      "mapsTo": "dh:hopeFeature",
+      "valueKinds": [
+        "structured value"
+      ],
+      "description": "The class Hope feature."
+    },
+    {
+      "iri": "https://schema.org/url",
+      "anchor": "htmlPage",
+      "jsonTerms": [
+        "htmlPage"
+      ],
+      "mapsTo": "schema:url",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Crawlable HTML counterpart of this record."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#impulses",
+      "anchor": "impulses",
+      "jsonTerms": [
+        "impulses"
+      ],
+      "mapsTo": "dh:impulse",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed environment impulses."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#itemSet",
+      "anchor": "itemSet",
+      "jsonTerms": [
+        "itemSet"
+      ],
+      "mapsTo": "dh:itemSet",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Loot set provenance (core-set, expansion)."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#kind",
+      "anchor": "kind",
+      "jsonTerms": [
+        "kind"
+      ],
+      "mapsTo": "dh:kind",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Feature kind (Passive, Action, Reaction, ...)."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#level",
+      "anchor": "level",
+      "jsonTerms": [
+        "level"
+      ],
+      "mapsTo": "dh:level",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Card level (1-10)."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#license",
+      "anchor": "license",
+      "jsonTerms": [
+        "license"
+      ],
+      "mapsTo": "dh:licenseCode",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "License code of the source content."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#licenseUrl",
+      "anchor": "licenseUrl",
+      "jsonTerms": [
+        "licenseUrl"
+      ],
+      "mapsTo": "dh:licenseUrl",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "License URL of the source content."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#members",
+      "anchor": "members",
+      "jsonTerms": [
+        "members"
+      ],
+      "mapsTo": "dh:member",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Member records of a collection."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#motivesAndTactics",
+      "anchor": "motivesAndTactics",
+      "jsonTerms": [
+        "motivesAndTactics"
+      ],
+      "mapsTo": "dh:motiveOrTactic",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed adversary motives and tactics."
+    },
+    {
+      "iri": "https://schema.org/name",
+      "anchor": "name",
+      "jsonTerms": [
+        "name"
+      ],
+      "mapsTo": "schema:name",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Display name of the entity."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#parentClass",
+      "anchor": "parentClass",
+      "jsonTerms": [
+        "parentClass"
+      ],
+      "mapsTo": "dh:parentClass",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "The class a subclass refines."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#pdfDigest",
+      "anchor": "pdfDigest",
+      "jsonTerms": [
+        "pdfDigest"
+      ],
+      "mapsTo": "dh:pdfDigest",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Registered SHA-256 digest of the official source PDF."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#pdfFile",
+      "anchor": "pdfFile",
+      "jsonTerms": [
+        "pdfFile"
+      ],
+      "mapsTo": "dh:pdfFile",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Filename of the official source PDF."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#potentialAdversaries",
+      "anchor": "potentialAdversaries",
+      "jsonTerms": [
+        "potentialAdversaries"
+      ],
+      "mapsTo": "dh:potentialAdversary",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Adversaries named by an environment stat block."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#potentialAdversariesText",
+      "anchor": "potentialAdversariesText",
+      "jsonTerms": [
+        "potentialAdversariesText"
+      ],
+      "mapsTo": "dh:potentialAdversariesText",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed potential adversaries line, verbatim."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#questions",
+      "anchor": "questions",
+      "jsonTerms": [
+        "questions"
+      ],
+      "mapsTo": "dh:question",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed transformation questions."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#range",
+      "anchor": "range",
+      "jsonTerms": [
+        "range"
+      ],
+      "mapsTo": "dh:range",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed range."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#recallCost",
+      "anchor": "recallCost",
+      "jsonTerms": [
+        "recallCost"
+      ],
+      "mapsTo": "dh:recallCost",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Stress cost to recall the card from the vault."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#recordCount",
+      "anchor": "recordCount",
+      "jsonTerms": [
+        "recordCount"
+      ],
+      "mapsTo": "dh:recordCount",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Total record count in the manifest."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#role",
+      "anchor": "role",
+      "jsonTerms": [
+        "role"
+      ],
+      "mapsTo": "dh:role",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Adversary role (Solo, Leader, Horde, ...)."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#roll",
+      "anchor": "roll",
+      "jsonTerms": [
+        "roll"
+      ],
+      "mapsTo": "dh:roll",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Loot table roll number."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#rulesText",
+      "anchor": "rulesText",
+      "jsonTerms": [
+        "rulesText"
+      ],
+      "mapsTo": "dh:rulesText",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Source rules wording, preserved verbatim."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#schemaReference",
+      "anchor": "schemaReference",
+      "jsonTerms": [
+        "schemaReference"
+      ],
+      "mapsTo": "dh:schemaReference",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "JSON Schema contract for a collection."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#sectionEntities",
+      "anchor": "sectionEntities",
+      "jsonTerms": [
+        "sectionEntities"
+      ],
+      "mapsTo": "dh:fromSection",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Reverse of fromSection: entities extracted from a section.",
+      "reverseOf": "dh:fromSection"
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#sections",
+      "anchor": "sections",
+      "jsonTerms": [
+        "sections"
+      ],
+      "mapsTo": "dh:section",
+      "valueKinds": [
+        "structured value"
+      ],
+      "description": "Ordered untyped subsections retained with the entity."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#slug",
+      "anchor": "slug",
+      "jsonTerms": [
+        "slug"
+      ],
+      "mapsTo": "dh:slug",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Stable lowercase-kebab-case identifier."
+    },
+    {
+      "iri": "http://purl.org/dc/terms/source",
+      "anchor": "source",
+      "jsonTerms": [
+        "source"
+      ],
+      "mapsTo": "dcterms:source",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "The SRD source record this entity derives from."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#sourceFile",
+      "anchor": "sourceFile",
+      "jsonTerms": [
+        "sourceFile"
+      ],
+      "mapsTo": "dh:sourceFile",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Filename of the source markdown."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#sourceLocator",
+      "anchor": "sourceLocator",
+      "jsonTerms": [
+        "sourceLocator"
+      ],
+      "mapsTo": "dh:sourceLocator",
+      "valueKinds": [
+        "structured value"
+      ],
+      "description": "Chapter, heading, SRD.md line span, and PDF page span."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#spellcastTrait",
+      "anchor": "spellcastTrait",
+      "jsonTerms": [
+        "spellcastTrait"
+      ],
+      "mapsTo": "dh:spellcastTrait",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Subclass Spellcast trait."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#srdVersion",
+      "anchor": "srdVersion",
+      "jsonTerms": [
+        "srdVersion"
+      ],
+      "mapsTo": "dh:srdVersion",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Version of the source SRD."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#stage",
+      "anchor": "stage",
+      "jsonTerms": [
+        "stage"
+      ],
+      "mapsTo": "dh:stage",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Subclass feature stage (foundation, specialization, mastery)."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#standardAttack",
+      "anchor": "standardAttack",
+      "jsonTerms": [
+        "standardAttack"
+      ],
+      "mapsTo": "dh:standardAttack",
+      "valueKinds": [
+        "structured value"
+      ],
+      "description": "Adversary standard attack statistics."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#startingEvasion",
+      "anchor": "startingEvasion",
+      "jsonTerms": [
+        "startingEvasion"
+      ],
+      "mapsTo": "dh:startingEvasion",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Class starting Evasion."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#startingHitPoints",
+      "anchor": "startingHitPoints",
+      "jsonTerms": [
+        "startingHitPoints"
+      ],
+      "mapsTo": "dh:startingHitPoints",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Class starting Hit Points."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#stress",
+      "anchor": "stress",
+      "jsonTerms": [
+        "stress"
+      ],
+      "mapsTo": "dh:stress",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Adversary Stress."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#subclassOf",
+      "anchor": "subclassOf",
+      "jsonTerms": [
+        "subclassOf"
+      ],
+      "mapsTo": "dh:subclass",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Reverse of subclass: the class listing this subclass.",
+      "reverseOf": "dh:subclass"
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#subclasses",
+      "anchor": "subclasses",
+      "jsonTerms": [
+        "subclasses"
+      ],
+      "mapsTo": "dh:subclass",
+      "valueKinds": [
+        "node reference"
+      ],
+      "description": "Subclasses belonging to a class."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#thresholds",
+      "anchor": "thresholds",
+      "jsonTerms": [
+        "thresholds"
+      ],
+      "mapsTo": "dh:thresholds",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Printed damage thresholds."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#tier",
+      "anchor": "tier",
+      "jsonTerms": [
+        "tier"
+      ],
+      "mapsTo": "dh:tier",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Play tier (1-4)."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#tieredDamage",
+      "anchor": "tieredDamage",
+      "jsonTerms": [
+        "tieredDamage"
+      ],
+      "mapsTo": "dh:tieredDamage",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Per-tier damage expressions."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#trait",
+      "anchor": "trait",
+      "jsonTerms": [
+        "trait"
+      ],
+      "mapsTo": "dh:trait",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Character trait used with the entity."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#traitBonus",
+      "anchor": "traitBonus",
+      "jsonTerms": [
+        "traitBonus"
+      ],
+      "mapsTo": "dh:traitBonus",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Beastform trait bonus."
+    },
+    {
+      "iri": "https://cheeleong.dev/daggerheart-system-json/vocab/#variant",
+      "anchor": "variant",
+      "jsonTerms": [
+        "variant"
+      ],
+      "mapsTo": "dh:variant",
+      "valueKinds": [
+        "literal"
+      ],
+      "description": "Equipment variant (core, combat-wheelchair, everyday-hero, western, monster-hunting)."
+    }
+  ]
+}

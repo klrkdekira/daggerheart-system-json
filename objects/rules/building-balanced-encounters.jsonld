@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/building-balanced-encounters",
+  "@type": "Rule",
+  "name": "Building Balanced Encounters",
+  "slug": "building-balanced-encounters",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "BUILDING BALANCED ENCOUNTERS",
+    "lineStart": 5022,
+    "lineEnd": 5050,
+    "pdfPageStart": 94,
+    "pdfPageEnd": 94
+  },
+  "rulesText": "When planning a battle, start with [(3 x the number of PCs in combat) + 2] Battle Points and make the following adjustments:\n\n−1 for an easier or shorter fight\n\n−2 if you’re using 2 or more Solo adversaries\n\n−2 if you add +1d4 (or a static +2) to all adversaries’ damage rolls\n\n+1 if you choose an adversary from a lower tier\n\n+1 if you don’t include any Bruisers, Hordes, Leaders, or Solos\n\n+2 for a harder or longer fight\n\nThen spend your Battle Points to add an adversary to the encounter:\n\nSpend 1 point for each group of Minions equal to the size of the party.\n\nSpend 1 point for each Social or Support adversary.\n\nSpend 2 points for each Horde, Ranged, Skulk, or Standard adversary.\n\nSpend 3 points for each Leader adversary.\n\nSpend 4 points for each Bruiser adversary.\n\nSpend 5 points for each Solo adversary.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/building-balanced-encounters/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

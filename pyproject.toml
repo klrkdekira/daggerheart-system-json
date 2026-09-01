@@ -1,0 +1,6 @@
+[project]
+name = "daggerheart-system-json"
+version = "0.1.0"
+description = "Daggerheart SRD 2.0 as a JSON-LD 1.1 reference corpus with JSON Schema Draft 2020-12 contracts"
+requires-python = ">=3.12"
+dependencies = []

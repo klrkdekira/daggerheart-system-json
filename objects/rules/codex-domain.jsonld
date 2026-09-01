@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/codex-domain",
+  "@type": "Rule",
+  "name": "Codex Domain",
+  "slug": "codex-domain",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "CODEX DOMAIN",
+    "lineStart": 14978,
+    "lineEnd": 14978,
+    "pdfPageStart": 211,
+    "pdfPageEnd": 211
+  },
+  "rulesText": "",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/codex-domain/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

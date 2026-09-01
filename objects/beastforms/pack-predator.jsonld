@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/pack-predator",
+  "@type": "Beastform",
+  "name": "Pack Predator",
+  "slug": "pack-predator",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "PACK PREDATOR",
+    "lineStart": 899,
+    "lineEnd": 911,
+    "pdfPageStart": 16,
+    "pdfPageEnd": 16
+  },
+  "tier": 1,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Coyote, Hyena, Wolf, etc.",
+  "traitBonus": "Strength +2",
+  "evasionBonus": 1,
+  "attack": {
+    "range": "Melee",
+    "trait": "Strength",
+    "damage": "d8+2 phy"
+  },
+  "advantageOn": [
+    "attack",
+    "sprint",
+    "track"
+  ],
+  "features": [
+    {
+      "name": "Hobbling Strike",
+      "rulesText": "When you succeed on an attack against a target within Melee range, you can mark a Stress to make the target temporarily Vulnerable."
+    },
+    {
+      "name": "Pack Hunting",
+      "rulesText": "When you succeed on an attack against the same target as an ally who acts immediately before you, add a d8 to your damage roll."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/pack-predator/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

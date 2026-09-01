@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/weapons/improved-arcane-frame-wheelchair",
+  "@type": "Weapon",
+  "name": "Improved Arcane-Frame Wheelchair",
+  "slug": "improved-arcane-frame-wheelchair",
+  "sourceLocator": {
+    "chapter": "CORE MECHANICS",
+    "heading": "Arcane Frame Models",
+    "lineStart": 3899,
+    "lineEnd": 3899,
+    "pdfPageStart": 71,
+    "pdfPageEnd": 71
+  },
+  "category": "primary",
+  "variant": "combat-wheelchair",
+  "trait": "Spellcast",
+  "range": "Far",
+  "burden": "One-Handed",
+  "damage": "d6+3 mag",
+  "damageTypes": [
+    "magic"
+  ],
+  "tier": 2,
+  "feature": {
+    "name": "Reliable",
+    "rulesText": "+1 to attack rolls"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/weapons/improved-arcane-frame-wheelchair/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  },
+  "fromSection": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/combat-wheelchair"
+  }
+}

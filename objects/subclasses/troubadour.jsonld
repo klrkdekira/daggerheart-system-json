@@ -1,0 +1,33 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/subclasses/troubadour",
+  "@type": "Subclass",
+  "name": "Troubadour",
+  "slug": "troubadour",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "TROUBADOUR",
+    "lineStart": 509,
+    "lineEnd": 531,
+    "pdfPageStart": 11,
+    "pdfPageEnd": 11
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/bard"
+  },
+  "features": [
+    {
+      "name": "Gifted Performer",
+      "stage": "foundation",
+      "rulesText": "You can play three different types of songs, once each per long rest; describe how you perform for others to gain the listed benefit:\n\n  - Relaxing Song: You and all allies within Close range clear a Hit Point.\n  - Epic Song: Make a target within Close range temporarily Vulnerable.\n  - Heartbreaking Song: You and all allies within Close range gain a Hope."
+    }
+  ],
+  "description": "Play the Troubadour if you want to play music to bolster your allies.",
+  "spellcastTrait": "Presence",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/subclasses/troubadour/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

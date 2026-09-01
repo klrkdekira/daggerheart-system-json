@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domain-cards/book-of-yarrow",
+  "@type": "DomainCard",
+  "name": "Book of Yarrow",
+  "slug": "book-of-yarrow",
+  "sourceLocator": {
+    "chapter": "APPENDIX",
+    "heading": "BOOK OF YARROW",
+    "lineStart": 15232,
+    "lineEnd": 15240,
+    "pdfPageStart": 213,
+    "pdfPageEnd": 213
+  },
+  "level": 10,
+  "domain": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/domains/codex"
+  },
+  "cardType": "Grimoire",
+  "recallCost": 2,
+  "rulesText": "Timejammer: Make a Spellcast Roll (18). On a success, time temporarily slows to a halt for everyone within Far range except for you. It resumes the next time you make an action roll that targets another creature.\n\nMagic Immunity: Spend 5 Hope to become immune to magic damage until your next rest.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/domain-cards/book-of-yarrow/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

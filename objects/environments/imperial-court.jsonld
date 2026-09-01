@@ -1,0 +1,74 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/imperial-court",
+  "@type": "Environment",
+  "name": "Imperial Court",
+  "slug": "imperial-court",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "IMPERIAL COURT",
+    "lineStart": 12978,
+    "lineEnd": 13010,
+    "pdfPageStart": 180,
+    "pdfPageEnd": 180
+  },
+  "tier": 4,
+  "impulses": [
+    "Justify and perpetuate imperial rule",
+    "seduce rivals with promises of power and comfort"
+  ],
+  "difficulty": 20,
+  "potentialAdversariesText": "Bladed Guard, Courtesan, Knight of the Realm, Monarch, Spy",
+  "description": "The majestic domain of a powerful empire, lavishly appointed with stolen treasures.",
+  "features": [
+    {
+      "name": "All Roads Lead Here",
+      "kind": "Passive",
+      "rulesText": "While in the Imperial Court, a PC has disadvantage on Presence Rolls made to take actions that don’t fit the imperial way of life or support the empire’s dominance.\n\nHow does the way language is used make even discussing alternative ways of living difficult? What obvious benefits for loyalty create friction when you try to discuss alternatives?"
+    },
+    {
+      "name": "Rival Vassals",
+      "kind": "Passive",
+      "rulesText": "The PCs can find imperial subjects, vassals, and supplicants in the court, each vying for favor, seeking proximity to power, exchanging favors for loyalty, and elevating their status above others’. Some might be desperate to undermine their rivals, while others might even be open to discussions that verge on sedition.\n\nHow do they benefit from vassalage, and what has it cost them? What exploitation drives them to consider opposing the unstoppable?"
+    },
+    {
+      "name": "The Gravity of Empire",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to present a PC with a golden opportunity or offer to satisfy a major goal in exchange for obeying or supporting the empire. The target must make a Presence Reaction Roll. On a failure, they must mark all their Stress or accept the offer. If they have already marked all their Stress, they must accept the offer or exile themselves from the empire. On a success, they must mark 1d4 Stress as they’re taxed by temptation.\n\nWhat do the PCs want so desperately they might consider throwing in with this ruthless power? How did imperial agents learn the PC’s greatest desires?"
+    },
+    {
+      "name": "Imperial Decree",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to tick down a long-term countdown related to the empire’s agenda by 1d4. If this triggers the countdown, a proclamation related to the agenda is announced at court as the plan is executed.\n\nWhat display of power or transfer of wealth was needed to expedite this plan? Whose lives were disrupted or upended to make this happen?"
+    },
+    {
+      "name": "Eyes Everywhere",
+      "kind": "Reaction",
+      "rulesText": "On a result with Fear, you can spend a Fear to have someone loyal to the empire overhear seditious talk within the court. A PC must succeed on an Instinct Reaction Roll to notice that the group has been overheard so they can try to intercept the witness before the PCs are exposed.\n\nHow has the empire compromised this witness? Why is their first impulse to protect the empire, even if doesn’t treat them well?"
+    }
+  ],
+  "category": "Social",
+  "potentialAdversaries": [
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/bladed-guard"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/courtesan"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/knight-of-the-realm"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/monarch"
+    },
+    {
+      "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/spy"
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/imperial-court/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

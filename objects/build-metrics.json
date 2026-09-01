@@ -1,0 +1,25 @@
+{
+  "corpusVersion": "0.1.0",
+  "recordCount": 1539,
+  "collections": {
+    "sources": 1,
+    "domains": 10,
+    "classes": 13,
+    "subclasses": 26,
+    "ancestries": 25,
+    "communities": 15,
+    "transformations": 6,
+    "beastforms": 24,
+    "weapons": 358,
+    "armor": 76,
+    "items": 120,
+    "consumables": 120,
+    "adversaries": 264,
+    "environments": 47,
+    "domain-cards": 210,
+    "rules": 224
+  },
+  "sourceContentLines": 8904,
+  "coveredContentLines": 8904,
+  "relationCount": 2695
+}

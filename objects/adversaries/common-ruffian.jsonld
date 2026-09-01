@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/common-ruffian",
+  "@type": "Adversary",
+  "name": "Common Ruffian",
+  "slug": "common-ruffian",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "COMMON RUFFIAN",
+    "lineStart": 5492,
+    "lineEnd": 5510,
+    "pdfPageStart": 98,
+    "pdfPageEnd": 98
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Do violence",
+    "seek security and survival"
+  ],
+  "difficulty": 12,
+  "thresholds": "6/10",
+  "hitPoints": 4,
+  "stress": 4,
+  "attackModifier": "+0",
+  "standardAttack": {
+    "name": "Improvised Weapon",
+    "range": "Melee",
+    "damage": "1d8 phy"
+  },
+  "experience": "Desperate +3",
+  "description": "A local laborer or artisan pushed by circumstances to assail others.",
+  "features": [
+    {
+      "name": "Group Attack",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to choose a target and spotlight all Ruffians within Close range of them. The Ruffians move into Melee range of the target and make one shared attack roll. On a success, they deal 1d8 physical damage each. Combine this damage."
+    },
+    {
+      "name": "Survival Instinct",
+      "kind": "Reaction",
+      "rulesText": "When the Ruffian marks half their HP, roll a d6. On a result of 4 or higher, the Ruffian flees the scene. Otherwise, you gain a Fear."
+    }
+  ],
+  "role": "Standard",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/common-ruffian/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

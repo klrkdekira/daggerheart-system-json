@@ -1,0 +1,48 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/beastforms/striking-serpent",
+  "@type": "Beastform",
+  "name": "Striking Serpent",
+  "slug": "striking-serpent",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "STRIKING SERPENT",
+    "lineStart": 987,
+    "lineEnd": 999,
+    "pdfPageStart": 17,
+    "pdfPageEnd": 17
+  },
+  "tier": 2,
+  "fromClass": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/classes/druid"
+  },
+  "exampleCreatures": "Cobra, Rattlesnake, Viper, etc.",
+  "traitBonus": "Finesse +1",
+  "evasionBonus": 2,
+  "attack": {
+    "range": "Very Close",
+    "trait": "Finesse",
+    "damage": "d8+4 phy"
+  },
+  "advantageOn": [
+    "climb",
+    "deceive",
+    "sprint"
+  ],
+  "features": [
+    {
+      "name": "Venomous Strike",
+      "rulesText": "Make an attack against any number of targets within Very Close range. On a success, a target is temporarily Poisoned. A Poisoned creature takes 1d10 direct physical damage each time they act."
+    },
+    {
+      "name": "Warning Hiss",
+      "rulesText": "Mark a Stress to force any number of targets within Melee range to move back to Very Close range."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/beastforms/striking-serpent/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

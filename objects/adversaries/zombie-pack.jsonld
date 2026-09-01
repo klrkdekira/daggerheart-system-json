@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/zombie-pack",
+  "@type": "Adversary",
+  "name": "Zombie Pack",
+  "slug": "zombie-pack",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "ZOMBIE PACK",
+    "lineStart": 7186,
+    "lineEnd": 7202,
+    "pdfPageStart": 113,
+    "pdfPageEnd": 113
+  },
+  "tier": 1,
+  "motivesAndTactics": [
+    "Consume flesh",
+    "hunger",
+    "maul"
+  ],
+  "difficulty": 8,
+  "thresholds": "6/12",
+  "hitPoints": 6,
+  "stress": 3,
+  "attackModifier": "−1",
+  "standardAttack": {
+    "name": "Bite",
+    "range": "Melee",
+    "damage": "1d10+2 phy"
+  },
+  "description": "A group of shambling corpses instinctively moving together.",
+  "features": [
+    {
+      "name": "Horde (1d4+2)",
+      "kind": "Passive",
+      "rulesText": "When the Zombies have marked half or more of their HP, their standard attack deals 1d4+2 physical damage instead."
+    },
+    {
+      "name": "Overwhelm",
+      "kind": "Reaction",
+      "rulesText": "When the Zombies mark HP from an attack within Melee range, you can mark a Stress to make a standard attack against the attacker."
+    }
+  ],
+  "role": "Horde (2/HP)",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/zombie-pack/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

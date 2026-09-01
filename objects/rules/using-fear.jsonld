@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/using-fear",
+  "@type": "Rule",
+  "name": "Using Fear",
+  "slug": "using-fear",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "USING FEAR",
+    "lineStart": 4605,
+    "lineEnd": 4645,
+    "pdfPageStart": 87,
+    "pdfPageEnd": 88
+  },
+  "rulesText": "You start a campaign with 1 Fear per PC in the party.\n\nYou gain Fear whenever a PC rolls with Fear, the PCs take a rest (see: Downtime), or when an ability or effect tells you to.\n\nYou can never have more than 12 Fear at one time.\n\nFear carries over between sessions.\n\nSpend a Fear to:\n\n- Interrupt the players to steal the spotlight and make a move\n- Make an additional GM move\n- Use an adversary’s Fear Feature\n- Use an environment’s Fear Feature\n- Add an adversary’s Experience to a roll\n\nThe dramatic tension of a scene correlates with the amount of Fear you spend during it. For guidance on how much Fear you should spend in a scene, consult the following table:\n\n| | | |\n| --- | --- | --- |\n| Incidental | A catch-up between PCs after an emotionally charged scene; gathering information; resupplying at a local market; resting during downtime. | 0–1 Fear |\n| Minor | A travel sequence; a minor skirmish that introduces new foes or signals future trouble. | 1–3 Fear |\n| Standard | A substantial battle with a notable objective; perilous travel that tests might and wit; a tense social encounter seeking crucial information or aid. | 2–4 Fear |\n| Major | A large battle with a Solo or Leader adversary; a character-defining scene with a significant change to a character’s personal story (such as revelation, growth, and betrayal). | 4–8 Fear |\n| Climactic | A major confrontation with the villain of a story arc; an epic set piece battle; a judicial duel to determine an important NPC’s fate. | 6–12 Fear |\n\nIf you find yourself with a large amount of Fear, consider:\n\n- Spending Fast: Spend Fear before the players have a chance to react\n- Spending Often: Spend Fear every time the spotlight swings to you\n- Spending Big: Spend Fear to make multiple moves in a row\n\nSpending Fear to make a move communicates the increased impact of your action. Fear moves often include one or more of these elements:\n\n- Introducing new adversaries to a scene when their appearance hasn’t been foreshadowed or lacks context.\n- An adversary activating a powerful spell or transformation to deal massive damage or boost their capabilities.\n- An environment exerting a strong negative effect on the party.",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/using-fear/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

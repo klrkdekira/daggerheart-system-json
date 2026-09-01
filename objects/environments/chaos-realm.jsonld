@@ -1,0 +1,58 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/environments/chaos-realm",
+  "@type": "Environment",
+  "name": "Chaos Realm",
+  "slug": "chaos-realm",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CHAOS REALM",
+    "lineStart": 12863,
+    "lineEnd": 12895,
+    "pdfPageStart": 178,
+    "pdfPageEnd": 178
+  },
+  "tier": 4,
+  "impulses": [
+    "Annihilate certainty",
+    "consume power",
+    "defy logic"
+  ],
+  "difficulty": 20,
+  "potentialAdversariesText": "Outer Realms Monstrosities (Abomination, Corruptor, Thrall)",
+  "description": "An otherworldly space where the laws of reality are unstable and dangerous.",
+  "features": [
+    {
+      "name": "Impossible Architecture",
+      "kind": "Passive",
+      "rulesText": "Up is down, down is right, right is starward. Gravity and directionality themselves are in flux, and any attempt to move through this realm is an odyssey unto itself, requiring a Progress Countdown (8). On a failure, a PC must mark a Stress in addition to the roll’s other consequences.\n\nWhat does it feel like to move in a space so alien to the Mortal Realm? What landmark or point do you fixate on to maintain your balance? What bizarre landmarks do you traverse on your journey?"
+    },
+    {
+      "name": "Everything You Are This Place Will Take from You",
+      "kind": "Action",
+      "rulesText": "Countdown (Loop 1d4). Activate the countdown. When it triggers, all PCs must succeed on a Presence Reaction Roll or their highest trait is temporarily reduced by 1d4 unless they mark a number of Stress equal to its value. Any lost trait points are regained if the PC critically succeeds or escapes the Chaos Realm.\n\nHow does this place try to steal from you that which makes you legendary? What does it feel like to have this power taken from you?"
+    },
+    {
+      "name": "Unmaking",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to force a PC to make a Strength Reaction Roll. On a failure, they take 4d10 direct magic damage. On a success, they must mark a Stress.\n\nWhat glimpse of other worlds do you catch while this place tries to unmake you? What core facet of your personality does the unmaking try to erase?"
+    },
+    {
+      "name": "Outer Realms Predators",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to summon an Outer Realms Abomination, an Outer Realms Corruptor, and 2d6 Outer Realms Thralls, who appear at Close range of a chosen PC in defiance of logic and causality. Immediately spotlight one of these adversaries, and you can spend an additional Fear to automatically succeed on that adversary’s standard attack.\n\nWhat half-consumed remnants of the shattered world do these monstrosities cast aside in pursuit of living flesh? What jagged reflections of former personhood do you catch between moments of unquestioning malice?"
+    },
+    {
+      "name": "Disorienting Reality",
+      "kind": "Reaction",
+      "rulesText": "On a result with Fear, you can ask the PC to describe which of their fears the Chaos Realm evokes as a vision of reality unmakes and reconstitutes itself to the PC. The PC loses a Hope. If it is their last Hope, you gain a Fear.\n\nWhat moment do they see? If it’s a memory, how is it warped by this place? How hard will it be to hold on to the real memory?"
+    }
+  ],
+  "category": "Traversal",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/environments/chaos-realm/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

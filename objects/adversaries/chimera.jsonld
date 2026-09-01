@@ -1,0 +1,62 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/adversaries/chimera",
+  "@type": "Adversary",
+  "name": "Chimera",
+  "slug": "chimera",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "CHIMERA",
+    "lineStart": 9052,
+    "lineEnd": 9074,
+    "pdfPageStart": 132,
+    "pdfPageEnd": 132
+  },
+  "tier": 3,
+  "motivesAndTactics": [
+    "Play with food",
+    "prowl territory",
+    "slay cattle"
+  ],
+  "difficulty": 17,
+  "thresholds": "22/40",
+  "hitPoints": 9,
+  "stress": 5,
+  "attackModifier": "+5",
+  "standardAttack": {
+    "name": "Claws",
+    "range": "Melee",
+    "damage": "3d12 phy"
+  },
+  "experience": "Predator +3",
+  "description": "A giant fire-breathing monster that has a lion’s head, a goat’s body, and a serpent’s tail.",
+  "features": [
+    {
+      "name": "Rending Jaws",
+      "kind": "Passive",
+      "rulesText": "When the Chimera makes a successful attack against a PC, the target must mark 2 Armor Slots to reduce the severity by one threshold."
+    },
+    {
+      "name": "Double Claw",
+      "kind": "Action",
+      "rulesText": "Mark a Stress to make two standard attacks. If both attacks succeed against the same target, combine the damage."
+    },
+    {
+      "name": "Breath of Fire",
+      "kind": "Action",
+      "rulesText": "Spend a Fear to target up to three PCs in front of the Chimera within Close range. Each target must make an Agility Reaction Roll (20). Targets who fail take 3d12 magic damage. Targets who succeed must choose to mark either an Armor Slot or a Stress."
+    },
+    {
+      "name": "Serpent Strike",
+      "kind": "Reaction",
+      "rulesText": "When a PC within Close range targets the Chimera with an attack, you can mark a Stress to attack the PC first. On a success, deal 4d4+10 physical damage and Poison them until their next rest or they succeed on a Knowledge Roll (20). While Poisoned, the target must roll a d6 before they make an action roll. On a result of 3 or lower, they must mark a Stress."
+    }
+  ],
+  "role": "Bruiser",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/adversaries/chimera/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

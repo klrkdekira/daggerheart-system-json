@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/rules/quick-reference-resolving-action-rolls",
+  "@type": "Rule",
+  "name": "Quick Reference: Resolving Action Rolls",
+  "slug": "quick-reference-resolving-action-rolls",
+  "sourceLocator": {
+    "chapter": "RUNNING AN ADVENTURE",
+    "heading": "QUICK REFERENCE: RESOLVING ACTION ROLLS",
+    "lineStart": 4561,
+    "lineEnd": 4578,
+    "pdfPageStart": 87,
+    "pdfPageEnd": 87
+  },
+  "rulesText": "If you’re unsure how to resolve a roll, think about these quick phrases:\n\n**Success with Hope:** Yes, and… (You get what you want and gain a Hope.)\n\n**Success with Fear:** Yes, but… (You get what you want, but there’s a consequence, and the GM gains a Fear.)\n\n**Failure with Hope:** No, but… (Things don’t go as planned, but you gain a Hope.)\n\n**Failure with Fear:** No, and… (Things don’t go as planned and it gets worse. The GM gains a Fear.)\n\nIf the move you should make is not obvious from the fiction, draw inspiration from the “Example GM Moves” list:\n\n- Introduce a new obstacle or enemy\n- Ask the player what happens\n- Have the PC mark a Stress\n- Tell the players “everything is fine… for now.”",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/rules/quick-reference-resolving-action-rolls/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}

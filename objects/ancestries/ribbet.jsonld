@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/daggerheart-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/daggerheart-system-json/objects/ancestries/ribbet",
+  "@type": "Ancestry",
+  "name": "Ribbet",
+  "slug": "ribbet",
+  "sourceLocator": {
+    "chapter": "CORE MATERIALS",
+    "heading": "RIBBET",
+    "lineStart": 2415,
+    "lineEnd": 2423,
+    "pdfPageStart": 37,
+    "pdfPageEnd": 37
+  },
+  "description": "Ribbets resemble anthropomorphic frogs with protruding eyes and webbed hands and feet. They have smooth (though sometimes warty) moist skin and eyes positioned on either side of their head. Some ribbets have hind legs more than twice the length of their torso, while others have short limbs. No matter their size (which ranges from about 3 feet to 4 ½ feet), ribbets primarily move by hopping. All ribbets have webbed appendages, allowing them to swim with ease. Some ribbets possess a natural green-and-brown camouflage, while others are vibrantly colored with bold patterns. No matter their appearance, all ribbets are born from eggs laid in the water, hatch into tadpoles, and after about 6 to 7 years, grow into amphibians that can move around on land. Ribbets live for approximately 100 years.",
+  "features": [
+    {
+      "name": "Amphibious",
+      "rulesText": "You can breathe and move naturally underwater."
+    },
+    {
+      "name": "Long Tongue",
+      "rulesText": "You can use your long tongue to grab onto things within Close range. Mark a Stress to use your tongue as a Finesse Close weapon that deals d12 physical damage using your Proficiency."
+    }
+  ],
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/records/ancestries/ribbet/"
+  },
+  "source": {
+    "@id": "https://cheeleong.dev/daggerheart-system-json/objects/sources/daggerheart-srd-2-0"
+  }
+}
