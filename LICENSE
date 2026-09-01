@@ -1,3 +1,41 @@
+# Licensing
+
+This repository contains material distributed under different terms. The
+Daggerheart System Reference Document content is not licensed under the MIT
+License.
+
+## Daggerheart System Reference Document 2.0
+
+`SRD.md` includes Public Game Content from the Daggerheart System Reference
+Document 2.0 and is distributed under the
+[Darrington Press Community Gaming License 2.0](https://darringtonpress.com/license/)
+(DPCGL).
+
+Copyright/Attribution: This product includes materials from the Daggerheart
+System Reference Document 2.0, © Critical Role, LLC. All rights reserved. It is
+used under the terms of the Darrington Press Community Gaming (DPCGL) License.
+Darrington Press, LLC is the creator of this Public Game Content. More
+information can be found at [daggerheart.com](https://www.daggerheart.com).
+
+- Official Public Game Content source: [Daggerheart SRD](https://www.daggerheart.com/srd)
+- License and current terms: [Darrington Press Community Gaming License](https://darringtonpress.com/license/)
+
+Modification notice: The official SRD 2.0 PDF was converted to Markdown. Its
+two-column reading order was linearized, wide tables were retained as
+layout-aware text blocks, private-use font glyphs were normalized to their
+displayed characters, and Markdown structure was added. No substantive rules
+changes are intended. There are no previous modifications by others.
+
+No rights in the Daggerheart System Reference Document, its Public Game
+Content, or any Darrington Press or Critical Role names or marks are granted by
+the MIT License below. Consult the current DPCGL before copying, modifying,
+sharing, or commercially using this material; commercial uses are subject to
+additional requirements in that license.
+
+## Repository tooling
+
+The original software in `scripts/` is licensed under the MIT License:
+
 MIT License
 
 Copyright (c) 2026 Chee Leong
