@@ -202,26 +202,26 @@ make check
 
 `make check` rebuilds every artifact and runs distinct gates:
 
-- `verify` — SRD.md against the PDF extraction: per-page token multisets and
-  character counts must match exactly;
-- `schemas` / `extract` / `indexes` / `llms` / `vocab` / `record-pages` /
-  `sitemap` — deterministic regeneration of every artifact;
-- `test` — structural regression fixtures for extraction edge cases
-  (`tests/`);
-- `validate` — identity, schema conformance (dependency-free Draft 2020-12
+- `verify`: SRD.md against the PDF extraction; per-page token multisets and
+  character counts must match exactly.
+- `schemas`, `extract`, `indexes`, `llms`, `vocab`, `record-pages`, and
+  `sitemap`: deterministic regeneration of every artifact.
+- `test`: structural regression fixtures for extraction edge cases
+  (`tests/`).
+- `validate`: identity, schema conformance (dependency-free Draft 2020-12
   subset validator), reference resolution, locator bounds, 100% source-line
   coverage, manifest/bundle/metrics/index/page/sitemap/vocab agreement,
   graph shape (documented terms, node-reference coercion, incoming edges,
   ≥55% outbound link coverage), version agreement across `pyproject.toml`,
   the manifest, metrics, `CITATION.cff`, and `datapackage.json`, and
-  collection count pins;
-- `determinism` — a clean rebuild must be byte-identical to the checked-in
+  collection count pins.
+- `determinism`: a clean rebuild must be byte-identical to the checked-in
   `objects/`, `systems/`, `vocab/`, and `records/` trees and the generated
   text projections.
 
-CI (`.github/workflows/ci.yml`) runs `make ci-check` — every gate except the
-PDF-extraction parity check — on Python 3.12 and 3.13 with pinned actions,
-then rejects any dirty tree.
+CI (`.github/workflows/ci.yml`) runs `make ci-check` on Python 3.12 and 3.13
+with pinned actions, then rejects any dirty tree. `ci-check` covers every
+gate except the PDF-extraction parity check, since the PDF is not committed.
 
 ## Repository layout
 
