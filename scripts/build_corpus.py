@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Build the Daggerheart SRD JSON-LD corpus from SRD.md.
 
-Applies the graph20 architecture (https://github.com/klrkdekira/graph20) to
-the Daggerheart SRD: one JSON-LD record per reusable entity under
-objects/<collection>/<slug>.jsonld, a manifest, a single-file bundle, and
+One JSON-LD record per reusable entity under
+objects/<collection>/<slug>.jsonld, plus a manifest, a single-file bundle, and
 build metrics. SRD.md is the sole content source; every record carries a
 line-level source locator and the PDF pages it came from.
 """

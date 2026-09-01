@@ -1,8 +1,7 @@
 # Daggerheart SRD System JSON
 
 A source-faithful, machine-readable edition of the **Daggerheart System
-Reference Document 2.0**, following the architecture of
-[graph20](https://github.com/klrkdekira/graph20) (SRD 5.2.1 System JSON):
+Reference Document 2.0**, built on:
 
 - JSON-LD 1.1 identity and graph relationships;
 - JSON Schema Draft 2020-12 contracts;

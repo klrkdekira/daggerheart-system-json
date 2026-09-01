@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate the generated Daggerheart JSON-LD corpus.
 
-Dependency-free gates, in the spirit of graph20's `make check`:
+Dependency-free gates:
 
 - identity: file path, @id, slug, @type, and @context agree for every record;
 - schema: every record validates against its systems/ JSON Schema (a built-in
