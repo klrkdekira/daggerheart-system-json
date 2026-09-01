@@ -21,6 +21,22 @@ from convert_srd_pdf import (
 
 
 PAGE_MARKER = re.compile(r"<!-- PDF page (\d+) -->")
+# Table cells and side-by-side panes are reflowed into reading order on these
+# pages, so their content is compared by character count rather than sequence.
+REORDERED_MARKDOWN_PAGES = {29, 30, 70, 196} | LAYOUT_PAGES
+# Repaired compact tables per page, whether rendered as pipe tables or (for
+# tables with column spans) HTML.
+EXPECTED_TABLES = {
+    26: 1,
+    29: 1,
+    30: 1,
+    70: 1,
+    91: 2,
+    93: 1,
+    183: 1,
+    196: 2,
+}
+PIPE_SEPARATOR = re.compile(r"^\|(?: --- \|)+$", re.MULTILINE)
 
 
 def tokenize(text: str) -> collections.Counter[str]:
@@ -44,23 +60,46 @@ def alphanumeric_characters(text: str) -> collections.Counter[str]:
 def canonical_character_sequence(text: str) -> str:
     """Remove only extraction/Markdown structure, retaining content punctuation."""
     text = normalize_glyphs(text)
-    text = re.sub(r"^\s*[•◦]\s*", "", text, flags=re.MULTILINE)
+    text = text.replace("•", "").replace("◦", "")
     text = re.sub(r"^(\d+)\)\s+", r"\1. ", text, flags=re.MULTILINE)
     return "".join(char for char in text if not char.isspace())
 
 
-def markdown_pages(markdown: str) -> dict[int, str]:
+def raw_markdown_pages(markdown: str) -> dict[int, str]:
     matches = list(PAGE_MARKER.finditer(markdown))
     pages: dict[int, str] = {}
     for index, match in enumerate(matches):
         start = match.end()
         end = matches[index + 1].start() if index + 1 < len(matches) else len(markdown)
-        page = markdown[start:end]
-        page = re.sub(r"^```(?:text)?\s*$", "", page, flags=re.MULTILINE)
+        pages[int(match.group(1))] = markdown[start:end]
+    return pages
+
+
+def markdown_pages(markdown: str) -> dict[int, str]:
+    pages = raw_markdown_pages(markdown)
+    for page_number, page in pages.items():
+        lines: list[str] = []
+        for line in page.split("\n"):
+            if line.startswith("|"):
+                # Drop pipe-table separator rows and empty header rows, and
+                # reduce data rows to their cell text.
+                if re.fullmatch(r"\|[\s|:-]*", line):
+                    continue
+                line = line.replace("|", " ")
+            lines.append(line)
+        page = "\n".join(lines)
+        # Emphasis markers are added during conversion; the source PDF text
+        # contains no asterisks, so they can be stripped wholesale.
+        page = page.replace("*", "")
         page = re.sub(r"^#{1,6}\s+", "", page, flags=re.MULTILINE)
         page = re.sub(r"^\s*-\s+", "", page, flags=re.MULTILINE)
         page = re.sub(r"^>\s+", "", page, flags=re.MULTILINE)
-        pages[int(match.group(1))] = page
+        page = re.sub(
+            r"</?(?:table|thead|tbody|tr|th|td|br)\b[^>]*/?>",
+            "\n",
+            page,
+        )
+        pages[page_number] = page
     return pages
 
 
@@ -90,6 +129,7 @@ def main() -> None:
     bbox = extract_bbox_pages(args.pdf)
     layout = extract_pages(args.pdf, layout=True)
     markdown = args.markdown.read_text(encoding="utf-8")
+    raw_pages = raw_markdown_pages(markdown)
     rendered_pages = markdown_pages(markdown)
     failures: list[str] = []
 
@@ -99,6 +139,18 @@ def main() -> None:
             "page markers do not cover every source page exactly once: "
             f"expected 1-{len(reading)}, got {sorted(rendered_pages)!r}"
         )
+
+    if re.search(r"^```", markdown, flags=re.MULTILINE):
+        failures.append("no fenced text blocks may remain in the Markdown")
+
+    for page_number, expected_count in EXPECTED_TABLES.items():
+        page = raw_pages.get(page_number, "")
+        actual_count = page.count("<table>") + len(PIPE_SEPARATOR.findall(page))
+        if actual_count != expected_count:
+            failures.append(
+                f"page {page_number} must contain {expected_count} table(s), "
+                f"found {actual_count}"
+            )
 
     for page_number in expected_numbers:
         if page_number not in rendered_pages:
@@ -113,9 +165,16 @@ def main() -> None:
             failures.append(
                 f"page {page_number} token mismatch: {counter_delta(expected, actual)}"
             )
-        if canonical_character_sequence(source) != canonical_character_sequence(
-            rendered_pages[page_number]
-        ):
+        expected_characters = canonical_character_sequence(source)
+        actual_characters = canonical_character_sequence(rendered_pages[page_number])
+        if page_number in REORDERED_MARKDOWN_PAGES:
+            if collections.Counter(expected_characters) != collections.Counter(
+                actual_characters
+            ):
+                failures.append(
+                    f"page {page_number} normalized character-count mismatch"
+                )
+        elif expected_characters != actual_characters:
             failures.append(
                 f"page {page_number} normalized character-sequence mismatch"
             )
